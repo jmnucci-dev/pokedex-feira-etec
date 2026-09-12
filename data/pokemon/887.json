@@ -1,0 +1,71 @@
+{
+    "id": 887,
+    "name": "dragapult",
+    "category": "Stealth Pokémon",
+    "description": "When it isn’t battling, it keeps Dreepy in the holes on its horns. Once a fight starts, it launches the Dreepy like supersonic missiles.",
+    "generation": "generation-viii",
+    "height": 30,
+    "weight": 500,
+    "base_experience": 300,
+    "types": [
+        "dragon",
+        "ghost"
+    ],
+    "abilities": [
+        {
+            "name": "clear-body",
+            "is_hidden": false
+        },
+        {
+            "name": "infiltrator",
+            "is_hidden": false
+        },
+        {
+            "name": "cursed-body",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 88,
+        "attack": 120,
+        "defense": 75,
+        "special-attack": 100,
+        "special-defense": 75,
+        "speed": 142
+    },
+    "evolution_chain": {
+        "species": "dreepy",
+        "id": 885,
+        "sprite": "/static/sprites/pokemon/885.gif",
+        "evolves_to": [
+            {
+                "species": "drakloak",
+                "id": 886,
+                "sprite": "/static/sprites/pokemon/886.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 50,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "dragapult",
+                        "id": 887,
+                        "sprite": "/static/sprites/pokemon/887.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 60,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/887.gif"
+}

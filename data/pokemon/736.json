@@ -1,0 +1,72 @@
+{
+    "id": 736,
+    "name": "grubbin",
+    "category": "Larva Pokémon",
+    "description": "Its strong jaw enables it to scrape trees and slurp out the sap. It normally lives underground.",
+    "generation": "generation-vii",
+    "height": 4,
+    "weight": 44,
+    "base_experience": 60,
+    "types": [
+        "bug"
+    ],
+    "abilities": [
+        {
+            "name": "swarm",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 47,
+        "attack": 62,
+        "defense": 45,
+        "special-attack": 55,
+        "special-defense": 45,
+        "speed": 46
+    },
+    "evolution_chain": {
+        "species": "grubbin",
+        "id": 736,
+        "sprite": "/static/sprites/pokemon/736.gif",
+        "evolves_to": [
+            {
+                "species": "charjabug",
+                "id": 737,
+                "sprite": "/static/sprites/pokemon/737.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 20,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "vikavolt",
+                        "id": 738,
+                        "sprite": "/static/sprites/pokemon/738.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": null,
+                                "item": null
+                            },
+                            {
+                                "trigger": "level-up",
+                                "min_level": null,
+                                "item": null
+                            },
+                            {
+                                "trigger": "use-item",
+                                "min_level": null,
+                                "item": "thunder-stone"
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/736.gif"
+}

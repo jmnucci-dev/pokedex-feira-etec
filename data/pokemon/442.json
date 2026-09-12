@@ -1,0 +1,39 @@
+{
+    "id": 442,
+    "name": "spiritomb",
+    "category": "Forbidden Pokémon",
+    "description": "A Pokémon that was formed by 108 spirits. It is bound to a fissure in an odd keystone.",
+    "generation": "generation-iv",
+    "height": 10,
+    "weight": 1080,
+    "base_experience": 170,
+    "types": [
+        "ghost",
+        "dark"
+    ],
+    "abilities": [
+        {
+            "name": "pressure",
+            "is_hidden": false
+        },
+        {
+            "name": "infiltrator",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 50,
+        "attack": 92,
+        "defense": 108,
+        "special-attack": 92,
+        "special-defense": 108,
+        "speed": 35
+    },
+    "evolution_chain": {
+        "species": "spiritomb",
+        "id": 442,
+        "sprite": "/static/sprites/pokemon/442.gif",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/442.gif"
+}

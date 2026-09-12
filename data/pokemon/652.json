@@ -1,0 +1,67 @@
+{
+    "id": 652,
+    "name": "chesnaught",
+    "category": "Spiny Armor Pokémon",
+    "description": "Its Tackle is forceful enough to flip a 50-ton tank. It shields its allies from danger with its own body.",
+    "generation": "generation-vi",
+    "height": 16,
+    "weight": 900,
+    "base_experience": 239,
+    "types": [
+        "grass",
+        "fighting"
+    ],
+    "abilities": [
+        {
+            "name": "overgrow",
+            "is_hidden": false
+        },
+        {
+            "name": "bulletproof",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 88,
+        "attack": 107,
+        "defense": 122,
+        "special-attack": 74,
+        "special-defense": 75,
+        "speed": 64
+    },
+    "evolution_chain": {
+        "species": "chespin",
+        "id": 650,
+        "sprite": "/static/sprites/pokemon/650.png",
+        "evolves_to": [
+            {
+                "species": "quilladin",
+                "id": 651,
+                "sprite": "/static/sprites/pokemon/651.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 16,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "chesnaught",
+                        "id": 652,
+                        "sprite": "/static/sprites/pokemon/652.png",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 36,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/652.png"
+}

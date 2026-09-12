@@ -1,0 +1,39 @@
+{
+    "id": 250,
+    "name": "ho-oh",
+    "category": "Rainbow Pokémon",
+    "description": "Legends claim this POKéMON flies the world's skies con­ tinuously on its magnificent seven- colored wings.",
+    "generation": "generation-ii",
+    "height": 38,
+    "weight": 1990,
+    "base_experience": 306,
+    "types": [
+        "fire",
+        "flying"
+    ],
+    "abilities": [
+        {
+            "name": "pressure",
+            "is_hidden": false
+        },
+        {
+            "name": "regenerator",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 106,
+        "attack": 130,
+        "defense": 90,
+        "special-attack": 110,
+        "special-defense": 154,
+        "speed": 90
+    },
+    "evolution_chain": {
+        "species": "ho-oh",
+        "id": 250,
+        "sprite": "/static/sprites/pokemon/250.gif",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/250.gif"
+}

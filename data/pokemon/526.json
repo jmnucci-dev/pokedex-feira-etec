@@ -1,0 +1,70 @@
+{
+    "id": 526,
+    "name": "gigalith",
+    "category": "Compressed Pokémon",
+    "description": "Compressing the energy from its internal core lets it fire off an attack capable of blowing away a mountain.",
+    "generation": "generation-v",
+    "height": 17,
+    "weight": 2600,
+    "base_experience": 232,
+    "types": [
+        "rock"
+    ],
+    "abilities": [
+        {
+            "name": "sturdy",
+            "is_hidden": false
+        },
+        {
+            "name": "sand-stream",
+            "is_hidden": false
+        },
+        {
+            "name": "sand-force",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 85,
+        "attack": 135,
+        "defense": 130,
+        "special-attack": 60,
+        "special-defense": 80,
+        "speed": 25
+    },
+    "evolution_chain": {
+        "species": "roggenrola",
+        "id": 524,
+        "sprite": "/static/sprites/pokemon/524.gif",
+        "evolves_to": [
+            {
+                "species": "boldore",
+                "id": 525,
+                "sprite": "/static/sprites/pokemon/525.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 25,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "gigalith",
+                        "id": 526,
+                        "sprite": "/static/sprites/pokemon/526.gif",
+                        "details": [
+                            {
+                                "trigger": "trade",
+                                "min_level": null,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/526.gif"
+}

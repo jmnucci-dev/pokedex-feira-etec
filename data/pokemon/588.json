@@ -1,0 +1,56 @@
+{
+    "id": 588,
+    "name": "karrablast",
+    "category": "Clamping Pokémon",
+    "description": "These mysterious Pokémon evolve when they receive electrical stimulation while they are in the same place as Shelmet.",
+    "generation": "generation-v",
+    "height": 5,
+    "weight": 59,
+    "base_experience": 63,
+    "types": [
+        "bug"
+    ],
+    "abilities": [
+        {
+            "name": "swarm",
+            "is_hidden": false
+        },
+        {
+            "name": "shed-skin",
+            "is_hidden": false
+        },
+        {
+            "name": "no-guard",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 50,
+        "attack": 75,
+        "defense": 45,
+        "special-attack": 40,
+        "special-defense": 45,
+        "speed": 60
+    },
+    "evolution_chain": {
+        "species": "karrablast",
+        "id": 588,
+        "sprite": "/static/sprites/pokemon/588.gif",
+        "evolves_to": [
+            {
+                "species": "escavalier",
+                "id": 589,
+                "sprite": "/static/sprites/pokemon/589.gif",
+                "details": [
+                    {
+                        "trigger": "trade",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/588.gif"
+}

@@ -1,0 +1,52 @@
+{
+    "id": 879,
+    "name": "copperajah",
+    "category": "Copperderm Pokémon",
+    "description": "They came over from another region long ago and worked together with humans. Their green skin is resistant to water.",
+    "generation": "generation-viii",
+    "height": 30,
+    "weight": 6500,
+    "base_experience": 175,
+    "types": [
+        "steel"
+    ],
+    "abilities": [
+        {
+            "name": "sheer-force",
+            "is_hidden": false
+        },
+        {
+            "name": "heavy-metal",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 122,
+        "attack": 130,
+        "defense": 69,
+        "special-attack": 80,
+        "special-defense": 69,
+        "speed": 30
+    },
+    "evolution_chain": {
+        "species": "cufant",
+        "id": 878,
+        "sprite": "/static/sprites/pokemon/878.gif",
+        "evolves_to": [
+            {
+                "species": "copperajah",
+                "id": 879,
+                "sprite": "/static/sprites/pokemon/879.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 34,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/879.png"
+}

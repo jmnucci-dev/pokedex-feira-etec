@@ -1,0 +1,57 @@
+{
+    "id": 848,
+    "name": "toxel",
+    "category": "Baby Pokémon",
+    "description": "It stores poison in an internal poison sac and secretes that poison through its skin. If you touch this Pokémon, a tingling sensation follows.",
+    "generation": "generation-viii",
+    "height": 4,
+    "weight": 110,
+    "base_experience": 48,
+    "types": [
+        "electric",
+        "poison"
+    ],
+    "abilities": [
+        {
+            "name": "rattled",
+            "is_hidden": false
+        },
+        {
+            "name": "static",
+            "is_hidden": false
+        },
+        {
+            "name": "klutz",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 40,
+        "attack": 38,
+        "defense": 35,
+        "special-attack": 54,
+        "special-defense": 35,
+        "speed": 40
+    },
+    "evolution_chain": {
+        "species": "toxel",
+        "id": 848,
+        "sprite": "/static/sprites/pokemon/848.gif",
+        "evolves_to": [
+            {
+                "species": "toxtricity",
+                "id": 849,
+                "sprite": "/static/sprites/pokemon/849.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 30,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/848.gif"
+}

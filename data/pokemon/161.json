@@ -1,0 +1,56 @@
+{
+    "id": 161,
+    "name": "sentret",
+    "category": "Scout Pokémon",
+    "description": "A very cautious POKéMON, it raises itself up using its tail to get a better view of its surroundings.",
+    "generation": "generation-ii",
+    "height": 8,
+    "weight": 60,
+    "base_experience": 43,
+    "types": [
+        "normal"
+    ],
+    "abilities": [
+        {
+            "name": "run-away",
+            "is_hidden": false
+        },
+        {
+            "name": "keen-eye",
+            "is_hidden": false
+        },
+        {
+            "name": "frisk",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 35,
+        "attack": 46,
+        "defense": 34,
+        "special-attack": 35,
+        "special-defense": 45,
+        "speed": 20
+    },
+    "evolution_chain": {
+        "species": "sentret",
+        "id": 161,
+        "sprite": "/static/sprites/pokemon/161.gif",
+        "evolves_to": [
+            {
+                "species": "furret",
+                "id": 162,
+                "sprite": "/static/sprites/pokemon/162.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 15,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/161.gif"
+}

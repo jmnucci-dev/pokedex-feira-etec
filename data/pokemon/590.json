@@ -1,0 +1,53 @@
+{
+    "id": 590,
+    "name": "foongus",
+    "category": "Mushroom Pokémon",
+    "description": "It lures people in with its Poké Ball pattern, then releases poison spores. Why it resembles a Poké Ball is unknown.",
+    "generation": "generation-v",
+    "height": 2,
+    "weight": 10,
+    "base_experience": 59,
+    "types": [
+        "grass",
+        "poison"
+    ],
+    "abilities": [
+        {
+            "name": "effect-spore",
+            "is_hidden": false
+        },
+        {
+            "name": "regenerator",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 69,
+        "attack": 55,
+        "defense": 45,
+        "special-attack": 55,
+        "special-defense": 55,
+        "speed": 15
+    },
+    "evolution_chain": {
+        "species": "foongus",
+        "id": 590,
+        "sprite": "/static/sprites/pokemon/590.gif",
+        "evolves_to": [
+            {
+                "species": "amoonguss",
+                "id": 591,
+                "sprite": "/static/sprites/pokemon/591.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 39,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/590.gif"
+}

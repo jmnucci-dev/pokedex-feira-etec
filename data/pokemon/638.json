@@ -1,0 +1,35 @@
+{
+    "id": 638,
+    "name": "cobalion",
+    "category": "Iron Will Pokémon",
+    "description": "This legendary Pokémon battled against humans to protect Pokémon. Its personality is calm and composed.",
+    "generation": "generation-v",
+    "height": 21,
+    "weight": 2500,
+    "base_experience": 261,
+    "types": [
+        "steel",
+        "fighting"
+    ],
+    "abilities": [
+        {
+            "name": "justified",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 91,
+        "attack": 90,
+        "defense": 129,
+        "special-attack": 90,
+        "special-defense": 72,
+        "speed": 108
+    },
+    "evolution_chain": {
+        "species": "cobalion",
+        "id": 638,
+        "sprite": "/static/sprites/pokemon/638.gif",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/638.gif"
+}

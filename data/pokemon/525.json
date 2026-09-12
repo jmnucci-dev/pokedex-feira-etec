@@ -1,0 +1,70 @@
+{
+    "id": 525,
+    "name": "boldore",
+    "category": "Ore Pokémon",
+    "description": "When it overflows with power, the orange crystal on its body glows. It looks for underground water in caves.",
+    "generation": "generation-v",
+    "height": 9,
+    "weight": 1020,
+    "base_experience": 137,
+    "types": [
+        "rock"
+    ],
+    "abilities": [
+        {
+            "name": "sturdy",
+            "is_hidden": false
+        },
+        {
+            "name": "weak-armor",
+            "is_hidden": false
+        },
+        {
+            "name": "sand-force",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 70,
+        "attack": 105,
+        "defense": 105,
+        "special-attack": 50,
+        "special-defense": 40,
+        "speed": 20
+    },
+    "evolution_chain": {
+        "species": "roggenrola",
+        "id": 524,
+        "sprite": "/static/sprites/pokemon/524.gif",
+        "evolves_to": [
+            {
+                "species": "boldore",
+                "id": 525,
+                "sprite": "/static/sprites/pokemon/525.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 25,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "gigalith",
+                        "id": 526,
+                        "sprite": "/static/sprites/pokemon/526.gif",
+                        "details": [
+                            {
+                                "trigger": "trade",
+                                "min_level": null,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/525.gif"
+}

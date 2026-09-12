@@ -1,0 +1,57 @@
+{
+    "id": 747,
+    "name": "mareanie",
+    "category": "Brutal Star Pokémon",
+    "description": "It plunges the poison spike on its head into its prey. When the prey has weakened, Mareanie deals the finishing blow with its 10 tentacles.",
+    "generation": "generation-vii",
+    "height": 4,
+    "weight": 80,
+    "base_experience": 61,
+    "types": [
+        "poison",
+        "water"
+    ],
+    "abilities": [
+        {
+            "name": "merciless",
+            "is_hidden": false
+        },
+        {
+            "name": "limber",
+            "is_hidden": false
+        },
+        {
+            "name": "regenerator",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 50,
+        "attack": 53,
+        "defense": 62,
+        "special-attack": 43,
+        "special-defense": 52,
+        "speed": 45
+    },
+    "evolution_chain": {
+        "species": "mareanie",
+        "id": 747,
+        "sprite": "/static/sprites/pokemon/747.png",
+        "evolves_to": [
+            {
+                "species": "toxapex",
+                "id": 748,
+                "sprite": "/static/sprites/pokemon/748.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 38,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/747.png"
+}

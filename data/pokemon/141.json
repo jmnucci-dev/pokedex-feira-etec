@@ -1,0 +1,57 @@
+{
+    "id": 141,
+    "name": "kabutops",
+    "category": "Shellfish Pokémon",
+    "description": "Its sleek shape is perfect for swim­ ming. It slashes prey with its claws and drains the body fluids.",
+    "generation": "generation-i",
+    "height": 13,
+    "weight": 405,
+    "base_experience": 173,
+    "types": [
+        "rock",
+        "water"
+    ],
+    "abilities": [
+        {
+            "name": "swift-swim",
+            "is_hidden": false
+        },
+        {
+            "name": "battle-armor",
+            "is_hidden": false
+        },
+        {
+            "name": "weak-armor",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 60,
+        "attack": 115,
+        "defense": 105,
+        "special-attack": 65,
+        "special-defense": 70,
+        "speed": 80
+    },
+    "evolution_chain": {
+        "species": "kabuto",
+        "id": 140,
+        "sprite": "/static/sprites/pokemon/140.gif",
+        "evolves_to": [
+            {
+                "species": "kabutops",
+                "id": 141,
+                "sprite": "/static/sprites/pokemon/141.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 40,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/141.gif"
+}

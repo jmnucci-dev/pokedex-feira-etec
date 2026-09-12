@@ -1,0 +1,57 @@
+{
+    "id": 559,
+    "name": "scraggy",
+    "category": "Shedding Pokémon",
+    "description": "Its skin has a rubbery elasticity, so it can reduce damage by defensively pulling its skin up to its neck.",
+    "generation": "generation-v",
+    "height": 6,
+    "weight": 118,
+    "base_experience": 70,
+    "types": [
+        "dark",
+        "fighting"
+    ],
+    "abilities": [
+        {
+            "name": "shed-skin",
+            "is_hidden": false
+        },
+        {
+            "name": "moxie",
+            "is_hidden": false
+        },
+        {
+            "name": "intimidate",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 50,
+        "attack": 75,
+        "defense": 70,
+        "special-attack": 35,
+        "special-defense": 70,
+        "speed": 48
+    },
+    "evolution_chain": {
+        "species": "scraggy",
+        "id": 559,
+        "sprite": "/static/sprites/pokemon/559.gif",
+        "evolves_to": [
+            {
+                "species": "scrafty",
+                "id": 560,
+                "sprite": "/static/sprites/pokemon/560.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 39,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/559.gif"
+}

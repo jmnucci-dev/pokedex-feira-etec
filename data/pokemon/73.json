@@ -1,0 +1,57 @@
+{
+    "id": 73,
+    "name": "tentacruel",
+    "category": "Jellyfish Pokémon",
+    "description": "The tentacles are normally kept short. On hunts, they are extended to ensnare and immobilize prey.",
+    "generation": "generation-i",
+    "height": 16,
+    "weight": 550,
+    "base_experience": 180,
+    "types": [
+        "water",
+        "poison"
+    ],
+    "abilities": [
+        {
+            "name": "clear-body",
+            "is_hidden": false
+        },
+        {
+            "name": "liquid-ooze",
+            "is_hidden": false
+        },
+        {
+            "name": "rain-dish",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 80,
+        "attack": 70,
+        "defense": 65,
+        "special-attack": 80,
+        "special-defense": 120,
+        "speed": 100
+    },
+    "evolution_chain": {
+        "species": "tentacool",
+        "id": 72,
+        "sprite": "/static/sprites/pokemon/72.gif",
+        "evolves_to": [
+            {
+                "species": "tentacruel",
+                "id": 73,
+                "sprite": "/static/sprites/pokemon/73.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 30,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/73.gif"
+}

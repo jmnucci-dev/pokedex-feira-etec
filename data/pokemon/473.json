@@ -1,0 +1,71 @@
+{
+    "id": 473,
+    "name": "mamoswine",
+    "category": "Twin Tusk Pokémon",
+    "description": "Its impressive tusks are made of ice. The population thinned when it turned warm after the ice age.",
+    "generation": "generation-iv",
+    "height": 25,
+    "weight": 2910,
+    "base_experience": 239,
+    "types": [
+        "ice",
+        "ground"
+    ],
+    "abilities": [
+        {
+            "name": "oblivious",
+            "is_hidden": false
+        },
+        {
+            "name": "snow-cloak",
+            "is_hidden": false
+        },
+        {
+            "name": "thick-fat",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 110,
+        "attack": 130,
+        "defense": 80,
+        "special-attack": 70,
+        "special-defense": 60,
+        "speed": 80
+    },
+    "evolution_chain": {
+        "species": "swinub",
+        "id": 220,
+        "sprite": "/static/sprites/pokemon/220.gif",
+        "evolves_to": [
+            {
+                "species": "piloswine",
+                "id": 221,
+                "sprite": "/static/sprites/pokemon/221.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 33,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "mamoswine",
+                        "id": 473,
+                        "sprite": "/static/sprites/pokemon/473.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": null,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/473.gif"
+}

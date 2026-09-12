@@ -1,0 +1,35 @@
+{
+    "id": 1006,
+    "name": "iron-valiant",
+    "category": "Paradox Pokémon",
+    "description": "It has some similarities to a mad scientist’s invention covered in a paranormal magazine.",
+    "generation": "generation-ix",
+    "height": 14,
+    "weight": 350,
+    "base_experience": 295,
+    "types": [
+        "fairy",
+        "fighting"
+    ],
+    "abilities": [
+        {
+            "name": "quark-drive",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 74,
+        "attack": 130,
+        "defense": 90,
+        "special-attack": 120,
+        "special-defense": 60,
+        "speed": 116
+    },
+    "evolution_chain": {
+        "species": "iron-valiant",
+        "id": 1006,
+        "sprite": "/static/sprites/pokemon/1006.png",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/1006.png"
+}

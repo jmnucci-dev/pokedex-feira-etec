@@ -1,0 +1,35 @@
+{
+    "id": 795,
+    "name": "pheromosa",
+    "category": "Lissome Pokémon",
+    "description": "One of the dangerous Ultra Beasts, it has been spotted running across the land at terrific speeds.",
+    "generation": "generation-vii",
+    "height": 18,
+    "weight": 250,
+    "base_experience": 257,
+    "types": [
+        "bug",
+        "fighting"
+    ],
+    "abilities": [
+        {
+            "name": "beast-boost",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 71,
+        "attack": 137,
+        "defense": 37,
+        "special-attack": 137,
+        "special-defense": 37,
+        "speed": 151
+    },
+    "evolution_chain": {
+        "species": "pheromosa",
+        "id": 795,
+        "sprite": "/static/sprites/pokemon/795.gif",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/795.gif"
+}

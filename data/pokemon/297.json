@@ -1,0 +1,56 @@
+{
+    "id": 297,
+    "name": "hariyama",
+    "category": "Arm Thrust Pokémon",
+    "description": "HARIYAMA practices its straight-arm slaps in any number of locations. One hit of this POKéMON’s powerful, openhanded, straight-arm punches could snap a telephone pole in two.",
+    "generation": "generation-iii",
+    "height": 23,
+    "weight": 2538,
+    "base_experience": 166,
+    "types": [
+        "fighting"
+    ],
+    "abilities": [
+        {
+            "name": "thick-fat",
+            "is_hidden": false
+        },
+        {
+            "name": "guts",
+            "is_hidden": false
+        },
+        {
+            "name": "sheer-force",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 144,
+        "attack": 120,
+        "defense": 60,
+        "special-attack": 40,
+        "special-defense": 60,
+        "speed": 50
+    },
+    "evolution_chain": {
+        "species": "makuhita",
+        "id": 296,
+        "sprite": "/static/sprites/pokemon/296.gif",
+        "evolves_to": [
+            {
+                "species": "hariyama",
+                "id": 297,
+                "sprite": "/static/sprites/pokemon/297.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 24,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/297.gif"
+}

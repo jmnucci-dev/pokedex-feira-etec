@@ -1,0 +1,66 @@
+{
+    "id": 153,
+    "name": "bayleef",
+    "category": "Leaf Pokémon",
+    "description": "The scent of spices comes from around its neck. Somehow, sniffing it makes you want to fight.",
+    "generation": "generation-ii",
+    "height": 12,
+    "weight": 158,
+    "base_experience": 142,
+    "types": [
+        "grass"
+    ],
+    "abilities": [
+        {
+            "name": "overgrow",
+            "is_hidden": false
+        },
+        {
+            "name": "leaf-guard",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 60,
+        "attack": 62,
+        "defense": 80,
+        "special-attack": 63,
+        "special-defense": 80,
+        "speed": 60
+    },
+    "evolution_chain": {
+        "species": "chikorita",
+        "id": 152,
+        "sprite": "/static/sprites/pokemon/152.gif",
+        "evolves_to": [
+            {
+                "species": "bayleef",
+                "id": 153,
+                "sprite": "/static/sprites/pokemon/153.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 16,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "meganium",
+                        "id": 154,
+                        "sprite": "/static/sprites/pokemon/154.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 32,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/153.gif"
+}

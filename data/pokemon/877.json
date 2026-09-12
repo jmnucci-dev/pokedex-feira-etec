@@ -1,0 +1,35 @@
+{
+    "id": 877,
+    "name": "morpeko-full-belly",
+    "category": "Two-Sided Pokémon",
+    "description": "As it eats the seeds stored up in its pocket-like pouches, this Pokémon is not just satisfying its constant hunger. It’s also generating electricity.",
+    "generation": "generation-viii",
+    "height": 3,
+    "weight": 30,
+    "base_experience": 153,
+    "types": [
+        "electric",
+        "dark"
+    ],
+    "abilities": [
+        {
+            "name": "hunger-switch",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 58,
+        "attack": 95,
+        "defense": 58,
+        "special-attack": 70,
+        "special-defense": 58,
+        "speed": 97
+    },
+    "evolution_chain": {
+        "species": "morpeko",
+        "id": 877,
+        "sprite": "/static/sprites/pokemon/877.gif",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/877.gif"
+}

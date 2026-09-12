@@ -1,0 +1,53 @@
+{
+    "id": 277,
+    "name": "swellow",
+    "category": "Swallow Pokémon",
+    "description": "SWELLOW flies high above our heads, making graceful arcs in the sky. This POKéMON dives at a steep angle as soon as it spots its prey. The hapless prey is tightly grasped by SWELLOW’s clawed feet, preventing escape.",
+    "generation": "generation-iii",
+    "height": 7,
+    "weight": 198,
+    "base_experience": 159,
+    "types": [
+        "normal",
+        "flying"
+    ],
+    "abilities": [
+        {
+            "name": "guts",
+            "is_hidden": false
+        },
+        {
+            "name": "scrappy",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 60,
+        "attack": 85,
+        "defense": 60,
+        "special-attack": 75,
+        "special-defense": 50,
+        "speed": 125
+    },
+    "evolution_chain": {
+        "species": "taillow",
+        "id": 276,
+        "sprite": "/static/sprites/pokemon/276.gif",
+        "evolves_to": [
+            {
+                "species": "swellow",
+                "id": 277,
+                "sprite": "/static/sprites/pokemon/277.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 22,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/277.gif"
+}

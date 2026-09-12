@@ -1,0 +1,66 @@
+{
+    "id": 811,
+    "name": "thwackey",
+    "category": "Beat Pokémon",
+    "description": "The faster a Thwackey can beat out a rhythm with its two sticks, the more respect it wins from its peers.",
+    "generation": "generation-viii",
+    "height": 7,
+    "weight": 140,
+    "base_experience": 147,
+    "types": [
+        "grass"
+    ],
+    "abilities": [
+        {
+            "name": "overgrow",
+            "is_hidden": false
+        },
+        {
+            "name": "grassy-surge",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 70,
+        "attack": 85,
+        "defense": 70,
+        "special-attack": 55,
+        "special-defense": 60,
+        "speed": 80
+    },
+    "evolution_chain": {
+        "species": "grookey",
+        "id": 810,
+        "sprite": "/static/sprites/pokemon/810.png",
+        "evolves_to": [
+            {
+                "species": "thwackey",
+                "id": 811,
+                "sprite": "/static/sprites/pokemon/811.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 16,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "rillaboom",
+                        "id": 812,
+                        "sprite": "/static/sprites/pokemon/812.png",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 35,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/811.gif"
+}

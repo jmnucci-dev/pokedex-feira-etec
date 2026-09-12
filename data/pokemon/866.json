@@ -1,0 +1,76 @@
+{
+    "id": 866,
+    "name": "mr-rime",
+    "category": "Comedian Pokémon",
+    "description": "It’s highly skilled at tap-dancing. It waves its cane of ice in time with its graceful movements.",
+    "generation": "generation-viii",
+    "height": 15,
+    "weight": 582,
+    "base_experience": 182,
+    "types": [
+        "ice",
+        "psychic"
+    ],
+    "abilities": [
+        {
+            "name": "tangled-feet",
+            "is_hidden": false
+        },
+        {
+            "name": "screen-cleaner",
+            "is_hidden": false
+        },
+        {
+            "name": "ice-body",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 80,
+        "attack": 85,
+        "defense": 75,
+        "special-attack": 110,
+        "special-defense": 100,
+        "speed": 70
+    },
+    "evolution_chain": {
+        "species": "mime-jr",
+        "id": 439,
+        "sprite": "/static/sprites/pokemon/439.gif",
+        "evolves_to": [
+            {
+                "species": "mr-mime",
+                "id": 122,
+                "sprite": "/static/sprites/pokemon/122.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    },
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "mr-rime",
+                        "id": 866,
+                        "sprite": "/static/sprites/pokemon/866.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 42,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/866.gif"
+}

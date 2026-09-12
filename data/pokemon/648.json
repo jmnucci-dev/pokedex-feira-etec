@@ -1,0 +1,35 @@
+{
+    "id": 648,
+    "name": "meloetta-aria",
+    "category": "Melody Pokémon",
+    "description": "Its melodies are sung with a special vocalization method that can control the feelings of those who hear it.",
+    "generation": "generation-v",
+    "height": 6,
+    "weight": 65,
+    "base_experience": 270,
+    "types": [
+        "normal",
+        "psychic"
+    ],
+    "abilities": [
+        {
+            "name": "serene-grace",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 100,
+        "attack": 77,
+        "defense": 77,
+        "special-attack": 128,
+        "special-defense": 128,
+        "speed": 90
+    },
+    "evolution_chain": {
+        "species": "meloetta",
+        "id": 648,
+        "sprite": "/static/sprites/pokemon/648.gif",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/648.gif"
+}

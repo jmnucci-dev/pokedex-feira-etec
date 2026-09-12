@@ -1,0 +1,67 @@
+{
+    "id": 3,
+    "name": "venusaur",
+    "category": "Seed Pokémon",
+    "description": "The plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight.",
+    "generation": "generation-i",
+    "height": 20,
+    "weight": 1000,
+    "base_experience": 236,
+    "types": [
+        "grass",
+        "poison"
+    ],
+    "abilities": [
+        {
+            "name": "overgrow",
+            "is_hidden": false
+        },
+        {
+            "name": "chlorophyll",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 80,
+        "attack": 82,
+        "defense": 83,
+        "special-attack": 100,
+        "special-defense": 100,
+        "speed": 80
+    },
+    "evolution_chain": {
+        "species": "bulbasaur",
+        "id": 1,
+        "sprite": "/static/sprites/pokemon/1.gif",
+        "evolves_to": [
+            {
+                "species": "ivysaur",
+                "id": 2,
+                "sprite": "/static/sprites/pokemon/2.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 16,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "venusaur",
+                        "id": 3,
+                        "sprite": "/static/sprites/pokemon/3.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 32,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/3.gif"
+}

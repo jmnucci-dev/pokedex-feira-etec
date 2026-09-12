@@ -1,0 +1,61 @@
+{
+    "id": 100,
+    "name": "voltorb",
+    "category": "Ball Pokémon",
+    "description": "Usually found in power plants. Easily mistaken for a POKé BALL, they have zapped many people.",
+    "generation": "generation-i",
+    "height": 5,
+    "weight": 104,
+    "base_experience": 66,
+    "types": [
+        "electric"
+    ],
+    "abilities": [
+        {
+            "name": "soundproof",
+            "is_hidden": false
+        },
+        {
+            "name": "static",
+            "is_hidden": false
+        },
+        {
+            "name": "aftermath",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 40,
+        "attack": 30,
+        "defense": 50,
+        "special-attack": 55,
+        "special-defense": 55,
+        "speed": 100
+    },
+    "evolution_chain": {
+        "species": "voltorb",
+        "id": 100,
+        "sprite": "/static/sprites/pokemon/100.gif",
+        "evolves_to": [
+            {
+                "species": "electrode",
+                "id": 101,
+                "sprite": "/static/sprites/pokemon/101.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 30,
+                        "item": null
+                    },
+                    {
+                        "trigger": "use-item",
+                        "min_level": null,
+                        "item": "leaf-stone"
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/100.gif"
+}

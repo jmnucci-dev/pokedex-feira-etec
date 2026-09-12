@@ -1,0 +1,67 @@
+{
+    "id": 904,
+    "name": "overqwil",
+    "category": "Pin Cluster Pokémon",
+    "description": "Its lancelike spikes and savage temperament have earned it the nickname ”sea fiend.” It slurps up poison to nourish itself.",
+    "generation": "generation-viii",
+    "height": 25,
+    "weight": 605,
+    "base_experience": 179,
+    "types": [
+        "dark",
+        "poison"
+    ],
+    "abilities": [
+        {
+            "name": "poison-point",
+            "is_hidden": false
+        },
+        {
+            "name": "swift-swim",
+            "is_hidden": false
+        },
+        {
+            "name": "intimidate",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 85,
+        "attack": 115,
+        "defense": 95,
+        "special-attack": 65,
+        "special-defense": 65,
+        "speed": 85
+    },
+    "evolution_chain": {
+        "species": "qwilfish",
+        "id": 211,
+        "sprite": "/static/sprites/pokemon/211.gif",
+        "evolves_to": [
+            {
+                "species": "overqwil",
+                "id": 904,
+                "sprite": "/static/sprites/pokemon/904.gif",
+                "details": [
+                    {
+                        "trigger": "strong-style-move",
+                        "min_level": null,
+                        "item": null
+                    },
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    },
+                    {
+                        "trigger": "use-move",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/904.gif"
+}

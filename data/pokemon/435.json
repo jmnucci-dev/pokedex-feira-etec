@@ -1,0 +1,57 @@
+{
+    "id": 435,
+    "name": "skuntank",
+    "category": "Skunk Pokémon",
+    "description": "It sprays a vile-smelling fluid from the tip of its tail to attack. Its range is over 160 feet.",
+    "generation": "generation-iv",
+    "height": 10,
+    "weight": 380,
+    "base_experience": 168,
+    "types": [
+        "poison",
+        "dark"
+    ],
+    "abilities": [
+        {
+            "name": "stench",
+            "is_hidden": false
+        },
+        {
+            "name": "aftermath",
+            "is_hidden": false
+        },
+        {
+            "name": "keen-eye",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 103,
+        "attack": 93,
+        "defense": 67,
+        "special-attack": 71,
+        "special-defense": 61,
+        "speed": 84
+    },
+    "evolution_chain": {
+        "species": "stunky",
+        "id": 434,
+        "sprite": "/static/sprites/pokemon/434.gif",
+        "evolves_to": [
+            {
+                "species": "skuntank",
+                "id": 435,
+                "sprite": "/static/sprites/pokemon/435.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 34,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/435.gif"
+}

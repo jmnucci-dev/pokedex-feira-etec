@@ -1,0 +1,67 @@
+{
+    "id": 661,
+    "name": "fletchling",
+    "category": "Tiny Robin Pokémon",
+    "description": "These friendly Pokémon send signals to one another with beautiful chirps and tail-feather movements.",
+    "generation": "generation-vi",
+    "height": 3,
+    "weight": 17,
+    "base_experience": 56,
+    "types": [
+        "normal",
+        "flying"
+    ],
+    "abilities": [
+        {
+            "name": "big-pecks",
+            "is_hidden": false
+        },
+        {
+            "name": "gale-wings",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 45,
+        "attack": 50,
+        "defense": 43,
+        "special-attack": 40,
+        "special-defense": 38,
+        "speed": 62
+    },
+    "evolution_chain": {
+        "species": "fletchling",
+        "id": 661,
+        "sprite": "/static/sprites/pokemon/661.png",
+        "evolves_to": [
+            {
+                "species": "fletchinder",
+                "id": 662,
+                "sprite": "/static/sprites/pokemon/662.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 17,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "talonflame",
+                        "id": 663,
+                        "sprite": "/static/sprites/pokemon/663.png",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 35,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/661.png"
+}

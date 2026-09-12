@@ -1,0 +1,35 @@
+{
+    "id": 721,
+    "name": "volcanion",
+    "category": "Steam Pokémon",
+    "description": "It lets out billows of steam and disappears into the dense fog. It’s said to live in mountains where humans do not tread.",
+    "generation": "generation-vi",
+    "height": 17,
+    "weight": 1950,
+    "base_experience": 270,
+    "types": [
+        "fire",
+        "water"
+    ],
+    "abilities": [
+        {
+            "name": "water-absorb",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 80,
+        "attack": 110,
+        "defense": 120,
+        "special-attack": 130,
+        "special-defense": 90,
+        "speed": 70
+    },
+    "evolution_chain": {
+        "species": "volcanion",
+        "id": 721,
+        "sprite": "/static/sprites/pokemon/721.png",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/721.png"
+}

@@ -1,0 +1,57 @@
+{
+    "id": 340,
+    "name": "whiscash",
+    "category": "Whiskers Pokémon",
+    "description": "WHISCASH is extremely territorial. Just one of these POKéMON will claim a large pond as its exclusive territory. If a foe approaches it, it thrashes about and triggers a massive earthquake.",
+    "generation": "generation-iii",
+    "height": 9,
+    "weight": 236,
+    "base_experience": 164,
+    "types": [
+        "water",
+        "ground"
+    ],
+    "abilities": [
+        {
+            "name": "oblivious",
+            "is_hidden": false
+        },
+        {
+            "name": "anticipation",
+            "is_hidden": false
+        },
+        {
+            "name": "hydration",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 110,
+        "attack": 78,
+        "defense": 73,
+        "special-attack": 76,
+        "special-defense": 71,
+        "speed": 60
+    },
+    "evolution_chain": {
+        "species": "barboach",
+        "id": 339,
+        "sprite": "/static/sprites/pokemon/339.gif",
+        "evolves_to": [
+            {
+                "species": "whiscash",
+                "id": 340,
+                "sprite": "/static/sprites/pokemon/340.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 30,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/340.gif"
+}

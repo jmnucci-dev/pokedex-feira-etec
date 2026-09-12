@@ -1,0 +1,70 @@
+{
+    "id": 900,
+    "name": "kleavor",
+    "category": "Axe Pokémon",
+    "description": "A violent creature that fells towering trees with its crude axes and shields itself with hard stone. If one should chance upon this Pokémon in the wilds, one's only recourse is to flee.",
+    "generation": "generation-viii",
+    "height": 18,
+    "weight": 890,
+    "base_experience": 175,
+    "types": [
+        "bug",
+        "rock"
+    ],
+    "abilities": [
+        {
+            "name": "swarm",
+            "is_hidden": false
+        },
+        {
+            "name": "sheer-force",
+            "is_hidden": false
+        },
+        {
+            "name": "sharpness",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 70,
+        "attack": 135,
+        "defense": 95,
+        "special-attack": 45,
+        "special-defense": 70,
+        "speed": 85
+    },
+    "evolution_chain": {
+        "species": "scyther",
+        "id": 123,
+        "sprite": "/static/sprites/pokemon/123.gif",
+        "evolves_to": [
+            {
+                "species": "scizor",
+                "id": 212,
+                "sprite": "/static/sprites/pokemon/212.gif",
+                "details": [
+                    {
+                        "trigger": "trade",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": []
+            },
+            {
+                "species": "kleavor",
+                "id": 900,
+                "sprite": "/static/sprites/pokemon/900.png",
+                "details": [
+                    {
+                        "trigger": "use-item",
+                        "min_level": null,
+                        "item": "black-augurite"
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/900.png"
+}

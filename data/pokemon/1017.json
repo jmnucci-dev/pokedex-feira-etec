@@ -1,0 +1,34 @@
+{
+    "id": 1017,
+    "name": "ogerpon",
+    "category": "Mask Pokémon",
+    "description": "This Pokémon's type changes based on which mask it's wearing. It confounds its enemies with nimble movements and kicks.",
+    "generation": "generation-ix",
+    "height": 12,
+    "weight": 398,
+    "base_experience": 275,
+    "types": [
+        "grass"
+    ],
+    "abilities": [
+        {
+            "name": "defiant",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 80,
+        "attack": 120,
+        "defense": 84,
+        "special-attack": 60,
+        "special-defense": 96,
+        "speed": 110
+    },
+    "evolution_chain": {
+        "species": "ogerpon",
+        "id": 1017,
+        "sprite": "/static/sprites/pokemon/1017.png",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/1017.png"
+}

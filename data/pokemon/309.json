@@ -1,0 +1,56 @@
+{
+    "id": 309,
+    "name": "electrike",
+    "category": "Lightning Pokémon",
+    "description": "ELECTRIKE stores electricity in its long body hair. This POKéMON stimulates its leg muscles with electric charges. These jolts of power give its legs explosive acceleration performance.",
+    "generation": "generation-iii",
+    "height": 6,
+    "weight": 152,
+    "base_experience": 59,
+    "types": [
+        "electric"
+    ],
+    "abilities": [
+        {
+            "name": "static",
+            "is_hidden": false
+        },
+        {
+            "name": "lightning-rod",
+            "is_hidden": false
+        },
+        {
+            "name": "minus",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 40,
+        "attack": 45,
+        "defense": 40,
+        "special-attack": 65,
+        "special-defense": 40,
+        "speed": 65
+    },
+    "evolution_chain": {
+        "species": "electrike",
+        "id": 309,
+        "sprite": "/static/sprites/pokemon/309.gif",
+        "evolves_to": [
+            {
+                "species": "manectric",
+                "id": 310,
+                "sprite": "/static/sprites/pokemon/310.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 26,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/309.gif"
+}

@@ -1,0 +1,83 @@
+{
+    "id": 61,
+    "name": "poliwhirl",
+    "category": "Tadpole Pokémon",
+    "description": "Capable of living in or out of water. When out of water, it sweats to keep its body slimy.",
+    "generation": "generation-i",
+    "height": 10,
+    "weight": 200,
+    "base_experience": 135,
+    "types": [
+        "water"
+    ],
+    "abilities": [
+        {
+            "name": "water-absorb",
+            "is_hidden": false
+        },
+        {
+            "name": "damp",
+            "is_hidden": false
+        },
+        {
+            "name": "swift-swim",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 65,
+        "attack": 65,
+        "defense": 65,
+        "special-attack": 50,
+        "special-defense": 50,
+        "speed": 90
+    },
+    "evolution_chain": {
+        "species": "poliwag",
+        "id": 60,
+        "sprite": "/static/sprites/pokemon/60.gif",
+        "evolves_to": [
+            {
+                "species": "poliwhirl",
+                "id": 61,
+                "sprite": "/static/sprites/pokemon/61.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 25,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "poliwrath",
+                        "id": 62,
+                        "sprite": "/static/sprites/pokemon/62.gif",
+                        "details": [
+                            {
+                                "trigger": "use-item",
+                                "min_level": null,
+                                "item": "water-stone"
+                            }
+                        ],
+                        "next": []
+                    },
+                    {
+                        "species": "politoed",
+                        "id": 186,
+                        "sprite": "/static/sprites/pokemon/186.gif",
+                        "details": [
+                            {
+                                "trigger": "trade",
+                                "min_level": null,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/61.gif"
+}

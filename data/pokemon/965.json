@@ -1,0 +1,53 @@
+{
+    "id": 965,
+    "name": "varoom",
+    "category": "Single-Cyl Pokémon",
+    "description": "It is said that this Pokémon was born when an unknown poison Pokémon entered and inspirited an engine left at a scrap-processing factory.",
+    "generation": "generation-ix",
+    "height": 10,
+    "weight": 350,
+    "base_experience": 60,
+    "types": [
+        "steel",
+        "poison"
+    ],
+    "abilities": [
+        {
+            "name": "overcoat",
+            "is_hidden": false
+        },
+        {
+            "name": "slow-start",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 45,
+        "attack": 70,
+        "defense": 63,
+        "special-attack": 30,
+        "special-defense": 45,
+        "speed": 47
+    },
+    "evolution_chain": {
+        "species": "varoom",
+        "id": 965,
+        "sprite": "/static/sprites/pokemon/965.png",
+        "evolves_to": [
+            {
+                "species": "revavroom",
+                "id": 966,
+                "sprite": "/static/sprites/pokemon/966.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 40,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/965.png"
+}

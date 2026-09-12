@@ -1,0 +1,53 @@
+{
+    "id": 954,
+    "name": "rabsca",
+    "category": "Rolling Pokémon",
+    "description": "The body that supports the ball barely moves. Therefore, it is thought that the true body of this Pokémon is actually inside the ball.",
+    "generation": "generation-ix",
+    "height": 3,
+    "weight": 35,
+    "base_experience": 165,
+    "types": [
+        "bug",
+        "psychic"
+    ],
+    "abilities": [
+        {
+            "name": "synchronize",
+            "is_hidden": false
+        },
+        {
+            "name": "telepathy",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 75,
+        "attack": 50,
+        "defense": 85,
+        "special-attack": 115,
+        "special-defense": 100,
+        "speed": 45
+    },
+    "evolution_chain": {
+        "species": "rellor",
+        "id": 953,
+        "sprite": "/static/sprites/pokemon/953.png",
+        "evolves_to": [
+            {
+                "species": "rabsca",
+                "id": 954,
+                "sprite": "/static/sprites/pokemon/954.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/954.png"
+}

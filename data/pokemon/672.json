@@ -1,0 +1,52 @@
+{
+    "id": 672,
+    "name": "skiddo",
+    "category": "Mount Pokémon",
+    "description": "Thought to be one of the first Pokémon to live in harmony with humans, it has a placid disposition.",
+    "generation": "generation-vi",
+    "height": 9,
+    "weight": 310,
+    "base_experience": 70,
+    "types": [
+        "grass"
+    ],
+    "abilities": [
+        {
+            "name": "sap-sipper",
+            "is_hidden": false
+        },
+        {
+            "name": "grass-pelt",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 66,
+        "attack": 65,
+        "defense": 48,
+        "special-attack": 62,
+        "special-defense": 57,
+        "speed": 52
+    },
+    "evolution_chain": {
+        "species": "skiddo",
+        "id": 672,
+        "sprite": "/static/sprites/pokemon/672.png",
+        "evolves_to": [
+            {
+                "species": "gogoat",
+                "id": 673,
+                "sprite": "/static/sprites/pokemon/673.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 32,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/672.png"
+}

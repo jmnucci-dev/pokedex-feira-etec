@@ -1,0 +1,71 @@
+{
+    "id": 784,
+    "name": "kommo-o",
+    "category": "Scaly Pokémon",
+    "description": "When it spots enemies, it threatens them by jingling the scales on its tail. Weak opponents will crack and flee in panic.",
+    "generation": "generation-vii",
+    "height": 16,
+    "weight": 782,
+    "base_experience": 270,
+    "types": [
+        "dragon",
+        "fighting"
+    ],
+    "abilities": [
+        {
+            "name": "bulletproof",
+            "is_hidden": false
+        },
+        {
+            "name": "soundproof",
+            "is_hidden": false
+        },
+        {
+            "name": "overcoat",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 75,
+        "attack": 110,
+        "defense": 125,
+        "special-attack": 100,
+        "special-defense": 105,
+        "speed": 85
+    },
+    "evolution_chain": {
+        "species": "jangmo-o",
+        "id": 782,
+        "sprite": "/static/sprites/pokemon/782.gif",
+        "evolves_to": [
+            {
+                "species": "hakamo-o",
+                "id": 783,
+                "sprite": "/static/sprites/pokemon/783.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 35,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "kommo-o",
+                        "id": 784,
+                        "sprite": "/static/sprites/pokemon/784.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 45,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/784.gif"
+}

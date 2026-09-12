@@ -1,0 +1,35 @@
+{
+    "id": 718,
+    "name": "zygarde-50",
+    "category": "Order Pokémon",
+    "description": "When the Kalos region’s ecosystem falls into disarray, it appears and reveals its secret power.",
+    "generation": "generation-vi",
+    "height": 50,
+    "weight": 3050,
+    "base_experience": 270,
+    "types": [
+        "dragon",
+        "ground"
+    ],
+    "abilities": [
+        {
+            "name": "aura-break",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 108,
+        "attack": 100,
+        "defense": 121,
+        "special-attack": 81,
+        "special-defense": 95,
+        "speed": 95
+    },
+    "evolution_chain": {
+        "species": "zygarde",
+        "id": 718,
+        "sprite": "/static/sprites/pokemon/718.png",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/718.png"
+}

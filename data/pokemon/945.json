@@ -1,0 +1,57 @@
+{
+    "id": 945,
+    "name": "grafaiai",
+    "category": "Toxic Monkey Pokémon",
+    "description": "The color of the poisonous saliva depends on what the Pokémon eats. Grafaiai covers its fingers in its saliva and draws patterns on trees in forests.",
+    "generation": "generation-ix",
+    "height": 7,
+    "weight": 272,
+    "base_experience": 170,
+    "types": [
+        "poison",
+        "normal"
+    ],
+    "abilities": [
+        {
+            "name": "unburden",
+            "is_hidden": false
+        },
+        {
+            "name": "poison-touch",
+            "is_hidden": false
+        },
+        {
+            "name": "prankster",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 63,
+        "attack": 95,
+        "defense": 65,
+        "special-attack": 80,
+        "special-defense": 72,
+        "speed": 110
+    },
+    "evolution_chain": {
+        "species": "shroodle",
+        "id": 944,
+        "sprite": "/static/sprites/pokemon/944.png",
+        "evolves_to": [
+            {
+                "species": "grafaiai",
+                "id": 945,
+                "sprite": "/static/sprites/pokemon/945.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 28,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/945.png"
+}

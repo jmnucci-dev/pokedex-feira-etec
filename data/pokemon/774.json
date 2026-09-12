@@ -1,0 +1,35 @@
+{
+    "id": 774,
+    "name": "minior-red-meteor",
+    "category": "Meteor Pokémon",
+    "description": "Originally making its home in the ozone layer, it hurtles to the ground when the shell enclosing its body grows too heavy.",
+    "generation": "generation-vii",
+    "height": 3,
+    "weight": 400,
+    "base_experience": 154,
+    "types": [
+        "rock",
+        "flying"
+    ],
+    "abilities": [
+        {
+            "name": "shields-down",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 60,
+        "attack": 60,
+        "defense": 100,
+        "special-attack": 60,
+        "special-defense": 100,
+        "speed": 60
+    },
+    "evolution_chain": {
+        "species": "minior",
+        "id": 774,
+        "sprite": "/static/sprites/pokemon/774.gif",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/774.gif"
+}

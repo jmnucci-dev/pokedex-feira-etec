@@ -1,0 +1,56 @@
+{
+    "id": 210,
+    "name": "granbull",
+    "category": "Fairy Pokémon",
+    "description": "It is actually timid and easily spooked. If at­ tacked, it flails about to fend off its attacker.",
+    "generation": "generation-ii",
+    "height": 14,
+    "weight": 487,
+    "base_experience": 158,
+    "types": [
+        "fairy"
+    ],
+    "abilities": [
+        {
+            "name": "intimidate",
+            "is_hidden": false
+        },
+        {
+            "name": "quick-feet",
+            "is_hidden": false
+        },
+        {
+            "name": "rattled",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 90,
+        "attack": 120,
+        "defense": 75,
+        "special-attack": 60,
+        "special-defense": 60,
+        "speed": 45
+    },
+    "evolution_chain": {
+        "species": "snubbull",
+        "id": 209,
+        "sprite": "/static/sprites/pokemon/209.gif",
+        "evolves_to": [
+            {
+                "species": "granbull",
+                "id": 210,
+                "sprite": "/static/sprites/pokemon/210.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 23,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/210.gif"
+}

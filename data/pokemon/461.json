@@ -1,0 +1,66 @@
+{
+    "id": 461,
+    "name": "weavile",
+    "category": "Sharp Claw Pokémon",
+    "description": "They live in cold regions, forming groups of four or five that hunt prey with impressive coordination.",
+    "generation": "generation-iv",
+    "height": 11,
+    "weight": 340,
+    "base_experience": 179,
+    "types": [
+        "dark",
+        "ice"
+    ],
+    "abilities": [
+        {
+            "name": "pressure",
+            "is_hidden": false
+        },
+        {
+            "name": "pickpocket",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 70,
+        "attack": 120,
+        "defense": 65,
+        "special-attack": 45,
+        "special-defense": 85,
+        "speed": 125
+    },
+    "evolution_chain": {
+        "species": "sneasel",
+        "id": 215,
+        "sprite": "/static/sprites/pokemon/215.gif",
+        "evolves_to": [
+            {
+                "species": "weavile",
+                "id": 461,
+                "sprite": "/static/sprites/pokemon/461.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": []
+            },
+            {
+                "species": "sneasler",
+                "id": 903,
+                "sprite": "/static/sprites/pokemon/903.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/461.gif"
+}

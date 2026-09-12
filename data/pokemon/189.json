@@ -1,0 +1,71 @@
+{
+    "id": 189,
+    "name": "jumpluff",
+    "category": "Cottonweed Pokémon",
+    "description": "Once it catches the wind, it deft­ ly controls its cotton-puff spores to float, even around the world.",
+    "generation": "generation-ii",
+    "height": 8,
+    "weight": 30,
+    "base_experience": 207,
+    "types": [
+        "grass",
+        "flying"
+    ],
+    "abilities": [
+        {
+            "name": "chlorophyll",
+            "is_hidden": false
+        },
+        {
+            "name": "leaf-guard",
+            "is_hidden": false
+        },
+        {
+            "name": "infiltrator",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 75,
+        "attack": 55,
+        "defense": 70,
+        "special-attack": 55,
+        "special-defense": 95,
+        "speed": 110
+    },
+    "evolution_chain": {
+        "species": "hoppip",
+        "id": 187,
+        "sprite": "/static/sprites/pokemon/187.gif",
+        "evolves_to": [
+            {
+                "species": "skiploom",
+                "id": 188,
+                "sprite": "/static/sprites/pokemon/188.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 18,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "jumpluff",
+                        "id": 189,
+                        "sprite": "/static/sprites/pokemon/189.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 27,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/189.gif"
+}

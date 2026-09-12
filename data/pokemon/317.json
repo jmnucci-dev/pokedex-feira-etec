@@ -1,0 +1,56 @@
+{
+    "id": 317,
+    "name": "swalot",
+    "category": "Poison Bag Pokémon",
+    "description": "When SWALOT spots prey, it spurts out a hideously toxic fluid from its pores and sprays the target. Once the prey has weakened, this POKéMON gulps it down whole with its cavernous mouth.",
+    "generation": "generation-iii",
+    "height": 17,
+    "weight": 800,
+    "base_experience": 163,
+    "types": [
+        "poison"
+    ],
+    "abilities": [
+        {
+            "name": "liquid-ooze",
+            "is_hidden": false
+        },
+        {
+            "name": "sticky-hold",
+            "is_hidden": false
+        },
+        {
+            "name": "gluttony",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 100,
+        "attack": 73,
+        "defense": 83,
+        "special-attack": 73,
+        "special-defense": 83,
+        "speed": 55
+    },
+    "evolution_chain": {
+        "species": "gulpin",
+        "id": 316,
+        "sprite": "/static/sprites/pokemon/316.gif",
+        "evolves_to": [
+            {
+                "species": "swalot",
+                "id": 317,
+                "sprite": "/static/sprites/pokemon/317.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 26,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/317.gif"
+}

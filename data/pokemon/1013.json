@@ -1,0 +1,58 @@
+{
+    "id": 1013,
+    "name": "sinistcha",
+    "category": "Matcha Pokémon",
+    "description": "It pretends to be tea, trying to fool people into drinking it so it can drain their life-force. Its ruse is generally unsuccessful.",
+    "generation": "generation-ix",
+    "height": 2,
+    "weight": 22,
+    "base_experience": 178,
+    "types": [
+        "grass",
+        "ghost"
+    ],
+    "abilities": [
+        {
+            "name": "hospitality",
+            "is_hidden": false
+        },
+        {
+            "name": "heatproof",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 71,
+        "attack": 60,
+        "defense": 106,
+        "special-attack": 121,
+        "special-defense": 80,
+        "speed": 70
+    },
+    "evolution_chain": {
+        "species": "poltchageist",
+        "id": 1012,
+        "sprite": "/static/sprites/pokemon/1012.png",
+        "evolves_to": [
+            {
+                "species": "sinistcha",
+                "id": 1013,
+                "sprite": "/static/sprites/pokemon/1013.png",
+                "details": [
+                    {
+                        "trigger": "use-item",
+                        "min_level": null,
+                        "item": "unremarkable-teacup"
+                    },
+                    {
+                        "trigger": "use-item",
+                        "min_level": null,
+                        "item": "masterpiece-teacup"
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/1013.png"
+}

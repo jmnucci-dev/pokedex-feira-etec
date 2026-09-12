@@ -1,0 +1,80 @@
+{
+    "id": 80,
+    "name": "slowbro",
+    "category": "Hermit Crab Pokémon",
+    "description": "The SHELLDER that is latched onto SLOWPOKE's tail is said to feed on the host's left over scraps.",
+    "generation": "generation-i",
+    "height": 16,
+    "weight": 785,
+    "base_experience": 172,
+    "types": [
+        "water",
+        "psychic"
+    ],
+    "abilities": [
+        {
+            "name": "oblivious",
+            "is_hidden": false
+        },
+        {
+            "name": "own-tempo",
+            "is_hidden": false
+        },
+        {
+            "name": "regenerator",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 95,
+        "attack": 75,
+        "defense": 110,
+        "special-attack": 100,
+        "special-defense": 80,
+        "speed": 30
+    },
+    "evolution_chain": {
+        "species": "slowpoke",
+        "id": 79,
+        "sprite": "/static/sprites/pokemon/79.gif",
+        "evolves_to": [
+            {
+                "species": "slowbro",
+                "id": 80,
+                "sprite": "/static/sprites/pokemon/80.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 37,
+                        "item": null
+                    },
+                    {
+                        "trigger": "use-item",
+                        "min_level": null,
+                        "item": "galarica-cuff"
+                    }
+                ],
+                "next": []
+            },
+            {
+                "species": "slowking",
+                "id": 199,
+                "sprite": "/static/sprites/pokemon/199.gif",
+                "details": [
+                    {
+                        "trigger": "trade",
+                        "min_level": null,
+                        "item": null
+                    },
+                    {
+                        "trigger": "use-item",
+                        "min_level": null,
+                        "item": "galarica-wreath"
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/80.gif"
+}

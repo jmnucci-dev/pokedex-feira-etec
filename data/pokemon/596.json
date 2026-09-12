@@ -1,0 +1,57 @@
+{
+    "id": 596,
+    "name": "galvantula",
+    "category": "EleSpider Pokémon",
+    "description": "When attacked, they create an electric barrier by spitting out many electrically charged threads.",
+    "generation": "generation-v",
+    "height": 8,
+    "weight": 143,
+    "base_experience": 165,
+    "types": [
+        "bug",
+        "electric"
+    ],
+    "abilities": [
+        {
+            "name": "compound-eyes",
+            "is_hidden": false
+        },
+        {
+            "name": "unnerve",
+            "is_hidden": false
+        },
+        {
+            "name": "swarm",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 70,
+        "attack": 77,
+        "defense": 60,
+        "special-attack": 97,
+        "special-defense": 60,
+        "speed": 108
+    },
+    "evolution_chain": {
+        "species": "joltik",
+        "id": 595,
+        "sprite": "/static/sprites/pokemon/595.gif",
+        "evolves_to": [
+            {
+                "species": "galvantula",
+                "id": 596,
+                "sprite": "/static/sprites/pokemon/596.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 36,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/596.gif"
+}

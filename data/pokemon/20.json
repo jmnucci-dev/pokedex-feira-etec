@@ -1,0 +1,61 @@
+{
+    "id": 20,
+    "name": "raticate",
+    "category": "Mouse Pokémon",
+    "description": "It uses its whis­ kers to maintain its balance. It apparently slows down if they are cut off.",
+    "generation": "generation-i",
+    "height": 7,
+    "weight": 185,
+    "base_experience": 145,
+    "types": [
+        "normal"
+    ],
+    "abilities": [
+        {
+            "name": "run-away",
+            "is_hidden": false
+        },
+        {
+            "name": "guts",
+            "is_hidden": false
+        },
+        {
+            "name": "hustle",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 55,
+        "attack": 81,
+        "defense": 60,
+        "special-attack": 50,
+        "special-defense": 70,
+        "speed": 97
+    },
+    "evolution_chain": {
+        "species": "rattata",
+        "id": 19,
+        "sprite": "/static/sprites/pokemon/19.gif",
+        "evolves_to": [
+            {
+                "species": "raticate",
+                "id": 20,
+                "sprite": "/static/sprites/pokemon/20.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 20,
+                        "item": null
+                    },
+                    {
+                        "trigger": "level-up",
+                        "min_level": 20,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/20.gif"
+}

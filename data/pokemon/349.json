@@ -1,0 +1,66 @@
+{
+    "id": 349,
+    "name": "feebas",
+    "category": "Fish Pokémon",
+    "description": "FEEBAS’s fins are ragged and tattered from the start of its life. Because of its shoddy appearance, this POKéMON is largely ignored. It is capable of living in both the sea and in rivers.",
+    "generation": "generation-iii",
+    "height": 6,
+    "weight": 74,
+    "base_experience": 40,
+    "types": [
+        "water"
+    ],
+    "abilities": [
+        {
+            "name": "swift-swim",
+            "is_hidden": false
+        },
+        {
+            "name": "oblivious",
+            "is_hidden": false
+        },
+        {
+            "name": "adaptability",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 20,
+        "attack": 15,
+        "defense": 20,
+        "special-attack": 10,
+        "special-defense": 55,
+        "speed": 80
+    },
+    "evolution_chain": {
+        "species": "feebas",
+        "id": 349,
+        "sprite": "/static/sprites/pokemon/349.gif",
+        "evolves_to": [
+            {
+                "species": "milotic",
+                "id": 350,
+                "sprite": "/static/sprites/pokemon/350.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    },
+                    {
+                        "trigger": "trade",
+                        "min_level": null,
+                        "item": null
+                    },
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/349.gif"
+}

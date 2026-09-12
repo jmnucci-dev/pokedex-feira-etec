@@ -1,0 +1,70 @@
+{
+    "id": 524,
+    "name": "roggenrola",
+    "category": "Mantle Pokémon",
+    "description": "Its ear is hexagonal in shape. Compressed underground, its body is as hard as steel.",
+    "generation": "generation-v",
+    "height": 4,
+    "weight": 180,
+    "base_experience": 56,
+    "types": [
+        "rock"
+    ],
+    "abilities": [
+        {
+            "name": "sturdy",
+            "is_hidden": false
+        },
+        {
+            "name": "weak-armor",
+            "is_hidden": false
+        },
+        {
+            "name": "sand-force",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 55,
+        "attack": 75,
+        "defense": 85,
+        "special-attack": 25,
+        "special-defense": 25,
+        "speed": 15
+    },
+    "evolution_chain": {
+        "species": "roggenrola",
+        "id": 524,
+        "sprite": "/static/sprites/pokemon/524.gif",
+        "evolves_to": [
+            {
+                "species": "boldore",
+                "id": 525,
+                "sprite": "/static/sprites/pokemon/525.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 25,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "gigalith",
+                        "id": 526,
+                        "sprite": "/static/sprites/pokemon/526.gif",
+                        "details": [
+                            {
+                                "trigger": "trade",
+                                "min_level": null,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/524.gif"
+}

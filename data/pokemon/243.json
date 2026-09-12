@@ -1,0 +1,38 @@
+{
+    "id": 243,
+    "name": "raikou",
+    "category": "Thunder Pokémon",
+    "description": "The rain clouds it carries let it fire thunderbolts at will. They say that it descended with lightning.",
+    "generation": "generation-ii",
+    "height": 19,
+    "weight": 1780,
+    "base_experience": 261,
+    "types": [
+        "electric"
+    ],
+    "abilities": [
+        {
+            "name": "pressure",
+            "is_hidden": false
+        },
+        {
+            "name": "inner-focus",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 90,
+        "attack": 85,
+        "defense": 75,
+        "special-attack": 115,
+        "special-defense": 100,
+        "speed": 115
+    },
+    "evolution_chain": {
+        "species": "raikou",
+        "id": 243,
+        "sprite": "/static/sprites/pokemon/243.gif",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/243.gif"
+}

@@ -1,0 +1,56 @@
+{
+    "id": 832,
+    "name": "dubwool",
+    "category": "Sheep Pokémon",
+    "description": "Weave a carpet from its springy wool, and you end up with something closer to a trampoline. You’ll start to bounce the moment you set foot on it.",
+    "generation": "generation-viii",
+    "height": 13,
+    "weight": 430,
+    "base_experience": 172,
+    "types": [
+        "normal"
+    ],
+    "abilities": [
+        {
+            "name": "fluffy",
+            "is_hidden": false
+        },
+        {
+            "name": "steadfast",
+            "is_hidden": false
+        },
+        {
+            "name": "bulletproof",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 72,
+        "attack": 80,
+        "defense": 100,
+        "special-attack": 60,
+        "special-defense": 90,
+        "speed": 88
+    },
+    "evolution_chain": {
+        "species": "wooloo",
+        "id": 831,
+        "sprite": "/static/sprites/pokemon/831.png",
+        "evolves_to": [
+            {
+                "species": "dubwool",
+                "id": 832,
+                "sprite": "/static/sprites/pokemon/832.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 24,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/832.gif"
+}

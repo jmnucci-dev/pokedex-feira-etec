@@ -1,0 +1,39 @@
+{
+    "id": 144,
+    "name": "articuno",
+    "category": "Freeze Pokémon",
+    "description": "A legendary bird POKéMON that is said to appear to doomed people who are lost in icy mountains.",
+    "generation": "generation-i",
+    "height": 17,
+    "weight": 554,
+    "base_experience": 261,
+    "types": [
+        "ice",
+        "flying"
+    ],
+    "abilities": [
+        {
+            "name": "pressure",
+            "is_hidden": false
+        },
+        {
+            "name": "snow-cloak",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 90,
+        "attack": 85,
+        "defense": 100,
+        "special-attack": 95,
+        "special-defense": 125,
+        "speed": 85
+    },
+    "evolution_chain": {
+        "species": "articuno",
+        "id": 144,
+        "sprite": "/static/sprites/pokemon/144.gif",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/144.gif"
+}

@@ -1,0 +1,67 @@
+{
+    "id": 12,
+    "name": "butterfree",
+    "category": "Butterfly Pokémon",
+    "description": "In battle, it flaps its wings at high speed to release highly toxic dust into the air.",
+    "generation": "generation-i",
+    "height": 11,
+    "weight": 320,
+    "base_experience": 178,
+    "types": [
+        "bug",
+        "flying"
+    ],
+    "abilities": [
+        {
+            "name": "compound-eyes",
+            "is_hidden": false
+        },
+        {
+            "name": "tinted-lens",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 60,
+        "attack": 45,
+        "defense": 50,
+        "special-attack": 90,
+        "special-defense": 80,
+        "speed": 70
+    },
+    "evolution_chain": {
+        "species": "caterpie",
+        "id": 10,
+        "sprite": "/static/sprites/pokemon/10.gif",
+        "evolves_to": [
+            {
+                "species": "metapod",
+                "id": 11,
+                "sprite": "/static/sprites/pokemon/11.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 7,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "butterfree",
+                        "id": 12,
+                        "sprite": "/static/sprites/pokemon/12.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 10,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/12.gif"
+}

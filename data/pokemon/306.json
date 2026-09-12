@@ -1,0 +1,71 @@
+{
+    "id": 306,
+    "name": "aggron",
+    "category": "Iron Armor Pokémon",
+    "description": "AGGRON claims an entire mountain as its own territory. It mercilessly beats up anything that violates its environment. This POKéMON vigilantly patrols its territory at all times.",
+    "generation": "generation-iii",
+    "height": 21,
+    "weight": 3600,
+    "base_experience": 239,
+    "types": [
+        "steel",
+        "rock"
+    ],
+    "abilities": [
+        {
+            "name": "sturdy",
+            "is_hidden": false
+        },
+        {
+            "name": "rock-head",
+            "is_hidden": false
+        },
+        {
+            "name": "heavy-metal",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 70,
+        "attack": 110,
+        "defense": 180,
+        "special-attack": 60,
+        "special-defense": 60,
+        "speed": 50
+    },
+    "evolution_chain": {
+        "species": "aron",
+        "id": 304,
+        "sprite": "/static/sprites/pokemon/304.gif",
+        "evolves_to": [
+            {
+                "species": "lairon",
+                "id": 305,
+                "sprite": "/static/sprites/pokemon/305.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 32,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "aggron",
+                        "id": 306,
+                        "sprite": "/static/sprites/pokemon/306.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 42,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/306.gif"
+}

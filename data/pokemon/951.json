@@ -1,0 +1,56 @@
+{
+    "id": 951,
+    "name": "capsakid",
+    "category": "Spicy Pepper Pokémon",
+    "description": "The more sunlight this Pokémon bathes in, the more spicy chemicals are produced by its body, and thus the spicier its moves become.",
+    "generation": "generation-ix",
+    "height": 3,
+    "weight": 30,
+    "base_experience": 61,
+    "types": [
+        "grass"
+    ],
+    "abilities": [
+        {
+            "name": "chlorophyll",
+            "is_hidden": false
+        },
+        {
+            "name": "insomnia",
+            "is_hidden": false
+        },
+        {
+            "name": "klutz",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 50,
+        "attack": 62,
+        "defense": 40,
+        "special-attack": 62,
+        "special-defense": 40,
+        "speed": 50
+    },
+    "evolution_chain": {
+        "species": "capsakid",
+        "id": 951,
+        "sprite": "/static/sprites/pokemon/951.png",
+        "evolves_to": [
+            {
+                "species": "scovillain",
+                "id": 952,
+                "sprite": "/static/sprites/pokemon/952.png",
+                "details": [
+                    {
+                        "trigger": "use-item",
+                        "min_level": null,
+                        "item": "fire-stone"
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/951.png"
+}

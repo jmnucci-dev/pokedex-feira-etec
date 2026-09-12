@@ -1,0 +1,80 @@
+{
+    "id": 199,
+    "name": "slowking",
+    "category": "Royal Pokémon",
+    "description": "It has incredible intellect and in­ tuition. Whatever the situation, it remains calm and collected.",
+    "generation": "generation-ii",
+    "height": 20,
+    "weight": 795,
+    "base_experience": 172,
+    "types": [
+        "water",
+        "psychic"
+    ],
+    "abilities": [
+        {
+            "name": "oblivious",
+            "is_hidden": false
+        },
+        {
+            "name": "own-tempo",
+            "is_hidden": false
+        },
+        {
+            "name": "regenerator",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 95,
+        "attack": 75,
+        "defense": 80,
+        "special-attack": 100,
+        "special-defense": 110,
+        "speed": 30
+    },
+    "evolution_chain": {
+        "species": "slowpoke",
+        "id": 79,
+        "sprite": "/static/sprites/pokemon/79.gif",
+        "evolves_to": [
+            {
+                "species": "slowbro",
+                "id": 80,
+                "sprite": "/static/sprites/pokemon/80.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 37,
+                        "item": null
+                    },
+                    {
+                        "trigger": "use-item",
+                        "min_level": null,
+                        "item": "galarica-cuff"
+                    }
+                ],
+                "next": []
+            },
+            {
+                "species": "slowking",
+                "id": 199,
+                "sprite": "/static/sprites/pokemon/199.gif",
+                "details": [
+                    {
+                        "trigger": "trade",
+                        "min_level": null,
+                        "item": null
+                    },
+                    {
+                        "trigger": "use-item",
+                        "min_level": null,
+                        "item": "galarica-wreath"
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/199.gif"
+}

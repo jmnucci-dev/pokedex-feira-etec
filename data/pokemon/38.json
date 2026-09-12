@@ -1,0 +1,57 @@
+{
+    "id": 38,
+    "name": "ninetales",
+    "category": "Fox Pokémon",
+    "description": "Very smart and very vengeful. Grabbing one of its many tails could result in a 1000-year curse.",
+    "generation": "generation-i",
+    "height": 11,
+    "weight": 199,
+    "base_experience": 177,
+    "types": [
+        "fire"
+    ],
+    "abilities": [
+        {
+            "name": "flash-fire",
+            "is_hidden": false
+        },
+        {
+            "name": "drought",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 73,
+        "attack": 76,
+        "defense": 75,
+        "special-attack": 81,
+        "special-defense": 100,
+        "speed": 100
+    },
+    "evolution_chain": {
+        "species": "vulpix",
+        "id": 37,
+        "sprite": "/static/sprites/pokemon/37.gif",
+        "evolves_to": [
+            {
+                "species": "ninetales",
+                "id": 38,
+                "sprite": "/static/sprites/pokemon/38.gif",
+                "details": [
+                    {
+                        "trigger": "use-item",
+                        "min_level": null,
+                        "item": "fire-stone"
+                    },
+                    {
+                        "trigger": "use-item",
+                        "min_level": null,
+                        "item": "ice-stone"
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/38.gif"
+}

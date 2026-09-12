@@ -1,0 +1,67 @@
+{
+    "id": 655,
+    "name": "delphox",
+    "category": "Fox Pokémon",
+    "description": "It gazes into the flame at the tip of its branch to achieve a focused state, which allows it to see into the future.",
+    "generation": "generation-vi",
+    "height": 15,
+    "weight": 390,
+    "base_experience": 240,
+    "types": [
+        "fire",
+        "psychic"
+    ],
+    "abilities": [
+        {
+            "name": "blaze",
+            "is_hidden": false
+        },
+        {
+            "name": "magician",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 75,
+        "attack": 69,
+        "defense": 72,
+        "special-attack": 114,
+        "special-defense": 100,
+        "speed": 104
+    },
+    "evolution_chain": {
+        "species": "fennekin",
+        "id": 653,
+        "sprite": "/static/sprites/pokemon/653.png",
+        "evolves_to": [
+            {
+                "species": "braixen",
+                "id": 654,
+                "sprite": "/static/sprites/pokemon/654.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 16,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "delphox",
+                        "id": 655,
+                        "sprite": "/static/sprites/pokemon/655.png",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 36,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/655.png"
+}

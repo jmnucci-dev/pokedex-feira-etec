@@ -1,0 +1,53 @@
+{
+    "id": 346,
+    "name": "cradily",
+    "category": "Barnacle Pokémon",
+    "description": "CRADILY roams around the ocean floor in search of food. This POKéMON freely extends its tree trunk-like neck and captures unwary prey using its eight tentacles.",
+    "generation": "generation-iii",
+    "height": 15,
+    "weight": 604,
+    "base_experience": 173,
+    "types": [
+        "rock",
+        "grass"
+    ],
+    "abilities": [
+        {
+            "name": "suction-cups",
+            "is_hidden": false
+        },
+        {
+            "name": "storm-drain",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 86,
+        "attack": 81,
+        "defense": 97,
+        "special-attack": 81,
+        "special-defense": 107,
+        "speed": 43
+    },
+    "evolution_chain": {
+        "species": "lileep",
+        "id": 345,
+        "sprite": "/static/sprites/pokemon/345.gif",
+        "evolves_to": [
+            {
+                "species": "cradily",
+                "id": 346,
+                "sprite": "/static/sprites/pokemon/346.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 40,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/346.gif"
+}

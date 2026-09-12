@@ -1,0 +1,35 @@
+{
+    "id": 1005,
+    "name": "roaring-moon",
+    "category": "Paradox Pokémon",
+    "description": "It is possible that this is the creature listed as Roaring Moon in an expedition journal that still holds many mysteries.",
+    "generation": "generation-ix",
+    "height": 20,
+    "weight": 3800,
+    "base_experience": 295,
+    "types": [
+        "dragon",
+        "dark"
+    ],
+    "abilities": [
+        {
+            "name": "protosynthesis",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 105,
+        "attack": 139,
+        "defense": 71,
+        "special-attack": 55,
+        "special-defense": 101,
+        "speed": 119
+    },
+    "evolution_chain": {
+        "species": "roaring-moon",
+        "id": 1005,
+        "sprite": "/static/sprites/pokemon/1005.png",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/1005.png"
+}

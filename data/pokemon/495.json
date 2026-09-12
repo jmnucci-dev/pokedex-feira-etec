@@ -1,0 +1,66 @@
+{
+    "id": 495,
+    "name": "snivy",
+    "category": "Grass Snake Pokémon",
+    "description": "It is very intelligent and calm. Being exposed to lots of sunlight makes its movements swifter.",
+    "generation": "generation-v",
+    "height": 6,
+    "weight": 81,
+    "base_experience": 62,
+    "types": [
+        "grass"
+    ],
+    "abilities": [
+        {
+            "name": "overgrow",
+            "is_hidden": false
+        },
+        {
+            "name": "contrary",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 45,
+        "attack": 45,
+        "defense": 55,
+        "special-attack": 45,
+        "special-defense": 55,
+        "speed": 63
+    },
+    "evolution_chain": {
+        "species": "snivy",
+        "id": 495,
+        "sprite": "/static/sprites/pokemon/495.gif",
+        "evolves_to": [
+            {
+                "species": "servine",
+                "id": 496,
+                "sprite": "/static/sprites/pokemon/496.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 17,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "serperior",
+                        "id": 497,
+                        "sprite": "/static/sprites/pokemon/497.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 36,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/495.gif"
+}

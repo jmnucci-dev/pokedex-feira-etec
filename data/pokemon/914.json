@@ -1,0 +1,67 @@
+{
+    "id": 914,
+    "name": "quaquaval",
+    "category": "Dancer Pokémon",
+    "description": "A single kick from a Quaquaval can send a truck rolling. This Pokémon uses its powerful legs to perform striking dances from far-off lands.",
+    "generation": "generation-ix",
+    "height": 18,
+    "weight": 619,
+    "base_experience": 265,
+    "types": [
+        "water",
+        "fighting"
+    ],
+    "abilities": [
+        {
+            "name": "torrent",
+            "is_hidden": false
+        },
+        {
+            "name": "moxie",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 85,
+        "attack": 120,
+        "defense": 80,
+        "special-attack": 85,
+        "special-defense": 75,
+        "speed": 85
+    },
+    "evolution_chain": {
+        "species": "quaxly",
+        "id": 912,
+        "sprite": "/static/sprites/pokemon/912.png",
+        "evolves_to": [
+            {
+                "species": "quaxwell",
+                "id": 913,
+                "sprite": "/static/sprites/pokemon/913.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 16,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "quaquaval",
+                        "id": 914,
+                        "sprite": "/static/sprites/pokemon/914.png",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 36,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/914.png"
+}

@@ -1,0 +1,71 @@
+{
+    "id": 39,
+    "name": "jigglypuff",
+    "category": "Balloon Pokémon",
+    "description": "When its huge eyes light up, it sings a mysteriously soothing melody that lulls its enemies to sleep.",
+    "generation": "generation-i",
+    "height": 5,
+    "weight": 55,
+    "base_experience": 95,
+    "types": [
+        "normal",
+        "fairy"
+    ],
+    "abilities": [
+        {
+            "name": "cute-charm",
+            "is_hidden": false
+        },
+        {
+            "name": "competitive",
+            "is_hidden": false
+        },
+        {
+            "name": "friend-guard",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 115,
+        "attack": 45,
+        "defense": 20,
+        "special-attack": 45,
+        "special-defense": 25,
+        "speed": 20
+    },
+    "evolution_chain": {
+        "species": "igglybuff",
+        "id": 174,
+        "sprite": "/static/sprites/pokemon/174.gif",
+        "evolves_to": [
+            {
+                "species": "jigglypuff",
+                "id": 39,
+                "sprite": "/static/sprites/pokemon/39.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "wigglytuff",
+                        "id": 40,
+                        "sprite": "/static/sprites/pokemon/40.gif",
+                        "details": [
+                            {
+                                "trigger": "use-item",
+                                "min_level": null,
+                                "item": "moon-stone"
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/39.gif"
+}

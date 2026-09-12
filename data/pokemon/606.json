@@ -1,0 +1,56 @@
+{
+    "id": 606,
+    "name": "beheeyem",
+    "category": "Cerebral Pokémon",
+    "description": "It can manipulate an opponent’s memory. Apparently, it communicates by flashing its three different-colored fingers.",
+    "generation": "generation-v",
+    "height": 10,
+    "weight": 345,
+    "base_experience": 170,
+    "types": [
+        "psychic"
+    ],
+    "abilities": [
+        {
+            "name": "telepathy",
+            "is_hidden": false
+        },
+        {
+            "name": "synchronize",
+            "is_hidden": false
+        },
+        {
+            "name": "analytic",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 75,
+        "attack": 75,
+        "defense": 75,
+        "special-attack": 125,
+        "special-defense": 95,
+        "speed": 40
+    },
+    "evolution_chain": {
+        "species": "elgyem",
+        "id": 605,
+        "sprite": "/static/sprites/pokemon/605.gif",
+        "evolves_to": [
+            {
+                "species": "beheeyem",
+                "id": 606,
+                "sprite": "/static/sprites/pokemon/606.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 42,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/606.gif"
+}

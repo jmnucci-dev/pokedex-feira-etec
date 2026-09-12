@@ -1,0 +1,61 @@
+{
+    "id": 563,
+    "name": "cofagrigus",
+    "category": "Coffin Pokémon",
+    "description": "It has been said that they swallow those who get too close and turn them into mummies. They like to eat gold nuggets.",
+    "generation": "generation-v",
+    "height": 17,
+    "weight": 765,
+    "base_experience": 169,
+    "types": [
+        "ghost"
+    ],
+    "abilities": [
+        {
+            "name": "mummy",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 58,
+        "attack": 50,
+        "defense": 145,
+        "special-attack": 95,
+        "special-defense": 105,
+        "speed": 30
+    },
+    "evolution_chain": {
+        "species": "yamask",
+        "id": 562,
+        "sprite": "/static/sprites/pokemon/562.gif",
+        "evolves_to": [
+            {
+                "species": "cofagrigus",
+                "id": 563,
+                "sprite": "/static/sprites/pokemon/563.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 34,
+                        "item": null
+                    }
+                ],
+                "next": []
+            },
+            {
+                "species": "runerigus",
+                "id": 867,
+                "sprite": "/static/sprites/pokemon/867.gif",
+                "details": [
+                    {
+                        "trigger": "take-damage",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/563.gif"
+}

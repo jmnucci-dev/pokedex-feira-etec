@@ -1,0 +1,42 @@
+{
+    "id": 556,
+    "name": "maractus",
+    "category": "Cactus Pokémon",
+    "description": "It uses an up-tempo song and dance to drive away the bird Pokémon that prey on its flower seeds.",
+    "generation": "generation-v",
+    "height": 10,
+    "weight": 280,
+    "base_experience": 161,
+    "types": [
+        "grass"
+    ],
+    "abilities": [
+        {
+            "name": "water-absorb",
+            "is_hidden": false
+        },
+        {
+            "name": "chlorophyll",
+            "is_hidden": false
+        },
+        {
+            "name": "storm-drain",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 75,
+        "attack": 86,
+        "defense": 67,
+        "special-attack": 106,
+        "special-defense": 67,
+        "speed": 60
+    },
+    "evolution_chain": {
+        "species": "maractus",
+        "id": 556,
+        "sprite": "/static/sprites/pokemon/556.gif",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/556.gif"
+}

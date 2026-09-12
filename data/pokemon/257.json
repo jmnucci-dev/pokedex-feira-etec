@@ -1,0 +1,67 @@
+{
+    "id": 257,
+    "name": "blaziken",
+    "category": "Blaze Pokémon",
+    "description": "In battle, BLAZIKEN blows out intense flames from its wrists and attacks foes courageously. The stronger the foe, the more intensely this POKéMON’s wrists burn.",
+    "generation": "generation-iii",
+    "height": 19,
+    "weight": 520,
+    "base_experience": 239,
+    "types": [
+        "fire",
+        "fighting"
+    ],
+    "abilities": [
+        {
+            "name": "blaze",
+            "is_hidden": false
+        },
+        {
+            "name": "speed-boost",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 80,
+        "attack": 120,
+        "defense": 70,
+        "special-attack": 110,
+        "special-defense": 70,
+        "speed": 80
+    },
+    "evolution_chain": {
+        "species": "torchic",
+        "id": 255,
+        "sprite": "/static/sprites/pokemon/255.gif",
+        "evolves_to": [
+            {
+                "species": "combusken",
+                "id": 256,
+                "sprite": "/static/sprites/pokemon/256.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 16,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "blaziken",
+                        "id": 257,
+                        "sprite": "/static/sprites/pokemon/257.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 36,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/257.gif"
+}

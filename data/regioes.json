@@ -1,0 +1,83 @@
+[
+  {
+    "nome": "Kanto",
+    "range": "001-151",
+    "descricao": "A região de Kanto é a primeira do Pokémon, com paisagens inspiradas no Japão real e cidades movimentadas.",
+    "bg": "images/regioes/kanto.jpg",
+    "logo": "images/regioes/kanto_simbolo.png",
+    "cor": "#ff304f",
+    "destaque": "images/regioes/kanto-destaque.jpg"
+  },
+  {
+    "nome": "Johto",
+    "range": "152-251",
+    "descricao": "Johto é uma região montanhosa rica em tradição, com templos ancestrais e florestas densas.",
+    "bg": "images/regioes/johto.jpg",
+    "logo": "images/regioes/johto_simbolo.png",
+    "cor": "#ffd700",
+    "destaque": "images/regioes/johto-destaque.jpg"
+  },
+  {
+    "nome": "Hoenn",
+    "range": "252-386",
+    "descricao": "Hoenn é uma região vulcânica com oceanos cristalinos, ilhas e clima tropical.",
+    "bg": "images/regioes/hoenn.jpg",
+    "logo": "images/regioes/hoenn_simbolo.png",
+    "cor": "#4fc3f7",
+    "destaque": "images/regioes/hoenn-destaque.jpg"
+  },
+  {
+    "nome": "Sinnoh",
+    "range": "387-493",
+    "descricao": "Sinnoh é uma região fria com montanhas nevadas, lagos congelados e áreas rurais.",
+    "bg": "images/regioes/sinnoh.jpg",
+    "logo": "images/regioes/sinnoh_simbolo.png",
+    "cor": "#87cefa",
+    "destaque": "images/regioes/sinnoh-destaque.jpg"
+  },
+  {
+    "nome": "Unova",
+    "range": "494-649",
+    "descricao": "Unova é uma região moderna com cidades grandes e paisagens urbanas variadas.",
+    "bg": "images/regioes/unova.jpg",
+    "logo": "images/regioes/unova_simbolo.png",
+    "cor": "#b2ff59",
+    "destaque": "images/regioes/unova-destaque.jpg"
+  },
+  {
+    "nome": "Kalos",
+    "range": "650-721",
+    "descricao": "Kalos é uma região de luxo com montanhas altas, lagos elegantes e arquitetura refinada.",
+    "bg": "images/regioes/kalos.jpg",
+    "logo": "images/regioes/kalos_simbolo.png",
+    "cor": "#2196f3",
+    "destaque": "images/regioes/kalos-destaque.jpg"
+  },
+  {
+    "nome": "Alola",
+    "range": "722-809",
+    "descricao": "Alola é uma região tropical com ilhas paradisíacas, vulcões ativos e cultura local.",
+    "bg": "images/regioes/alola.jpg",
+    "logo": "images/regioes/alola_simbolo.png",
+    "cor": "#ff9800",
+    "destaque": "images/regioes/alola-destaque.jpg"
+  },
+  {
+    "nome": "Galar",
+    "range": "810-905",
+    "descricao": "Galar é uma região com campos abertos, montanhas altas e clima variado entre zonas.",
+    "bg": "images/regioes/galar.jpg",
+    "logo": "images/regioes/galar_simbolo.png",
+    "cor": "#e53935",
+    "destaque": "images/regioes/galar-destaque.jpg"
+  },
+  {
+    "nome": "Paldea",
+    "range": "906-1025",
+    "descricao": "Paldea é uma região mediterrânea com campos de lavanda, vilarejos e oceanos calmos.",
+    "bg": "images/regioes/paldea.jpg",
+    "logo": "images/regioes/paldea_simbolo.png",
+    "cor": "#9c27b0",
+    "destaque": "images/regioes/paldea-destaque.jpg"
+  }
+]

@@ -1,0 +1,70 @@
+{
+    "id": 328,
+    "name": "trapinch",
+    "category": "Ant Pit Pokémon",
+    "description": "TRAPINCH’s nest is a sloped, bowl-like pit dug in sand. This POKéMON patiently waits for prey to tumble down the pit. Its giant jaws have enough strength to crush even boulders.",
+    "generation": "generation-iii",
+    "height": 7,
+    "weight": 150,
+    "base_experience": 58,
+    "types": [
+        "ground"
+    ],
+    "abilities": [
+        {
+            "name": "hyper-cutter",
+            "is_hidden": false
+        },
+        {
+            "name": "arena-trap",
+            "is_hidden": false
+        },
+        {
+            "name": "sheer-force",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 45,
+        "attack": 100,
+        "defense": 45,
+        "special-attack": 45,
+        "special-defense": 45,
+        "speed": 10
+    },
+    "evolution_chain": {
+        "species": "trapinch",
+        "id": 328,
+        "sprite": "/static/sprites/pokemon/328.gif",
+        "evolves_to": [
+            {
+                "species": "vibrava",
+                "id": 329,
+                "sprite": "/static/sprites/pokemon/329.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 35,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "flygon",
+                        "id": 330,
+                        "sprite": "/static/sprites/pokemon/330.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 45,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/328.gif"
+}

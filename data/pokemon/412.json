@@ -1,0 +1,65 @@
+{
+    "id": 412,
+    "name": "burmy",
+    "category": "Bagworm Pokémon",
+    "description": "To shelter itself from cold, wintry winds, it covers itself with a cloak made of twigs and leaves.",
+    "generation": "generation-iv",
+    "height": 2,
+    "weight": 34,
+    "base_experience": 45,
+    "types": [
+        "bug"
+    ],
+    "abilities": [
+        {
+            "name": "shed-skin",
+            "is_hidden": false
+        },
+        {
+            "name": "overcoat",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 40,
+        "attack": 29,
+        "defense": 45,
+        "special-attack": 29,
+        "special-defense": 45,
+        "speed": 36
+    },
+    "evolution_chain": {
+        "species": "burmy",
+        "id": 412,
+        "sprite": "/static/sprites/pokemon/412.gif",
+        "evolves_to": [
+            {
+                "species": "wormadam",
+                "id": 413,
+                "sprite": "/static/sprites/pokemon/413.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 20,
+                        "item": null
+                    }
+                ],
+                "next": []
+            },
+            {
+                "species": "mothim",
+                "id": 414,
+                "sprite": "/static/sprites/pokemon/414.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 20,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/412.gif"
+}

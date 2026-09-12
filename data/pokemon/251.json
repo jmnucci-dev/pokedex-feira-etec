@@ -1,0 +1,35 @@
+{
+    "id": 251,
+    "name": "celebi",
+    "category": "Time Travel Pokémon",
+    "description": "This POKéMON wan­ ders across time. Grass and trees flourish in the forests in which it has appeared.",
+    "generation": "generation-ii",
+    "height": 6,
+    "weight": 50,
+    "base_experience": 270,
+    "types": [
+        "psychic",
+        "grass"
+    ],
+    "abilities": [
+        {
+            "name": "natural-cure",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 100,
+        "attack": 100,
+        "defense": 100,
+        "special-attack": 100,
+        "special-defense": 100,
+        "speed": 100
+    },
+    "evolution_chain": {
+        "species": "celebi",
+        "id": 251,
+        "sprite": "/static/sprites/pokemon/251.gif",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/251.gif"
+}

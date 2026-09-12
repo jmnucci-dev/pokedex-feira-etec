@@ -1,0 +1,66 @@
+{
+    "id": 744,
+    "name": "rockruff",
+    "category": "Puppy Pokémon",
+    "description": "It’s considered to be a good Pokémon for beginners because of its friendliness, but its disposition grows rougher as it grows up.",
+    "generation": "generation-vii",
+    "height": 5,
+    "weight": 92,
+    "base_experience": 56,
+    "types": [
+        "rock"
+    ],
+    "abilities": [
+        {
+            "name": "keen-eye",
+            "is_hidden": false
+        },
+        {
+            "name": "vital-spirit",
+            "is_hidden": false
+        },
+        {
+            "name": "steadfast",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 45,
+        "attack": 65,
+        "defense": 40,
+        "special-attack": 30,
+        "special-defense": 40,
+        "speed": 60
+    },
+    "evolution_chain": {
+        "species": "rockruff",
+        "id": 744,
+        "sprite": "/static/sprites/pokemon/744.gif",
+        "evolves_to": [
+            {
+                "species": "lycanroc",
+                "id": 745,
+                "sprite": "/static/sprites/pokemon/745.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 25,
+                        "item": null
+                    },
+                    {
+                        "trigger": "level-up",
+                        "min_level": 25,
+                        "item": null
+                    },
+                    {
+                        "trigger": "level-up",
+                        "min_level": 25,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/744.gif"
+}

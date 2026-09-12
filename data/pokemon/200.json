@@ -1,0 +1,48 @@
+{
+    "id": 200,
+    "name": "misdreavus",
+    "category": "Screech Pokémon",
+    "description": "It likes playing mischievous tricks such as screaming and wailing to startle people at night.",
+    "generation": "generation-ii",
+    "height": 7,
+    "weight": 10,
+    "base_experience": 87,
+    "types": [
+        "ghost"
+    ],
+    "abilities": [
+        {
+            "name": "levitate",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 60,
+        "attack": 60,
+        "defense": 60,
+        "special-attack": 85,
+        "special-defense": 85,
+        "speed": 85
+    },
+    "evolution_chain": {
+        "species": "misdreavus",
+        "id": 200,
+        "sprite": "/static/sprites/pokemon/200.gif",
+        "evolves_to": [
+            {
+                "species": "mismagius",
+                "id": 429,
+                "sprite": "/static/sprites/pokemon/429.gif",
+                "details": [
+                    {
+                        "trigger": "use-item",
+                        "min_level": null,
+                        "item": "dusk-stone"
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/200.gif"
+}

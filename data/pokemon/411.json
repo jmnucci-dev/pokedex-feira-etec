@@ -1,0 +1,53 @@
+{
+    "id": 411,
+    "name": "bastiodon",
+    "category": "Shield Pokémon",
+    "description": "Any frontal attack is repulsed. It is a docile Pokémon that feeds on grass and berries.",
+    "generation": "generation-iv",
+    "height": 13,
+    "weight": 1495,
+    "base_experience": 173,
+    "types": [
+        "rock",
+        "steel"
+    ],
+    "abilities": [
+        {
+            "name": "sturdy",
+            "is_hidden": false
+        },
+        {
+            "name": "soundproof",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 60,
+        "attack": 52,
+        "defense": 168,
+        "special-attack": 47,
+        "special-defense": 138,
+        "speed": 30
+    },
+    "evolution_chain": {
+        "species": "shieldon",
+        "id": 410,
+        "sprite": "/static/sprites/pokemon/410.gif",
+        "evolves_to": [
+            {
+                "species": "bastiodon",
+                "id": 411,
+                "sprite": "/static/sprites/pokemon/411.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 30,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/411.gif"
+}

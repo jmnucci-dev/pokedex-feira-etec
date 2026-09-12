@@ -1,0 +1,56 @@
+{
+    "id": 677,
+    "name": "espurr",
+    "category": "Restraint Pokémon",
+    "description": "The organ that emits its intense psychic power is sheltered by its ears to keep power from leaking out.",
+    "generation": "generation-vi",
+    "height": 3,
+    "weight": 35,
+    "base_experience": 71,
+    "types": [
+        "psychic"
+    ],
+    "abilities": [
+        {
+            "name": "keen-eye",
+            "is_hidden": false
+        },
+        {
+            "name": "infiltrator",
+            "is_hidden": false
+        },
+        {
+            "name": "own-tempo",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 62,
+        "attack": 48,
+        "defense": 54,
+        "special-attack": 63,
+        "special-defense": 60,
+        "speed": 68
+    },
+    "evolution_chain": {
+        "species": "espurr",
+        "id": 677,
+        "sprite": "/static/sprites/pokemon/677.png",
+        "evolves_to": [
+            {
+                "species": "meowstic",
+                "id": 678,
+                "sprite": "/static/sprites/pokemon/678.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 25,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/677.png"
+}

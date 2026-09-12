@@ -1,0 +1,71 @@
+{
+    "id": 18,
+    "name": "pidgeot",
+    "category": "Bird Pokémon",
+    "description": "When hunting, it skims the surface of water at high speed to pick off unwary prey such as MAGIKARP.",
+    "generation": "generation-i",
+    "height": 15,
+    "weight": 395,
+    "base_experience": 216,
+    "types": [
+        "normal",
+        "flying"
+    ],
+    "abilities": [
+        {
+            "name": "keen-eye",
+            "is_hidden": false
+        },
+        {
+            "name": "tangled-feet",
+            "is_hidden": false
+        },
+        {
+            "name": "big-pecks",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 83,
+        "attack": 80,
+        "defense": 75,
+        "special-attack": 70,
+        "special-defense": 70,
+        "speed": 101
+    },
+    "evolution_chain": {
+        "species": "pidgey",
+        "id": 16,
+        "sprite": "/static/sprites/pokemon/16.gif",
+        "evolves_to": [
+            {
+                "species": "pidgeotto",
+                "id": 17,
+                "sprite": "/static/sprites/pokemon/17.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 18,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "pidgeot",
+                        "id": 18,
+                        "sprite": "/static/sprites/pokemon/18.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 36,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/18.gif"
+}

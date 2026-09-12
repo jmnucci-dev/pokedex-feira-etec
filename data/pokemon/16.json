@@ -1,0 +1,71 @@
+{
+    "id": 16,
+    "name": "pidgey",
+    "category": "Tiny Bird Pokémon",
+    "description": "A common sight in forests and woods. It flaps its wings at ground level to kick up blinding sand.",
+    "generation": "generation-i",
+    "height": 3,
+    "weight": 18,
+    "base_experience": 50,
+    "types": [
+        "normal",
+        "flying"
+    ],
+    "abilities": [
+        {
+            "name": "keen-eye",
+            "is_hidden": false
+        },
+        {
+            "name": "tangled-feet",
+            "is_hidden": false
+        },
+        {
+            "name": "big-pecks",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 40,
+        "attack": 45,
+        "defense": 40,
+        "special-attack": 35,
+        "special-defense": 35,
+        "speed": 56
+    },
+    "evolution_chain": {
+        "species": "pidgey",
+        "id": 16,
+        "sprite": "/static/sprites/pokemon/16.gif",
+        "evolves_to": [
+            {
+                "species": "pidgeotto",
+                "id": 17,
+                "sprite": "/static/sprites/pokemon/17.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 18,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "pidgeot",
+                        "id": 18,
+                        "sprite": "/static/sprites/pokemon/18.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 36,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/16.gif"
+}

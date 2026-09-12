@@ -1,0 +1,70 @@
+{
+    "id": 404,
+    "name": "luxio",
+    "category": "Spark Pokémon",
+    "description": "Its claws loose electricity with enough amperage to cause fainting. They live in small groups.",
+    "generation": "generation-iv",
+    "height": 9,
+    "weight": 305,
+    "base_experience": 127,
+    "types": [
+        "electric"
+    ],
+    "abilities": [
+        {
+            "name": "rivalry",
+            "is_hidden": false
+        },
+        {
+            "name": "intimidate",
+            "is_hidden": false
+        },
+        {
+            "name": "guts",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 60,
+        "attack": 85,
+        "defense": 49,
+        "special-attack": 60,
+        "special-defense": 49,
+        "speed": 60
+    },
+    "evolution_chain": {
+        "species": "shinx",
+        "id": 403,
+        "sprite": "/static/sprites/pokemon/403.gif",
+        "evolves_to": [
+            {
+                "species": "luxio",
+                "id": 404,
+                "sprite": "/static/sprites/pokemon/404.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 15,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "luxray",
+                        "id": 405,
+                        "sprite": "/static/sprites/pokemon/405.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 30,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/404.gif"
+}

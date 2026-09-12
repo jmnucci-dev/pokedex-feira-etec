@@ -1,0 +1,52 @@
+{
+    "id": 820,
+    "name": "greedent",
+    "category": "Greedy Pokémon",
+    "description": "It stashes berries in its tail—so many berries that they fall out constantly. But this Pokémon is a bit slow-witted, so it doesn’t notice the loss.",
+    "generation": "generation-viii",
+    "height": 6,
+    "weight": 60,
+    "base_experience": 161,
+    "types": [
+        "normal"
+    ],
+    "abilities": [
+        {
+            "name": "cheek-pouch",
+            "is_hidden": false
+        },
+        {
+            "name": "gluttony",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 120,
+        "attack": 95,
+        "defense": 95,
+        "special-attack": 55,
+        "special-defense": 75,
+        "speed": 20
+    },
+    "evolution_chain": {
+        "species": "skwovet",
+        "id": 819,
+        "sprite": "/static/sprites/pokemon/819.png",
+        "evolves_to": [
+            {
+                "species": "greedent",
+                "id": 820,
+                "sprite": "/static/sprites/pokemon/820.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 24,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/820.png"
+}

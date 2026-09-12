@@ -1,0 +1,71 @@
+{
+    "id": 544,
+    "name": "whirlipede",
+    "category": "Curlipede Pokémon",
+    "description": "Protected by a hard shell, it spins its body like a wheel and crashes furiously into its enemies.",
+    "generation": "generation-v",
+    "height": 12,
+    "weight": 585,
+    "base_experience": 126,
+    "types": [
+        "bug",
+        "poison"
+    ],
+    "abilities": [
+        {
+            "name": "poison-point",
+            "is_hidden": false
+        },
+        {
+            "name": "swarm",
+            "is_hidden": false
+        },
+        {
+            "name": "speed-boost",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 40,
+        "attack": 55,
+        "defense": 99,
+        "special-attack": 40,
+        "special-defense": 79,
+        "speed": 47
+    },
+    "evolution_chain": {
+        "species": "venipede",
+        "id": 543,
+        "sprite": "/static/sprites/pokemon/543.gif",
+        "evolves_to": [
+            {
+                "species": "whirlipede",
+                "id": 544,
+                "sprite": "/static/sprites/pokemon/544.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 22,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "scolipede",
+                        "id": 545,
+                        "sprite": "/static/sprites/pokemon/545.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 30,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/544.gif"
+}

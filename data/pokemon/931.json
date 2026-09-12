@@ -1,0 +1,43 @@
+{
+    "id": 931,
+    "name": "squawkabilly-green-plumage",
+    "category": "Parrot Pokémon",
+    "description": "These Pokémon prefer to live in cities. They form flocks based on the color of their feathers, and they fight over territory.",
+    "generation": "generation-ix",
+    "height": 6,
+    "weight": 24,
+    "base_experience": 146,
+    "types": [
+        "normal",
+        "flying"
+    ],
+    "abilities": [
+        {
+            "name": "intimidate",
+            "is_hidden": false
+        },
+        {
+            "name": "hustle",
+            "is_hidden": false
+        },
+        {
+            "name": "guts",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 82,
+        "attack": 96,
+        "defense": 51,
+        "special-attack": 45,
+        "special-defense": 51,
+        "speed": 92
+    },
+    "evolution_chain": {
+        "species": "squawkabilly",
+        "id": 931,
+        "sprite": "/static/sprites/pokemon/931.png",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/931.png"
+}

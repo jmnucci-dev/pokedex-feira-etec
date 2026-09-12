@@ -1,0 +1,66 @@
+{
+    "id": 7,
+    "name": "squirtle",
+    "category": "Tiny Turtle Pokémon",
+    "description": "After birth, its back swells and hardens into a shell. Powerfully sprays foam from its mouth.",
+    "generation": "generation-i",
+    "height": 5,
+    "weight": 90,
+    "base_experience": 63,
+    "types": [
+        "water"
+    ],
+    "abilities": [
+        {
+            "name": "torrent",
+            "is_hidden": false
+        },
+        {
+            "name": "rain-dish",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 44,
+        "attack": 48,
+        "defense": 65,
+        "special-attack": 50,
+        "special-defense": 64,
+        "speed": 43
+    },
+    "evolution_chain": {
+        "species": "squirtle",
+        "id": 7,
+        "sprite": "/static/sprites/pokemon/7.gif",
+        "evolves_to": [
+            {
+                "species": "wartortle",
+                "id": 8,
+                "sprite": "/static/sprites/pokemon/8.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 16,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "blastoise",
+                        "id": 9,
+                        "sprite": "/static/sprites/pokemon/9.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 36,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/7.gif"
+}

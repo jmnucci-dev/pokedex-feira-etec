@@ -1,0 +1,38 @@
+{
+    "id": 312,
+    "name": "minun",
+    "category": "Cheering Pokémon",
+    "description": "MINUN is more concerned about cheering on its partners than its own safety. It shorts out the electricity in its body to create brilliant showers of sparks to cheer on its teammates.",
+    "generation": "generation-iii",
+    "height": 4,
+    "weight": 42,
+    "base_experience": 142,
+    "types": [
+        "electric"
+    ],
+    "abilities": [
+        {
+            "name": "minus",
+            "is_hidden": false
+        },
+        {
+            "name": "volt-absorb",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 60,
+        "attack": 40,
+        "defense": 50,
+        "special-attack": 75,
+        "special-defense": 85,
+        "speed": 95
+    },
+    "evolution_chain": {
+        "species": "minun",
+        "id": 312,
+        "sprite": "/static/sprites/pokemon/312.gif",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/312.gif"
+}

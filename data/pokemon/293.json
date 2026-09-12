@@ -1,0 +1,66 @@
+{
+    "id": 293,
+    "name": "whismur",
+    "category": "Whisper Pokémon",
+    "description": "Normally, WHISMUR’s voice is very quiet - it is barely audible even if one is paying close attention. However, if this POKéMON senses danger, it starts crying at an earsplitting volume.",
+    "generation": "generation-iii",
+    "height": 6,
+    "weight": 163,
+    "base_experience": 48,
+    "types": [
+        "normal"
+    ],
+    "abilities": [
+        {
+            "name": "soundproof",
+            "is_hidden": false
+        },
+        {
+            "name": "rattled",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 64,
+        "attack": 51,
+        "defense": 23,
+        "special-attack": 51,
+        "special-defense": 23,
+        "speed": 28
+    },
+    "evolution_chain": {
+        "species": "whismur",
+        "id": 293,
+        "sprite": "/static/sprites/pokemon/293.gif",
+        "evolves_to": [
+            {
+                "species": "loudred",
+                "id": 294,
+                "sprite": "/static/sprites/pokemon/294.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 20,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "exploud",
+                        "id": 295,
+                        "sprite": "/static/sprites/pokemon/295.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 40,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/293.gif"
+}

@@ -1,0 +1,56 @@
+{
+    "id": 118,
+    "name": "goldeen",
+    "category": "Goldfish Pokémon",
+    "description": "Its tail fin billows like an elegant ballroom dress, giving it the nickname of the Water Queen.",
+    "generation": "generation-i",
+    "height": 6,
+    "weight": 150,
+    "base_experience": 64,
+    "types": [
+        "water"
+    ],
+    "abilities": [
+        {
+            "name": "swift-swim",
+            "is_hidden": false
+        },
+        {
+            "name": "water-veil",
+            "is_hidden": false
+        },
+        {
+            "name": "lightning-rod",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 45,
+        "attack": 67,
+        "defense": 60,
+        "special-attack": 35,
+        "special-defense": 50,
+        "speed": 63
+    },
+    "evolution_chain": {
+        "species": "goldeen",
+        "id": 118,
+        "sprite": "/static/sprites/pokemon/118.gif",
+        "evolves_to": [
+            {
+                "species": "seaking",
+                "id": 119,
+                "sprite": "/static/sprites/pokemon/119.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 33,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/118.gif"
+}

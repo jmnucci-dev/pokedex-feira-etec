@@ -1,0 +1,52 @@
+{
+    "id": 846,
+    "name": "arrokuda",
+    "category": "Rush Pokémon",
+    "description": "If it sees any movement around it, this Pokémon charges for it straightaway, leading with its sharply pointed jaw. It’s very proud of that jaw.",
+    "generation": "generation-viii",
+    "height": 5,
+    "weight": 10,
+    "base_experience": 56,
+    "types": [
+        "water"
+    ],
+    "abilities": [
+        {
+            "name": "swift-swim",
+            "is_hidden": false
+        },
+        {
+            "name": "propeller-tail",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 41,
+        "attack": 63,
+        "defense": 40,
+        "special-attack": 40,
+        "special-defense": 30,
+        "speed": 66
+    },
+    "evolution_chain": {
+        "species": "arrokuda",
+        "id": 846,
+        "sprite": "/static/sprites/pokemon/846.gif",
+        "evolves_to": [
+            {
+                "species": "barraskewda",
+                "id": 847,
+                "sprite": "/static/sprites/pokemon/847.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 26,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/846.gif"
+}

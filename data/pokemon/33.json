@@ -1,0 +1,70 @@
+{
+    "id": 33,
+    "name": "nidorino",
+    "category": "Poison Pin Pokémon",
+    "description": "An aggressive POKéMON that is quick to attack. The horn on its head secretes a powerful venom.",
+    "generation": "generation-i",
+    "height": 9,
+    "weight": 195,
+    "base_experience": 128,
+    "types": [
+        "poison"
+    ],
+    "abilities": [
+        {
+            "name": "poison-point",
+            "is_hidden": false
+        },
+        {
+            "name": "rivalry",
+            "is_hidden": false
+        },
+        {
+            "name": "hustle",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 61,
+        "attack": 72,
+        "defense": 57,
+        "special-attack": 55,
+        "special-defense": 55,
+        "speed": 65
+    },
+    "evolution_chain": {
+        "species": "nidoran-m",
+        "id": 32,
+        "sprite": "/static/sprites/pokemon/32.gif",
+        "evolves_to": [
+            {
+                "species": "nidorino",
+                "id": 33,
+                "sprite": "/static/sprites/pokemon/33.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 16,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "nidoking",
+                        "id": 34,
+                        "sprite": "/static/sprites/pokemon/34.gif",
+                        "details": [
+                            {
+                                "trigger": "use-item",
+                                "min_level": null,
+                                "item": "moon-stone"
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/33.gif"
+}

@@ -1,0 +1,57 @@
+{
+    "id": 695,
+    "name": "heliolisk",
+    "category": "Generator Pokémon",
+    "description": "They flare their frills and generate energy. A single Heliolisk can generate sufficient electricity to power a skyscraper.",
+    "generation": "generation-vi",
+    "height": 10,
+    "weight": 210,
+    "base_experience": 168,
+    "types": [
+        "electric",
+        "normal"
+    ],
+    "abilities": [
+        {
+            "name": "dry-skin",
+            "is_hidden": false
+        },
+        {
+            "name": "sand-veil",
+            "is_hidden": false
+        },
+        {
+            "name": "solar-power",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 62,
+        "attack": 55,
+        "defense": 52,
+        "special-attack": 109,
+        "special-defense": 94,
+        "speed": 109
+    },
+    "evolution_chain": {
+        "species": "helioptile",
+        "id": 694,
+        "sprite": "/static/sprites/pokemon/694.png",
+        "evolves_to": [
+            {
+                "species": "heliolisk",
+                "id": 695,
+                "sprite": "/static/sprites/pokemon/695.png",
+                "details": [
+                    {
+                        "trigger": "use-item",
+                        "min_level": null,
+                        "item": "sun-stone"
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/695.png"
+}

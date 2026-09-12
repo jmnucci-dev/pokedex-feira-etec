@@ -1,0 +1,71 @@
+{
+    "id": 783,
+    "name": "hakamo-o",
+    "category": "Scaly Pokémon",
+    "description": "It leaps at its prey with a courageous shout. Its scaly punches tear its opponents to shreds.",
+    "generation": "generation-vii",
+    "height": 12,
+    "weight": 470,
+    "base_experience": 147,
+    "types": [
+        "dragon",
+        "fighting"
+    ],
+    "abilities": [
+        {
+            "name": "bulletproof",
+            "is_hidden": false
+        },
+        {
+            "name": "soundproof",
+            "is_hidden": false
+        },
+        {
+            "name": "overcoat",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 55,
+        "attack": 75,
+        "defense": 90,
+        "special-attack": 65,
+        "special-defense": 70,
+        "speed": 65
+    },
+    "evolution_chain": {
+        "species": "jangmo-o",
+        "id": 782,
+        "sprite": "/static/sprites/pokemon/782.gif",
+        "evolves_to": [
+            {
+                "species": "hakamo-o",
+                "id": 783,
+                "sprite": "/static/sprites/pokemon/783.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 35,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "kommo-o",
+                        "id": 784,
+                        "sprite": "/static/sprites/pokemon/784.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 45,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/783.gif"
+}

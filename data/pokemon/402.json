@@ -1,0 +1,52 @@
+{
+    "id": 402,
+    "name": "kricketune",
+    "category": "Cricket Pokémon",
+    "description": "It crosses its knifelike arms in front of its chest when it cries. It can compose melodies ad lib.",
+    "generation": "generation-iv",
+    "height": 10,
+    "weight": 255,
+    "base_experience": 134,
+    "types": [
+        "bug"
+    ],
+    "abilities": [
+        {
+            "name": "swarm",
+            "is_hidden": false
+        },
+        {
+            "name": "technician",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 77,
+        "attack": 85,
+        "defense": 51,
+        "special-attack": 55,
+        "special-defense": 51,
+        "speed": 65
+    },
+    "evolution_chain": {
+        "species": "kricketot",
+        "id": 401,
+        "sprite": "/static/sprites/pokemon/401.gif",
+        "evolves_to": [
+            {
+                "species": "kricketune",
+                "id": 402,
+                "sprite": "/static/sprites/pokemon/402.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 10,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/402.gif"
+}

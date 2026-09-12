@@ -1,0 +1,53 @@
+{
+    "id": 308,
+    "name": "medicham",
+    "category": "Meditate Pokémon",
+    "description": "It is said that through meditation, MEDICHAM heightens energy inside its body and sharpens its sixth sense. This POKéMON hides its presence by merging itself with fields and mountains.",
+    "generation": "generation-iii",
+    "height": 13,
+    "weight": 315,
+    "base_experience": 144,
+    "types": [
+        "fighting",
+        "psychic"
+    ],
+    "abilities": [
+        {
+            "name": "pure-power",
+            "is_hidden": false
+        },
+        {
+            "name": "telepathy",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 60,
+        "attack": 60,
+        "defense": 75,
+        "special-attack": 60,
+        "special-defense": 75,
+        "speed": 80
+    },
+    "evolution_chain": {
+        "species": "meditite",
+        "id": 307,
+        "sprite": "/static/sprites/pokemon/307.gif",
+        "evolves_to": [
+            {
+                "species": "medicham",
+                "id": 308,
+                "sprite": "/static/sprites/pokemon/308.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 37,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/308.gif"
+}

@@ -1,0 +1,53 @@
+{
+    "id": 334,
+    "name": "altaria",
+    "category": "Humming Pokémon",
+    "description": "ALTARIA dances and wheels through the sky among billowing, cotton-like clouds. By singing melodies in its crystal-clear voice, this POKéMON makes its listeners experience dreamy wonderment.",
+    "generation": "generation-iii",
+    "height": 11,
+    "weight": 206,
+    "base_experience": 172,
+    "types": [
+        "dragon",
+        "flying"
+    ],
+    "abilities": [
+        {
+            "name": "natural-cure",
+            "is_hidden": false
+        },
+        {
+            "name": "cloud-nine",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 75,
+        "attack": 70,
+        "defense": 90,
+        "special-attack": 70,
+        "special-defense": 105,
+        "speed": 80
+    },
+    "evolution_chain": {
+        "species": "swablu",
+        "id": 333,
+        "sprite": "/static/sprites/pokemon/333.gif",
+        "evolves_to": [
+            {
+                "species": "altaria",
+                "id": 334,
+                "sprite": "/static/sprites/pokemon/334.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 35,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/334.gif"
+}

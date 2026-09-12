@@ -1,0 +1,53 @@
+{
+    "id": 459,
+    "name": "snover",
+    "category": "Frost Tree Pokémon",
+    "description": "It lives on snowy mountains. Having had little contact with humans, it is boldly inquisitive.",
+    "generation": "generation-iv",
+    "height": 10,
+    "weight": 505,
+    "base_experience": 67,
+    "types": [
+        "grass",
+        "ice"
+    ],
+    "abilities": [
+        {
+            "name": "snow-warning",
+            "is_hidden": false
+        },
+        {
+            "name": "soundproof",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 60,
+        "attack": 62,
+        "defense": 50,
+        "special-attack": 62,
+        "special-defense": 60,
+        "speed": 40
+    },
+    "evolution_chain": {
+        "species": "snover",
+        "id": 459,
+        "sprite": "/static/sprites/pokemon/459.gif",
+        "evolves_to": [
+            {
+                "species": "abomasnow",
+                "id": 460,
+                "sprite": "/static/sprites/pokemon/460.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 40,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/459.gif"
+}

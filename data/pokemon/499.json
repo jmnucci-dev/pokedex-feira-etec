@@ -1,0 +1,67 @@
+{
+    "id": 499,
+    "name": "pignite",
+    "category": "Fire Pig Pokémon",
+    "description": "When its internal fire flares up, its movements grow sharper and faster. When in trouble, it emits smoke.",
+    "generation": "generation-v",
+    "height": 10,
+    "weight": 555,
+    "base_experience": 146,
+    "types": [
+        "fire",
+        "fighting"
+    ],
+    "abilities": [
+        {
+            "name": "blaze",
+            "is_hidden": false
+        },
+        {
+            "name": "thick-fat",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 90,
+        "attack": 93,
+        "defense": 55,
+        "special-attack": 70,
+        "special-defense": 55,
+        "speed": 55
+    },
+    "evolution_chain": {
+        "species": "tepig",
+        "id": 498,
+        "sprite": "/static/sprites/pokemon/498.gif",
+        "evolves_to": [
+            {
+                "species": "pignite",
+                "id": 499,
+                "sprite": "/static/sprites/pokemon/499.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 17,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "emboar",
+                        "id": 500,
+                        "sprite": "/static/sprites/pokemon/500.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 36,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/499.gif"
+}

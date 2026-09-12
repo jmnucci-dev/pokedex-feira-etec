@@ -1,0 +1,42 @@
+{
+    "id": 977,
+    "name": "dondozo",
+    "category": "Big Catfish Pokémon",
+    "description": "This Pokémon is a glutton, but it’s bad at getting food. It teams up with a Tatsugiri to catch prey.",
+    "generation": "generation-ix",
+    "height": 120,
+    "weight": 2200,
+    "base_experience": 265,
+    "types": [
+        "water"
+    ],
+    "abilities": [
+        {
+            "name": "unaware",
+            "is_hidden": false
+        },
+        {
+            "name": "oblivious",
+            "is_hidden": false
+        },
+        {
+            "name": "water-veil",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 150,
+        "attack": 100,
+        "defense": 115,
+        "special-attack": 65,
+        "special-defense": 65,
+        "speed": 35
+    },
+    "evolution_chain": {
+        "species": "dondozo",
+        "id": 977,
+        "sprite": "/static/sprites/pokemon/977.png",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/977.png"
+}

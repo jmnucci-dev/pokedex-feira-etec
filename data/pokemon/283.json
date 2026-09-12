@@ -1,0 +1,53 @@
+{
+    "id": 283,
+    "name": "surskit",
+    "category": "Pond Skater Pokémon",
+    "description": "From the tips of its feet, SURSKIT secretes an oil that enables it to walk on water as if it were skating. This POKéMON feeds on microscopic organisms in ponds and lakes.",
+    "generation": "generation-iii",
+    "height": 5,
+    "weight": 17,
+    "base_experience": 54,
+    "types": [
+        "bug",
+        "water"
+    ],
+    "abilities": [
+        {
+            "name": "swift-swim",
+            "is_hidden": false
+        },
+        {
+            "name": "rain-dish",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 40,
+        "attack": 30,
+        "defense": 32,
+        "special-attack": 50,
+        "special-defense": 52,
+        "speed": 65
+    },
+    "evolution_chain": {
+        "species": "surskit",
+        "id": 283,
+        "sprite": "/static/sprites/pokemon/283.gif",
+        "evolves_to": [
+            {
+                "species": "masquerain",
+                "id": 284,
+                "sprite": "/static/sprites/pokemon/284.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 22,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/283.gif"
+}

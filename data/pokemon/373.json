@@ -1,0 +1,67 @@
+{
+    "id": 373,
+    "name": "salamence",
+    "category": "Dragon Pokémon",
+    "description": "SALAMENCE came about as a result of a strong, long-held dream of growing wings. It is said that this powerful desire triggered a sudden mutation in this POKéMON’s cells, causing it to sprout its magnificent wings.",
+    "generation": "generation-iii",
+    "height": 15,
+    "weight": 1026,
+    "base_experience": 270,
+    "types": [
+        "dragon",
+        "flying"
+    ],
+    "abilities": [
+        {
+            "name": "intimidate",
+            "is_hidden": false
+        },
+        {
+            "name": "moxie",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 95,
+        "attack": 135,
+        "defense": 80,
+        "special-attack": 110,
+        "special-defense": 80,
+        "speed": 100
+    },
+    "evolution_chain": {
+        "species": "bagon",
+        "id": 371,
+        "sprite": "/static/sprites/pokemon/371.gif",
+        "evolves_to": [
+            {
+                "species": "shelgon",
+                "id": 372,
+                "sprite": "/static/sprites/pokemon/372.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 30,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "salamence",
+                        "id": 373,
+                        "sprite": "/static/sprites/pokemon/373.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 50,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/373.gif"
+}

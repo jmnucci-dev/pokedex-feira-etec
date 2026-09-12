@@ -1,0 +1,71 @@
+{
+    "id": 861,
+    "name": "grimmsnarl",
+    "category": "Bulk Up Pokémon",
+    "description": "With the hair wrapped around its body helping to enhance its muscles, this Pokémon can overwhelm even Machamp.",
+    "generation": "generation-viii",
+    "height": 15,
+    "weight": 610,
+    "base_experience": 255,
+    "types": [
+        "dark",
+        "fairy"
+    ],
+    "abilities": [
+        {
+            "name": "prankster",
+            "is_hidden": false
+        },
+        {
+            "name": "frisk",
+            "is_hidden": false
+        },
+        {
+            "name": "pickpocket",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 95,
+        "attack": 120,
+        "defense": 65,
+        "special-attack": 95,
+        "special-defense": 75,
+        "speed": 60
+    },
+    "evolution_chain": {
+        "species": "impidimp",
+        "id": 859,
+        "sprite": "/static/sprites/pokemon/859.gif",
+        "evolves_to": [
+            {
+                "species": "morgrem",
+                "id": 860,
+                "sprite": "/static/sprites/pokemon/860.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 32,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "grimmsnarl",
+                        "id": 861,
+                        "sprite": "/static/sprites/pokemon/861.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 42,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/861.gif"
+}

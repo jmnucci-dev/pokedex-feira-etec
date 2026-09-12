@@ -1,0 +1,48 @@
+{
+    "id": 420,
+    "name": "cherubi",
+    "category": "Cherry Pokémon",
+    "description": "The small ball holds the nutrients needed for evolution. Apparently, it is very sweet and tasty.",
+    "generation": "generation-iv",
+    "height": 4,
+    "weight": 33,
+    "base_experience": 55,
+    "types": [
+        "grass"
+    ],
+    "abilities": [
+        {
+            "name": "chlorophyll",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 45,
+        "attack": 35,
+        "defense": 45,
+        "special-attack": 62,
+        "special-defense": 53,
+        "speed": 35
+    },
+    "evolution_chain": {
+        "species": "cherubi",
+        "id": 420,
+        "sprite": "/static/sprites/pokemon/420.gif",
+        "evolves_to": [
+            {
+                "species": "cherrim",
+                "id": 421,
+                "sprite": "/static/sprites/pokemon/421.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 25,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/420.gif"
+}

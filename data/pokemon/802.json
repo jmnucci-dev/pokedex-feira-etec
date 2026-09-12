@@ -1,0 +1,35 @@
+{
+    "id": 802,
+    "name": "marshadow",
+    "category": "Gloomdweller Pokémon",
+    "description": "Able to conceal itself in shadows, it never appears before humans, so its very existence was the stuff of myth.",
+    "generation": "generation-vii",
+    "height": 7,
+    "weight": 222,
+    "base_experience": 270,
+    "types": [
+        "fighting",
+        "ghost"
+    ],
+    "abilities": [
+        {
+            "name": "technician",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 90,
+        "attack": 125,
+        "defense": 80,
+        "special-attack": 90,
+        "special-defense": 90,
+        "speed": 125
+    },
+    "evolution_chain": {
+        "species": "marshadow",
+        "id": 802,
+        "sprite": "/static/sprites/pokemon/802.gif",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/802.gif"
+}

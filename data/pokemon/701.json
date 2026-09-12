@@ -1,0 +1,43 @@
+{
+    "id": 701,
+    "name": "hawlucha",
+    "category": "Wrestling Pokémon",
+    "description": "Although its body is small, its proficient fighting skills enable it to keep up with big bruisers like Machamp and Hariyama.",
+    "generation": "generation-vi",
+    "height": 8,
+    "weight": 215,
+    "base_experience": 175,
+    "types": [
+        "fighting",
+        "flying"
+    ],
+    "abilities": [
+        {
+            "name": "limber",
+            "is_hidden": false
+        },
+        {
+            "name": "unburden",
+            "is_hidden": false
+        },
+        {
+            "name": "mold-breaker",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 78,
+        "attack": 92,
+        "defense": 75,
+        "special-attack": 74,
+        "special-defense": 63,
+        "speed": 118
+    },
+    "evolution_chain": {
+        "species": "hawlucha",
+        "id": 701,
+        "sprite": "/static/sprites/pokemon/701.png",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/701.png"
+}

@@ -1,0 +1,52 @@
+{
+    "id": 953,
+    "name": "rellor",
+    "category": "Rolling Pokémon",
+    "description": "This Pokémon creates a mud ball by mixing sand and dirt with psychic energy. It treasures its mud ball more than its own life.",
+    "generation": "generation-ix",
+    "height": 2,
+    "weight": 10,
+    "base_experience": 54,
+    "types": [
+        "bug"
+    ],
+    "abilities": [
+        {
+            "name": "compound-eyes",
+            "is_hidden": false
+        },
+        {
+            "name": "shed-skin",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 41,
+        "attack": 50,
+        "defense": 60,
+        "special-attack": 31,
+        "special-defense": 58,
+        "speed": 30
+    },
+    "evolution_chain": {
+        "species": "rellor",
+        "id": 953,
+        "sprite": "/static/sprites/pokemon/953.png",
+        "evolves_to": [
+            {
+                "species": "rabsca",
+                "id": 954,
+                "sprite": "/static/sprites/pokemon/954.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/953.png"
+}

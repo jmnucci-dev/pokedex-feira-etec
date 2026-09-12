@@ -1,0 +1,71 @@
+{
+    "id": 732,
+    "name": "trumbeak",
+    "category": "Bugle Beak Pokémon",
+    "description": "It eats berries and stores their seeds in its beak. When it encounters enemies or prey, it fires off all the seeds in a burst.",
+    "generation": "generation-vii",
+    "height": 6,
+    "weight": 148,
+    "base_experience": 124,
+    "types": [
+        "normal",
+        "flying"
+    ],
+    "abilities": [
+        {
+            "name": "keen-eye",
+            "is_hidden": false
+        },
+        {
+            "name": "skill-link",
+            "is_hidden": false
+        },
+        {
+            "name": "pickup",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 55,
+        "attack": 85,
+        "defense": 50,
+        "special-attack": 40,
+        "special-defense": 50,
+        "speed": 75
+    },
+    "evolution_chain": {
+        "species": "pikipek",
+        "id": 731,
+        "sprite": "/static/sprites/pokemon/731.gif",
+        "evolves_to": [
+            {
+                "species": "trumbeak",
+                "id": 732,
+                "sprite": "/static/sprites/pokemon/732.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 14,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "toucannon",
+                        "id": 733,
+                        "sprite": "/static/sprites/pokemon/733.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 28,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/732.gif"
+}

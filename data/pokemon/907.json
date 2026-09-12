@@ -1,0 +1,66 @@
+{
+    "id": 907,
+    "name": "floragato",
+    "category": "Grass Cat Pokémon",
+    "description": "Floragato deftly wields the vine hidden beneath its long fur, slamming the hard flower bud against its opponents.",
+    "generation": "generation-ix",
+    "height": 9,
+    "weight": 122,
+    "base_experience": 144,
+    "types": [
+        "grass"
+    ],
+    "abilities": [
+        {
+            "name": "overgrow",
+            "is_hidden": false
+        },
+        {
+            "name": "protean",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 61,
+        "attack": 80,
+        "defense": 63,
+        "special-attack": 60,
+        "special-defense": 63,
+        "speed": 83
+    },
+    "evolution_chain": {
+        "species": "sprigatito",
+        "id": 906,
+        "sprite": "/static/sprites/pokemon/906.png",
+        "evolves_to": [
+            {
+                "species": "floragato",
+                "id": 907,
+                "sprite": "/static/sprites/pokemon/907.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 16,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "meowscarada",
+                        "id": 908,
+                        "sprite": "/static/sprites/pokemon/908.png",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 36,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/907.png"
+}

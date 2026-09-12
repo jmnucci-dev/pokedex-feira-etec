@@ -1,0 +1,56 @@
+{
+    "id": 320,
+    "name": "wailmer",
+    "category": "Ball Whale Pokémon",
+    "description": "WAILMER’s nostrils are located above its eyes. This playful POKéMON loves to startle people by forcefully snorting out seawater it stores inside its body out of its nostrils.",
+    "generation": "generation-iii",
+    "height": 20,
+    "weight": 1300,
+    "base_experience": 80,
+    "types": [
+        "water"
+    ],
+    "abilities": [
+        {
+            "name": "water-veil",
+            "is_hidden": false
+        },
+        {
+            "name": "oblivious",
+            "is_hidden": false
+        },
+        {
+            "name": "pressure",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 130,
+        "attack": 70,
+        "defense": 35,
+        "special-attack": 70,
+        "special-defense": 35,
+        "speed": 60
+    },
+    "evolution_chain": {
+        "species": "wailmer",
+        "id": 320,
+        "sprite": "/static/sprites/pokemon/320.gif",
+        "evolves_to": [
+            {
+                "species": "wailord",
+                "id": 321,
+                "sprite": "/static/sprites/pokemon/321.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 40,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/320.gif"
+}

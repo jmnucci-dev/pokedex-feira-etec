@@ -1,0 +1,38 @@
+{
+    "id": 336,
+    "name": "seviper",
+    "category": "Fang Snake Pokémon",
+    "description": "SEVIPER shares a generations-long feud with ZANGOOSE. The scars on its body are evidence of vicious battles. This POKéMON attacks using its sword- edged tail.",
+    "generation": "generation-iii",
+    "height": 27,
+    "weight": 525,
+    "base_experience": 160,
+    "types": [
+        "poison"
+    ],
+    "abilities": [
+        {
+            "name": "shed-skin",
+            "is_hidden": false
+        },
+        {
+            "name": "infiltrator",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 73,
+        "attack": 100,
+        "defense": 60,
+        "special-attack": 100,
+        "special-defense": 60,
+        "speed": 65
+    },
+    "evolution_chain": {
+        "species": "seviper",
+        "id": 336,
+        "sprite": "/static/sprites/pokemon/336.gif",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/336.gif"
+}

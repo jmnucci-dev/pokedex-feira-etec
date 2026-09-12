@@ -1,0 +1,38 @@
+{
+    "id": 378,
+    "name": "regice",
+    "category": "Iceberg Pokémon",
+    "description": "REGICE’s body was made during an ice age. The deep-frozen body can’t be melted, even by fire. This POKéMON controls frigid air of minus 328 degrees F.",
+    "generation": "generation-iii",
+    "height": 18,
+    "weight": 1750,
+    "base_experience": 261,
+    "types": [
+        "ice"
+    ],
+    "abilities": [
+        {
+            "name": "clear-body",
+            "is_hidden": false
+        },
+        {
+            "name": "ice-body",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 80,
+        "attack": 50,
+        "defense": 100,
+        "special-attack": 100,
+        "special-defense": 200,
+        "speed": 50
+    },
+    "evolution_chain": {
+        "species": "regice",
+        "id": 378,
+        "sprite": "/static/sprites/pokemon/378.gif",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/378.gif"
+}

@@ -1,0 +1,35 @@
+{
+    "id": 797,
+    "name": "celesteela",
+    "category": "Launch Pokémon",
+    "description": "It appeared from the Ultra Wormhole. Witnesses observed it flying across the sky at high speed.",
+    "generation": "generation-vii",
+    "height": 92,
+    "weight": 9999,
+    "base_experience": 257,
+    "types": [
+        "steel",
+        "flying"
+    ],
+    "abilities": [
+        {
+            "name": "beast-boost",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 97,
+        "attack": 101,
+        "defense": 103,
+        "special-attack": 107,
+        "special-defense": 101,
+        "speed": 61
+    },
+    "evolution_chain": {
+        "species": "celesteela",
+        "id": 797,
+        "sprite": "/static/sprites/pokemon/797.gif",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/797.gif"
+}

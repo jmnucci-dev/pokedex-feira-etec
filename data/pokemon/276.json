@@ -1,0 +1,53 @@
+{
+    "id": 276,
+    "name": "taillow",
+    "category": "Tiny Swallow Pokémon",
+    "description": "TAILLOW courageously stands its ground against foes, however strong they may be. This gutsy POKéMON will remain defiant even after a loss. On the other hand, it cries loudly if it becomes hungry.",
+    "generation": "generation-iii",
+    "height": 3,
+    "weight": 23,
+    "base_experience": 54,
+    "types": [
+        "normal",
+        "flying"
+    ],
+    "abilities": [
+        {
+            "name": "guts",
+            "is_hidden": false
+        },
+        {
+            "name": "scrappy",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 40,
+        "attack": 55,
+        "defense": 30,
+        "special-attack": 30,
+        "special-defense": 30,
+        "speed": 85
+    },
+    "evolution_chain": {
+        "species": "taillow",
+        "id": 276,
+        "sprite": "/static/sprites/pokemon/276.gif",
+        "evolves_to": [
+            {
+                "species": "swellow",
+                "id": 277,
+                "sprite": "/static/sprites/pokemon/277.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 22,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/276.gif"
+}

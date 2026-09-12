@@ -1,0 +1,52 @@
+{
+    "id": 450,
+    "name": "hippowdon",
+    "category": "Heavyweight Pokémon",
+    "description": "It blasts internally stored sand from ports on its body to create a towering twister for attack.",
+    "generation": "generation-iv",
+    "height": 20,
+    "weight": 3000,
+    "base_experience": 184,
+    "types": [
+        "ground"
+    ],
+    "abilities": [
+        {
+            "name": "sand-stream",
+            "is_hidden": false
+        },
+        {
+            "name": "sand-force",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 108,
+        "attack": 112,
+        "defense": 118,
+        "special-attack": 68,
+        "special-defense": 72,
+        "speed": 47
+    },
+    "evolution_chain": {
+        "species": "hippopotas",
+        "id": 449,
+        "sprite": "/static/sprites/pokemon/449.gif",
+        "evolves_to": [
+            {
+                "species": "hippowdon",
+                "id": 450,
+                "sprite": "/static/sprites/pokemon/450.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 34,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/450.gif"
+}

@@ -1,0 +1,56 @@
+{
+    "id": 573,
+    "name": "cinccino",
+    "category": "Scarf Pokémon",
+    "description": "Their white fur is coated in a special oil that makes it easy for them to deflect attacks.",
+    "generation": "generation-v",
+    "height": 5,
+    "weight": 75,
+    "base_experience": 165,
+    "types": [
+        "normal"
+    ],
+    "abilities": [
+        {
+            "name": "cute-charm",
+            "is_hidden": false
+        },
+        {
+            "name": "technician",
+            "is_hidden": false
+        },
+        {
+            "name": "skill-link",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 75,
+        "attack": 95,
+        "defense": 60,
+        "special-attack": 65,
+        "special-defense": 60,
+        "speed": 115
+    },
+    "evolution_chain": {
+        "species": "minccino",
+        "id": 572,
+        "sprite": "/static/sprites/pokemon/572.gif",
+        "evolves_to": [
+            {
+                "species": "cinccino",
+                "id": 573,
+                "sprite": "/static/sprites/pokemon/573.gif",
+                "details": [
+                    {
+                        "trigger": "use-item",
+                        "min_level": null,
+                        "item": "shiny-stone"
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/573.gif"
+}

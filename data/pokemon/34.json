@@ -1,0 +1,71 @@
+{
+    "id": 34,
+    "name": "nidoking",
+    "category": "Drill Pokémon",
+    "description": "It uses its powerful tail in battle to smash, constrict, then break the prey's bones.",
+    "generation": "generation-i",
+    "height": 14,
+    "weight": 620,
+    "base_experience": 227,
+    "types": [
+        "poison",
+        "ground"
+    ],
+    "abilities": [
+        {
+            "name": "poison-point",
+            "is_hidden": false
+        },
+        {
+            "name": "rivalry",
+            "is_hidden": false
+        },
+        {
+            "name": "sheer-force",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 81,
+        "attack": 102,
+        "defense": 77,
+        "special-attack": 85,
+        "special-defense": 75,
+        "speed": 85
+    },
+    "evolution_chain": {
+        "species": "nidoran-m",
+        "id": 32,
+        "sprite": "/static/sprites/pokemon/32.gif",
+        "evolves_to": [
+            {
+                "species": "nidorino",
+                "id": 33,
+                "sprite": "/static/sprites/pokemon/33.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 16,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "nidoking",
+                        "id": 34,
+                        "sprite": "/static/sprites/pokemon/34.gif",
+                        "details": [
+                            {
+                                "trigger": "use-item",
+                                "min_level": null,
+                                "item": "moon-stone"
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/34.gif"
+}

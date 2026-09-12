@@ -1,0 +1,67 @@
+{
+    "id": 997,
+    "name": "arctibax",
+    "category": "Ice Fin Pokémon",
+    "description": "Arctibax freezes the air around it, protecting its face with an ice mask and turning its dorsal fin into a blade of ice.",
+    "generation": "generation-ix",
+    "height": 8,
+    "weight": 300,
+    "base_experience": 148,
+    "types": [
+        "dragon",
+        "ice"
+    ],
+    "abilities": [
+        {
+            "name": "thermal-exchange",
+            "is_hidden": false
+        },
+        {
+            "name": "ice-body",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 90,
+        "attack": 95,
+        "defense": 66,
+        "special-attack": 45,
+        "special-defense": 65,
+        "speed": 62
+    },
+    "evolution_chain": {
+        "species": "frigibax",
+        "id": 996,
+        "sprite": "/static/sprites/pokemon/996.png",
+        "evolves_to": [
+            {
+                "species": "arctibax",
+                "id": 997,
+                "sprite": "/static/sprites/pokemon/997.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 35,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "baxcalibur",
+                        "id": 998,
+                        "sprite": "/static/sprites/pokemon/998.png",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 54,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/997.png"
+}

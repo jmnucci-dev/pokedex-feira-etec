@@ -1,0 +1,48 @@
+{
+    "id": 773,
+    "name": "silvally",
+    "category": "Synthetic Pokémon",
+    "description": "Its trust in its partner is what awakens it. This Pokémon is capable of changing its type, a flexibility that is well displayed in battle.",
+    "generation": "generation-vii",
+    "height": 23,
+    "weight": 1005,
+    "base_experience": 257,
+    "types": [
+        "normal"
+    ],
+    "abilities": [
+        {
+            "name": "rks-system",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 95,
+        "attack": 95,
+        "defense": 95,
+        "special-attack": 95,
+        "special-defense": 95,
+        "speed": 95
+    },
+    "evolution_chain": {
+        "species": "type-null",
+        "id": 772,
+        "sprite": "/static/sprites/pokemon/772.gif",
+        "evolves_to": [
+            {
+                "species": "silvally",
+                "id": 773,
+                "sprite": "/static/sprites/pokemon/773.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/773.png"
+}

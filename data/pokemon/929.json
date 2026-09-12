@@ -1,0 +1,67 @@
+{
+    "id": 929,
+    "name": "dolliv",
+    "category": "Olive Pokémon",
+    "description": "Dolliv shares its tasty, fresh-scented oil with others. This species has coexisted with humans since times long gone.",
+    "generation": "generation-ix",
+    "height": 6,
+    "weight": 119,
+    "base_experience": 124,
+    "types": [
+        "grass",
+        "normal"
+    ],
+    "abilities": [
+        {
+            "name": "early-bird",
+            "is_hidden": false
+        },
+        {
+            "name": "harvest",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 52,
+        "attack": 53,
+        "defense": 60,
+        "special-attack": 78,
+        "special-defense": 78,
+        "speed": 33
+    },
+    "evolution_chain": {
+        "species": "smoliv",
+        "id": 928,
+        "sprite": "/static/sprites/pokemon/928.png",
+        "evolves_to": [
+            {
+                "species": "dolliv",
+                "id": 929,
+                "sprite": "/static/sprites/pokemon/929.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 25,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "arboliva",
+                        "id": 930,
+                        "sprite": "/static/sprites/pokemon/930.png",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 35,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/929.png"
+}

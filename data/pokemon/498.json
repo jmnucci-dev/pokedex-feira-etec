@@ -1,0 +1,66 @@
+{
+    "id": 498,
+    "name": "tepig",
+    "category": "Fire Pig Pokémon",
+    "description": "It can deftly dodge its foe’s attacks while shooting fireballs from its nose. It roasts berries before it eats them.",
+    "generation": "generation-v",
+    "height": 5,
+    "weight": 99,
+    "base_experience": 62,
+    "types": [
+        "fire"
+    ],
+    "abilities": [
+        {
+            "name": "blaze",
+            "is_hidden": false
+        },
+        {
+            "name": "thick-fat",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 65,
+        "attack": 63,
+        "defense": 45,
+        "special-attack": 45,
+        "special-defense": 45,
+        "speed": 45
+    },
+    "evolution_chain": {
+        "species": "tepig",
+        "id": 498,
+        "sprite": "/static/sprites/pokemon/498.gif",
+        "evolves_to": [
+            {
+                "species": "pignite",
+                "id": 499,
+                "sprite": "/static/sprites/pokemon/499.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 17,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "emboar",
+                        "id": 500,
+                        "sprite": "/static/sprites/pokemon/500.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 36,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/498.gif"
+}

@@ -1,0 +1,71 @@
+{
+    "id": 858,
+    "name": "hatterene",
+    "category": "Silent Pokémon",
+    "description": "It emits psychic power strong enough to cause headaches as a deterrent to the approach of others.",
+    "generation": "generation-viii",
+    "height": 21,
+    "weight": 51,
+    "base_experience": 255,
+    "types": [
+        "psychic",
+        "fairy"
+    ],
+    "abilities": [
+        {
+            "name": "healer",
+            "is_hidden": false
+        },
+        {
+            "name": "anticipation",
+            "is_hidden": false
+        },
+        {
+            "name": "magic-bounce",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 57,
+        "attack": 90,
+        "defense": 95,
+        "special-attack": 136,
+        "special-defense": 103,
+        "speed": 29
+    },
+    "evolution_chain": {
+        "species": "hatenna",
+        "id": 856,
+        "sprite": "/static/sprites/pokemon/856.gif",
+        "evolves_to": [
+            {
+                "species": "hattrem",
+                "id": 857,
+                "sprite": "/static/sprites/pokemon/857.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 32,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "hatterene",
+                        "id": 858,
+                        "sprite": "/static/sprites/pokemon/858.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 42,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/858.gif"
+}

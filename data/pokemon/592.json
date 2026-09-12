@@ -1,0 +1,57 @@
+{
+    "id": 592,
+    "name": "frillish-male",
+    "category": "Floating Pokémon",
+    "description": "With its thin, veil-like arms wrapped around the body of its opponent, it sinks to the ocean floor.",
+    "generation": "generation-v",
+    "height": 12,
+    "weight": 330,
+    "base_experience": 67,
+    "types": [
+        "water",
+        "ghost"
+    ],
+    "abilities": [
+        {
+            "name": "water-absorb",
+            "is_hidden": false
+        },
+        {
+            "name": "cursed-body",
+            "is_hidden": false
+        },
+        {
+            "name": "damp",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 55,
+        "attack": 40,
+        "defense": 50,
+        "special-attack": 65,
+        "special-defense": 85,
+        "speed": 40
+    },
+    "evolution_chain": {
+        "species": "frillish",
+        "id": 592,
+        "sprite": "/static/sprites/pokemon/592.gif",
+        "evolves_to": [
+            {
+                "species": "jellicent",
+                "id": 593,
+                "sprite": "/static/sprites/pokemon/593.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 40,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/592.gif"
+}

@@ -1,0 +1,56 @@
+{
+    "id": 523,
+    "name": "zebstrika",
+    "category": "Thunderbolt Pokémon",
+    "description": "They have lightning-like movements. When Zebstrika run at full speed, the sound of thunder reverberates.",
+    "generation": "generation-v",
+    "height": 16,
+    "weight": 795,
+    "base_experience": 174,
+    "types": [
+        "electric"
+    ],
+    "abilities": [
+        {
+            "name": "lightning-rod",
+            "is_hidden": false
+        },
+        {
+            "name": "motor-drive",
+            "is_hidden": false
+        },
+        {
+            "name": "sap-sipper",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 75,
+        "attack": 100,
+        "defense": 63,
+        "special-attack": 80,
+        "special-defense": 63,
+        "speed": 116
+    },
+    "evolution_chain": {
+        "species": "blitzle",
+        "id": 522,
+        "sprite": "/static/sprites/pokemon/522.gif",
+        "evolves_to": [
+            {
+                "species": "zebstrika",
+                "id": 523,
+                "sprite": "/static/sprites/pokemon/523.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 27,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/523.gif"
+}

@@ -1,0 +1,82 @@
+{
+    "id": 236,
+    "name": "tyrogue",
+    "category": "Scuffle Pokémon",
+    "description": "It is always bursting with en­ ergy. To make it­ self stronger, it keeps on fighting even if it loses.",
+    "generation": "generation-ii",
+    "height": 7,
+    "weight": 210,
+    "base_experience": 42,
+    "types": [
+        "fighting"
+    ],
+    "abilities": [
+        {
+            "name": "guts",
+            "is_hidden": false
+        },
+        {
+            "name": "steadfast",
+            "is_hidden": false
+        },
+        {
+            "name": "vital-spirit",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 35,
+        "attack": 35,
+        "defense": 35,
+        "special-attack": 35,
+        "special-defense": 35,
+        "speed": 35
+    },
+    "evolution_chain": {
+        "species": "tyrogue",
+        "id": 236,
+        "sprite": "/static/sprites/pokemon/236.gif",
+        "evolves_to": [
+            {
+                "species": "hitmonlee",
+                "id": 106,
+                "sprite": "/static/sprites/pokemon/106.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 20,
+                        "item": null
+                    }
+                ],
+                "next": []
+            },
+            {
+                "species": "hitmonchan",
+                "id": 107,
+                "sprite": "/static/sprites/pokemon/107.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 20,
+                        "item": null
+                    }
+                ],
+                "next": []
+            },
+            {
+                "species": "hitmontop",
+                "id": 237,
+                "sprite": "/static/sprites/pokemon/237.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 20,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/236.gif"
+}

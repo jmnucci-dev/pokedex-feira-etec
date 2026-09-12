@@ -1,0 +1,75 @@
+{
+    "id": 790,
+    "name": "cosmoem",
+    "category": "Protostar Pokémon",
+    "description": "Motionless as if dead, its body is faintly warm to the touch. In the distant past, it was called the cocoon of the stars.",
+    "generation": "generation-vii",
+    "height": 1,
+    "weight": 9999,
+    "base_experience": 140,
+    "types": [
+        "psychic"
+    ],
+    "abilities": [
+        {
+            "name": "sturdy",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 43,
+        "attack": 29,
+        "defense": 131,
+        "special-attack": 29,
+        "special-defense": 131,
+        "speed": 37
+    },
+    "evolution_chain": {
+        "species": "cosmog",
+        "id": 789,
+        "sprite": "/static/sprites/pokemon/789.gif",
+        "evolves_to": [
+            {
+                "species": "cosmoem",
+                "id": 790,
+                "sprite": "/static/sprites/pokemon/790.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 43,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "solgaleo",
+                        "id": 791,
+                        "sprite": "/static/sprites/pokemon/791.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 53,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    },
+                    {
+                        "species": "lunala",
+                        "id": 792,
+                        "sprite": "/static/sprites/pokemon/792.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 53,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/790.gif"
+}

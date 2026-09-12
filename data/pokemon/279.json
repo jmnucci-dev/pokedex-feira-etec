@@ -1,0 +1,57 @@
+{
+    "id": 279,
+    "name": "pelipper",
+    "category": "Water Bird Pokémon",
+    "description": "PELIPPER is a flying transporter that carries small POKéMON and eggs inside its massive bill. This POKéMON builds its nest on steep cliffs facing the sea.",
+    "generation": "generation-iii",
+    "height": 12,
+    "weight": 280,
+    "base_experience": 154,
+    "types": [
+        "water",
+        "flying"
+    ],
+    "abilities": [
+        {
+            "name": "keen-eye",
+            "is_hidden": false
+        },
+        {
+            "name": "drizzle",
+            "is_hidden": false
+        },
+        {
+            "name": "rain-dish",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 60,
+        "attack": 50,
+        "defense": 100,
+        "special-attack": 95,
+        "special-defense": 70,
+        "speed": 65
+    },
+    "evolution_chain": {
+        "species": "wingull",
+        "id": 278,
+        "sprite": "/static/sprites/pokemon/278.gif",
+        "evolves_to": [
+            {
+                "species": "pelipper",
+                "id": 279,
+                "sprite": "/static/sprites/pokemon/279.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 25,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/279.gif"
+}

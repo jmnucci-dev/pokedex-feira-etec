@@ -1,0 +1,53 @@
+{
+    "id": 873,
+    "name": "frosmoth",
+    "category": "Frost Moth Pokémon",
+    "description": "Icy scales fall from its wings like snow as it flies over fields and mountains. The temperature of its wings is less than −290 degrees Fahrenheit.",
+    "generation": "generation-viii",
+    "height": 13,
+    "weight": 420,
+    "base_experience": 166,
+    "types": [
+        "ice",
+        "bug"
+    ],
+    "abilities": [
+        {
+            "name": "shield-dust",
+            "is_hidden": false
+        },
+        {
+            "name": "ice-scales",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 70,
+        "attack": 65,
+        "defense": 60,
+        "special-attack": 125,
+        "special-defense": 90,
+        "speed": 65
+    },
+    "evolution_chain": {
+        "species": "snom",
+        "id": 872,
+        "sprite": "/static/sprites/pokemon/872.gif",
+        "evolves_to": [
+            {
+                "species": "frosmoth",
+                "id": 873,
+                "sprite": "/static/sprites/pokemon/873.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/873.gif"
+}

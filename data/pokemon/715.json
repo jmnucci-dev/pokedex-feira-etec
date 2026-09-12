@@ -1,0 +1,57 @@
+{
+    "id": 715,
+    "name": "noivern",
+    "category": "Sound Wave Pokémon",
+    "description": "They fly around on moonless nights and attack careless prey. Nothing can beat them in a battle in the dark.",
+    "generation": "generation-vi",
+    "height": 15,
+    "weight": 850,
+    "base_experience": 187,
+    "types": [
+        "flying",
+        "dragon"
+    ],
+    "abilities": [
+        {
+            "name": "frisk",
+            "is_hidden": false
+        },
+        {
+            "name": "infiltrator",
+            "is_hidden": false
+        },
+        {
+            "name": "telepathy",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 85,
+        "attack": 70,
+        "defense": 80,
+        "special-attack": 97,
+        "special-defense": 80,
+        "speed": 123
+    },
+    "evolution_chain": {
+        "species": "noibat",
+        "id": 714,
+        "sprite": "/static/sprites/pokemon/714.png",
+        "evolves_to": [
+            {
+                "species": "noivern",
+                "id": 715,
+                "sprite": "/static/sprites/pokemon/715.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 48,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/715.png"
+}

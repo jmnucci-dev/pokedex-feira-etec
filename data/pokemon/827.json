@@ -1,0 +1,56 @@
+{
+    "id": 827,
+    "name": "nickit",
+    "category": "Fox Pokémon",
+    "description": "Aided by the soft pads on its feet, it silently raids the food stores of other Pokémon. It survives off its ill-gotten gains.",
+    "generation": "generation-viii",
+    "height": 6,
+    "weight": 89,
+    "base_experience": 49,
+    "types": [
+        "dark"
+    ],
+    "abilities": [
+        {
+            "name": "run-away",
+            "is_hidden": false
+        },
+        {
+            "name": "unburden",
+            "is_hidden": false
+        },
+        {
+            "name": "stakeout",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 40,
+        "attack": 28,
+        "defense": 28,
+        "special-attack": 47,
+        "special-defense": 52,
+        "speed": 50
+    },
+    "evolution_chain": {
+        "species": "nickit",
+        "id": 827,
+        "sprite": "/static/sprites/pokemon/827.png",
+        "evolves_to": [
+            {
+                "species": "thievul",
+                "id": 828,
+                "sprite": "/static/sprites/pokemon/828.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 18,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/827.png"
+}

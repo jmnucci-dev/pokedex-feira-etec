@@ -1,0 +1,66 @@
+{
+    "id": 125,
+    "name": "electabuzz",
+    "category": "Electric Pokémon",
+    "description": "Normally found near power plants, they can wander away and cause major blackouts in cities.",
+    "generation": "generation-i",
+    "height": 11,
+    "weight": 300,
+    "base_experience": 172,
+    "types": [
+        "electric"
+    ],
+    "abilities": [
+        {
+            "name": "static",
+            "is_hidden": false
+        },
+        {
+            "name": "vital-spirit",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 65,
+        "attack": 83,
+        "defense": 57,
+        "special-attack": 95,
+        "special-defense": 85,
+        "speed": 105
+    },
+    "evolution_chain": {
+        "species": "elekid",
+        "id": 239,
+        "sprite": "/static/sprites/pokemon/239.gif",
+        "evolves_to": [
+            {
+                "species": "electabuzz",
+                "id": 125,
+                "sprite": "/static/sprites/pokemon/125.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 30,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "electivire",
+                        "id": 466,
+                        "sprite": "/static/sprites/pokemon/466.gif",
+                        "details": [
+                            {
+                                "trigger": "trade",
+                                "min_level": null,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/125.gif"
+}

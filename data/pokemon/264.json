@@ -1,0 +1,75 @@
+{
+    "id": 264,
+    "name": "linoone",
+    "category": "Rushing Pokémon",
+    "description": "LINOONE always runs full speed and only in straight lines. If facing an obstacle, it makes a right-angle turn to evade it. This POKéMON is very challenged by gently curving roads.",
+    "generation": "generation-iii",
+    "height": 5,
+    "weight": 325,
+    "base_experience": 147,
+    "types": [
+        "normal"
+    ],
+    "abilities": [
+        {
+            "name": "pickup",
+            "is_hidden": false
+        },
+        {
+            "name": "gluttony",
+            "is_hidden": false
+        },
+        {
+            "name": "quick-feet",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 78,
+        "attack": 70,
+        "defense": 61,
+        "special-attack": 50,
+        "special-defense": 61,
+        "speed": 100
+    },
+    "evolution_chain": {
+        "species": "zigzagoon",
+        "id": 263,
+        "sprite": "/static/sprites/pokemon/263.gif",
+        "evolves_to": [
+            {
+                "species": "linoone",
+                "id": 264,
+                "sprite": "/static/sprites/pokemon/264.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 20,
+                        "item": null
+                    },
+                    {
+                        "trigger": "level-up",
+                        "min_level": 20,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "obstagoon",
+                        "id": 862,
+                        "sprite": "/static/sprites/pokemon/862.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 35,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/264.gif"
+}

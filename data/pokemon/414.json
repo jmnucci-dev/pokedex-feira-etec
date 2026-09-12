@@ -1,0 +1,66 @@
+{
+    "id": 414,
+    "name": "mothim",
+    "category": "Moth Pokémon",
+    "description": "It loves the honey of flowers and steals honey collected by COMBEE.",
+    "generation": "generation-iv",
+    "height": 9,
+    "weight": 233,
+    "base_experience": 148,
+    "types": [
+        "bug",
+        "flying"
+    ],
+    "abilities": [
+        {
+            "name": "swarm",
+            "is_hidden": false
+        },
+        {
+            "name": "tinted-lens",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 70,
+        "attack": 94,
+        "defense": 50,
+        "special-attack": 94,
+        "special-defense": 50,
+        "speed": 66
+    },
+    "evolution_chain": {
+        "species": "burmy",
+        "id": 412,
+        "sprite": "/static/sprites/pokemon/412.gif",
+        "evolves_to": [
+            {
+                "species": "wormadam",
+                "id": 413,
+                "sprite": "/static/sprites/pokemon/413.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 20,
+                        "item": null
+                    }
+                ],
+                "next": []
+            },
+            {
+                "species": "mothim",
+                "id": 414,
+                "sprite": "/static/sprites/pokemon/414.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 20,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/414.gif"
+}

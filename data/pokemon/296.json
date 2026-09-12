@@ -1,0 +1,56 @@
+{
+    "id": 296,
+    "name": "makuhita",
+    "category": "Guts Pokémon",
+    "description": "MAKUHITA is tenacious - it will keep getting up and attacking its foe however many times it is knocked down. Every time it gets back up, this POKéMON stores more energy in its body for evolving.",
+    "generation": "generation-iii",
+    "height": 10,
+    "weight": 864,
+    "base_experience": 47,
+    "types": [
+        "fighting"
+    ],
+    "abilities": [
+        {
+            "name": "thick-fat",
+            "is_hidden": false
+        },
+        {
+            "name": "guts",
+            "is_hidden": false
+        },
+        {
+            "name": "sheer-force",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 72,
+        "attack": 60,
+        "defense": 30,
+        "special-attack": 20,
+        "special-defense": 30,
+        "speed": 25
+    },
+    "evolution_chain": {
+        "species": "makuhita",
+        "id": 296,
+        "sprite": "/static/sprites/pokemon/296.gif",
+        "evolves_to": [
+            {
+                "species": "hariyama",
+                "id": 297,
+                "sprite": "/static/sprites/pokemon/297.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 24,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/296.gif"
+}

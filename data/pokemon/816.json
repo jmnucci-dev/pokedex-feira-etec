@@ -1,0 +1,66 @@
+{
+    "id": 816,
+    "name": "sobble",
+    "category": "Water Lizard Pokémon",
+    "description": "When scared, this Pokémon cries. Its tears pack the chemical punch of 100 onions, and attackers won’t be able to resist weeping.",
+    "generation": "generation-viii",
+    "height": 3,
+    "weight": 40,
+    "base_experience": 62,
+    "types": [
+        "water"
+    ],
+    "abilities": [
+        {
+            "name": "torrent",
+            "is_hidden": false
+        },
+        {
+            "name": "sniper",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 50,
+        "attack": 40,
+        "defense": 40,
+        "special-attack": 70,
+        "special-defense": 40,
+        "speed": 70
+    },
+    "evolution_chain": {
+        "species": "sobble",
+        "id": 816,
+        "sprite": "/static/sprites/pokemon/816.png",
+        "evolves_to": [
+            {
+                "species": "drizzile",
+                "id": 817,
+                "sprite": "/static/sprites/pokemon/817.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 16,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "inteleon",
+                        "id": 818,
+                        "sprite": "/static/sprites/pokemon/818.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 35,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/816.png"
+}

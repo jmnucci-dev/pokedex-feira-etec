@@ -1,0 +1,71 @@
+{
+    "id": 537,
+    "name": "seismitoad",
+    "category": "Vibration Pokémon",
+    "description": "They shoot paralyzing liquid from their head bumps. They use vibration to hurt their opponents.",
+    "generation": "generation-v",
+    "height": 15,
+    "weight": 620,
+    "base_experience": 229,
+    "types": [
+        "water",
+        "ground"
+    ],
+    "abilities": [
+        {
+            "name": "swift-swim",
+            "is_hidden": false
+        },
+        {
+            "name": "poison-touch",
+            "is_hidden": false
+        },
+        {
+            "name": "water-absorb",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 105,
+        "attack": 95,
+        "defense": 75,
+        "special-attack": 85,
+        "special-defense": 75,
+        "speed": 74
+    },
+    "evolution_chain": {
+        "species": "tympole",
+        "id": 535,
+        "sprite": "/static/sprites/pokemon/535.gif",
+        "evolves_to": [
+            {
+                "species": "palpitoad",
+                "id": 536,
+                "sprite": "/static/sprites/pokemon/536.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 25,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "seismitoad",
+                        "id": 537,
+                        "sprite": "/static/sprites/pokemon/537.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 36,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/537.gif"
+}

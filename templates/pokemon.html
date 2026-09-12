@@ -1,0 +1,110 @@
+{% extends 'base.html' %}
+{% block content %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/pokemons.css') }}">
+
+<div class="pokedex-page">
+
+  {% include "components/sidebar.html" %}
+
+  <main class="pokedex-main">
+
+    <section class="pokemon-summary">
+      <div class="pokemon-portrait">
+        <div class="pokemon-sprite-box">
+          <img src="{{ data.sprite }}" alt="{{ data.name|capitalize }}" onerror="this.style.display='none'; this.parentElement.innerHTML='<span style=font-size:3rem;color:#fff>●</span>';">
+        </div>
+        <div class="badges">
+          {% for t in data.types %}
+          <span class="badge t-{{ t|lower }}">{{ t|capitalize }}</span>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="pokemon-info">
+        <span class="number">#{{ '%03d' % data.id }}</span>
+        <h1>{{ data.name|capitalize }}</h1>
+        <span class="species">{{ data.category }}</span>
+      </div>
+    </section>
+
+    <nav class="pokemon-tabs">
+      <button class="tab-btn active" onclick="switchPokemonTab('sobre', this)">Sobre & Habilidades</button>
+      <button class="tab-btn" onclick="switchPokemonTab('stats', this)">Stats & Combate</button>
+      <button class="tab-btn" onclick="switchPokemonTab('evolucao', this)">Evolução</button>
+    </nav>
+
+    <section id="sobre" class="tab-panel">
+      <div class="pokemon-description">
+        <p>"{{ data.description }}"</p>
+        <span class="generation">{{ data.generation.replace('generation-', 'Generation ').replace('-', ' - ') }}</span>
+      </div>
+      <dl class="pokemon-details">
+        <div class="detail-row"><dt>Altura</dt><dd>{{ data.height / 10 }} m</dd></div>
+        <div class="detail-row"><dt>Peso</dt><dd>{{ data.weight / 10 }} kg</dd></div>
+        <div class="detail-row"><dt>Exp. Base</dt><dd>{{ data.base_experience }}</dd></div>
+        {% for ab in data.abilities %}
+        <div class="detail-row">
+          <dt>Habilidade {{ loop.index }}</dt>
+          <dd>
+            {{ ab.name|capitalize }}
+            {% if ab.is_hidden %}<span class="tag-hidden">Hidden Ability</span>{% endif %}
+          </dd>
+        </div>
+        {% endfor %}
+      </dl>
+    </section>
+
+    <section id="stats" class="tab-panel" hidden>
+      <div class="stats-card">
+        <h3>Base Stats</h3>
+        <div class="stats-list">
+          {% for stat_key, stat_name in {'hp':'HP','attack':'Attack','defense':'Defense','special-attack':'Sp. Atk','special-defense':'Sp. Def','speed':'Speed'}.items() %}
+          <div class="stat-row">
+            <span class="stat-label">{{ stat_name }}</span>
+            <span class="stat-value">{{ data.stats[stat_key] }}</span>
+            <div class="stat-bar"><div class="stat-bar-fill" style="width: {{ [(data.stats[stat_key] / 200 * 100), 100] | min }}%;"></div></div>
+          </div>
+          {% endfor %}
+        </div>
+        <div class="stats-total"><span>Total</span><span>{{ data.stats.values() | sum }}</span></div>
+      </div>
+    </section>
+
+    <section id="evolucao" class="tab-panel evolution-panel" hidden>
+      {% if evolution_levels and evolution_levels|length > 1 %}
+        {% for stage in evolution_levels %}
+        <div class="evolution-stage">
+          {% for evo in stage %}
+          <a href="{{ url_for('pokemon.pokemon', pokemon_name=evo.id) }}" class="poke-card {{ 'current' if evo.id == data.id else '' }}">
+            <div class="row-top" style="justify-content:center;">#{{ '%03d' % evo.id }}</div>
+            <div class="sprite">
+              <img src="{{ evo.sprite }}" alt="{{ evo.species|capitalize }}" onerror="this.style.display='none'; this.parentElement.innerHTML='<span style=font-size:2rem;color:#fff>●</span>';">
+            </div>
+            <div class="poke-name">{{ evo.species|capitalize }}</div>
+            <div class="evolution-trigger">
+              {% for det in evo.details|default([]) %}
+                {{ det.trigger|capitalize }}{% if det.min_level %} Lv.{{ det.min_level }}{% endif %}{% if det.item %} + {{ det.item|capitalize }}{% endif %}
+              {% endfor %}
+            </div>
+          </a>
+          {% endfor %}
+        </div>
+        {% if not loop.last %}<span class="evolution-arrow">➔</span>{% endif %}
+        {% endfor %}
+      {% else %}
+        <p class="evolution-empty">Sem evolução.</p>
+      {% endif %}
+    </section>
+
+  </main>
+</div>
+
+<script>
+function switchPokemonTab(id, btn) {
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.tab-panel').forEach(p => { p.hidden = true; });
+  btn.classList.add('active');
+  document.getElementById(id).hidden = false;
+}
+</script>
+
+{% endblock %}

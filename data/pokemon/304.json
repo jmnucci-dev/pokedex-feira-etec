@@ -1,0 +1,71 @@
+{
+    "id": 304,
+    "name": "aron",
+    "category": "Iron Armor Pokémon",
+    "description": "This POKéMON has a body of steel. To make its body, ARON feeds on iron ore that it digs from mountains. Occasionally, it causes major trouble by eating bridges and rails.",
+    "generation": "generation-iii",
+    "height": 4,
+    "weight": 600,
+    "base_experience": 66,
+    "types": [
+        "steel",
+        "rock"
+    ],
+    "abilities": [
+        {
+            "name": "sturdy",
+            "is_hidden": false
+        },
+        {
+            "name": "rock-head",
+            "is_hidden": false
+        },
+        {
+            "name": "heavy-metal",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 50,
+        "attack": 70,
+        "defense": 100,
+        "special-attack": 40,
+        "special-defense": 40,
+        "speed": 30
+    },
+    "evolution_chain": {
+        "species": "aron",
+        "id": 304,
+        "sprite": "/static/sprites/pokemon/304.gif",
+        "evolves_to": [
+            {
+                "species": "lairon",
+                "id": 305,
+                "sprite": "/static/sprites/pokemon/305.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 32,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "aggron",
+                        "id": 306,
+                        "sprite": "/static/sprites/pokemon/306.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 42,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/304.gif"
+}

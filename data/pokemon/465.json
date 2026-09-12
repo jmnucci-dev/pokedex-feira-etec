@@ -1,0 +1,56 @@
+{
+    "id": 465,
+    "name": "tangrowth",
+    "category": "Vine Pokémon",
+    "description": "It ensnares prey by extending arms made of vines. Losing arms to predators does not trouble it.",
+    "generation": "generation-iv",
+    "height": 20,
+    "weight": 1286,
+    "base_experience": 187,
+    "types": [
+        "grass"
+    ],
+    "abilities": [
+        {
+            "name": "chlorophyll",
+            "is_hidden": false
+        },
+        {
+            "name": "leaf-guard",
+            "is_hidden": false
+        },
+        {
+            "name": "regenerator",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 100,
+        "attack": 100,
+        "defense": 125,
+        "special-attack": 110,
+        "special-defense": 50,
+        "speed": 50
+    },
+    "evolution_chain": {
+        "species": "tangela",
+        "id": 114,
+        "sprite": "/static/sprites/pokemon/114.gif",
+        "evolves_to": [
+            {
+                "species": "tangrowth",
+                "id": 465,
+                "sprite": "/static/sprites/pokemon/465.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/465.gif"
+}

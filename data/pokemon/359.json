@@ -1,0 +1,42 @@
+{
+    "id": 359,
+    "name": "absol",
+    "category": "Disaster Pokémon",
+    "description": "Every time ABSOL appears before people, it is followed by a disaster such as an earthquake or a tidal wave. As a result, it came to be known as the disaster POKéMON.",
+    "generation": "generation-iii",
+    "height": 12,
+    "weight": 470,
+    "base_experience": 163,
+    "types": [
+        "dark"
+    ],
+    "abilities": [
+        {
+            "name": "pressure",
+            "is_hidden": false
+        },
+        {
+            "name": "super-luck",
+            "is_hidden": false
+        },
+        {
+            "name": "justified",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 65,
+        "attack": 130,
+        "defense": 60,
+        "special-attack": 75,
+        "special-defense": 60,
+        "speed": 75
+    },
+    "evolution_chain": {
+        "species": "absol",
+        "id": 359,
+        "sprite": "/static/sprites/pokemon/359.gif",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/359.gif"
+}

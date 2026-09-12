@@ -1,0 +1,43 @@
+{
+    "id": 225,
+    "name": "delibird",
+    "category": "Delivery Pokémon",
+    "description": "It carries food all day long. There are tales about lost people who were saved by the food it had.",
+    "generation": "generation-ii",
+    "height": 9,
+    "weight": 160,
+    "base_experience": 116,
+    "types": [
+        "ice",
+        "flying"
+    ],
+    "abilities": [
+        {
+            "name": "vital-spirit",
+            "is_hidden": false
+        },
+        {
+            "name": "hustle",
+            "is_hidden": false
+        },
+        {
+            "name": "insomnia",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 45,
+        "attack": 55,
+        "defense": 45,
+        "special-attack": 65,
+        "special-defense": 45,
+        "speed": 75
+    },
+    "evolution_chain": {
+        "species": "delibird",
+        "id": 225,
+        "sprite": "/static/sprites/pokemon/225.gif",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/225.gif"
+}

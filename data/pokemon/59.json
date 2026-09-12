@@ -1,0 +1,61 @@
+{
+    "id": 59,
+    "name": "arcanine",
+    "category": "Legendary Pokémon",
+    "description": "A POKéMON that has been admired since the past for its beauty. It runs agilely as if on wings.",
+    "generation": "generation-i",
+    "height": 19,
+    "weight": 1550,
+    "base_experience": 194,
+    "types": [
+        "fire"
+    ],
+    "abilities": [
+        {
+            "name": "intimidate",
+            "is_hidden": false
+        },
+        {
+            "name": "flash-fire",
+            "is_hidden": false
+        },
+        {
+            "name": "justified",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 90,
+        "attack": 110,
+        "defense": 80,
+        "special-attack": 100,
+        "special-defense": 80,
+        "speed": 95
+    },
+    "evolution_chain": {
+        "species": "growlithe",
+        "id": 58,
+        "sprite": "/static/sprites/pokemon/58.gif",
+        "evolves_to": [
+            {
+                "species": "arcanine",
+                "id": 59,
+                "sprite": "/static/sprites/pokemon/59.gif",
+                "details": [
+                    {
+                        "trigger": "use-item",
+                        "min_level": null,
+                        "item": "fire-stone"
+                    },
+                    {
+                        "trigger": "use-item",
+                        "min_level": null,
+                        "item": "fire-stone"
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/59.gif"
+}

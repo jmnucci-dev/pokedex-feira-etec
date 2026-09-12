@@ -1,0 +1,43 @@
+{
+    "id": 632,
+    "name": "durant",
+    "category": "Iron Ant Pokémon",
+    "description": "They attack in groups, covering themselves in steel armor to protect themselves from Heatmor.",
+    "generation": "generation-v",
+    "height": 3,
+    "weight": 330,
+    "base_experience": 169,
+    "types": [
+        "bug",
+        "steel"
+    ],
+    "abilities": [
+        {
+            "name": "swarm",
+            "is_hidden": false
+        },
+        {
+            "name": "hustle",
+            "is_hidden": false
+        },
+        {
+            "name": "truant",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 58,
+        "attack": 109,
+        "defense": 112,
+        "special-attack": 48,
+        "special-defense": 48,
+        "speed": 109
+    },
+    "evolution_chain": {
+        "species": "durant",
+        "id": 632,
+        "sprite": "/static/sprites/pokemon/632.gif",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/632.gif"
+}

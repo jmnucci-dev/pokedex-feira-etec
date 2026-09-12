@@ -1,0 +1,42 @@
+{
+    "id": 128,
+    "name": "tauros",
+    "category": "Wild Bull Pokémon",
+    "description": "When it targets an enemy, it charges furiously while whipping its body with its long tails.",
+    "generation": "generation-i",
+    "height": 14,
+    "weight": 884,
+    "base_experience": 172,
+    "types": [
+        "normal"
+    ],
+    "abilities": [
+        {
+            "name": "intimidate",
+            "is_hidden": false
+        },
+        {
+            "name": "anger-point",
+            "is_hidden": false
+        },
+        {
+            "name": "sheer-force",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 75,
+        "attack": 100,
+        "defense": 95,
+        "special-attack": 40,
+        "special-defense": 70,
+        "speed": 110
+    },
+    "evolution_chain": {
+        "species": "tauros",
+        "id": 128,
+        "sprite": "/static/sprites/pokemon/128.gif",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/128.gif"
+}

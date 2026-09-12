@@ -1,0 +1,57 @@
+{
+    "id": 530,
+    "name": "excadrill",
+    "category": "Subterrene Pokémon",
+    "description": "It can help in tunnel construction. Its drill has evolved into steel strong enough to bore through iron plates.",
+    "generation": "generation-v",
+    "height": 7,
+    "weight": 404,
+    "base_experience": 178,
+    "types": [
+        "ground",
+        "steel"
+    ],
+    "abilities": [
+        {
+            "name": "sand-rush",
+            "is_hidden": false
+        },
+        {
+            "name": "sand-force",
+            "is_hidden": false
+        },
+        {
+            "name": "mold-breaker",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 110,
+        "attack": 135,
+        "defense": 60,
+        "special-attack": 50,
+        "special-defense": 65,
+        "speed": 88
+    },
+    "evolution_chain": {
+        "species": "drilbur",
+        "id": 529,
+        "sprite": "/static/sprites/pokemon/529.gif",
+        "evolves_to": [
+            {
+                "species": "excadrill",
+                "id": 530,
+                "sprite": "/static/sprites/pokemon/530.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 31,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/530.gif"
+}

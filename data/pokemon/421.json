@@ -1,0 +1,48 @@
+{
+    "id": 421,
+    "name": "cherrim",
+    "category": "Blossom Pokémon",
+    "description": "It blooms during times of strong sunlight. It tries to make up for everything it endured as a bud.",
+    "generation": "generation-iv",
+    "height": 5,
+    "weight": 93,
+    "base_experience": 158,
+    "types": [
+        "grass"
+    ],
+    "abilities": [
+        {
+            "name": "flower-gift",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 70,
+        "attack": 60,
+        "defense": 70,
+        "special-attack": 87,
+        "special-defense": 78,
+        "speed": 85
+    },
+    "evolution_chain": {
+        "species": "cherubi",
+        "id": 420,
+        "sprite": "/static/sprites/pokemon/420.gif",
+        "evolves_to": [
+            {
+                "species": "cherrim",
+                "id": 421,
+                "sprite": "/static/sprites/pokemon/421.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 25,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/421.gif"
+}

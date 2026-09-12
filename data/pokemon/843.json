@@ -1,0 +1,56 @@
+{
+    "id": 843,
+    "name": "silicobra",
+    "category": "Sand Snake Pokémon",
+    "description": "As it digs, it swallows sand and stores it in its neck pouch. The pouch can hold more than 17 pounds of sand.",
+    "generation": "generation-viii",
+    "height": 22,
+    "weight": 76,
+    "base_experience": 63,
+    "types": [
+        "ground"
+    ],
+    "abilities": [
+        {
+            "name": "sand-spit",
+            "is_hidden": false
+        },
+        {
+            "name": "shed-skin",
+            "is_hidden": false
+        },
+        {
+            "name": "sand-veil",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 52,
+        "attack": 57,
+        "defense": 75,
+        "special-attack": 35,
+        "special-defense": 50,
+        "speed": 46
+    },
+    "evolution_chain": {
+        "species": "silicobra",
+        "id": 843,
+        "sprite": "/static/sprites/pokemon/843.gif",
+        "evolves_to": [
+            {
+                "species": "sandaconda",
+                "id": 844,
+                "sprite": "/static/sprites/pokemon/844.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 36,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/843.gif"
+}

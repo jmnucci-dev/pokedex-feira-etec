@@ -1,0 +1,57 @@
+{
+    "id": 458,
+    "name": "mantyke",
+    "category": "Kite Pokémon",
+    "description": "A friendly Pokémon that captures the subtle flows of seawater using its two antennae.",
+    "generation": "generation-iv",
+    "height": 10,
+    "weight": 650,
+    "base_experience": 69,
+    "types": [
+        "water",
+        "flying"
+    ],
+    "abilities": [
+        {
+            "name": "swift-swim",
+            "is_hidden": false
+        },
+        {
+            "name": "water-absorb",
+            "is_hidden": false
+        },
+        {
+            "name": "water-veil",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 45,
+        "attack": 20,
+        "defense": 50,
+        "special-attack": 60,
+        "special-defense": 120,
+        "speed": 50
+    },
+    "evolution_chain": {
+        "species": "mantyke",
+        "id": 458,
+        "sprite": "/static/sprites/pokemon/458.gif",
+        "evolves_to": [
+            {
+                "species": "mantine",
+                "id": 226,
+                "sprite": "/static/sprites/pokemon/226.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/458.gif"
+}

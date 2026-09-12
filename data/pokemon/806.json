@@ -1,0 +1,35 @@
+{
+    "id": 806,
+    "name": "blacephalon",
+    "category": "Fireworks Pokémon",
+    "description": "It slithers toward people. Then, without warning, it triggers the explosion of its own head. It’s apparently one kind of Ultra Beast.",
+    "generation": "generation-vii",
+    "height": 18,
+    "weight": 130,
+    "base_experience": 257,
+    "types": [
+        "fire",
+        "ghost"
+    ],
+    "abilities": [
+        {
+            "name": "beast-boost",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 53,
+        "attack": 127,
+        "defense": 53,
+        "special-attack": 151,
+        "special-defense": 79,
+        "speed": 107
+    },
+    "evolution_chain": {
+        "species": "blacephalon",
+        "id": 806,
+        "sprite": "/static/sprites/pokemon/806.gif",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/806.gif"
+}

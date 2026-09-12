@@ -1,0 +1,70 @@
+{
+    "id": 216,
+    "name": "teddiursa",
+    "category": "Little Bear Pokémon",
+    "description": "If it finds honey, its crescent mark glows. It always licks its paws because they are soaked with honey.",
+    "generation": "generation-ii",
+    "height": 6,
+    "weight": 88,
+    "base_experience": 66,
+    "types": [
+        "normal"
+    ],
+    "abilities": [
+        {
+            "name": "pickup",
+            "is_hidden": false
+        },
+        {
+            "name": "quick-feet",
+            "is_hidden": false
+        },
+        {
+            "name": "honey-gather",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 60,
+        "attack": 80,
+        "defense": 50,
+        "special-attack": 50,
+        "special-defense": 50,
+        "speed": 40
+    },
+    "evolution_chain": {
+        "species": "teddiursa",
+        "id": 216,
+        "sprite": "/static/sprites/pokemon/216.gif",
+        "evolves_to": [
+            {
+                "species": "ursaring",
+                "id": 217,
+                "sprite": "/static/sprites/pokemon/217.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 30,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "ursaluna",
+                        "id": 901,
+                        "sprite": "/static/sprites/pokemon/901.gif",
+                        "details": [
+                            {
+                                "trigger": "use-item",
+                                "min_level": null,
+                                "item": "peat-block"
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/216.gif"
+}

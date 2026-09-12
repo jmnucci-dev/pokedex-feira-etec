@@ -1,0 +1,66 @@
+{
+    "id": 290,
+    "name": "nincada",
+    "category": "Trainee Pokémon",
+    "description": "NINCADA lives underground for many years in complete darkness. This POKéMON absorbs nutrients from the roots of trees. It stays motionless as it waits for evolution.",
+    "generation": "generation-iii",
+    "height": 5,
+    "weight": 55,
+    "base_experience": 53,
+    "types": [
+        "bug",
+        "ground"
+    ],
+    "abilities": [
+        {
+            "name": "compound-eyes",
+            "is_hidden": false
+        },
+        {
+            "name": "run-away",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 31,
+        "attack": 45,
+        "defense": 90,
+        "special-attack": 30,
+        "special-defense": 30,
+        "speed": 40
+    },
+    "evolution_chain": {
+        "species": "nincada",
+        "id": 290,
+        "sprite": "/static/sprites/pokemon/290.gif",
+        "evolves_to": [
+            {
+                "species": "ninjask",
+                "id": 291,
+                "sprite": "/static/sprites/pokemon/291.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 20,
+                        "item": null
+                    }
+                ],
+                "next": []
+            },
+            {
+                "species": "shedinja",
+                "id": 292,
+                "sprite": "/static/sprites/pokemon/292.gif",
+                "details": [
+                    {
+                        "trigger": "shed",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/290.gif"
+}

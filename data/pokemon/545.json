@@ -1,0 +1,71 @@
+{
+    "id": 545,
+    "name": "scolipede",
+    "category": "Megapede Pokémon",
+    "description": "With quick movements, it chases down its foes, attacking relentlessly with its horns until it prevails.",
+    "generation": "generation-v",
+    "height": 25,
+    "weight": 2005,
+    "base_experience": 218,
+    "types": [
+        "bug",
+        "poison"
+    ],
+    "abilities": [
+        {
+            "name": "poison-point",
+            "is_hidden": false
+        },
+        {
+            "name": "swarm",
+            "is_hidden": false
+        },
+        {
+            "name": "speed-boost",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 60,
+        "attack": 100,
+        "defense": 89,
+        "special-attack": 55,
+        "special-defense": 69,
+        "speed": 112
+    },
+    "evolution_chain": {
+        "species": "venipede",
+        "id": 543,
+        "sprite": "/static/sprites/pokemon/543.gif",
+        "evolves_to": [
+            {
+                "species": "whirlipede",
+                "id": 544,
+                "sprite": "/static/sprites/pokemon/544.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 22,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "scolipede",
+                        "id": 545,
+                        "sprite": "/static/sprites/pokemon/545.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 30,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/545.gif"
+}

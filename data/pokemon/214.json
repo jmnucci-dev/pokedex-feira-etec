@@ -1,0 +1,43 @@
+{
+    "id": 214,
+    "name": "heracross",
+    "category": "Single Horn Pokémon",
+    "description": "This powerful POKéMON thrusts its prized horn under its enemies’ bellies then lifts and throws them.",
+    "generation": "generation-ii",
+    "height": 15,
+    "weight": 540,
+    "base_experience": 175,
+    "types": [
+        "bug",
+        "fighting"
+    ],
+    "abilities": [
+        {
+            "name": "swarm",
+            "is_hidden": false
+        },
+        {
+            "name": "guts",
+            "is_hidden": false
+        },
+        {
+            "name": "moxie",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 80,
+        "attack": 125,
+        "defense": 75,
+        "special-attack": 40,
+        "special-defense": 95,
+        "speed": 85
+    },
+    "evolution_chain": {
+        "species": "heracross",
+        "id": 214,
+        "sprite": "/static/sprites/pokemon/214.gif",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/214.gif"
+}

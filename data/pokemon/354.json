@@ -1,0 +1,56 @@
+{
+    "id": 354,
+    "name": "banette",
+    "category": "Marionette Pokémon",
+    "description": "BANETTE generates energy for laying strong curses by sticking pins into its own body. This POKéMON was originally a pitiful plush doll that was thrown away.",
+    "generation": "generation-iii",
+    "height": 11,
+    "weight": 125,
+    "base_experience": 159,
+    "types": [
+        "ghost"
+    ],
+    "abilities": [
+        {
+            "name": "insomnia",
+            "is_hidden": false
+        },
+        {
+            "name": "frisk",
+            "is_hidden": false
+        },
+        {
+            "name": "cursed-body",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 64,
+        "attack": 115,
+        "defense": 65,
+        "special-attack": 83,
+        "special-defense": 63,
+        "speed": 65
+    },
+    "evolution_chain": {
+        "species": "shuppet",
+        "id": 353,
+        "sprite": "/static/sprites/pokemon/353.gif",
+        "evolves_to": [
+            {
+                "species": "banette",
+                "id": 354,
+                "sprite": "/static/sprites/pokemon/354.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 37,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/354.gif"
+}

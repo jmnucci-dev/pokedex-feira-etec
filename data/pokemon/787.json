@@ -1,0 +1,39 @@
+{
+    "id": 787,
+    "name": "tapu-bulu",
+    "category": "Land Spirit Pokémon",
+    "description": "It pulls large trees up by the roots and swings them around. It causes vegetation to grow, and then it absorbs energy from the growth.",
+    "generation": "generation-vii",
+    "height": 19,
+    "weight": 455,
+    "base_experience": 257,
+    "types": [
+        "grass",
+        "fairy"
+    ],
+    "abilities": [
+        {
+            "name": "grassy-surge",
+            "is_hidden": false
+        },
+        {
+            "name": "telepathy",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 70,
+        "attack": 130,
+        "defense": 115,
+        "special-attack": 85,
+        "special-defense": 95,
+        "speed": 75
+    },
+    "evolution_chain": {
+        "species": "tapu-bulu",
+        "id": 787,
+        "sprite": "/static/sprites/pokemon/787.gif",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/787.gif"
+}

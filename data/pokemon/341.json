@@ -1,0 +1,56 @@
+{
+    "id": 341,
+    "name": "corphish",
+    "category": "Ruffian Pokémon",
+    "description": "CORPHISH were originally foreign POKéMON that were imported as pets. They eventually turned up in the wild. This POKéMON is very hardy and has greatly increased its population.",
+    "generation": "generation-iii",
+    "height": 6,
+    "weight": 115,
+    "base_experience": 62,
+    "types": [
+        "water"
+    ],
+    "abilities": [
+        {
+            "name": "hyper-cutter",
+            "is_hidden": false
+        },
+        {
+            "name": "shell-armor",
+            "is_hidden": false
+        },
+        {
+            "name": "adaptability",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 43,
+        "attack": 80,
+        "defense": 65,
+        "special-attack": 50,
+        "special-defense": 35,
+        "speed": 35
+    },
+    "evolution_chain": {
+        "species": "corphish",
+        "id": 341,
+        "sprite": "/static/sprites/pokemon/341.gif",
+        "evolves_to": [
+            {
+                "species": "crawdaunt",
+                "id": 342,
+                "sprite": "/static/sprites/pokemon/342.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 30,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/341.gif"
+}

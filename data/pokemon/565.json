@@ -1,0 +1,57 @@
+{
+    "id": 565,
+    "name": "carracosta",
+    "category": "Prototurtle Pokémon",
+    "description": "They can live both in the ocean and on land. A slap from one of them is enough to open a hole in the bottom of a tanker.",
+    "generation": "generation-v",
+    "height": 12,
+    "weight": 810,
+    "base_experience": 173,
+    "types": [
+        "water",
+        "rock"
+    ],
+    "abilities": [
+        {
+            "name": "solid-rock",
+            "is_hidden": false
+        },
+        {
+            "name": "sturdy",
+            "is_hidden": false
+        },
+        {
+            "name": "swift-swim",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 74,
+        "attack": 108,
+        "defense": 133,
+        "special-attack": 83,
+        "special-defense": 65,
+        "speed": 32
+    },
+    "evolution_chain": {
+        "species": "tirtouga",
+        "id": 564,
+        "sprite": "/static/sprites/pokemon/564.gif",
+        "evolves_to": [
+            {
+                "species": "carracosta",
+                "id": 565,
+                "sprite": "/static/sprites/pokemon/565.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 37,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/565.gif"
+}

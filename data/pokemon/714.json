@@ -1,0 +1,57 @@
+{
+    "id": 714,
+    "name": "noibat",
+    "category": "Sound Wave Pokémon",
+    "description": "They live in pitch-black caves. Their enormous ears can emit ultrasonic waves of 200,000 hertz.",
+    "generation": "generation-vi",
+    "height": 5,
+    "weight": 80,
+    "base_experience": 49,
+    "types": [
+        "flying",
+        "dragon"
+    ],
+    "abilities": [
+        {
+            "name": "frisk",
+            "is_hidden": false
+        },
+        {
+            "name": "infiltrator",
+            "is_hidden": false
+        },
+        {
+            "name": "telepathy",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 40,
+        "attack": 30,
+        "defense": 35,
+        "special-attack": 45,
+        "special-defense": 40,
+        "speed": 55
+    },
+    "evolution_chain": {
+        "species": "noibat",
+        "id": 714,
+        "sprite": "/static/sprites/pokemon/714.png",
+        "evolves_to": [
+            {
+                "species": "noivern",
+                "id": 715,
+                "sprite": "/static/sprites/pokemon/715.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 48,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/714.png"
+}

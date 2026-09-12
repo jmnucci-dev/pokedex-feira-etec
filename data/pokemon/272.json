@@ -1,0 +1,71 @@
+{
+    "id": 272,
+    "name": "ludicolo",
+    "category": "Carefree Pokémon",
+    "description": "LUDICOLO begins dancing as soon as it hears cheerful, festive music. This POKéMON is said to appear when it hears the singing of children on hiking outings.",
+    "generation": "generation-iii",
+    "height": 15,
+    "weight": 550,
+    "base_experience": 216,
+    "types": [
+        "water",
+        "grass"
+    ],
+    "abilities": [
+        {
+            "name": "swift-swim",
+            "is_hidden": false
+        },
+        {
+            "name": "rain-dish",
+            "is_hidden": false
+        },
+        {
+            "name": "own-tempo",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 80,
+        "attack": 70,
+        "defense": 70,
+        "special-attack": 90,
+        "special-defense": 100,
+        "speed": 70
+    },
+    "evolution_chain": {
+        "species": "lotad",
+        "id": 270,
+        "sprite": "/static/sprites/pokemon/270.gif",
+        "evolves_to": [
+            {
+                "species": "lombre",
+                "id": 271,
+                "sprite": "/static/sprites/pokemon/271.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 14,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "ludicolo",
+                        "id": 272,
+                        "sprite": "/static/sprites/pokemon/272.gif",
+                        "details": [
+                            {
+                                "trigger": "use-item",
+                                "min_level": null,
+                                "item": "water-stone"
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/272.gif"
+}

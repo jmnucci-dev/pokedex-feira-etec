@@ -1,0 +1,57 @@
+{
+    "id": 452,
+    "name": "drapion",
+    "category": "Ogre Scorpion Pokémon",
+    "description": "It has the power in its clawed arms to make scrap of a car. The tips of its claws release poison.",
+    "generation": "generation-iv",
+    "height": 13,
+    "weight": 615,
+    "base_experience": 175,
+    "types": [
+        "poison",
+        "dark"
+    ],
+    "abilities": [
+        {
+            "name": "battle-armor",
+            "is_hidden": false
+        },
+        {
+            "name": "sniper",
+            "is_hidden": false
+        },
+        {
+            "name": "keen-eye",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 70,
+        "attack": 90,
+        "defense": 110,
+        "special-attack": 60,
+        "special-defense": 75,
+        "speed": 95
+    },
+    "evolution_chain": {
+        "species": "skorupi",
+        "id": 451,
+        "sprite": "/static/sprites/pokemon/451.gif",
+        "evolves_to": [
+            {
+                "species": "drapion",
+                "id": 452,
+                "sprite": "/static/sprites/pokemon/452.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 40,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/452.gif"
+}

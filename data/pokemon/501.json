@@ -1,0 +1,71 @@
+{
+    "id": 501,
+    "name": "oshawott",
+    "category": "Sea Otter Pokémon",
+    "description": "It fights using the scalchop on its stomach. In response to an attack, it retaliates immediately by slashing.",
+    "generation": "generation-v",
+    "height": 5,
+    "weight": 59,
+    "base_experience": 62,
+    "types": [
+        "water"
+    ],
+    "abilities": [
+        {
+            "name": "torrent",
+            "is_hidden": false
+        },
+        {
+            "name": "shell-armor",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 55,
+        "attack": 55,
+        "defense": 45,
+        "special-attack": 63,
+        "special-defense": 45,
+        "speed": 45
+    },
+    "evolution_chain": {
+        "species": "oshawott",
+        "id": 501,
+        "sprite": "/static/sprites/pokemon/501.gif",
+        "evolves_to": [
+            {
+                "species": "dewott",
+                "id": 502,
+                "sprite": "/static/sprites/pokemon/502.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 17,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "samurott",
+                        "id": 503,
+                        "sprite": "/static/sprites/pokemon/503.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 36,
+                                "item": null
+                            },
+                            {
+                                "trigger": "level-up",
+                                "min_level": 36,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/501.gif"
+}

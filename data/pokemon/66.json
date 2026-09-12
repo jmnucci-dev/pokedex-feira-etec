@@ -1,0 +1,70 @@
+{
+    "id": 66,
+    "name": "machop",
+    "category": "Superpower Pokémon",
+    "description": "Loves to build its muscles. It trains in all styles of martial arts to become even stronger.",
+    "generation": "generation-i",
+    "height": 8,
+    "weight": 195,
+    "base_experience": 61,
+    "types": [
+        "fighting"
+    ],
+    "abilities": [
+        {
+            "name": "guts",
+            "is_hidden": false
+        },
+        {
+            "name": "no-guard",
+            "is_hidden": false
+        },
+        {
+            "name": "steadfast",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 70,
+        "attack": 80,
+        "defense": 50,
+        "special-attack": 35,
+        "special-defense": 35,
+        "speed": 35
+    },
+    "evolution_chain": {
+        "species": "machop",
+        "id": 66,
+        "sprite": "/static/sprites/pokemon/66.gif",
+        "evolves_to": [
+            {
+                "species": "machoke",
+                "id": 67,
+                "sprite": "/static/sprites/pokemon/67.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 28,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "machamp",
+                        "id": 68,
+                        "sprite": "/static/sprites/pokemon/68.gif",
+                        "details": [
+                            {
+                                "trigger": "trade",
+                                "min_level": null,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/66.gif"
+}

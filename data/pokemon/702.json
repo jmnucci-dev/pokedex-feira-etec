@@ -1,0 +1,43 @@
+{
+    "id": 702,
+    "name": "dedenne",
+    "category": "Antenna Pokémon",
+    "description": "Its whiskers serve as antennas. By sending and receiving electrical waves, it can communicate with others over vast distances.",
+    "generation": "generation-vi",
+    "height": 2,
+    "weight": 22,
+    "base_experience": 151,
+    "types": [
+        "electric",
+        "fairy"
+    ],
+    "abilities": [
+        {
+            "name": "cheek-pouch",
+            "is_hidden": false
+        },
+        {
+            "name": "pickup",
+            "is_hidden": false
+        },
+        {
+            "name": "plus",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 67,
+        "attack": 58,
+        "defense": 57,
+        "special-attack": 81,
+        "special-defense": 67,
+        "speed": 101
+    },
+    "evolution_chain": {
+        "species": "dedenne",
+        "id": 702,
+        "sprite": "/static/sprites/pokemon/702.png",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/702.png"
+}

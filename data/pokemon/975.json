@@ -1,0 +1,56 @@
+{
+    "id": 975,
+    "name": "cetitan",
+    "category": "Terra Whale Pokémon",
+    "description": "This Pokémon wanders around snowy, icy areas. It protects its body with powerful muscles and a thick layer of fat under its skin.",
+    "generation": "generation-ix",
+    "height": 45,
+    "weight": 7000,
+    "base_experience": 182,
+    "types": [
+        "ice"
+    ],
+    "abilities": [
+        {
+            "name": "thick-fat",
+            "is_hidden": false
+        },
+        {
+            "name": "slush-rush",
+            "is_hidden": false
+        },
+        {
+            "name": "sheer-force",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 170,
+        "attack": 113,
+        "defense": 65,
+        "special-attack": 45,
+        "special-defense": 55,
+        "speed": 73
+    },
+    "evolution_chain": {
+        "species": "cetoddle",
+        "id": 974,
+        "sprite": "/static/sprites/pokemon/974.png",
+        "evolves_to": [
+            {
+                "species": "cetitan",
+                "id": 975,
+                "sprite": "/static/sprites/pokemon/975.png",
+                "details": [
+                    {
+                        "trigger": "use-item",
+                        "min_level": null,
+                        "item": "ice-stone"
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/975.png"
+}

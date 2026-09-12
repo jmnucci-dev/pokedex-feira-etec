@@ -1,0 +1,62 @@
+{
+    "id": 604,
+    "name": "eelektross",
+    "category": "EleFish Pokémon",
+    "description": "They crawl out of the ocean using their arms. They will attack prey on shore and immediately drag it into the ocean.",
+    "generation": "generation-v",
+    "height": 21,
+    "weight": 805,
+    "base_experience": 232,
+    "types": [
+        "electric"
+    ],
+    "abilities": [
+        {
+            "name": "levitate",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 85,
+        "attack": 115,
+        "defense": 80,
+        "special-attack": 105,
+        "special-defense": 80,
+        "speed": 50
+    },
+    "evolution_chain": {
+        "species": "tynamo",
+        "id": 602,
+        "sprite": "/static/sprites/pokemon/602.gif",
+        "evolves_to": [
+            {
+                "species": "eelektrik",
+                "id": 603,
+                "sprite": "/static/sprites/pokemon/603.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 39,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "eelektross",
+                        "id": 604,
+                        "sprite": "/static/sprites/pokemon/604.gif",
+                        "details": [
+                            {
+                                "trigger": "use-item",
+                                "min_level": null,
+                                "item": "thunder-stone"
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/604.gif"
+}

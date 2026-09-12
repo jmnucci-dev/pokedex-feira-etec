@@ -1,0 +1,52 @@
+{
+    "id": 918,
+    "name": "spidops",
+    "category": "Trap Pokémon",
+    "description": "It clings to branches and ceilings using its threads and moves without a sound. It takes out its prey before the prey even notices it.",
+    "generation": "generation-ix",
+    "height": 10,
+    "weight": 165,
+    "base_experience": 141,
+    "types": [
+        "bug"
+    ],
+    "abilities": [
+        {
+            "name": "insomnia",
+            "is_hidden": false
+        },
+        {
+            "name": "stakeout",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 60,
+        "attack": 79,
+        "defense": 92,
+        "special-attack": 52,
+        "special-defense": 86,
+        "speed": 35
+    },
+    "evolution_chain": {
+        "species": "tarountula",
+        "id": 917,
+        "sprite": "/static/sprites/pokemon/917.png",
+        "evolves_to": [
+            {
+                "species": "spidops",
+                "id": 918,
+                "sprite": "/static/sprites/pokemon/918.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 15,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/918.png"
+}

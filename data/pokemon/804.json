@@ -1,0 +1,49 @@
+{
+    "id": 804,
+    "name": "naganadel",
+    "category": "Poison Pin Pokémon",
+    "description": "It stores hundreds of liters of poisonous liquid inside its body. It is one of the organisms known as UBs.",
+    "generation": "generation-vii",
+    "height": 36,
+    "weight": 1500,
+    "base_experience": 243,
+    "types": [
+        "poison",
+        "dragon"
+    ],
+    "abilities": [
+        {
+            "name": "beast-boost",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 73,
+        "attack": 73,
+        "defense": 73,
+        "special-attack": 127,
+        "special-defense": 73,
+        "speed": 121
+    },
+    "evolution_chain": {
+        "species": "poipole",
+        "id": 803,
+        "sprite": "/static/sprites/pokemon/803.png",
+        "evolves_to": [
+            {
+                "species": "naganadel",
+                "id": 804,
+                "sprite": "/static/sprites/pokemon/804.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/804.gif"
+}

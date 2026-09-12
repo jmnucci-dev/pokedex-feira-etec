@@ -1,0 +1,15 @@
+<nav class="pokedex-sidebar" aria-label="Regiões">
+  <div class="sidebar-title"><a href="{{ url_for('regioes.regioes') }}" style="color:inherit; text-decoration:none; display:flex; align-items:center; gap:8px;">← Regiões</a></div>
+  <div class="region-list">
+    {% for r in regioes %}
+    <a class="region-btn {{ 'active' if r.nome == current_region else '' }}" href="{{ url_for('pokemon_region.region_pokemons', nome=r.nome) }}">
+      <div class="region-icon" style="background: {{ r.cor }}22; color: {{ r.cor }}; font-size:.6rem;">{% if r.logo %}<img src="{{ url_for('static', filename=r.logo) }}" alt="" style="width:20px;height:20px;object-fit:contain;border-radius:50%;">{% else %}●{% endif %}</div>
+      <div class="region-info"><span>{{ r.nome }}</span><span class="num">#{{ r.range }}</span></div>
+    </a>
+    {% endfor %}
+    <a href="{{ url_for('pokemon_region.region_pokemons', nome='Não sei a região') }}" class="region-btn {{ 'active' if current_region == 'Não sei a região' else '' }}">
+      <div class="region-icon" style="background:#e3352e22;color:#e3352e;font-size:.6rem;">?</div>
+      <div class="region-info"><span>National Dex</span><span class="num">Todos pokemons</span></div>
+    </a>
+  </div>
+</nav>

@@ -1,0 +1,43 @@
+{
+    "id": 213,
+    "name": "shuckle",
+    "category": "Mold Pokémon",
+    "description": "The BERRIES it stores in its vase-like shell decompose and become a gooey liquid.",
+    "generation": "generation-ii",
+    "height": 6,
+    "weight": 205,
+    "base_experience": 177,
+    "types": [
+        "bug",
+        "rock"
+    ],
+    "abilities": [
+        {
+            "name": "sturdy",
+            "is_hidden": false
+        },
+        {
+            "name": "gluttony",
+            "is_hidden": false
+        },
+        {
+            "name": "contrary",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 20,
+        "attack": 10,
+        "defense": 230,
+        "special-attack": 10,
+        "special-defense": 230,
+        "speed": 5
+    },
+    "evolution_chain": {
+        "species": "shuckle",
+        "id": 213,
+        "sprite": "/static/sprites/pokemon/213.gif",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/213.gif"
+}

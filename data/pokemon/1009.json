@@ -1,0 +1,35 @@
+{
+    "id": 1009,
+    "name": "walking-wake",
+    "category": "Paradox Pokémon",
+    "description": "This ferocious creature is shrouded in mystery. It's named after an aquatic monster mentioned in an old expedition journal.",
+    "generation": "generation-ix",
+    "height": 35,
+    "weight": 2800,
+    "base_experience": 295,
+    "types": [
+        "water",
+        "dragon"
+    ],
+    "abilities": [
+        {
+            "name": "protosynthesis",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 99,
+        "attack": 83,
+        "defense": 91,
+        "special-attack": 125,
+        "special-defense": 83,
+        "speed": 109
+    },
+    "evolution_chain": {
+        "species": "walking-wake",
+        "id": 1009,
+        "sprite": "/static/sprites/pokemon/1009.png",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/1009.png"
+}

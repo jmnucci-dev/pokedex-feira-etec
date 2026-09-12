@@ -1,0 +1,57 @@
+{
+    "id": 630,
+    "name": "mandibuzz",
+    "category": "Bone Vulture Pokémon",
+    "description": "It makes a nest out of bones it finds. It grabs weakened prey in its talons and hauls it to its nest of bones.",
+    "generation": "generation-v",
+    "height": 12,
+    "weight": 395,
+    "base_experience": 179,
+    "types": [
+        "dark",
+        "flying"
+    ],
+    "abilities": [
+        {
+            "name": "big-pecks",
+            "is_hidden": false
+        },
+        {
+            "name": "overcoat",
+            "is_hidden": false
+        },
+        {
+            "name": "weak-armor",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 110,
+        "attack": 65,
+        "defense": 105,
+        "special-attack": 55,
+        "special-defense": 95,
+        "speed": 80
+    },
+    "evolution_chain": {
+        "species": "vullaby",
+        "id": 629,
+        "sprite": "/static/sprites/pokemon/629.gif",
+        "evolves_to": [
+            {
+                "species": "mandibuzz",
+                "id": 630,
+                "sprite": "/static/sprites/pokemon/630.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 54,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/630.gif"
+}

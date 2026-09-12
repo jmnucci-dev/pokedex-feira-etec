@@ -1,0 +1,53 @@
+{
+    "id": 969,
+    "name": "glimmet",
+    "category": "Ore Pokémon",
+    "description": "It absorbs nutrients from cave walls. The petals it wears are made of crystallized poison.",
+    "generation": "generation-ix",
+    "height": 7,
+    "weight": 80,
+    "base_experience": 70,
+    "types": [
+        "rock",
+        "poison"
+    ],
+    "abilities": [
+        {
+            "name": "toxic-debris",
+            "is_hidden": false
+        },
+        {
+            "name": "corrosion",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 48,
+        "attack": 35,
+        "defense": 42,
+        "special-attack": 105,
+        "special-defense": 60,
+        "speed": 60
+    },
+    "evolution_chain": {
+        "species": "glimmet",
+        "id": 969,
+        "sprite": "/static/sprites/pokemon/969.png",
+        "evolves_to": [
+            {
+                "species": "glimmora",
+                "id": 970,
+                "sprite": "/static/sprites/pokemon/970.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 35,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/969.png"
+}

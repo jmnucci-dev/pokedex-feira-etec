@@ -1,0 +1,67 @@
+{
+    "id": 911,
+    "name": "skeledirge",
+    "category": "Singer Pokémon",
+    "description": "The fiery bird changes shape when Skeledirge sings. Rumor has it that the bird was born when the fireball on Skeledirge’s head gained a soul.",
+    "generation": "generation-ix",
+    "height": 16,
+    "weight": 3265,
+    "base_experience": 265,
+    "types": [
+        "fire",
+        "ghost"
+    ],
+    "abilities": [
+        {
+            "name": "blaze",
+            "is_hidden": false
+        },
+        {
+            "name": "unaware",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 104,
+        "attack": 75,
+        "defense": 100,
+        "special-attack": 110,
+        "special-defense": 75,
+        "speed": 66
+    },
+    "evolution_chain": {
+        "species": "fuecoco",
+        "id": 909,
+        "sprite": "/static/sprites/pokemon/909.png",
+        "evolves_to": [
+            {
+                "species": "crocalor",
+                "id": 910,
+                "sprite": "/static/sprites/pokemon/910.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 16,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "skeledirge",
+                        "id": 911,
+                        "sprite": "/static/sprites/pokemon/911.png",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 36,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/911.png"
+}

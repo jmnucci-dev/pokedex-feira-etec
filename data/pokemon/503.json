@@ -1,0 +1,71 @@
+{
+    "id": 503,
+    "name": "samurott",
+    "category": "Formidable Pokémon",
+    "description": "One swing of the sword incorporated in its armor can fell an opponent. A simple glare from one of them quiets everybody.",
+    "generation": "generation-v",
+    "height": 15,
+    "weight": 946,
+    "base_experience": 238,
+    "types": [
+        "water"
+    ],
+    "abilities": [
+        {
+            "name": "torrent",
+            "is_hidden": false
+        },
+        {
+            "name": "shell-armor",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 95,
+        "attack": 100,
+        "defense": 85,
+        "special-attack": 108,
+        "special-defense": 70,
+        "speed": 70
+    },
+    "evolution_chain": {
+        "species": "oshawott",
+        "id": 501,
+        "sprite": "/static/sprites/pokemon/501.gif",
+        "evolves_to": [
+            {
+                "species": "dewott",
+                "id": 502,
+                "sprite": "/static/sprites/pokemon/502.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 17,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "samurott",
+                        "id": 503,
+                        "sprite": "/static/sprites/pokemon/503.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 36,
+                                "item": null
+                            },
+                            {
+                                "trigger": "level-up",
+                                "min_level": 36,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/503.gif"
+}

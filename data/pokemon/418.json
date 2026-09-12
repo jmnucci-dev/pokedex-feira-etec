@@ -1,0 +1,52 @@
+{
+    "id": 418,
+    "name": "buizel",
+    "category": "Sea Weasel Pokémon",
+    "description": "It has a flotation sac that is like an inflatable collar. It floats on water with its head out.",
+    "generation": "generation-iv",
+    "height": 7,
+    "weight": 295,
+    "base_experience": 66,
+    "types": [
+        "water"
+    ],
+    "abilities": [
+        {
+            "name": "swift-swim",
+            "is_hidden": false
+        },
+        {
+            "name": "water-veil",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 55,
+        "attack": 65,
+        "defense": 35,
+        "special-attack": 60,
+        "special-defense": 30,
+        "speed": 85
+    },
+    "evolution_chain": {
+        "species": "buizel",
+        "id": 418,
+        "sprite": "/static/sprites/pokemon/418.gif",
+        "evolves_to": [
+            {
+                "species": "floatzel",
+                "id": 419,
+                "sprite": "/static/sprites/pokemon/419.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 26,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/418.gif"
+}

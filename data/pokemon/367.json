@@ -1,0 +1,65 @@
+{
+    "id": 367,
+    "name": "huntail",
+    "category": "Deep Sea Pokémon",
+    "description": "HUNTAIL’s presence went unnoticed by people for a long time because it lives at extreme depths in the sea. This POKéMON’s eyes can see clearly even in the murky dark depths of the ocean.",
+    "generation": "generation-iii",
+    "height": 17,
+    "weight": 270,
+    "base_experience": 170,
+    "types": [
+        "water"
+    ],
+    "abilities": [
+        {
+            "name": "swift-swim",
+            "is_hidden": false
+        },
+        {
+            "name": "water-veil",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 55,
+        "attack": 104,
+        "defense": 105,
+        "special-attack": 94,
+        "special-defense": 75,
+        "speed": 52
+    },
+    "evolution_chain": {
+        "species": "clamperl",
+        "id": 366,
+        "sprite": "/static/sprites/pokemon/366.gif",
+        "evolves_to": [
+            {
+                "species": "huntail",
+                "id": 367,
+                "sprite": "/static/sprites/pokemon/367.gif",
+                "details": [
+                    {
+                        "trigger": "trade",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": []
+            },
+            {
+                "species": "gorebyss",
+                "id": 368,
+                "sprite": "/static/sprites/pokemon/368.gif",
+                "details": [
+                    {
+                        "trigger": "trade",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/367.gif"
+}

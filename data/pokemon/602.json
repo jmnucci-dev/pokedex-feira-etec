@@ -1,0 +1,62 @@
+{
+    "id": 602,
+    "name": "tynamo",
+    "category": "EleFish Pokémon",
+    "description": "While one alone doesn’t have much power, a chain of many Tynamo can be as powerful as lightning.",
+    "generation": "generation-v",
+    "height": 2,
+    "weight": 3,
+    "base_experience": 55,
+    "types": [
+        "electric"
+    ],
+    "abilities": [
+        {
+            "name": "levitate",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 35,
+        "attack": 55,
+        "defense": 40,
+        "special-attack": 45,
+        "special-defense": 40,
+        "speed": 60
+    },
+    "evolution_chain": {
+        "species": "tynamo",
+        "id": 602,
+        "sprite": "/static/sprites/pokemon/602.gif",
+        "evolves_to": [
+            {
+                "species": "eelektrik",
+                "id": 603,
+                "sprite": "/static/sprites/pokemon/603.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 39,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "eelektross",
+                        "id": 604,
+                        "sprite": "/static/sprites/pokemon/604.gif",
+                        "details": [
+                            {
+                                "trigger": "use-item",
+                                "min_level": null,
+                                "item": "thunder-stone"
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/602.gif"
+}

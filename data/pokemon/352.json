@@ -1,0 +1,38 @@
+{
+    "id": 352,
+    "name": "kecleon",
+    "category": "Color Swap Pokémon",
+    "description": "KECLEON is capable of changing its body colors at will to blend in with its surroundings. There is one exception - this POKéMON can’t change the zigzag pattern on its belly.",
+    "generation": "generation-iii",
+    "height": 10,
+    "weight": 220,
+    "base_experience": 154,
+    "types": [
+        "normal"
+    ],
+    "abilities": [
+        {
+            "name": "color-change",
+            "is_hidden": false
+        },
+        {
+            "name": "protean",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 60,
+        "attack": 90,
+        "defense": 70,
+        "special-attack": 60,
+        "special-defense": 120,
+        "speed": 40
+    },
+    "evolution_chain": {
+        "species": "kecleon",
+        "id": 352,
+        "sprite": "/static/sprites/pokemon/352.gif",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/352.gif"
+}

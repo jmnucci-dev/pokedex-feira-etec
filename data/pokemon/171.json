@@ -1,0 +1,57 @@
+{
+    "id": 171,
+    "name": "lanturn",
+    "category": "Light Pokémon",
+    "description": "The light it emits is so bright that it can illuminate the sea's surface from a depth of over three miles.",
+    "generation": "generation-ii",
+    "height": 12,
+    "weight": 225,
+    "base_experience": 161,
+    "types": [
+        "water",
+        "electric"
+    ],
+    "abilities": [
+        {
+            "name": "volt-absorb",
+            "is_hidden": false
+        },
+        {
+            "name": "illuminate",
+            "is_hidden": false
+        },
+        {
+            "name": "water-absorb",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 125,
+        "attack": 58,
+        "defense": 58,
+        "special-attack": 76,
+        "special-defense": 76,
+        "speed": 67
+    },
+    "evolution_chain": {
+        "species": "chinchou",
+        "id": 170,
+        "sprite": "/static/sprites/pokemon/170.gif",
+        "evolves_to": [
+            {
+                "species": "lanturn",
+                "id": 171,
+                "sprite": "/static/sprites/pokemon/171.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 27,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/171.gif"
+}

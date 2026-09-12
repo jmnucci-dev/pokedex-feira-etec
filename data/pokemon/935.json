@@ -1,0 +1,65 @@
+{
+    "id": 935,
+    "name": "charcadet",
+    "category": "Fire Child Pokémon",
+    "description": "Burnt charcoal came to life and became a Pokémon. Possessing a fiery fighting spirit, Charcadet will battle even tough opponents.",
+    "generation": "generation-ix",
+    "height": 6,
+    "weight": 105,
+    "base_experience": 51,
+    "types": [
+        "fire"
+    ],
+    "abilities": [
+        {
+            "name": "flash-fire",
+            "is_hidden": false
+        },
+        {
+            "name": "flame-body",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 40,
+        "attack": 50,
+        "defense": 40,
+        "special-attack": 50,
+        "special-defense": 40,
+        "speed": 35
+    },
+    "evolution_chain": {
+        "species": "charcadet",
+        "id": 935,
+        "sprite": "/static/sprites/pokemon/935.png",
+        "evolves_to": [
+            {
+                "species": "armarouge",
+                "id": 936,
+                "sprite": "/static/sprites/pokemon/936.png",
+                "details": [
+                    {
+                        "trigger": "use-item",
+                        "min_level": null,
+                        "item": "auspicious-armor"
+                    }
+                ],
+                "next": []
+            },
+            {
+                "species": "ceruledge",
+                "id": 937,
+                "sprite": "/static/sprites/pokemon/937.png",
+                "details": [
+                    {
+                        "trigger": "use-item",
+                        "min_level": null,
+                        "item": "malicious-armor"
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/935.png"
+}

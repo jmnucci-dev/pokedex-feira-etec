@@ -1,0 +1,61 @@
+{
+    "id": 739,
+    "name": "crabrawler",
+    "category": "Boxing Pokémon",
+    "description": "While guarding its weak points with its pincers, it looks for an opening and unleashes punches. When it loses, it foams at the mouth and faints.",
+    "generation": "generation-vii",
+    "height": 6,
+    "weight": 70,
+    "base_experience": 68,
+    "types": [
+        "fighting"
+    ],
+    "abilities": [
+        {
+            "name": "hyper-cutter",
+            "is_hidden": false
+        },
+        {
+            "name": "iron-fist",
+            "is_hidden": false
+        },
+        {
+            "name": "anger-point",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 47,
+        "attack": 82,
+        "defense": 57,
+        "special-attack": 42,
+        "special-defense": 47,
+        "speed": 63
+    },
+    "evolution_chain": {
+        "species": "crabrawler",
+        "id": 739,
+        "sprite": "/static/sprites/pokemon/739.gif",
+        "evolves_to": [
+            {
+                "species": "crabominable",
+                "id": 740,
+                "sprite": "/static/sprites/pokemon/740.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    },
+                    {
+                        "trigger": "use-item",
+                        "min_level": null,
+                        "item": "ice-stone"
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/739.gif"
+}

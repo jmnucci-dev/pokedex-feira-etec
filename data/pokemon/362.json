@@ -1,0 +1,69 @@
+{
+    "id": 362,
+    "name": "glalie",
+    "category": "Face Pokémon",
+    "description": "GLALIE has a body made of rock, which it hardens with an armor of ice. This POKéMON has the ability to freeze moisture in the atmosphere into any shape it desires.",
+    "generation": "generation-iii",
+    "height": 15,
+    "weight": 2565,
+    "base_experience": 168,
+    "types": [
+        "ice"
+    ],
+    "abilities": [
+        {
+            "name": "inner-focus",
+            "is_hidden": false
+        },
+        {
+            "name": "ice-body",
+            "is_hidden": false
+        },
+        {
+            "name": "moody",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 80,
+        "attack": 80,
+        "defense": 80,
+        "special-attack": 80,
+        "special-defense": 80,
+        "speed": 80
+    },
+    "evolution_chain": {
+        "species": "snorunt",
+        "id": 361,
+        "sprite": "/static/sprites/pokemon/361.gif",
+        "evolves_to": [
+            {
+                "species": "glalie",
+                "id": 362,
+                "sprite": "/static/sprites/pokemon/362.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 42,
+                        "item": null
+                    }
+                ],
+                "next": []
+            },
+            {
+                "species": "froslass",
+                "id": 478,
+                "sprite": "/static/sprites/pokemon/478.gif",
+                "details": [
+                    {
+                        "trigger": "use-item",
+                        "min_level": null,
+                        "item": "dawn-stone"
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/362.gif"
+}

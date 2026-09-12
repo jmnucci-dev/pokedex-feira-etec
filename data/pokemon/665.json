@@ -1,0 +1,66 @@
+{
+    "id": 665,
+    "name": "spewpa",
+    "category": "Scatterdust Pokémon",
+    "description": "It lives hidden within thicket shadows. When predators attack, it quickly bristles the fur covering its body in an effort to threaten them.",
+    "generation": "generation-vi",
+    "height": 3,
+    "weight": 84,
+    "base_experience": 75,
+    "types": [
+        "bug"
+    ],
+    "abilities": [
+        {
+            "name": "shed-skin",
+            "is_hidden": false
+        },
+        {
+            "name": "friend-guard",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 45,
+        "attack": 22,
+        "defense": 60,
+        "special-attack": 27,
+        "special-defense": 30,
+        "speed": 29
+    },
+    "evolution_chain": {
+        "species": "scatterbug",
+        "id": 664,
+        "sprite": "/static/sprites/pokemon/664.png",
+        "evolves_to": [
+            {
+                "species": "spewpa",
+                "id": 665,
+                "sprite": "/static/sprites/pokemon/665.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 9,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "vivillon",
+                        "id": 666,
+                        "sprite": "/static/sprites/pokemon/666.png",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 12,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/665.png"
+}

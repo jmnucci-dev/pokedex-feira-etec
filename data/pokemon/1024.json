@@ -1,0 +1,34 @@
+{
+    "id": 1024,
+    "name": "terapagos",
+    "category": "Tera Pokémon",
+    "description": "Terapagos protects itself using its power to transform energy into hard crystals. This Pokémon is the source of the Terastal phenomenon.",
+    "generation": "generation-ix",
+    "height": 2,
+    "weight": 65,
+    "base_experience": 90,
+    "types": [
+        "normal"
+    ],
+    "abilities": [
+        {
+            "name": "tera-shift",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 90,
+        "attack": 65,
+        "defense": 85,
+        "special-attack": 65,
+        "special-defense": 85,
+        "speed": 60
+    },
+    "evolution_chain": {
+        "species": "terapagos",
+        "id": 1024,
+        "sprite": "/static/sprites/pokemon/1024.png",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/1024.png"
+}

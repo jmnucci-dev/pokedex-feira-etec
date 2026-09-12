@@ -1,0 +1,63 @@
+{
+    "id": 681,
+    "name": "aegislash-shield",
+    "category": "Royal Sword Pokémon",
+    "description": "Generations of kings were attended by these Pokémon, which used their spectral power to manipulate and control people and Pokémon.",
+    "generation": "generation-vi",
+    "height": 17,
+    "weight": 530,
+    "base_experience": 234,
+    "types": [
+        "steel",
+        "ghost"
+    ],
+    "abilities": [
+        {
+            "name": "stance-change",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 60,
+        "attack": 50,
+        "defense": 140,
+        "special-attack": 50,
+        "special-defense": 140,
+        "speed": 60
+    },
+    "evolution_chain": {
+        "species": "honedge",
+        "id": 679,
+        "sprite": "/static/sprites/pokemon/679.png",
+        "evolves_to": [
+            {
+                "species": "doublade",
+                "id": 680,
+                "sprite": "/static/sprites/pokemon/680.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 35,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "aegislash",
+                        "id": 681,
+                        "sprite": "/static/sprites/pokemon/681.png",
+                        "details": [
+                            {
+                                "trigger": "use-item",
+                                "min_level": null,
+                                "item": "dusk-stone"
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/681.png"
+}

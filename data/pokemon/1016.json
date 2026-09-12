@@ -1,0 +1,39 @@
+{
+    "id": 1016,
+    "name": "fezandipiti",
+    "category": "Retainer Pokémon",
+    "description": "Fezandipiti owes its beautiful looks and lovely voice to the toxic stimulants emanating from the chain wrapped around its body.",
+    "generation": "generation-ix",
+    "height": 14,
+    "weight": 301,
+    "base_experience": 278,
+    "types": [
+        "poison",
+        "fairy"
+    ],
+    "abilities": [
+        {
+            "name": "toxic-chain",
+            "is_hidden": false
+        },
+        {
+            "name": "technician",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 88,
+        "attack": 91,
+        "defense": 82,
+        "special-attack": 70,
+        "special-defense": 125,
+        "speed": 99
+    },
+    "evolution_chain": {
+        "species": "fezandipiti",
+        "id": 1016,
+        "sprite": "/static/sprites/pokemon/1016.png",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/1016.png"
+}

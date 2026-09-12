@@ -1,0 +1,57 @@
+{
+    "id": 472,
+    "name": "gliscor",
+    "category": "Fang Scorpion Pokémon",
+    "description": "It observes prey while hanging inverted from branches. When the chance presents itself, it swoops!",
+    "generation": "generation-iv",
+    "height": 20,
+    "weight": 425,
+    "base_experience": 179,
+    "types": [
+        "ground",
+        "flying"
+    ],
+    "abilities": [
+        {
+            "name": "hyper-cutter",
+            "is_hidden": false
+        },
+        {
+            "name": "sand-veil",
+            "is_hidden": false
+        },
+        {
+            "name": "poison-heal",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 75,
+        "attack": 95,
+        "defense": 125,
+        "special-attack": 45,
+        "special-defense": 75,
+        "speed": 95
+    },
+    "evolution_chain": {
+        "species": "gligar",
+        "id": 207,
+        "sprite": "/static/sprites/pokemon/207.gif",
+        "evolves_to": [
+            {
+                "species": "gliscor",
+                "id": 472,
+                "sprite": "/static/sprites/pokemon/472.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/472.gif"
+}

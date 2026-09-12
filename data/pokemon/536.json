@@ -1,0 +1,71 @@
+{
+    "id": 536,
+    "name": "palpitoad",
+    "category": "Vibration Pokémon",
+    "description": "When they vibrate the bumps on their heads, they can make waves in water or earthquake-like vibrations on land.",
+    "generation": "generation-v",
+    "height": 8,
+    "weight": 170,
+    "base_experience": 134,
+    "types": [
+        "water",
+        "ground"
+    ],
+    "abilities": [
+        {
+            "name": "swift-swim",
+            "is_hidden": false
+        },
+        {
+            "name": "hydration",
+            "is_hidden": false
+        },
+        {
+            "name": "water-absorb",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 75,
+        "attack": 65,
+        "defense": 55,
+        "special-attack": 65,
+        "special-defense": 55,
+        "speed": 69
+    },
+    "evolution_chain": {
+        "species": "tympole",
+        "id": 535,
+        "sprite": "/static/sprites/pokemon/535.gif",
+        "evolves_to": [
+            {
+                "species": "palpitoad",
+                "id": 536,
+                "sprite": "/static/sprites/pokemon/536.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 25,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "seismitoad",
+                        "id": 537,
+                        "sprite": "/static/sprites/pokemon/537.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 36,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/536.gif"
+}

@@ -1,0 +1,53 @@
+{
+    "id": 571,
+    "name": "zoroark",
+    "category": "Illusion Fox Pokémon",
+    "description": "Bonds between these Pokémon are very strong. It protects the safety of its pack by tricking its opponents.",
+    "generation": "generation-v",
+    "height": 16,
+    "weight": 811,
+    "base_experience": 179,
+    "types": [
+        "dark"
+    ],
+    "abilities": [
+        {
+            "name": "illusion",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 60,
+        "attack": 105,
+        "defense": 60,
+        "special-attack": 120,
+        "special-defense": 60,
+        "speed": 105
+    },
+    "evolution_chain": {
+        "species": "zorua",
+        "id": 570,
+        "sprite": "/static/sprites/pokemon/570.gif",
+        "evolves_to": [
+            {
+                "species": "zoroark",
+                "id": 571,
+                "sprite": "/static/sprites/pokemon/571.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 30,
+                        "item": null
+                    },
+                    {
+                        "trigger": "level-up",
+                        "min_level": 30,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/571.gif"
+}

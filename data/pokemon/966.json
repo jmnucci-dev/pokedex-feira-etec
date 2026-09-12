@@ -1,0 +1,53 @@
+{
+    "id": 966,
+    "name": "revavroom",
+    "category": "Multi-Cyl Pokémon",
+    "description": "It creates a gas out of poison and minerals from rocks. It then detonates the gas in its cylinders—now numbering eight—to generate energy.",
+    "generation": "generation-ix",
+    "height": 18,
+    "weight": 1200,
+    "base_experience": 175,
+    "types": [
+        "steel",
+        "poison"
+    ],
+    "abilities": [
+        {
+            "name": "overcoat",
+            "is_hidden": false
+        },
+        {
+            "name": "filter",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 80,
+        "attack": 119,
+        "defense": 90,
+        "special-attack": 54,
+        "special-defense": 67,
+        "speed": 90
+    },
+    "evolution_chain": {
+        "species": "varoom",
+        "id": 965,
+        "sprite": "/static/sprites/pokemon/965.png",
+        "evolves_to": [
+            {
+                "species": "revavroom",
+                "id": 966,
+                "sprite": "/static/sprites/pokemon/966.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 40,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/966.png"
+}

@@ -1,0 +1,56 @@
+{
+    "id": 942,
+    "name": "maschiff",
+    "category": "Rascal Pokémon",
+    "description": "It always scowls in an attempt to make opponents take it seriously, but even crying children will burst into laughter when they see Maschiff’s face.",
+    "generation": "generation-ix",
+    "height": 5,
+    "weight": 160,
+    "base_experience": 68,
+    "types": [
+        "dark"
+    ],
+    "abilities": [
+        {
+            "name": "intimidate",
+            "is_hidden": false
+        },
+        {
+            "name": "run-away",
+            "is_hidden": false
+        },
+        {
+            "name": "stakeout",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 60,
+        "attack": 78,
+        "defense": 60,
+        "special-attack": 40,
+        "special-defense": 51,
+        "speed": 51
+    },
+    "evolution_chain": {
+        "species": "maschiff",
+        "id": 942,
+        "sprite": "/static/sprites/pokemon/942.png",
+        "evolves_to": [
+            {
+                "species": "mabosstiff",
+                "id": 943,
+                "sprite": "/static/sprites/pokemon/943.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 30,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/942.png"
+}

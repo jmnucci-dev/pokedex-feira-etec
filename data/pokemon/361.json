@@ -1,0 +1,69 @@
+{
+    "id": 361,
+    "name": "snorunt",
+    "category": "Snow Hat Pokémon",
+    "description": "SNORUNT live in regions with heavy snowfall. In seasons without snow, such as spring and summer, this POKéMON steals away to live quietly among stalactites and stalagmites deep in caverns.",
+    "generation": "generation-iii",
+    "height": 7,
+    "weight": 168,
+    "base_experience": 60,
+    "types": [
+        "ice"
+    ],
+    "abilities": [
+        {
+            "name": "inner-focus",
+            "is_hidden": false
+        },
+        {
+            "name": "ice-body",
+            "is_hidden": false
+        },
+        {
+            "name": "moody",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 50,
+        "attack": 50,
+        "defense": 50,
+        "special-attack": 50,
+        "special-defense": 50,
+        "speed": 50
+    },
+    "evolution_chain": {
+        "species": "snorunt",
+        "id": 361,
+        "sprite": "/static/sprites/pokemon/361.gif",
+        "evolves_to": [
+            {
+                "species": "glalie",
+                "id": 362,
+                "sprite": "/static/sprites/pokemon/362.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 42,
+                        "item": null
+                    }
+                ],
+                "next": []
+            },
+            {
+                "species": "froslass",
+                "id": 478,
+                "sprite": "/static/sprites/pokemon/478.gif",
+                "details": [
+                    {
+                        "trigger": "use-item",
+                        "min_level": null,
+                        "item": "dawn-stone"
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/361.gif"
+}

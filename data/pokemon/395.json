@@ -1,0 +1,67 @@
+{
+    "id": 395,
+    "name": "empoleon",
+    "category": "Emperor Pokémon",
+    "description": "The three horns that extend from its beak attest to its power. The leader has the biggest horns.",
+    "generation": "generation-iv",
+    "height": 17,
+    "weight": 845,
+    "base_experience": 239,
+    "types": [
+        "water",
+        "steel"
+    ],
+    "abilities": [
+        {
+            "name": "torrent",
+            "is_hidden": false
+        },
+        {
+            "name": "competitive",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 84,
+        "attack": 86,
+        "defense": 88,
+        "special-attack": 111,
+        "special-defense": 101,
+        "speed": 60
+    },
+    "evolution_chain": {
+        "species": "piplup",
+        "id": 393,
+        "sprite": "/static/sprites/pokemon/393.gif",
+        "evolves_to": [
+            {
+                "species": "prinplup",
+                "id": 394,
+                "sprite": "/static/sprites/pokemon/394.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 16,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "empoleon",
+                        "id": 395,
+                        "sprite": "/static/sprites/pokemon/395.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 36,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/395.gif"
+}

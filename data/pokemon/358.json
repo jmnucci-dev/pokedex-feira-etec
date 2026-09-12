@@ -1,0 +1,48 @@
+{
+    "id": 358,
+    "name": "chimecho",
+    "category": "Wind Chime Pokémon",
+    "description": "CHIMECHO makes its cries echo inside its hollow body. When this POKéMON becomes enraged, its cries result in ultrasonic waves that have the power to knock foes flying.",
+    "generation": "generation-iii",
+    "height": 6,
+    "weight": 10,
+    "base_experience": 159,
+    "types": [
+        "psychic"
+    ],
+    "abilities": [
+        {
+            "name": "levitate",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 75,
+        "attack": 50,
+        "defense": 80,
+        "special-attack": 95,
+        "special-defense": 90,
+        "speed": 65
+    },
+    "evolution_chain": {
+        "species": "chingling",
+        "id": 433,
+        "sprite": "/static/sprites/pokemon/433.gif",
+        "evolves_to": [
+            {
+                "species": "chimecho",
+                "id": 358,
+                "sprite": "/static/sprites/pokemon/358.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/358.gif"
+}

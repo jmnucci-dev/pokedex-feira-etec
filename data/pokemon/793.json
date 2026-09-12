@@ -1,0 +1,35 @@
+{
+    "id": 793,
+    "name": "nihilego",
+    "category": "Parasite Pokémon",
+    "description": "One of several mysterious Ultra Beasts. People on the street report observing those infested by it suddenly becoming violent.",
+    "generation": "generation-vii",
+    "height": 12,
+    "weight": 555,
+    "base_experience": 257,
+    "types": [
+        "rock",
+        "poison"
+    ],
+    "abilities": [
+        {
+            "name": "beast-boost",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 109,
+        "attack": 53,
+        "defense": 47,
+        "special-attack": 127,
+        "special-defense": 131,
+        "speed": 103
+    },
+    "evolution_chain": {
+        "species": "nihilego",
+        "id": 793,
+        "sprite": "/static/sprites/pokemon/793.gif",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/793.gif"
+}

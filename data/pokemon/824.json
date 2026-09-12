@@ -1,0 +1,70 @@
+{
+    "id": 824,
+    "name": "blipbug",
+    "category": "Larva Pokémon",
+    "description": "A constant collector of information, this Pokémon is very smart. Very strong is what it isn’t.",
+    "generation": "generation-viii",
+    "height": 4,
+    "weight": 80,
+    "base_experience": 36,
+    "types": [
+        "bug"
+    ],
+    "abilities": [
+        {
+            "name": "swarm",
+            "is_hidden": false
+        },
+        {
+            "name": "compound-eyes",
+            "is_hidden": false
+        },
+        {
+            "name": "telepathy",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 25,
+        "attack": 20,
+        "defense": 20,
+        "special-attack": 25,
+        "special-defense": 45,
+        "speed": 45
+    },
+    "evolution_chain": {
+        "species": "blipbug",
+        "id": 824,
+        "sprite": "/static/sprites/pokemon/824.gif",
+        "evolves_to": [
+            {
+                "species": "dottler",
+                "id": 825,
+                "sprite": "/static/sprites/pokemon/825.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 10,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "orbeetle",
+                        "id": 826,
+                        "sprite": "/static/sprites/pokemon/826.png",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 30,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/824.gif"
+}

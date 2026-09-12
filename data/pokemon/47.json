@@ -1,0 +1,57 @@
+{
+    "id": 47,
+    "name": "parasect",
+    "category": "Mushroom Pokémon",
+    "description": "A host-parasite pair in which the parasite mushroom has taken over the host bug. Prefers damp places.",
+    "generation": "generation-i",
+    "height": 10,
+    "weight": 295,
+    "base_experience": 142,
+    "types": [
+        "bug",
+        "grass"
+    ],
+    "abilities": [
+        {
+            "name": "effect-spore",
+            "is_hidden": false
+        },
+        {
+            "name": "dry-skin",
+            "is_hidden": false
+        },
+        {
+            "name": "damp",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 60,
+        "attack": 95,
+        "defense": 80,
+        "special-attack": 60,
+        "special-defense": 80,
+        "speed": 30
+    },
+    "evolution_chain": {
+        "species": "paras",
+        "id": 46,
+        "sprite": "/static/sprites/pokemon/46.gif",
+        "evolves_to": [
+            {
+                "species": "parasect",
+                "id": 47,
+                "sprite": "/static/sprites/pokemon/47.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 24,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/47.gif"
+}

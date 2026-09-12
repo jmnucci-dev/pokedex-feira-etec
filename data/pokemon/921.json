@@ -1,0 +1,70 @@
+{
+    "id": 921,
+    "name": "pawmi",
+    "category": "Mouse Pokémon",
+    "description": "It has underdeveloped electric sacs on its cheeks. These sacs can produce electricity only if Pawmi rubs them furiously with the pads on its forepaws.",
+    "generation": "generation-ix",
+    "height": 3,
+    "weight": 25,
+    "base_experience": 48,
+    "types": [
+        "electric"
+    ],
+    "abilities": [
+        {
+            "name": "static",
+            "is_hidden": false
+        },
+        {
+            "name": "natural-cure",
+            "is_hidden": false
+        },
+        {
+            "name": "iron-fist",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 45,
+        "attack": 50,
+        "defense": 20,
+        "special-attack": 40,
+        "special-defense": 25,
+        "speed": 60
+    },
+    "evolution_chain": {
+        "species": "pawmi",
+        "id": 921,
+        "sprite": "/static/sprites/pokemon/921.png",
+        "evolves_to": [
+            {
+                "species": "pawmo",
+                "id": 922,
+                "sprite": "/static/sprites/pokemon/922.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 18,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "pawmot",
+                        "id": 923,
+                        "sprite": "/static/sprites/pokemon/923.png",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": null,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/921.png"
+}

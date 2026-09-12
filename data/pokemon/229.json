@@ -1,0 +1,57 @@
+{
+    "id": 229,
+    "name": "houndoom",
+    "category": "Dark Pokémon",
+    "description": "If you are burned by the flames it shoots from its mouth, the pain will never go away.",
+    "generation": "generation-ii",
+    "height": 14,
+    "weight": 350,
+    "base_experience": 175,
+    "types": [
+        "dark",
+        "fire"
+    ],
+    "abilities": [
+        {
+            "name": "early-bird",
+            "is_hidden": false
+        },
+        {
+            "name": "flash-fire",
+            "is_hidden": false
+        },
+        {
+            "name": "unnerve",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 75,
+        "attack": 90,
+        "defense": 50,
+        "special-attack": 110,
+        "special-defense": 80,
+        "speed": 95
+    },
+    "evolution_chain": {
+        "species": "houndour",
+        "id": 228,
+        "sprite": "/static/sprites/pokemon/228.gif",
+        "evolves_to": [
+            {
+                "species": "houndoom",
+                "id": 229,
+                "sprite": "/static/sprites/pokemon/229.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 24,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/229.gif"
+}

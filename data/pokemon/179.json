@@ -1,0 +1,66 @@
+{
+    "id": 179,
+    "name": "mareep",
+    "category": "Wool Pokémon",
+    "description": "If static elec­ tricity builds in its body, its fleece doubles in volume. Touching it will shock you.",
+    "generation": "generation-ii",
+    "height": 6,
+    "weight": 78,
+    "base_experience": 56,
+    "types": [
+        "electric"
+    ],
+    "abilities": [
+        {
+            "name": "static",
+            "is_hidden": false
+        },
+        {
+            "name": "plus",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 55,
+        "attack": 40,
+        "defense": 40,
+        "special-attack": 65,
+        "special-defense": 45,
+        "speed": 35
+    },
+    "evolution_chain": {
+        "species": "mareep",
+        "id": 179,
+        "sprite": "/static/sprites/pokemon/179.gif",
+        "evolves_to": [
+            {
+                "species": "flaaffy",
+                "id": 180,
+                "sprite": "/static/sprites/pokemon/180.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 15,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "ampharos",
+                        "id": 181,
+                        "sprite": "/static/sprites/pokemon/181.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 30,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/179.gif"
+}

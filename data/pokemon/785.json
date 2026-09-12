@@ -1,0 +1,39 @@
+{
+    "id": 785,
+    "name": "tapu-koko",
+    "category": "Land Spirit Pokémon",
+    "description": "This guardian deity of Melemele is brimming with curiosity. It summons thunderclouds and stores their lightning inside its body.",
+    "generation": "generation-vii",
+    "height": 18,
+    "weight": 205,
+    "base_experience": 257,
+    "types": [
+        "electric",
+        "fairy"
+    ],
+    "abilities": [
+        {
+            "name": "electric-surge",
+            "is_hidden": false
+        },
+        {
+            "name": "telepathy",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 70,
+        "attack": 115,
+        "defense": 85,
+        "special-attack": 95,
+        "special-defense": 75,
+        "speed": 130
+    },
+    "evolution_chain": {
+        "species": "tapu-koko",
+        "id": 785,
+        "sprite": "/static/sprites/pokemon/785.gif",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/785.gif"
+}

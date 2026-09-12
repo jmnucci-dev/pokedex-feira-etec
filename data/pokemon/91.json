@@ -1,0 +1,57 @@
+{
+    "id": 91,
+    "name": "cloyster",
+    "category": "Bivalve Pokémon",
+    "description": "When attacked, it launches its horns in quick volleys. Its innards have never been seen.",
+    "generation": "generation-i",
+    "height": 15,
+    "weight": 1325,
+    "base_experience": 184,
+    "types": [
+        "water",
+        "ice"
+    ],
+    "abilities": [
+        {
+            "name": "shell-armor",
+            "is_hidden": false
+        },
+        {
+            "name": "skill-link",
+            "is_hidden": false
+        },
+        {
+            "name": "overcoat",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 50,
+        "attack": 95,
+        "defense": 180,
+        "special-attack": 85,
+        "special-defense": 45,
+        "speed": 70
+    },
+    "evolution_chain": {
+        "species": "shellder",
+        "id": 90,
+        "sprite": "/static/sprites/pokemon/90.gif",
+        "evolves_to": [
+            {
+                "species": "cloyster",
+                "id": 91,
+                "sprite": "/static/sprites/pokemon/91.gif",
+                "details": [
+                    {
+                        "trigger": "use-item",
+                        "min_level": null,
+                        "item": "water-stone"
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/91.gif"
+}

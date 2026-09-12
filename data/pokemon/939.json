@@ -1,0 +1,56 @@
+{
+    "id": 939,
+    "name": "bellibolt",
+    "category": "EleFrog Pokémon",
+    "description": "When this Pokémon expands and contracts its wobbly body, the belly-button dynamo in its stomach produces a huge amount of electricity.",
+    "generation": "generation-ix",
+    "height": 12,
+    "weight": 1130,
+    "base_experience": 173,
+    "types": [
+        "electric"
+    ],
+    "abilities": [
+        {
+            "name": "electromorphosis",
+            "is_hidden": false
+        },
+        {
+            "name": "static",
+            "is_hidden": false
+        },
+        {
+            "name": "damp",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 109,
+        "attack": 64,
+        "defense": 91,
+        "special-attack": 103,
+        "special-defense": 83,
+        "speed": 45
+    },
+    "evolution_chain": {
+        "species": "tadbulb",
+        "id": 938,
+        "sprite": "/static/sprites/pokemon/938.png",
+        "evolves_to": [
+            {
+                "species": "bellibolt",
+                "id": 939,
+                "sprite": "/static/sprites/pokemon/939.png",
+                "details": [
+                    {
+                        "trigger": "use-item",
+                        "min_level": null,
+                        "item": "thunder-stone"
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/939.png"
+}

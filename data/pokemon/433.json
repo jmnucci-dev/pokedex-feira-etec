@@ -1,0 +1,48 @@
+{
+    "id": 433,
+    "name": "chingling",
+    "category": "Bell Pokémon",
+    "description": "It emits cries by agitating an orb at the back of its throat. It moves with flouncing hops.",
+    "generation": "generation-iv",
+    "height": 2,
+    "weight": 6,
+    "base_experience": 57,
+    "types": [
+        "psychic"
+    ],
+    "abilities": [
+        {
+            "name": "levitate",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 45,
+        "attack": 30,
+        "defense": 50,
+        "special-attack": 65,
+        "special-defense": 50,
+        "speed": 45
+    },
+    "evolution_chain": {
+        "species": "chingling",
+        "id": 433,
+        "sprite": "/static/sprites/pokemon/433.gif",
+        "evolves_to": [
+            {
+                "species": "chimecho",
+                "id": 358,
+                "sprite": "/static/sprites/pokemon/358.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/433.gif"
+}

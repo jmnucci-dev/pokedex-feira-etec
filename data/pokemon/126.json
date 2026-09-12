@@ -1,0 +1,66 @@
+{
+    "id": 126,
+    "name": "magmar",
+    "category": "Spitfire Pokémon",
+    "description": "Its body always burns with an orange glow that enables it to hide perfectly among flames.",
+    "generation": "generation-i",
+    "height": 13,
+    "weight": 445,
+    "base_experience": 173,
+    "types": [
+        "fire"
+    ],
+    "abilities": [
+        {
+            "name": "flame-body",
+            "is_hidden": false
+        },
+        {
+            "name": "vital-spirit",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 65,
+        "attack": 95,
+        "defense": 57,
+        "special-attack": 100,
+        "special-defense": 85,
+        "speed": 93
+    },
+    "evolution_chain": {
+        "species": "magby",
+        "id": 240,
+        "sprite": "/static/sprites/pokemon/240.gif",
+        "evolves_to": [
+            {
+                "species": "magmar",
+                "id": 126,
+                "sprite": "/static/sprites/pokemon/126.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 30,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "magmortar",
+                        "id": 467,
+                        "sprite": "/static/sprites/pokemon/467.gif",
+                        "details": [
+                            {
+                                "trigger": "trade",
+                                "min_level": null,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/126.gif"
+}

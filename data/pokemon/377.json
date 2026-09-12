@@ -1,0 +1,38 @@
+{
+    "id": 377,
+    "name": "regirock",
+    "category": "Rock Peak Pokémon",
+    "description": "REGIROCK was sealed away by people long ago. If this POKéMON’s body is damaged in battle, it is said to seek out suitable rocks on its own to repair itself.",
+    "generation": "generation-iii",
+    "height": 17,
+    "weight": 2300,
+    "base_experience": 261,
+    "types": [
+        "rock"
+    ],
+    "abilities": [
+        {
+            "name": "clear-body",
+            "is_hidden": false
+        },
+        {
+            "name": "sturdy",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 80,
+        "attack": 100,
+        "defense": 200,
+        "special-attack": 50,
+        "special-defense": 100,
+        "speed": 50
+    },
+    "evolution_chain": {
+        "species": "regirock",
+        "id": 377,
+        "sprite": "/static/sprites/pokemon/377.gif",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/377.gif"
+}

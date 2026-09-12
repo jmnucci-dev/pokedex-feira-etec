@@ -1,0 +1,71 @@
+{
+    "id": 521,
+    "name": "unfezant",
+    "category": "Proud Pokémon",
+    "description": "Males swing their head plumage to threaten opponents. The females’ flying abilities surpass those of the males.",
+    "generation": "generation-v",
+    "height": 12,
+    "weight": 290,
+    "base_experience": 220,
+    "types": [
+        "normal",
+        "flying"
+    ],
+    "abilities": [
+        {
+            "name": "big-pecks",
+            "is_hidden": false
+        },
+        {
+            "name": "super-luck",
+            "is_hidden": false
+        },
+        {
+            "name": "rivalry",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 80,
+        "attack": 115,
+        "defense": 80,
+        "special-attack": 65,
+        "special-defense": 55,
+        "speed": 93
+    },
+    "evolution_chain": {
+        "species": "pidove",
+        "id": 519,
+        "sprite": "/static/sprites/pokemon/519.gif",
+        "evolves_to": [
+            {
+                "species": "tranquill",
+                "id": 520,
+                "sprite": "/static/sprites/pokemon/520.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 21,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "unfezant",
+                        "id": 521,
+                        "sprite": "/static/sprites/pokemon/521.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 32,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/521.gif"
+}

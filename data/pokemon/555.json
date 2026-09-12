@@ -1,0 +1,57 @@
+{
+    "id": 555,
+    "name": "darmanitan-standard",
+    "category": "Blazing Pokémon",
+    "description": "Its internal fire burns at 2,500° F, making enough power that it can destroy a dump truck with one punch.",
+    "generation": "generation-v",
+    "height": 13,
+    "weight": 929,
+    "base_experience": 168,
+    "types": [
+        "fire"
+    ],
+    "abilities": [
+        {
+            "name": "sheer-force",
+            "is_hidden": false
+        },
+        {
+            "name": "zen-mode",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 105,
+        "attack": 140,
+        "defense": 55,
+        "special-attack": 30,
+        "special-defense": 55,
+        "speed": 95
+    },
+    "evolution_chain": {
+        "species": "darumaka",
+        "id": 554,
+        "sprite": "/static/sprites/pokemon/554.gif",
+        "evolves_to": [
+            {
+                "species": "darmanitan",
+                "id": 555,
+                "sprite": "/static/sprites/pokemon/555.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 35,
+                        "item": null
+                    },
+                    {
+                        "trigger": "use-item",
+                        "min_level": null,
+                        "item": "ice-stone"
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/555.gif"
+}

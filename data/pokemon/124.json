@@ -1,0 +1,57 @@
+{
+    "id": 124,
+    "name": "jynx",
+    "category": "Human Shape Pokémon",
+    "description": "It seductively wiggles its hips as it walks. It can cause people to dance in unison with it.",
+    "generation": "generation-i",
+    "height": 14,
+    "weight": 406,
+    "base_experience": 159,
+    "types": [
+        "ice",
+        "psychic"
+    ],
+    "abilities": [
+        {
+            "name": "oblivious",
+            "is_hidden": false
+        },
+        {
+            "name": "forewarn",
+            "is_hidden": false
+        },
+        {
+            "name": "dry-skin",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 65,
+        "attack": 50,
+        "defense": 35,
+        "special-attack": 115,
+        "special-defense": 95,
+        "speed": 95
+    },
+    "evolution_chain": {
+        "species": "smoochum",
+        "id": 238,
+        "sprite": "/static/sprites/pokemon/238.gif",
+        "evolves_to": [
+            {
+                "species": "jynx",
+                "id": 124,
+                "sprite": "/static/sprites/pokemon/124.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 30,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/124.gif"
+}

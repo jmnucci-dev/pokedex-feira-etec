@@ -1,0 +1,43 @@
+{
+    "id": 441,
+    "name": "chatot",
+    "category": "Music Note Pokémon",
+    "description": "It can learn and speak human words. If they gather, they all learn the same saying.",
+    "generation": "generation-iv",
+    "height": 5,
+    "weight": 19,
+    "base_experience": 144,
+    "types": [
+        "normal",
+        "flying"
+    ],
+    "abilities": [
+        {
+            "name": "keen-eye",
+            "is_hidden": false
+        },
+        {
+            "name": "tangled-feet",
+            "is_hidden": false
+        },
+        {
+            "name": "big-pecks",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 76,
+        "attack": 65,
+        "defense": 45,
+        "special-attack": 92,
+        "special-defense": 42,
+        "speed": 91
+    },
+    "evolution_chain": {
+        "species": "chatot",
+        "id": 441,
+        "sprite": "/static/sprites/pokemon/441.gif",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/441.gif"
+}

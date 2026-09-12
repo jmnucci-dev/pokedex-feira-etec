@@ -1,0 +1,66 @@
+{
+    "id": 254,
+    "name": "sceptile",
+    "category": "Forest Pokémon",
+    "description": "The leaves growing on SCEPTILE’s body are very sharp edged. This POKéMON is very agile - it leaps all over the branches of trees and jumps on its foe from above or behind.",
+    "generation": "generation-iii",
+    "height": 17,
+    "weight": 522,
+    "base_experience": 239,
+    "types": [
+        "grass"
+    ],
+    "abilities": [
+        {
+            "name": "overgrow",
+            "is_hidden": false
+        },
+        {
+            "name": "unburden",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 70,
+        "attack": 85,
+        "defense": 65,
+        "special-attack": 105,
+        "special-defense": 85,
+        "speed": 120
+    },
+    "evolution_chain": {
+        "species": "treecko",
+        "id": 252,
+        "sprite": "/static/sprites/pokemon/252.gif",
+        "evolves_to": [
+            {
+                "species": "grovyle",
+                "id": 253,
+                "sprite": "/static/sprites/pokemon/253.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 16,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "sceptile",
+                        "id": 254,
+                        "sprite": "/static/sprites/pokemon/254.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 36,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/254.gif"
+}

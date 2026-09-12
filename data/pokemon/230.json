@@ -1,0 +1,71 @@
+{
+    "id": 230,
+    "name": "kingdra",
+    "category": "Dragon Pokémon",
+    "description": "It is said that it usually hides in underwater caves. It can create whirlpools by yawning.",
+    "generation": "generation-ii",
+    "height": 18,
+    "weight": 1520,
+    "base_experience": 243,
+    "types": [
+        "water",
+        "dragon"
+    ],
+    "abilities": [
+        {
+            "name": "swift-swim",
+            "is_hidden": false
+        },
+        {
+            "name": "sniper",
+            "is_hidden": false
+        },
+        {
+            "name": "damp",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 75,
+        "attack": 95,
+        "defense": 95,
+        "special-attack": 95,
+        "special-defense": 95,
+        "speed": 85
+    },
+    "evolution_chain": {
+        "species": "horsea",
+        "id": 116,
+        "sprite": "/static/sprites/pokemon/116.gif",
+        "evolves_to": [
+            {
+                "species": "seadra",
+                "id": 117,
+                "sprite": "/static/sprites/pokemon/117.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 32,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "kingdra",
+                        "id": 230,
+                        "sprite": "/static/sprites/pokemon/230.gif",
+                        "details": [
+                            {
+                                "trigger": "trade",
+                                "min_level": null,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/230.gif"
+}

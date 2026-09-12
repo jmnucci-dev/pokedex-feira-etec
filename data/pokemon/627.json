@@ -1,0 +1,62 @@
+{
+    "id": 627,
+    "name": "rufflet",
+    "category": "Eaglet Pokémon",
+    "description": "They crush berries with their talons. They bravely stand up to any opponent, no matter how strong it is.",
+    "generation": "generation-v",
+    "height": 5,
+    "weight": 105,
+    "base_experience": 70,
+    "types": [
+        "normal",
+        "flying"
+    ],
+    "abilities": [
+        {
+            "name": "keen-eye",
+            "is_hidden": false
+        },
+        {
+            "name": "sheer-force",
+            "is_hidden": false
+        },
+        {
+            "name": "hustle",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 70,
+        "attack": 83,
+        "defense": 50,
+        "special-attack": 37,
+        "special-defense": 50,
+        "speed": 60
+    },
+    "evolution_chain": {
+        "species": "rufflet",
+        "id": 627,
+        "sprite": "/static/sprites/pokemon/627.gif",
+        "evolves_to": [
+            {
+                "species": "braviary",
+                "id": 628,
+                "sprite": "/static/sprites/pokemon/628.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 54,
+                        "item": null
+                    },
+                    {
+                        "trigger": "level-up",
+                        "min_level": 54,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/627.gif"
+}

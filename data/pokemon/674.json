@@ -1,0 +1,56 @@
+{
+    "id": 674,
+    "name": "pancham",
+    "category": "Playful Pokémon",
+    "description": "It does its best to be taken seriously by its enemies, but its glare is not sufficiently intimidating. Chewing on a leaf is its trademark.",
+    "generation": "generation-vi",
+    "height": 6,
+    "weight": 80,
+    "base_experience": 70,
+    "types": [
+        "fighting"
+    ],
+    "abilities": [
+        {
+            "name": "iron-fist",
+            "is_hidden": false
+        },
+        {
+            "name": "mold-breaker",
+            "is_hidden": false
+        },
+        {
+            "name": "scrappy",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 67,
+        "attack": 82,
+        "defense": 62,
+        "special-attack": 46,
+        "special-defense": 48,
+        "speed": 43
+    },
+    "evolution_chain": {
+        "species": "pancham",
+        "id": 674,
+        "sprite": "/static/sprites/pokemon/674.png",
+        "evolves_to": [
+            {
+                "species": "pangoro",
+                "id": 675,
+                "sprite": "/static/sprites/pokemon/675.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 32,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/674.png"
+}

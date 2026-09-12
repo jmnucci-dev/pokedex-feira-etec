@@ -1,0 +1,52 @@
+{
+    "id": 917,
+    "name": "tarountula",
+    "category": "String Ball Pokémon",
+    "description": "The ball of threads wrapped around its body is elastic enough to deflect the scythes of Scyther, this Pokémon’s natural enemy.",
+    "generation": "generation-ix",
+    "height": 3,
+    "weight": 40,
+    "base_experience": 42,
+    "types": [
+        "bug"
+    ],
+    "abilities": [
+        {
+            "name": "insomnia",
+            "is_hidden": false
+        },
+        {
+            "name": "stakeout",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 35,
+        "attack": 41,
+        "defense": 45,
+        "special-attack": 29,
+        "special-defense": 40,
+        "speed": 20
+    },
+    "evolution_chain": {
+        "species": "tarountula",
+        "id": 917,
+        "sprite": "/static/sprites/pokemon/917.png",
+        "evolves_to": [
+            {
+                "species": "spidops",
+                "id": 918,
+                "sprite": "/static/sprites/pokemon/918.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 15,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/917.png"
+}

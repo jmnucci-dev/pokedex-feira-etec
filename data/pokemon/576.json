@@ -1,0 +1,70 @@
+{
+    "id": 576,
+    "name": "gothitelle",
+    "category": "Astral Body Pokémon",
+    "description": "Starry skies thousands of light-years away are visible in the space distorted by their intense psychic power.",
+    "generation": "generation-v",
+    "height": 15,
+    "weight": 440,
+    "base_experience": 221,
+    "types": [
+        "psychic"
+    ],
+    "abilities": [
+        {
+            "name": "frisk",
+            "is_hidden": false
+        },
+        {
+            "name": "competitive",
+            "is_hidden": false
+        },
+        {
+            "name": "shadow-tag",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 70,
+        "attack": 55,
+        "defense": 95,
+        "special-attack": 95,
+        "special-defense": 110,
+        "speed": 65
+    },
+    "evolution_chain": {
+        "species": "gothita",
+        "id": 574,
+        "sprite": "/static/sprites/pokemon/574.gif",
+        "evolves_to": [
+            {
+                "species": "gothorita",
+                "id": 575,
+                "sprite": "/static/sprites/pokemon/575.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 32,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "gothitelle",
+                        "id": 576,
+                        "sprite": "/static/sprites/pokemon/576.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 41,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/576.gif"
+}

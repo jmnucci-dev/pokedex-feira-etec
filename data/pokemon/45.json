@@ -1,0 +1,80 @@
+{
+    "id": 45,
+    "name": "vileplume",
+    "category": "Flower Pokémon",
+    "description": "The larger its petals, the more toxic pollen it contains. Its big head is heavy and hard to hold up.",
+    "generation": "generation-i",
+    "height": 12,
+    "weight": 186,
+    "base_experience": 221,
+    "types": [
+        "grass",
+        "poison"
+    ],
+    "abilities": [
+        {
+            "name": "chlorophyll",
+            "is_hidden": false
+        },
+        {
+            "name": "effect-spore",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 75,
+        "attack": 80,
+        "defense": 85,
+        "special-attack": 110,
+        "special-defense": 90,
+        "speed": 50
+    },
+    "evolution_chain": {
+        "species": "oddish",
+        "id": 43,
+        "sprite": "/static/sprites/pokemon/43.gif",
+        "evolves_to": [
+            {
+                "species": "gloom",
+                "id": 44,
+                "sprite": "/static/sprites/pokemon/44.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 21,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "vileplume",
+                        "id": 45,
+                        "sprite": "/static/sprites/pokemon/45.gif",
+                        "details": [
+                            {
+                                "trigger": "use-item",
+                                "min_level": null,
+                                "item": "leaf-stone"
+                            }
+                        ],
+                        "next": []
+                    },
+                    {
+                        "species": "bellossom",
+                        "id": 182,
+                        "sprite": "/static/sprites/pokemon/182.gif",
+                        "details": [
+                            {
+                                "trigger": "use-item",
+                                "min_level": null,
+                                "item": "sun-stone"
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/45.gif"
+}

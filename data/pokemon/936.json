@@ -1,0 +1,66 @@
+{
+    "id": 936,
+    "name": "armarouge",
+    "category": "Fire Warrior Pokémon",
+    "description": "Armarouge evolved through the use of a set of armor that belonged to a distinguished warrior. This Pokémon is incredibly loyal.",
+    "generation": "generation-ix",
+    "height": 15,
+    "weight": 850,
+    "base_experience": 263,
+    "types": [
+        "fire",
+        "psychic"
+    ],
+    "abilities": [
+        {
+            "name": "flash-fire",
+            "is_hidden": false
+        },
+        {
+            "name": "weak-armor",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 85,
+        "attack": 60,
+        "defense": 100,
+        "special-attack": 125,
+        "special-defense": 80,
+        "speed": 75
+    },
+    "evolution_chain": {
+        "species": "charcadet",
+        "id": 935,
+        "sprite": "/static/sprites/pokemon/935.png",
+        "evolves_to": [
+            {
+                "species": "armarouge",
+                "id": 936,
+                "sprite": "/static/sprites/pokemon/936.png",
+                "details": [
+                    {
+                        "trigger": "use-item",
+                        "min_level": null,
+                        "item": "auspicious-armor"
+                    }
+                ],
+                "next": []
+            },
+            {
+                "species": "ceruledge",
+                "id": 937,
+                "sprite": "/static/sprites/pokemon/937.png",
+                "details": [
+                    {
+                        "trigger": "use-item",
+                        "min_level": null,
+                        "item": "malicious-armor"
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/936.png"
+}

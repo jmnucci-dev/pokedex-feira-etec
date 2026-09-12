@@ -1,0 +1,67 @@
+{
+    "id": 391,
+    "name": "monferno",
+    "category": "Playful Pokémon",
+    "description": "To intimidate attackers, it stretches the fire on its tail to make itself appear bigger.",
+    "generation": "generation-iv",
+    "height": 9,
+    "weight": 220,
+    "base_experience": 142,
+    "types": [
+        "fire",
+        "fighting"
+    ],
+    "abilities": [
+        {
+            "name": "blaze",
+            "is_hidden": false
+        },
+        {
+            "name": "iron-fist",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 64,
+        "attack": 78,
+        "defense": 52,
+        "special-attack": 78,
+        "special-defense": 52,
+        "speed": 81
+    },
+    "evolution_chain": {
+        "species": "chimchar",
+        "id": 390,
+        "sprite": "/static/sprites/pokemon/390.gif",
+        "evolves_to": [
+            {
+                "species": "monferno",
+                "id": 391,
+                "sprite": "/static/sprites/pokemon/391.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 14,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "infernape",
+                        "id": 392,
+                        "sprite": "/static/sprites/pokemon/392.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 36,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/391.gif"
+}

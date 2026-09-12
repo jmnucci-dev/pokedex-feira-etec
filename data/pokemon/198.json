@@ -1,0 +1,57 @@
+{
+    "id": 198,
+    "name": "murkrow",
+    "category": "Darkness Pokémon",
+    "description": "Feared and loathed by many, it is believed to bring misfortune to all those who see it at night.",
+    "generation": "generation-ii",
+    "height": 5,
+    "weight": 21,
+    "base_experience": 81,
+    "types": [
+        "dark",
+        "flying"
+    ],
+    "abilities": [
+        {
+            "name": "insomnia",
+            "is_hidden": false
+        },
+        {
+            "name": "super-luck",
+            "is_hidden": false
+        },
+        {
+            "name": "prankster",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 60,
+        "attack": 85,
+        "defense": 42,
+        "special-attack": 85,
+        "special-defense": 42,
+        "speed": 91
+    },
+    "evolution_chain": {
+        "species": "murkrow",
+        "id": 198,
+        "sprite": "/static/sprites/pokemon/198.gif",
+        "evolves_to": [
+            {
+                "species": "honchkrow",
+                "id": 430,
+                "sprite": "/static/sprites/pokemon/430.gif",
+                "details": [
+                    {
+                        "trigger": "use-item",
+                        "min_level": null,
+                        "item": "dusk-stone"
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/198.gif"
+}

@@ -1,0 +1,56 @@
+{
+    "id": 938,
+    "name": "tadbulb",
+    "category": "EleTadpole Pokémon",
+    "description": "Tadbulb shakes its tail to generate electricity. If it senses danger, it will make its head blink on and off to alert its allies.",
+    "generation": "generation-ix",
+    "height": 3,
+    "weight": 4,
+    "base_experience": 54,
+    "types": [
+        "electric"
+    ],
+    "abilities": [
+        {
+            "name": "own-tempo",
+            "is_hidden": false
+        },
+        {
+            "name": "static",
+            "is_hidden": false
+        },
+        {
+            "name": "damp",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 61,
+        "attack": 31,
+        "defense": 41,
+        "special-attack": 59,
+        "special-defense": 35,
+        "speed": 45
+    },
+    "evolution_chain": {
+        "species": "tadbulb",
+        "id": 938,
+        "sprite": "/static/sprites/pokemon/938.png",
+        "evolves_to": [
+            {
+                "species": "bellibolt",
+                "id": 939,
+                "sprite": "/static/sprites/pokemon/939.png",
+                "details": [
+                    {
+                        "trigger": "use-item",
+                        "min_level": null,
+                        "item": "thunder-stone"
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/938.png"
+}

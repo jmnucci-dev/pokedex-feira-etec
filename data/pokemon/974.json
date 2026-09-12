@@ -1,0 +1,56 @@
+{
+    "id": 974,
+    "name": "cetoddle",
+    "category": "Terra Whale Pokémon",
+    "description": "This species left the ocean and began living on land a very long time ago. It seems to be closely related to Wailmer.",
+    "generation": "generation-ix",
+    "height": 12,
+    "weight": 450,
+    "base_experience": 67,
+    "types": [
+        "ice"
+    ],
+    "abilities": [
+        {
+            "name": "thick-fat",
+            "is_hidden": false
+        },
+        {
+            "name": "snow-cloak",
+            "is_hidden": false
+        },
+        {
+            "name": "sheer-force",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 108,
+        "attack": 68,
+        "defense": 45,
+        "special-attack": 30,
+        "special-defense": 40,
+        "speed": 43
+    },
+    "evolution_chain": {
+        "species": "cetoddle",
+        "id": 974,
+        "sprite": "/static/sprites/pokemon/974.png",
+        "evolves_to": [
+            {
+                "species": "cetitan",
+                "id": 975,
+                "sprite": "/static/sprites/pokemon/975.png",
+                "details": [
+                    {
+                        "trigger": "use-item",
+                        "min_level": null,
+                        "item": "ice-stone"
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/974.png"
+}

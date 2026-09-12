@@ -1,0 +1,66 @@
+{
+    "id": 496,
+    "name": "servine",
+    "category": "Grass Snake Pokémon",
+    "description": "It moves along the ground as if sliding. Its swift movements befuddle its foes, and it then attacks with a vine whip.",
+    "generation": "generation-v",
+    "height": 8,
+    "weight": 160,
+    "base_experience": 145,
+    "types": [
+        "grass"
+    ],
+    "abilities": [
+        {
+            "name": "overgrow",
+            "is_hidden": false
+        },
+        {
+            "name": "contrary",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 60,
+        "attack": 60,
+        "defense": 75,
+        "special-attack": 60,
+        "special-defense": 75,
+        "speed": 83
+    },
+    "evolution_chain": {
+        "species": "snivy",
+        "id": 495,
+        "sprite": "/static/sprites/pokemon/495.gif",
+        "evolves_to": [
+            {
+                "species": "servine",
+                "id": 496,
+                "sprite": "/static/sprites/pokemon/496.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 17,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "serperior",
+                        "id": 497,
+                        "sprite": "/static/sprites/pokemon/497.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 36,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/496.gif"
+}

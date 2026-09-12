@@ -1,0 +1,66 @@
+{
+    "id": 912,
+    "name": "quaxly",
+    "category": "Duckling Pokémon",
+    "description": "This Pokémon migrated to Paldea from distant lands long ago. The gel secreted by its feathers repels water and grime.",
+    "generation": "generation-ix",
+    "height": 5,
+    "weight": 61,
+    "base_experience": 62,
+    "types": [
+        "water"
+    ],
+    "abilities": [
+        {
+            "name": "torrent",
+            "is_hidden": false
+        },
+        {
+            "name": "moxie",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 55,
+        "attack": 65,
+        "defense": 45,
+        "special-attack": 50,
+        "special-defense": 45,
+        "speed": 50
+    },
+    "evolution_chain": {
+        "species": "quaxly",
+        "id": 912,
+        "sprite": "/static/sprites/pokemon/912.png",
+        "evolves_to": [
+            {
+                "species": "quaxwell",
+                "id": 913,
+                "sprite": "/static/sprites/pokemon/913.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 16,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "quaquaval",
+                        "id": 914,
+                        "sprite": "/static/sprites/pokemon/914.png",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 36,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/912.png"
+}

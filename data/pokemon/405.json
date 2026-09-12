@@ -1,0 +1,70 @@
+{
+    "id": 405,
+    "name": "luxray",
+    "category": "Gleam Eyes Pokémon",
+    "description": "It has eyes that can see through anything. It spots and captures prey hiding behind objects.",
+    "generation": "generation-iv",
+    "height": 14,
+    "weight": 420,
+    "base_experience": 235,
+    "types": [
+        "electric"
+    ],
+    "abilities": [
+        {
+            "name": "rivalry",
+            "is_hidden": false
+        },
+        {
+            "name": "intimidate",
+            "is_hidden": false
+        },
+        {
+            "name": "guts",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 80,
+        "attack": 120,
+        "defense": 79,
+        "special-attack": 95,
+        "special-defense": 79,
+        "speed": 70
+    },
+    "evolution_chain": {
+        "species": "shinx",
+        "id": 403,
+        "sprite": "/static/sprites/pokemon/403.gif",
+        "evolves_to": [
+            {
+                "species": "luxio",
+                "id": 404,
+                "sprite": "/static/sprites/pokemon/404.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 15,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "luxray",
+                        "id": 405,
+                        "sprite": "/static/sprites/pokemon/405.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 30,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/405.gif"
+}

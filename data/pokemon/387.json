@@ -1,0 +1,66 @@
+{
+    "id": 387,
+    "name": "turtwig",
+    "category": "Tiny Leaf Pokémon",
+    "description": "Made from soil, the shell on its back hardens when it drinks water. It lives along lakes.",
+    "generation": "generation-iv",
+    "height": 4,
+    "weight": 102,
+    "base_experience": 64,
+    "types": [
+        "grass"
+    ],
+    "abilities": [
+        {
+            "name": "overgrow",
+            "is_hidden": false
+        },
+        {
+            "name": "shell-armor",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 55,
+        "attack": 68,
+        "defense": 64,
+        "special-attack": 45,
+        "special-defense": 55,
+        "speed": 31
+    },
+    "evolution_chain": {
+        "species": "turtwig",
+        "id": 387,
+        "sprite": "/static/sprites/pokemon/387.gif",
+        "evolves_to": [
+            {
+                "species": "grotle",
+                "id": 388,
+                "sprite": "/static/sprites/pokemon/388.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 18,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "torterra",
+                        "id": 389,
+                        "sprite": "/static/sprites/pokemon/389.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 32,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/387.gif"
+}

@@ -1,0 +1,56 @@
+{
+    "id": 143,
+    "name": "snorlax",
+    "category": "Sleeping Pokémon",
+    "description": "Very lazy. Just eats and sleeps. As its rotund bulk builds, it becomes steadily more slothful.",
+    "generation": "generation-i",
+    "height": 21,
+    "weight": 4600,
+    "base_experience": 189,
+    "types": [
+        "normal"
+    ],
+    "abilities": [
+        {
+            "name": "immunity",
+            "is_hidden": false
+        },
+        {
+            "name": "thick-fat",
+            "is_hidden": false
+        },
+        {
+            "name": "gluttony",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 160,
+        "attack": 110,
+        "defense": 65,
+        "special-attack": 65,
+        "special-defense": 110,
+        "speed": 30
+    },
+    "evolution_chain": {
+        "species": "munchlax",
+        "id": 446,
+        "sprite": "/static/sprites/pokemon/446.gif",
+        "evolves_to": [
+            {
+                "species": "snorlax",
+                "id": 143,
+                "sprite": "/static/sprites/pokemon/143.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/143.gif"
+}

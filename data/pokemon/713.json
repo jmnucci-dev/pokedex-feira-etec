@@ -1,0 +1,61 @@
+{
+    "id": 713,
+    "name": "avalugg",
+    "category": "Iceberg Pokémon",
+    "description": "Its ice-covered body is as hard as steel. Its cumbersome frame crushes anything that stands in its way.",
+    "generation": "generation-vi",
+    "height": 20,
+    "weight": 5050,
+    "base_experience": 180,
+    "types": [
+        "ice"
+    ],
+    "abilities": [
+        {
+            "name": "own-tempo",
+            "is_hidden": false
+        },
+        {
+            "name": "ice-body",
+            "is_hidden": false
+        },
+        {
+            "name": "sturdy",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 95,
+        "attack": 117,
+        "defense": 184,
+        "special-attack": 44,
+        "special-defense": 46,
+        "speed": 28
+    },
+    "evolution_chain": {
+        "species": "bergmite",
+        "id": 712,
+        "sprite": "/static/sprites/pokemon/712.png",
+        "evolves_to": [
+            {
+                "species": "avalugg",
+                "id": 713,
+                "sprite": "/static/sprites/pokemon/713.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 37,
+                        "item": null
+                    },
+                    {
+                        "trigger": "level-up",
+                        "min_level": 37,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/713.png"
+}

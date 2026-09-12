@@ -1,0 +1,52 @@
+{
+    "id": 202,
+    "name": "wobbuffet",
+    "category": "Patient Pokémon",
+    "description": "It hates light and shock. If attack­ ed, it inflates its body to pump up its counter­ strike.",
+    "generation": "generation-ii",
+    "height": 13,
+    "weight": 285,
+    "base_experience": 142,
+    "types": [
+        "psychic"
+    ],
+    "abilities": [
+        {
+            "name": "shadow-tag",
+            "is_hidden": false
+        },
+        {
+            "name": "telepathy",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 190,
+        "attack": 33,
+        "defense": 58,
+        "special-attack": 33,
+        "special-defense": 58,
+        "speed": 33
+    },
+    "evolution_chain": {
+        "species": "wynaut",
+        "id": 360,
+        "sprite": "/static/sprites/pokemon/360.gif",
+        "evolves_to": [
+            {
+                "species": "wobbuffet",
+                "id": 202,
+                "sprite": "/static/sprites/pokemon/202.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 15,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/202.gif"
+}

@@ -1,0 +1,76 @@
+{
+    "id": 157,
+    "name": "typhlosion",
+    "category": "Volcano Pokémon",
+    "description": "If its rage peaks, it becomes so hot that anything that touches it will instantly go up in flames.",
+    "generation": "generation-ii",
+    "height": 17,
+    "weight": 795,
+    "base_experience": 240,
+    "types": [
+        "fire"
+    ],
+    "abilities": [
+        {
+            "name": "blaze",
+            "is_hidden": false
+        },
+        {
+            "name": "flash-fire",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 78,
+        "attack": 84,
+        "defense": 78,
+        "special-attack": 109,
+        "special-defense": 85,
+        "speed": 100
+    },
+    "evolution_chain": {
+        "species": "cyndaquil",
+        "id": 155,
+        "sprite": "/static/sprites/pokemon/155.gif",
+        "evolves_to": [
+            {
+                "species": "quilava",
+                "id": 156,
+                "sprite": "/static/sprites/pokemon/156.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 14,
+                        "item": null
+                    },
+                    {
+                        "trigger": "level-up",
+                        "min_level": 17,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "typhlosion",
+                        "id": 157,
+                        "sprite": "/static/sprites/pokemon/157.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 36,
+                                "item": null
+                            },
+                            {
+                                "trigger": "level-up",
+                                "min_level": 36,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/157.gif"
+}

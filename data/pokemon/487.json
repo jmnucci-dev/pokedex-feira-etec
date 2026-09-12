@@ -1,0 +1,39 @@
+{
+    "id": 487,
+    "name": "giratina-altered",
+    "category": "Renegade Pokémon",
+    "description": "A Pokémon that is said to live in a world on the reverse side of ours. It appears in an ancient cemetery.",
+    "generation": "generation-iv",
+    "height": 45,
+    "weight": 7500,
+    "base_experience": 306,
+    "types": [
+        "ghost",
+        "dragon"
+    ],
+    "abilities": [
+        {
+            "name": "pressure",
+            "is_hidden": false
+        },
+        {
+            "name": "telepathy",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 150,
+        "attack": 100,
+        "defense": 120,
+        "special-attack": 100,
+        "special-defense": 120,
+        "speed": 90
+    },
+    "evolution_chain": {
+        "species": "giratina",
+        "id": 487,
+        "sprite": "/static/sprites/pokemon/487.gif",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/487.gif"
+}

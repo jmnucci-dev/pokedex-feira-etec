@@ -1,0 +1,66 @@
+{
+    "id": 295,
+    "name": "exploud",
+    "category": "Loud Noise Pokémon",
+    "description": "EXPLOUD triggers earthquakes with the tremors it creates by bellowing. If this POKéMON violently inhales from the ports on its body, it’s a sign that it is preparing to let loose a huge bellow.",
+    "generation": "generation-iii",
+    "height": 15,
+    "weight": 840,
+    "base_experience": 221,
+    "types": [
+        "normal"
+    ],
+    "abilities": [
+        {
+            "name": "soundproof",
+            "is_hidden": false
+        },
+        {
+            "name": "scrappy",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 104,
+        "attack": 91,
+        "defense": 63,
+        "special-attack": 91,
+        "special-defense": 73,
+        "speed": 68
+    },
+    "evolution_chain": {
+        "species": "whismur",
+        "id": 293,
+        "sprite": "/static/sprites/pokemon/293.gif",
+        "evolves_to": [
+            {
+                "species": "loudred",
+                "id": 294,
+                "sprite": "/static/sprites/pokemon/294.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 20,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "exploud",
+                        "id": 295,
+                        "sprite": "/static/sprites/pokemon/295.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 40,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/295.gif"
+}

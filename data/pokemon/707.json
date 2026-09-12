@@ -1,0 +1,39 @@
+{
+    "id": 707,
+    "name": "klefki",
+    "category": "Key Ring Pokémon",
+    "description": "These key collectors threaten any attackers by fiercely jingling their keys at them.",
+    "generation": "generation-vi",
+    "height": 2,
+    "weight": 30,
+    "base_experience": 165,
+    "types": [
+        "steel",
+        "fairy"
+    ],
+    "abilities": [
+        {
+            "name": "prankster",
+            "is_hidden": false
+        },
+        {
+            "name": "magician",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 57,
+        "attack": 80,
+        "defense": 91,
+        "special-attack": 80,
+        "special-defense": 87,
+        "speed": 75
+    },
+    "evolution_chain": {
+        "species": "klefki",
+        "id": 707,
+        "sprite": "/static/sprites/pokemon/707.png",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/707.png"
+}

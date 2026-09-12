@@ -1,0 +1,49 @@
+{
+    "id": 567,
+    "name": "archeops",
+    "category": "First Bird Pokémon",
+    "description": "They are intelligent and will cooperate to catch prey. From the ground, they use a running start to take flight.",
+    "generation": "generation-v",
+    "height": 14,
+    "weight": 320,
+    "base_experience": 177,
+    "types": [
+        "rock",
+        "flying"
+    ],
+    "abilities": [
+        {
+            "name": "defeatist",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 75,
+        "attack": 140,
+        "defense": 65,
+        "special-attack": 112,
+        "special-defense": 65,
+        "speed": 110
+    },
+    "evolution_chain": {
+        "species": "archen",
+        "id": 566,
+        "sprite": "/static/sprites/pokemon/566.gif",
+        "evolves_to": [
+            {
+                "species": "archeops",
+                "id": 567,
+                "sprite": "/static/sprites/pokemon/567.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 37,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/567.gif"
+}

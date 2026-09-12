@@ -1,0 +1,57 @@
+{
+    "id": 178,
+    "name": "xatu",
+    "category": "Mystic Pokémon",
+    "description": "They say that it stays still and quiet because it is seeing both the past and future at the same time.",
+    "generation": "generation-ii",
+    "height": 15,
+    "weight": 150,
+    "base_experience": 165,
+    "types": [
+        "psychic",
+        "flying"
+    ],
+    "abilities": [
+        {
+            "name": "synchronize",
+            "is_hidden": false
+        },
+        {
+            "name": "early-bird",
+            "is_hidden": false
+        },
+        {
+            "name": "magic-bounce",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 65,
+        "attack": 75,
+        "defense": 70,
+        "special-attack": 95,
+        "special-defense": 70,
+        "speed": 95
+    },
+    "evolution_chain": {
+        "species": "natu",
+        "id": 177,
+        "sprite": "/static/sprites/pokemon/177.gif",
+        "evolves_to": [
+            {
+                "species": "xatu",
+                "id": 178,
+                "sprite": "/static/sprites/pokemon/178.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 25,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/178.gif"
+}

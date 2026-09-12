@@ -1,0 +1,31 @@
+    <header>
+        <img
+            src="{{ url_for('static', filename='images/comum/header-shape.svg') }}"
+            class="header-shape"
+            alt=""
+        >
+
+        <a href="/regioes">
+            <img
+                src="{{ url_for('static', filename='images/comum/pokedex-logo.svg') }}"
+                class="pokedex-logo"
+                alt="Pokédex"
+            >
+        </a>
+
+        <h1>{{ header_title | default('POKÉMON') }}</h1>
+
+        <div class="search">
+            <img
+                class="search-lupa"
+                src="{{ url_for('static', filename='images/comum/lupa.png') }}"
+                alt="Lupa"
+            >
+
+            <input
+                type="text"
+                placeholder="Pesquisar..."
+                aria-label="Pesquisar"
+            >
+        </div>
+</header>

@@ -1,0 +1,71 @@
+{
+    "id": 275,
+    "name": "shiftry",
+    "category": "Wicked Pokémon",
+    "description": "SHIFTRY is a mysterious POKéMON that is said to live atop towering trees dating back over a thousand years. It creates terrific windstorms with the fans it holds.",
+    "generation": "generation-iii",
+    "height": 13,
+    "weight": 596,
+    "base_experience": 216,
+    "types": [
+        "grass",
+        "dark"
+    ],
+    "abilities": [
+        {
+            "name": "chlorophyll",
+            "is_hidden": false
+        },
+        {
+            "name": "wind-rider",
+            "is_hidden": false
+        },
+        {
+            "name": "pickpocket",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 90,
+        "attack": 100,
+        "defense": 60,
+        "special-attack": 90,
+        "special-defense": 60,
+        "speed": 80
+    },
+    "evolution_chain": {
+        "species": "seedot",
+        "id": 273,
+        "sprite": "/static/sprites/pokemon/273.gif",
+        "evolves_to": [
+            {
+                "species": "nuzleaf",
+                "id": 274,
+                "sprite": "/static/sprites/pokemon/274.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 14,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "shiftry",
+                        "id": 275,
+                        "sprite": "/static/sprites/pokemon/275.gif",
+                        "details": [
+                            {
+                                "trigger": "use-item",
+                                "min_level": null,
+                                "item": "leaf-stone"
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/275.gif"
+}

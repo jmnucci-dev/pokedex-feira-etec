@@ -1,0 +1,114 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<link rel="stylesheet" href="{{ url_for('static', filename='css/pokemons.css') }}">
+
+<div class="pokedex-page">
+
+  
+  {% include "components/sidebar.html" %}
+
+  
+  <main class="pokedex-main">
+
+    
+    <section class="region-banner" aria-label="Informações da região" {% if region_bg %}style="background-image: linear-gradient(to right, rgba(16,17,20,0.55) 0%, rgba(16,17,20,0.15) 50%, rgba(16,17,20,0) 100%), url('{{ url_for('static', filename=region_bg) }}'); background-size: cover; background-position: center;"{% elif region_destaque %}style="background-image: linear-gradient(to right, rgba(16,17,20,0.55) 0%, rgba(16,17,20,0.15) 50%, rgba(16,17,20,0) 100%), url('{{ url_for('static', filename=region_destaque) }}'); background-size: cover; background-position: center;"{% endif %}>
+      <div class="left">
+        <div class="region-thumb" style="background: linear-gradient(135deg,#3a3f55,#1c1e28); overflow:hidden;">
+          {% if region_destaque %}
+          <img src="{{ url_for('static', filename=region_destaque) }}" alt="{{ region_name }}" style="width:100%;height:100%;object-fit:cover;border-radius:50%;filter:brightness(0.9);">
+          {% elif region_bg %}
+          <img src="{{ url_for('static', filename=region_bg) }}" alt="{{ region_name }}" style="width:100%;height:100%;object-fit:cover;border-radius:50%;filter:brightness(0.9);">
+          {% elif region_thumb %}
+          <img src="{{ url_for('static', filename=region_thumb) }}" alt="{{ region_name }}" style="width:100%;height:100%;object-fit:contain;border-radius:50%;">
+          {% else %}
+          ⛰️
+          {% endif %}
+        </div>
+        <div>
+          <h1>{{ region_name }}</h1>
+          <div class="range"><span>#{{ region_range }}</span><span class="bar"></span></div>
+        </div>
+      </div>
+      <p>{{ region_desc }}</p>
+    </section>
+
+    
+    <div class="filters" role="group" aria-label="Filtrar por tipo">
+      <a class="type-btn {{ 'all' if not filter_type else '' }} {{ 'active' if not filter_type else '' }}" href="{{ url_for('pokemon_region.region_pokemons', nome=current_region) }}">Todos</a>
+      <a class="type-btn btn-grass {{ 'active' if filter_type == 'grass' else '' }}" href="{{ url_for('pokemon_region.region_pokemons', nome=current_region, type='grass') }}"><img src="{{ url_for('static', filename='images/tipos/grass.svg') }}" alt="" style="width:14px;height:14px;object-fit:contain;"> Grass</a>
+      <a class="type-btn btn-fire {{ 'active' if filter_type == 'fire' else '' }}" href="{{ url_for('pokemon_region.region_pokemons', nome=current_region, type='fire') }}"><img src="{{ url_for('static', filename='images/tipos/fire.svg') }}" alt="" style="width:14px;height:14px;object-fit:contain;"> Fire</a>
+      <a class="type-btn btn-water {{ 'active' if filter_type == 'water' else '' }}" href="{{ url_for('pokemon_region.region_pokemons', nome=current_region, type='water') }}"><img src="{{ url_for('static', filename='images/tipos/water.svg') }}" alt="" style="width:14px;height:14px;object-fit:contain;"> Water</a>
+      <a class="type-btn btn-electric {{ 'active' if filter_type == 'electric' else '' }}" href="{{ url_for('pokemon_region.region_pokemons', nome=current_region, type='electric') }}"><img src="{{ url_for('static', filename='images/tipos/electric.svg') }}" alt="" style="width:14px;height:14px;object-fit:contain;"> Electric</a>
+      <a class="type-btn btn-ice {{ 'active' if filter_type == 'ice' else '' }}" href="{{ url_for('pokemon_region.region_pokemons', nome=current_region, type='ice') }}"><img src="{{ url_for('static', filename='images/tipos/ice.svg') }}" alt="" style="width:14px;height:14px;object-fit:contain;"> Ice</a>
+      <a class="type-btn btn-fighting {{ 'active' if filter_type == 'fighting' else '' }}" href="{{ url_for('pokemon_region.region_pokemons', nome=current_region, type='fighting') }}"><img src="{{ url_for('static', filename='images/tipos/fighting.svg') }}" alt="" style="width:14px;height:14px;object-fit:contain;"> Fighting</a>
+      <a class="type-btn btn-poison {{ 'active' if filter_type == 'poison' else '' }}" href="{{ url_for('pokemon_region.region_pokemons', nome=current_region, type='poison') }}"><img src="{{ url_for('static', filename='images/tipos/poison.svg') }}" alt="" style="width:14px;height:14px;object-fit:contain;"> Poison</a>
+      <a class="type-btn btn-bug {{ 'active' if filter_type == 'bug' else '' }}" href="{{ url_for('pokemon_region.region_pokemons', nome=current_region, type='bug') }}"><img src="{{ url_for('static', filename='images/tipos/bug.svg') }}" alt="" style="width:14px;height:14px;object-fit:contain;"> Bug</a>
+      <a class="type-btn btn-flying {{ 'active' if filter_type == 'flying' else '' }}" href="{{ url_for('pokemon_region.region_pokemons', nome=current_region, type='flying') }}"><img src="{{ url_for('static', filename='images/tipos/flying.svg') }}" alt="" style="width:14px;height:14px;object-fit:contain;"> Flying</a>
+      <a class="type-btn btn-normal {{ 'active' if filter_type == 'normal' else '' }}" href="{{ url_for('pokemon_region.region_pokemons', nome=current_region, type='normal') }}"><img src="{{ url_for('static', filename='images/tipos/normal.svg') }}" alt="" style="width:14px;height:14px;object-fit:contain;"> Normal</a>
+      <a class="type-btn btn-ground {{ 'active' if filter_type == 'ground' else '' }}" href="{{ url_for('pokemon_region.region_pokemons', nome=current_region, type='ground') }}"><img src="{{ url_for('static', filename='images/tipos/ground.svg') }}" alt="" style="width:14px;height:14px;object-fit:contain;"> Ground</a>
+      <a class="type-btn btn-psychic {{ 'active' if filter_type == 'psychic' else '' }}" href="{{ url_for('pokemon_region.region_pokemons', nome=current_region, type='psychic') }}"><img src="{{ url_for('static', filename='images/tipos/psychic.svg') }}" alt="" style="width:14px;height:14px;object-fit:contain;"> Psychic</a>
+      <a class="type-btn btn-rock {{ 'active' if filter_type == 'rock' else '' }}" href="{{ url_for('pokemon_region.region_pokemons', nome=current_region, type='rock') }}"><img src="{{ url_for('static', filename='images/tipos/rock.svg') }}" alt="" style="width:14px;height:14px;object-fit:contain;"> Rock</a>
+      <a class="type-btn btn-ghost {{ 'active' if filter_type == 'ghost' else '' }}" href="{{ url_for('pokemon_region.region_pokemons', nome=current_region, type='ghost') }}"><img src="{{ url_for('static', filename='images/tipos/ghost.svg') }}" alt="" style="width:14px;height:14px;object-fit:contain;"> Ghost</a>
+      <a class="type-btn btn-steel {{ 'active' if filter_type == 'steel' else '' }}" href="{{ url_for('pokemon_region.region_pokemons', nome=current_region, type='steel') }}"><img src="{{ url_for('static', filename='images/tipos/steel.svg') }}" alt="" style="width:14px;height:14px;object-fit:contain;"> Steel</a>
+      <a class="type-btn btn-dragon {{ 'active' if filter_type == 'dragon' else '' }}" href="{{ url_for('pokemon_region.region_pokemons', nome=current_region, type='dragon') }}"><img src="{{ url_for('static', filename='images/tipos/dragon.svg') }}" alt="" style="width:14px;height:14px;object-fit:contain;"> Dragon</a>
+      <a class="type-btn btn-fairy {{ 'active' if filter_type == 'fairy' else '' }}" href="{{ url_for('pokemon_region.region_pokemons', nome=current_region, type='fairy') }}"><img src="{{ url_for('static', filename='images/tipos/fairy.svg') }}" alt="" style="width:14px;height:14px;object-fit:contain;"> Fairy</a>
+      <a class="type-btn plus" href="#">+</a>
+    </div>
+
+    
+    <div class="grid" role="list" aria-label="Pokémons">
+      {% for p in pokemon_list %}
+      <a class="poke-card" href="{{ url_for('pokemon.pokemon', pokemon_name=p.id) }}" role="listitem" aria-label="{{ p.name }}">
+        <div class="row-top">
+          <span>#{{ '%03d' % p.id }}</span>
+          <span>✎</span>
+        </div>
+        <div class="sprite">
+          {% if p.sprite_file %}
+          <img src="{{ url_for('static', filename=p.sprite_file) }}" alt="{{ p.name }}" loading="lazy" onerror="this.style.display='none'; this.parentElement.textContent='●';">
+          {% else %}
+          ●
+          {% endif %}
+        </div>
+        <div class="poke-name">{{ p.name }}</div>
+        <div class="badges">
+          {% for t in p.types %}
+          <span class="badge t-{{ t|lower }}">{{ t|capitalize }}</span>
+          {% endfor %}
+        </div>
+      </a>
+      {% else %}
+      <p style="color: var(--text-dim); font-size: .9rem;">Nenhum Pokémon encontrado.</p>
+      {% endfor %}
+    </div>
+
+    
+    {% if total_pages > 1 %}
+    <nav class="pagination" aria-label="Paginação">
+      <a class="page-btn nav {{ 'disabled' if page <= 1 else '' }}" href="{{ url_for('pokemon_region.region_pokemons', nome=current_region, type=filter_type, page=page-1) if page > 1 else '#' }}" aria-label="Página anterior">‹</a>
+      {% if total_pages <= 10 %}
+        {% for i in range(1, total_pages + 1) %}
+        <a class="page-btn {{ 'active' if i == page else '' }}" href="{{ url_for('pokemon_region.region_pokemons', nome=current_region, type=filter_type, page=i) }}">{{ i }}</a>
+        {% endfor %}
+      {% else %}
+        {% set start = page - 4 if page > 5 else 1 %}
+        {% set end = start + 9 %}
+        {% if end > total_pages %}
+          {% set end = total_pages %}
+          {% set start = end - 9 %}
+          {% if start < 1 %}{% set start = 1 %}{% endif %}
+        {% endif %}
+        {% for i in range(start, end + 1) %}
+        <a class="page-btn {{ 'active' if i == page else '' }}" href="{{ url_for('pokemon_region.region_pokemons', nome=current_region, type=filter_type, page=i) }}">{{ i }}</a>
+        {% endfor %}
+      {% endif %}
+      <a class="page-btn nav" href="{{ url_for('pokemon_region.region_pokemons', nome=current_region, type=filter_type, page=page+1) }}" aria-label="Próxima página">›</a>
+      <input type="number" min="1" max="{{ total_pages }}" value="{{ page }}" style="width:50px;height:34px;border-radius:8px;border:1px solid var(--border);background:var(--bg-card);color:var(--text-main);font-family:inherit;text-align:center;" onkeydown="if(event.key==='Enter'){var url=window.location.href;var n=url.indexOf('page=');if(n>-1){url=url.substring(0,n)+'page='+this.value+url.substring(url.indexOf('&',n)>-1?url.indexOf('&',n):url.length);}else{url+= (url.indexOf('?')>-1?'&':'?')+'page='+this.value;}window.location.href=url;}" aria-label="Ir para página">
+    </nav>
+    {% endif %}
+
+  </main>
+</div>
+
+{% endblock %}

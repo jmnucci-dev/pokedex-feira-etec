@@ -1,0 +1,39 @@
+{
+    "id": 485,
+    "name": "heatran",
+    "category": "Lava Dome Pokémon",
+    "description": "It dwells in volcanic caves. It digs in with its cross-shaped feet to crawl on ceilings and walls.",
+    "generation": "generation-iv",
+    "height": 17,
+    "weight": 4300,
+    "base_experience": 270,
+    "types": [
+        "fire",
+        "steel"
+    ],
+    "abilities": [
+        {
+            "name": "flash-fire",
+            "is_hidden": false
+        },
+        {
+            "name": "flame-body",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 91,
+        "attack": 90,
+        "defense": 106,
+        "special-attack": 130,
+        "special-defense": 106,
+        "speed": 77
+    },
+    "evolution_chain": {
+        "species": "heatran",
+        "id": 485,
+        "sprite": "/static/sprites/pokemon/485.gif",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/485.gif"
+}

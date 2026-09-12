@@ -1,0 +1,57 @@
+{
+    "id": 121,
+    "name": "starmie",
+    "category": "Mysterious Pokémon",
+    "description": "Its central core glows with the seven colors of the rainbow. Some people value the core as a gem.",
+    "generation": "generation-i",
+    "height": 11,
+    "weight": 800,
+    "base_experience": 182,
+    "types": [
+        "water",
+        "psychic"
+    ],
+    "abilities": [
+        {
+            "name": "illuminate",
+            "is_hidden": false
+        },
+        {
+            "name": "natural-cure",
+            "is_hidden": false
+        },
+        {
+            "name": "analytic",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 60,
+        "attack": 75,
+        "defense": 85,
+        "special-attack": 100,
+        "special-defense": 85,
+        "speed": 115
+    },
+    "evolution_chain": {
+        "species": "staryu",
+        "id": 120,
+        "sprite": "/static/sprites/pokemon/120.gif",
+        "evolves_to": [
+            {
+                "species": "starmie",
+                "id": 121,
+                "sprite": "/static/sprites/pokemon/121.gif",
+                "details": [
+                    {
+                        "trigger": "use-item",
+                        "min_level": null,
+                        "item": "water-stone"
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/121.gif"
+}

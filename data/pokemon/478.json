@@ -1,0 +1,66 @@
+{
+    "id": 478,
+    "name": "froslass",
+    "category": "Snow Land Pokémon",
+    "description": "It freezes foes with an icy breath nearly -60 degrees F. What seems to be its body is actually hollow.",
+    "generation": "generation-iv",
+    "height": 13,
+    "weight": 266,
+    "base_experience": 168,
+    "types": [
+        "ice",
+        "ghost"
+    ],
+    "abilities": [
+        {
+            "name": "snow-cloak",
+            "is_hidden": false
+        },
+        {
+            "name": "cursed-body",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 70,
+        "attack": 80,
+        "defense": 70,
+        "special-attack": 80,
+        "special-defense": 70,
+        "speed": 110
+    },
+    "evolution_chain": {
+        "species": "snorunt",
+        "id": 361,
+        "sprite": "/static/sprites/pokemon/361.gif",
+        "evolves_to": [
+            {
+                "species": "glalie",
+                "id": 362,
+                "sprite": "/static/sprites/pokemon/362.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 42,
+                        "item": null
+                    }
+                ],
+                "next": []
+            },
+            {
+                "species": "froslass",
+                "id": 478,
+                "sprite": "/static/sprites/pokemon/478.gif",
+                "details": [
+                    {
+                        "trigger": "use-item",
+                        "min_level": null,
+                        "item": "dawn-stone"
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/478.gif"
+}

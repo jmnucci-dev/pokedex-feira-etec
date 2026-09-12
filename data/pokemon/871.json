@@ -1,0 +1,38 @@
+{
+    "id": 871,
+    "name": "pincurchin",
+    "category": "Sea Urchin Pokémon",
+    "description": "It feeds on seaweed, using its teeth to scrape it off rocks. Electric current flows from the tips of its spines.",
+    "generation": "generation-viii",
+    "height": 3,
+    "weight": 10,
+    "base_experience": 152,
+    "types": [
+        "electric"
+    ],
+    "abilities": [
+        {
+            "name": "lightning-rod",
+            "is_hidden": false
+        },
+        {
+            "name": "electric-surge",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 48,
+        "attack": 101,
+        "defense": 95,
+        "special-attack": 91,
+        "special-defense": 85,
+        "speed": 15
+    },
+    "evolution_chain": {
+        "species": "pincurchin",
+        "id": 871,
+        "sprite": "/static/sprites/pokemon/871.gif",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/871.gif"
+}

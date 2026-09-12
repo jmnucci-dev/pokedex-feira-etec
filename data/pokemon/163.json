@@ -1,0 +1,57 @@
+{
+    "id": 163,
+    "name": "hoothoot",
+    "category": "Owl Pokémon",
+    "description": "It always stands on one foot. It changes feet so fast, the movement can rarely be seen.",
+    "generation": "generation-ii",
+    "height": 7,
+    "weight": 212,
+    "base_experience": 52,
+    "types": [
+        "normal",
+        "flying"
+    ],
+    "abilities": [
+        {
+            "name": "insomnia",
+            "is_hidden": false
+        },
+        {
+            "name": "keen-eye",
+            "is_hidden": false
+        },
+        {
+            "name": "tinted-lens",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 60,
+        "attack": 30,
+        "defense": 30,
+        "special-attack": 36,
+        "special-defense": 56,
+        "speed": 50
+    },
+    "evolution_chain": {
+        "species": "hoothoot",
+        "id": 163,
+        "sprite": "/static/sprites/pokemon/163.gif",
+        "evolves_to": [
+            {
+                "species": "noctowl",
+                "id": 164,
+                "sprite": "/static/sprites/pokemon/164.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 20,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/163.gif"
+}

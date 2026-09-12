@@ -1,0 +1,57 @@
+{
+    "id": 593,
+    "name": "jellicent-male",
+    "category": "Floating Pokémon",
+    "description": "The fate of the ships and crew that wander into Jellicent’s habitat: all sunken, all lost, all vanished.",
+    "generation": "generation-v",
+    "height": 22,
+    "weight": 1350,
+    "base_experience": 168,
+    "types": [
+        "water",
+        "ghost"
+    ],
+    "abilities": [
+        {
+            "name": "water-absorb",
+            "is_hidden": false
+        },
+        {
+            "name": "cursed-body",
+            "is_hidden": false
+        },
+        {
+            "name": "damp",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 100,
+        "attack": 60,
+        "defense": 70,
+        "special-attack": 85,
+        "special-defense": 105,
+        "speed": 60
+    },
+    "evolution_chain": {
+        "species": "frillish",
+        "id": 592,
+        "sprite": "/static/sprites/pokemon/592.gif",
+        "evolves_to": [
+            {
+                "species": "jellicent",
+                "id": 593,
+                "sprite": "/static/sprites/pokemon/593.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 40,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/593.gif"
+}

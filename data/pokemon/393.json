@@ -1,0 +1,66 @@
+{
+    "id": 393,
+    "name": "piplup",
+    "category": "Penguin Pokémon",
+    "description": "Because it is very proud, it hates accepting food from people. Its thick down guards it from cold.",
+    "generation": "generation-iv",
+    "height": 4,
+    "weight": 52,
+    "base_experience": 63,
+    "types": [
+        "water"
+    ],
+    "abilities": [
+        {
+            "name": "torrent",
+            "is_hidden": false
+        },
+        {
+            "name": "competitive",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 53,
+        "attack": 51,
+        "defense": 53,
+        "special-attack": 61,
+        "special-defense": 56,
+        "speed": 40
+    },
+    "evolution_chain": {
+        "species": "piplup",
+        "id": 393,
+        "sprite": "/static/sprites/pokemon/393.gif",
+        "evolves_to": [
+            {
+                "species": "prinplup",
+                "id": 394,
+                "sprite": "/static/sprites/pokemon/394.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 16,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "empoleon",
+                        "id": 395,
+                        "sprite": "/static/sprites/pokemon/395.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 36,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/393.gif"
+}

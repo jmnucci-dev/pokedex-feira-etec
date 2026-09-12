@@ -1,0 +1,81 @@
+{
+    "id": 76,
+    "name": "golem",
+    "category": "Megaton Pokémon",
+    "description": "Its boulder-like body is extremely hard. It can easily withstand dynamite blasts without damage.",
+    "generation": "generation-i",
+    "height": 14,
+    "weight": 3000,
+    "base_experience": 223,
+    "types": [
+        "rock",
+        "ground"
+    ],
+    "abilities": [
+        {
+            "name": "rock-head",
+            "is_hidden": false
+        },
+        {
+            "name": "sturdy",
+            "is_hidden": false
+        },
+        {
+            "name": "sand-veil",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 80,
+        "attack": 120,
+        "defense": 130,
+        "special-attack": 55,
+        "special-defense": 65,
+        "speed": 45
+    },
+    "evolution_chain": {
+        "species": "geodude",
+        "id": 74,
+        "sprite": "/static/sprites/pokemon/74.gif",
+        "evolves_to": [
+            {
+                "species": "graveler",
+                "id": 75,
+                "sprite": "/static/sprites/pokemon/75.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 25,
+                        "item": null
+                    },
+                    {
+                        "trigger": "level-up",
+                        "min_level": 25,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "golem",
+                        "id": 76,
+                        "sprite": "/static/sprites/pokemon/76.gif",
+                        "details": [
+                            {
+                                "trigger": "trade",
+                                "min_level": null,
+                                "item": null
+                            },
+                            {
+                                "trigger": "trade",
+                                "min_level": null,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/76.gif"
+}

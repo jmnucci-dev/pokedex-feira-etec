@@ -1,0 +1,66 @@
+{
+    "id": 160,
+    "name": "feraligatr",
+    "category": "Big Jaw Pokémon",
+    "description": "When it bites with its massive and powerful jaws, it shakes its head and savagely tears its victim up.",
+    "generation": "generation-ii",
+    "height": 23,
+    "weight": 888,
+    "base_experience": 239,
+    "types": [
+        "water"
+    ],
+    "abilities": [
+        {
+            "name": "torrent",
+            "is_hidden": false
+        },
+        {
+            "name": "sheer-force",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 85,
+        "attack": 105,
+        "defense": 100,
+        "special-attack": 79,
+        "special-defense": 83,
+        "speed": 78
+    },
+    "evolution_chain": {
+        "species": "totodile",
+        "id": 158,
+        "sprite": "/static/sprites/pokemon/158.gif",
+        "evolves_to": [
+            {
+                "species": "croconaw",
+                "id": 159,
+                "sprite": "/static/sprites/pokemon/159.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 18,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "feraligatr",
+                        "id": 160,
+                        "sprite": "/static/sprites/pokemon/160.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 30,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/160.gif"
+}

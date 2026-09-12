@@ -1,0 +1,62 @@
+{
+    "id": 287,
+    "name": "slakoth",
+    "category": "Slacker Pokémon",
+    "description": "SLAKOTH lolls around for over twenty hours every day. Because it moves so little, it does not need much food. This POKéMON’s sole daily meal consists of just three leaves.",
+    "generation": "generation-iii",
+    "height": 8,
+    "weight": 240,
+    "base_experience": 56,
+    "types": [
+        "normal"
+    ],
+    "abilities": [
+        {
+            "name": "truant",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 60,
+        "attack": 60,
+        "defense": 60,
+        "special-attack": 35,
+        "special-defense": 35,
+        "speed": 30
+    },
+    "evolution_chain": {
+        "species": "slakoth",
+        "id": 287,
+        "sprite": "/static/sprites/pokemon/287.gif",
+        "evolves_to": [
+            {
+                "species": "vigoroth",
+                "id": 288,
+                "sprite": "/static/sprites/pokemon/288.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 18,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "slaking",
+                        "id": 289,
+                        "sprite": "/static/sprites/pokemon/289.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 36,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/287.gif"
+}

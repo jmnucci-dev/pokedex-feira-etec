@@ -1,0 +1,67 @@
+{
+    "id": 658,
+    "name": "greninja",
+    "category": "Ninja Pokémon",
+    "description": "It creates throwing stars out of compressed water. When it spins them and throws them at high speed, these stars can split metal in two.",
+    "generation": "generation-vi",
+    "height": 15,
+    "weight": 400,
+    "base_experience": 239,
+    "types": [
+        "water",
+        "dark"
+    ],
+    "abilities": [
+        {
+            "name": "torrent",
+            "is_hidden": false
+        },
+        {
+            "name": "protean",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 72,
+        "attack": 95,
+        "defense": 67,
+        "special-attack": 103,
+        "special-defense": 71,
+        "speed": 122
+    },
+    "evolution_chain": {
+        "species": "froakie",
+        "id": 656,
+        "sprite": "/static/sprites/pokemon/656.png",
+        "evolves_to": [
+            {
+                "species": "frogadier",
+                "id": 657,
+                "sprite": "/static/sprites/pokemon/657.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 16,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "greninja",
+                        "id": 658,
+                        "sprite": "/static/sprites/pokemon/658.png",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 36,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/658.png"
+}

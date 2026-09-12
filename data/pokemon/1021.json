@@ -1,0 +1,35 @@
+{
+    "id": 1021,
+    "name": "raging-bolt",
+    "category": "Paradox Pokémon",
+    "description": "It's said to incinerate everything around it with lightning launched from its fur. Very little is known about this creature.",
+    "generation": "generation-ix",
+    "height": 52,
+    "weight": 4800,
+    "base_experience": 295,
+    "types": [
+        "electric",
+        "dragon"
+    ],
+    "abilities": [
+        {
+            "name": "protosynthesis",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 125,
+        "attack": 73,
+        "defense": 91,
+        "special-attack": 137,
+        "special-defense": 89,
+        "speed": 75
+    },
+    "evolution_chain": {
+        "species": "raging-bolt",
+        "id": 1021,
+        "sprite": "/static/sprites/pokemon/1021.png",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/1021.png"
+}

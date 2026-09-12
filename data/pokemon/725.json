@@ -1,0 +1,66 @@
+{
+    "id": 725,
+    "name": "litten",
+    "category": "Fire Cat Pokémon",
+    "description": "While grooming itself, it builds up fur inside its stomach. It sets the fur alight and spews fiery attacks, which change based on how it coughs.",
+    "generation": "generation-vii",
+    "height": 4,
+    "weight": 43,
+    "base_experience": 64,
+    "types": [
+        "fire"
+    ],
+    "abilities": [
+        {
+            "name": "blaze",
+            "is_hidden": false
+        },
+        {
+            "name": "intimidate",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 45,
+        "attack": 65,
+        "defense": 40,
+        "special-attack": 60,
+        "special-defense": 40,
+        "speed": 70
+    },
+    "evolution_chain": {
+        "species": "litten",
+        "id": 725,
+        "sprite": "/static/sprites/pokemon/725.gif",
+        "evolves_to": [
+            {
+                "species": "torracat",
+                "id": 726,
+                "sprite": "/static/sprites/pokemon/726.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 17,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "incineroar",
+                        "id": 727,
+                        "sprite": "/static/sprites/pokemon/727.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 34,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/725.gif"
+}

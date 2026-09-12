@@ -1,0 +1,42 @@
+{
+    "id": 417,
+    "name": "pachirisu",
+    "category": "EleSquirrel Pokémon",
+    "description": "It makes fur balls that crackle with static electricity. It stores them with berries in tree holes.",
+    "generation": "generation-iv",
+    "height": 4,
+    "weight": 39,
+    "base_experience": 142,
+    "types": [
+        "electric"
+    ],
+    "abilities": [
+        {
+            "name": "run-away",
+            "is_hidden": false
+        },
+        {
+            "name": "pickup",
+            "is_hidden": false
+        },
+        {
+            "name": "volt-absorb",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 60,
+        "attack": 45,
+        "defense": 70,
+        "special-attack": 45,
+        "special-defense": 90,
+        "speed": 95
+    },
+    "evolution_chain": {
+        "species": "pachirisu",
+        "id": 417,
+        "sprite": "/static/sprites/pokemon/417.gif",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/417.gif"
+}

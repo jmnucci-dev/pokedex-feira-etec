@@ -1,0 +1,71 @@
+{
+    "id": 543,
+    "name": "venipede",
+    "category": "Centipede Pokémon",
+    "description": "Its bite injects a potent poison, enough to paralyze large bird Pokémon that try to prey on it.",
+    "generation": "generation-v",
+    "height": 4,
+    "weight": 53,
+    "base_experience": 52,
+    "types": [
+        "bug",
+        "poison"
+    ],
+    "abilities": [
+        {
+            "name": "poison-point",
+            "is_hidden": false
+        },
+        {
+            "name": "swarm",
+            "is_hidden": false
+        },
+        {
+            "name": "speed-boost",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 30,
+        "attack": 45,
+        "defense": 59,
+        "special-attack": 30,
+        "special-defense": 39,
+        "speed": 57
+    },
+    "evolution_chain": {
+        "species": "venipede",
+        "id": 543,
+        "sprite": "/static/sprites/pokemon/543.gif",
+        "evolves_to": [
+            {
+                "species": "whirlipede",
+                "id": 544,
+                "sprite": "/static/sprites/pokemon/544.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 22,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "scolipede",
+                        "id": 545,
+                        "sprite": "/static/sprites/pokemon/545.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 30,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/543.gif"
+}

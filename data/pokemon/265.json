@@ -1,0 +1,93 @@
+{
+    "id": 265,
+    "name": "wurmple",
+    "category": "Worm Pokémon",
+    "description": "Using the spikes on its rear end, WURMPLE peels the bark off trees and feeds on the sap that oozes out. This POKéMON’s feet are tipped with suction pads that allow it to cling to glass without slipping.",
+    "generation": "generation-iii",
+    "height": 3,
+    "weight": 36,
+    "base_experience": 56,
+    "types": [
+        "bug"
+    ],
+    "abilities": [
+        {
+            "name": "shield-dust",
+            "is_hidden": false
+        },
+        {
+            "name": "run-away",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 45,
+        "attack": 45,
+        "defense": 35,
+        "special-attack": 20,
+        "special-defense": 30,
+        "speed": 20
+    },
+    "evolution_chain": {
+        "species": "wurmple",
+        "id": 265,
+        "sprite": "/static/sprites/pokemon/265.gif",
+        "evolves_to": [
+            {
+                "species": "silcoon",
+                "id": 266,
+                "sprite": "/static/sprites/pokemon/266.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 7,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "beautifly",
+                        "id": 267,
+                        "sprite": "/static/sprites/pokemon/267.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 10,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            },
+            {
+                "species": "cascoon",
+                "id": 268,
+                "sprite": "/static/sprites/pokemon/268.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 7,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "dustox",
+                        "id": 269,
+                        "sprite": "/static/sprites/pokemon/269.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 10,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/265.gif"
+}

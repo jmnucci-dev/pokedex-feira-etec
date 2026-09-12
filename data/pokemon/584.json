@@ -1,0 +1,70 @@
+{
+    "id": 584,
+    "name": "vanilluxe",
+    "category": "Snowstorm Pokémon",
+    "description": "Swallowing large amounts of water, they make snow clouds inside their bodies and attack their foes with violent blizzards.",
+    "generation": "generation-v",
+    "height": 13,
+    "weight": 575,
+    "base_experience": 241,
+    "types": [
+        "ice"
+    ],
+    "abilities": [
+        {
+            "name": "ice-body",
+            "is_hidden": false
+        },
+        {
+            "name": "snow-warning",
+            "is_hidden": false
+        },
+        {
+            "name": "weak-armor",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 71,
+        "attack": 95,
+        "defense": 85,
+        "special-attack": 110,
+        "special-defense": 95,
+        "speed": 79
+    },
+    "evolution_chain": {
+        "species": "vanillite",
+        "id": 582,
+        "sprite": "/static/sprites/pokemon/582.gif",
+        "evolves_to": [
+            {
+                "species": "vanillish",
+                "id": 583,
+                "sprite": "/static/sprites/pokemon/583.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 35,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "vanilluxe",
+                        "id": 584,
+                        "sprite": "/static/sprites/pokemon/584.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 47,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/584.gif"
+}

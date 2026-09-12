@@ -1,0 +1,94 @@
+{
+    "id": 269,
+    "name": "dustox",
+    "category": "Poison Moth Pokémon",
+    "description": "DUSTOX is instinctively drawn to light. Swarms of this POKéMON are attracted by the bright lights of cities, where they wreak havoc by stripping the leaves off roadside trees for food.",
+    "generation": "generation-iii",
+    "height": 12,
+    "weight": 316,
+    "base_experience": 173,
+    "types": [
+        "bug",
+        "poison"
+    ],
+    "abilities": [
+        {
+            "name": "shield-dust",
+            "is_hidden": false
+        },
+        {
+            "name": "compound-eyes",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 60,
+        "attack": 50,
+        "defense": 70,
+        "special-attack": 50,
+        "special-defense": 90,
+        "speed": 65
+    },
+    "evolution_chain": {
+        "species": "wurmple",
+        "id": 265,
+        "sprite": "/static/sprites/pokemon/265.gif",
+        "evolves_to": [
+            {
+                "species": "silcoon",
+                "id": 266,
+                "sprite": "/static/sprites/pokemon/266.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 7,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "beautifly",
+                        "id": 267,
+                        "sprite": "/static/sprites/pokemon/267.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 10,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            },
+            {
+                "species": "cascoon",
+                "id": 268,
+                "sprite": "/static/sprites/pokemon/268.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 7,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "dustox",
+                        "id": 269,
+                        "sprite": "/static/sprites/pokemon/269.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 10,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/269.gif"
+}

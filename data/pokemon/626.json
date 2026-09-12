@@ -1,0 +1,42 @@
+{
+    "id": 626,
+    "name": "bouffalant",
+    "category": "Bash Buffalo Pokémon",
+    "description": "Their fluffy fur absorbs damage, even if they strike foes with a fierce headbutt.",
+    "generation": "generation-v",
+    "height": 16,
+    "weight": 946,
+    "base_experience": 172,
+    "types": [
+        "normal"
+    ],
+    "abilities": [
+        {
+            "name": "reckless",
+            "is_hidden": false
+        },
+        {
+            "name": "sap-sipper",
+            "is_hidden": false
+        },
+        {
+            "name": "soundproof",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 95,
+        "attack": 110,
+        "defense": 95,
+        "special-attack": 40,
+        "special-defense": 95,
+        "speed": 55
+    },
+    "evolution_chain": {
+        "species": "bouffalant",
+        "id": 626,
+        "sprite": "/static/sprites/pokemon/626.gif",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/626.gif"
+}

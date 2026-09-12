@@ -1,0 +1,57 @@
+{
+    "id": 981,
+    "name": "farigiraf",
+    "category": "Long Neck Pokémon",
+    "description": "Now that the brain waves from the head and tail are synced up, the psychic power of this Pokémon is 10 times stronger than Girafarig’s.",
+    "generation": "generation-ix",
+    "height": 32,
+    "weight": 1600,
+    "base_experience": 260,
+    "types": [
+        "normal",
+        "psychic"
+    ],
+    "abilities": [
+        {
+            "name": "cud-chew",
+            "is_hidden": false
+        },
+        {
+            "name": "armor-tail",
+            "is_hidden": false
+        },
+        {
+            "name": "sap-sipper",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 120,
+        "attack": 90,
+        "defense": 70,
+        "special-attack": 110,
+        "special-defense": 70,
+        "speed": 60
+    },
+    "evolution_chain": {
+        "species": "girafarig",
+        "id": 203,
+        "sprite": "/static/sprites/pokemon/203.gif",
+        "evolves_to": [
+            {
+                "species": "farigiraf",
+                "id": 981,
+                "sprite": "/static/sprites/pokemon/981.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/981.png"
+}

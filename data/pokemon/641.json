@@ -1,0 +1,38 @@
+{
+    "id": 641,
+    "name": "tornadus-incarnate",
+    "category": "Cyclone Pokémon",
+    "description": "The lower half of its body is wrapped in a cloud of energy. It zooms through the sky at 200 mph.",
+    "generation": "generation-v",
+    "height": 15,
+    "weight": 630,
+    "base_experience": 261,
+    "types": [
+        "flying"
+    ],
+    "abilities": [
+        {
+            "name": "prankster",
+            "is_hidden": false
+        },
+        {
+            "name": "defiant",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 79,
+        "attack": 115,
+        "defense": 70,
+        "special-attack": 125,
+        "special-defense": 80,
+        "speed": 111
+    },
+    "evolution_chain": {
+        "species": "tornadus",
+        "id": 641,
+        "sprite": "/static/sprites/pokemon/641.gif",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/641.gif"
+}

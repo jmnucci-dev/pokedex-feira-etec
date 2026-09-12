@@ -1,0 +1,48 @@
+{
+    "id": 772,
+    "name": "type-null",
+    "category": "Synthetic Pokémon",
+    "description": "The heavy control mask it wears suppresses its intrinsic capabilities. This Pokémon has some hidden special power.",
+    "generation": "generation-vii",
+    "height": 19,
+    "weight": 1205,
+    "base_experience": 107,
+    "types": [
+        "normal"
+    ],
+    "abilities": [
+        {
+            "name": "battle-armor",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 95,
+        "attack": 95,
+        "defense": 95,
+        "special-attack": 95,
+        "special-defense": 95,
+        "speed": 59
+    },
+    "evolution_chain": {
+        "species": "type-null",
+        "id": 772,
+        "sprite": "/static/sprites/pokemon/772.gif",
+        "evolves_to": [
+            {
+                "species": "silvally",
+                "id": 773,
+                "sprite": "/static/sprites/pokemon/773.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/772.gif"
+}

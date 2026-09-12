@@ -1,0 +1,71 @@
+{
+    "id": 406,
+    "name": "budew",
+    "category": "Bud Pokémon",
+    "description": "Over the winter, it closes its bud and endures the cold. In spring, the bud opens and releases pollen.",
+    "generation": "generation-iv",
+    "height": 2,
+    "weight": 12,
+    "base_experience": 56,
+    "types": [
+        "grass",
+        "poison"
+    ],
+    "abilities": [
+        {
+            "name": "natural-cure",
+            "is_hidden": false
+        },
+        {
+            "name": "poison-point",
+            "is_hidden": false
+        },
+        {
+            "name": "leaf-guard",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 40,
+        "attack": 30,
+        "defense": 35,
+        "special-attack": 50,
+        "special-defense": 70,
+        "speed": 55
+    },
+    "evolution_chain": {
+        "species": "budew",
+        "id": 406,
+        "sprite": "/static/sprites/pokemon/406.gif",
+        "evolves_to": [
+            {
+                "species": "roselia",
+                "id": 315,
+                "sprite": "/static/sprites/pokemon/315.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "roserade",
+                        "id": 407,
+                        "sprite": "/static/sprites/pokemon/407.gif",
+                        "details": [
+                            {
+                                "trigger": "use-item",
+                                "min_level": null,
+                                "item": "shiny-stone"
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/406.gif"
+}

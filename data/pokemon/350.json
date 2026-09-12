@@ -1,0 +1,66 @@
+{
+    "id": 350,
+    "name": "milotic",
+    "category": "Tender Pokémon",
+    "description": "MILOTIC is said to be the most beautiful of all the POKéMON. It has the power to becalm such emotions as anger and hostility to quell bitter feuding.",
+    "generation": "generation-iii",
+    "height": 62,
+    "weight": 1620,
+    "base_experience": 189,
+    "types": [
+        "water"
+    ],
+    "abilities": [
+        {
+            "name": "marvel-scale",
+            "is_hidden": false
+        },
+        {
+            "name": "competitive",
+            "is_hidden": false
+        },
+        {
+            "name": "cute-charm",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 95,
+        "attack": 60,
+        "defense": 79,
+        "special-attack": 100,
+        "special-defense": 125,
+        "speed": 81
+    },
+    "evolution_chain": {
+        "species": "feebas",
+        "id": 349,
+        "sprite": "/static/sprites/pokemon/349.gif",
+        "evolves_to": [
+            {
+                "species": "milotic",
+                "id": 350,
+                "sprite": "/static/sprites/pokemon/350.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    },
+                    {
+                        "trigger": "trade",
+                        "min_level": null,
+                        "item": null
+                    },
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/350.gif"
+}

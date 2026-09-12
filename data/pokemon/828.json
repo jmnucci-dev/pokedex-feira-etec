@@ -1,0 +1,56 @@
+{
+    "id": 828,
+    "name": "thievul",
+    "category": "Fox Pokémon",
+    "description": "It secretly marks potential targets with a scent. By following the scent, it stalks its targets and steals from them when they least expect it.",
+    "generation": "generation-viii",
+    "height": 12,
+    "weight": 199,
+    "base_experience": 159,
+    "types": [
+        "dark"
+    ],
+    "abilities": [
+        {
+            "name": "run-away",
+            "is_hidden": false
+        },
+        {
+            "name": "unburden",
+            "is_hidden": false
+        },
+        {
+            "name": "stakeout",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 70,
+        "attack": 58,
+        "defense": 58,
+        "special-attack": 87,
+        "special-defense": 92,
+        "speed": 90
+    },
+    "evolution_chain": {
+        "species": "nickit",
+        "id": 827,
+        "sprite": "/static/sprites/pokemon/827.png",
+        "evolves_to": [
+            {
+                "species": "thievul",
+                "id": 828,
+                "sprite": "/static/sprites/pokemon/828.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 18,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/828.png"
+}

@@ -1,0 +1,35 @@
+{
+    "id": 1004,
+    "name": "chi-yu",
+    "category": "Ruinous Pokémon",
+    "description": "It controls flames burning at over 5,400 degrees Fahrenheit. It casually swims through the sea of lava it creates by melting rock and sand.",
+    "generation": "generation-ix",
+    "height": 4,
+    "weight": 49,
+    "base_experience": 285,
+    "types": [
+        "dark",
+        "fire"
+    ],
+    "abilities": [
+        {
+            "name": "beads-of-ruin",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 55,
+        "attack": 80,
+        "defense": 80,
+        "special-attack": 135,
+        "special-defense": 120,
+        "speed": 100
+    },
+    "evolution_chain": {
+        "species": "chi-yu",
+        "id": 1004,
+        "sprite": "/static/sprites/pokemon/1004.png",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/1004.png"
+}

@@ -1,0 +1,67 @@
+{
+    "id": 443,
+    "name": "gible",
+    "category": "Land Shark Pokémon",
+    "description": "It nests in small, horizontal holes in cave walls. It pounces to catch prey that stray too close.",
+    "generation": "generation-iv",
+    "height": 7,
+    "weight": 205,
+    "base_experience": 60,
+    "types": [
+        "dragon",
+        "ground"
+    ],
+    "abilities": [
+        {
+            "name": "sand-veil",
+            "is_hidden": false
+        },
+        {
+            "name": "rough-skin",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 58,
+        "attack": 70,
+        "defense": 45,
+        "special-attack": 40,
+        "special-defense": 45,
+        "speed": 42
+    },
+    "evolution_chain": {
+        "species": "gible",
+        "id": 443,
+        "sprite": "/static/sprites/pokemon/443.gif",
+        "evolves_to": [
+            {
+                "species": "gabite",
+                "id": 444,
+                "sprite": "/static/sprites/pokemon/444.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 24,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "garchomp",
+                        "id": 445,
+                        "sprite": "/static/sprites/pokemon/445.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 48,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/443.gif"
+}

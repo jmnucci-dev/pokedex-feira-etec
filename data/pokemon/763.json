@@ -1,0 +1,70 @@
+{
+    "id": 763,
+    "name": "tsareena",
+    "category": "Fruit Pokémon",
+    "description": "Its long, striking legs aren’t just for show but to be used to kick with skill. In victory, it shows off by kicking the defeated, laughing boisterously.",
+    "generation": "generation-vii",
+    "height": 12,
+    "weight": 214,
+    "base_experience": 230,
+    "types": [
+        "grass"
+    ],
+    "abilities": [
+        {
+            "name": "leaf-guard",
+            "is_hidden": false
+        },
+        {
+            "name": "queenly-majesty",
+            "is_hidden": false
+        },
+        {
+            "name": "sweet-veil",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 72,
+        "attack": 120,
+        "defense": 98,
+        "special-attack": 50,
+        "special-defense": 98,
+        "speed": 72
+    },
+    "evolution_chain": {
+        "species": "bounsweet",
+        "id": 761,
+        "sprite": "/static/sprites/pokemon/761.gif",
+        "evolves_to": [
+            {
+                "species": "steenee",
+                "id": 762,
+                "sprite": "/static/sprites/pokemon/762.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 18,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "tsareena",
+                        "id": 763,
+                        "sprite": "/static/sprites/pokemon/763.png",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": null,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/763.png"
+}

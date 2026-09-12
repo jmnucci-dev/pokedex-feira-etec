@@ -1,0 +1,34 @@
+{
+    "id": 889,
+    "name": "zamazenta",
+    "category": "Warrior Pokémon",
+    "description": "In times past, it worked together with a king of the people to save the Galar region. It absorbs metal that it then uses in battle.",
+    "generation": "generation-viii",
+    "height": 29,
+    "weight": 2100,
+    "base_experience": 335,
+    "types": [
+        "fighting"
+    ],
+    "abilities": [
+        {
+            "name": "dauntless-shield",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 92,
+        "attack": 120,
+        "defense": 115,
+        "special-attack": 80,
+        "special-defense": 115,
+        "speed": 138
+    },
+    "evolution_chain": {
+        "species": "zamazenta",
+        "id": 889,
+        "sprite": "/static/sprites/pokemon/889.gif",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/889.gif"
+}

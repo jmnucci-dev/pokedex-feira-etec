@@ -1,0 +1,71 @@
+{
+    "id": 187,
+    "name": "hoppip",
+    "category": "Cottonweed Pokémon",
+    "description": "To keep from being blown away by the wind, they gather in clusters. They do enjoy gentle breezes, though.",
+    "generation": "generation-ii",
+    "height": 4,
+    "weight": 5,
+    "base_experience": 50,
+    "types": [
+        "grass",
+        "flying"
+    ],
+    "abilities": [
+        {
+            "name": "chlorophyll",
+            "is_hidden": false
+        },
+        {
+            "name": "leaf-guard",
+            "is_hidden": false
+        },
+        {
+            "name": "infiltrator",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 35,
+        "attack": 35,
+        "defense": 40,
+        "special-attack": 35,
+        "special-defense": 55,
+        "speed": 50
+    },
+    "evolution_chain": {
+        "species": "hoppip",
+        "id": 187,
+        "sprite": "/static/sprites/pokemon/187.gif",
+        "evolves_to": [
+            {
+                "species": "skiploom",
+                "id": 188,
+                "sprite": "/static/sprites/pokemon/188.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 18,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "jumpluff",
+                        "id": 189,
+                        "sprite": "/static/sprites/pokemon/189.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 27,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/187.gif"
+}

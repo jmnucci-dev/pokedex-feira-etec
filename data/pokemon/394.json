@@ -1,0 +1,66 @@
+{
+    "id": 394,
+    "name": "prinplup",
+    "category": "Penguin Pokémon",
+    "description": "It lives alone, away from others. Apparently, every one of them believes it is the most important.",
+    "generation": "generation-iv",
+    "height": 8,
+    "weight": 230,
+    "base_experience": 142,
+    "types": [
+        "water"
+    ],
+    "abilities": [
+        {
+            "name": "torrent",
+            "is_hidden": false
+        },
+        {
+            "name": "competitive",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 64,
+        "attack": 66,
+        "defense": 68,
+        "special-attack": 81,
+        "special-defense": 76,
+        "speed": 50
+    },
+    "evolution_chain": {
+        "species": "piplup",
+        "id": 393,
+        "sprite": "/static/sprites/pokemon/393.gif",
+        "evolves_to": [
+            {
+                "species": "prinplup",
+                "id": 394,
+                "sprite": "/static/sprites/pokemon/394.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 16,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "empoleon",
+                        "id": 395,
+                        "sprite": "/static/sprites/pokemon/395.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 36,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/394.gif"
+}

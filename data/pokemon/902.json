@@ -1,0 +1,57 @@
+{
+    "id": 902,
+    "name": "basculegion-male",
+    "category": "Big Fish Pokémon",
+    "description": "Clads itself in the souls of comrades that perished before fulfilling their goals of journeying upstream. No other species throughout all Hisui's rivers is Basculegion's equal.",
+    "generation": "generation-viii",
+    "height": 30,
+    "weight": 1100,
+    "base_experience": 265,
+    "types": [
+        "water",
+        "ghost"
+    ],
+    "abilities": [
+        {
+            "name": "swift-swim",
+            "is_hidden": false
+        },
+        {
+            "name": "adaptability",
+            "is_hidden": false
+        },
+        {
+            "name": "mold-breaker",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 120,
+        "attack": 112,
+        "defense": 65,
+        "special-attack": 80,
+        "special-defense": 75,
+        "speed": 78
+    },
+    "evolution_chain": {
+        "species": "basculin",
+        "id": 550,
+        "sprite": "/static/sprites/pokemon/550.gif",
+        "evolves_to": [
+            {
+                "species": "basculegion",
+                "id": 902,
+                "sprite": "/static/sprites/pokemon/902.gif",
+                "details": [
+                    {
+                        "trigger": "recoil-damage",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/902.gif"
+}

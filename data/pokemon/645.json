@@ -1,0 +1,39 @@
+{
+    "id": 645,
+    "name": "landorus-incarnate",
+    "category": "Abundance Pokémon",
+    "description": "Lands visited by Landorus grant such bountiful crops that it has been hailed as “The Guardian of the Fields.”",
+    "generation": "generation-v",
+    "height": 15,
+    "weight": 680,
+    "base_experience": 270,
+    "types": [
+        "ground",
+        "flying"
+    ],
+    "abilities": [
+        {
+            "name": "sand-force",
+            "is_hidden": false
+        },
+        {
+            "name": "sheer-force",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 89,
+        "attack": 125,
+        "defense": 90,
+        "special-attack": 115,
+        "special-defense": 80,
+        "speed": 101
+    },
+    "evolution_chain": {
+        "species": "landorus",
+        "id": 645,
+        "sprite": "/static/sprites/pokemon/645.gif",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/645.gif"
+}

@@ -1,0 +1,84 @@
+{
+    "id": 282,
+    "name": "gardevoir",
+    "category": "Embrace Pokémon",
+    "description": "GARDEVOIR has the ability to read the future. If it senses impending danger to its TRAINER, this POKéMON is said to unleash its psychokinetic energy at full power.",
+    "generation": "generation-iii",
+    "height": 16,
+    "weight": 484,
+    "base_experience": 233,
+    "types": [
+        "psychic",
+        "fairy"
+    ],
+    "abilities": [
+        {
+            "name": "synchronize",
+            "is_hidden": false
+        },
+        {
+            "name": "trace",
+            "is_hidden": false
+        },
+        {
+            "name": "telepathy",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 68,
+        "attack": 65,
+        "defense": 65,
+        "special-attack": 125,
+        "special-defense": 115,
+        "speed": 80
+    },
+    "evolution_chain": {
+        "species": "ralts",
+        "id": 280,
+        "sprite": "/static/sprites/pokemon/280.gif",
+        "evolves_to": [
+            {
+                "species": "kirlia",
+                "id": 281,
+                "sprite": "/static/sprites/pokemon/281.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 20,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "gardevoir",
+                        "id": 282,
+                        "sprite": "/static/sprites/pokemon/282.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 30,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    },
+                    {
+                        "species": "gallade",
+                        "id": 475,
+                        "sprite": "/static/sprites/pokemon/475.gif",
+                        "details": [
+                            {
+                                "trigger": "use-item",
+                                "min_level": null,
+                                "item": "dawn-stone"
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/282.gif"
+}

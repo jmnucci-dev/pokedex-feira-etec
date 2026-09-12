@@ -1,0 +1,101 @@
+{
+    "id": 462,
+    "name": "magnezone",
+    "category": "Magnet Area Pokémon",
+    "description": "It evolved from exposure to a special magnetic field. Three units generate magnetism.",
+    "generation": "generation-iv",
+    "height": 12,
+    "weight": 1800,
+    "base_experience": 241,
+    "types": [
+        "electric",
+        "steel"
+    ],
+    "abilities": [
+        {
+            "name": "magnet-pull",
+            "is_hidden": false
+        },
+        {
+            "name": "sturdy",
+            "is_hidden": false
+        },
+        {
+            "name": "analytic",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 70,
+        "attack": 70,
+        "defense": 115,
+        "special-attack": 130,
+        "special-defense": 90,
+        "speed": 60
+    },
+    "evolution_chain": {
+        "species": "magnemite",
+        "id": 81,
+        "sprite": "/static/sprites/pokemon/81.gif",
+        "evolves_to": [
+            {
+                "species": "magneton",
+                "id": 82,
+                "sprite": "/static/sprites/pokemon/82.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 30,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "magnezone",
+                        "id": 462,
+                        "sprite": "/static/sprites/pokemon/462.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": null,
+                                "item": null
+                            },
+                            {
+                                "trigger": "level-up",
+                                "min_level": null,
+                                "item": null
+                            },
+                            {
+                                "trigger": "level-up",
+                                "min_level": null,
+                                "item": null
+                            },
+                            {
+                                "trigger": "level-up",
+                                "min_level": null,
+                                "item": null
+                            },
+                            {
+                                "trigger": "level-up",
+                                "min_level": null,
+                                "item": null
+                            },
+                            {
+                                "trigger": "use-item",
+                                "min_level": null,
+                                "item": "thunder-stone"
+                            },
+                            {
+                                "trigger": "level-up",
+                                "min_level": null,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/462.gif"
+}

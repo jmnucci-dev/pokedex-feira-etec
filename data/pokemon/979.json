@@ -1,0 +1,71 @@
+{
+    "id": 979,
+    "name": "annihilape",
+    "category": "Rage Monkey Pokémon",
+    "description": "When its anger rose beyond a critical point, this Pokémon gained power that is unfettered by the limits of its physical body.",
+    "generation": "generation-ix",
+    "height": 12,
+    "weight": 560,
+    "base_experience": 268,
+    "types": [
+        "fighting",
+        "ghost"
+    ],
+    "abilities": [
+        {
+            "name": "vital-spirit",
+            "is_hidden": false
+        },
+        {
+            "name": "inner-focus",
+            "is_hidden": false
+        },
+        {
+            "name": "defiant",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 110,
+        "attack": 115,
+        "defense": 80,
+        "special-attack": 50,
+        "special-defense": 90,
+        "speed": 90
+    },
+    "evolution_chain": {
+        "species": "mankey",
+        "id": 56,
+        "sprite": "/static/sprites/pokemon/56.gif",
+        "evolves_to": [
+            {
+                "species": "primeape",
+                "id": 57,
+                "sprite": "/static/sprites/pokemon/57.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 28,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "annihilape",
+                        "id": 979,
+                        "sprite": "/static/sprites/pokemon/979.png",
+                        "details": [
+                            {
+                                "trigger": "use-move",
+                                "min_level": null,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/979.png"
+}

@@ -1,0 +1,70 @@
+{
+    "id": 67,
+    "name": "machoke",
+    "category": "Superpower Pokémon",
+    "description": "Its muscular body is so powerful, it must wear a power save belt to be able to regulate its motions.",
+    "generation": "generation-i",
+    "height": 15,
+    "weight": 705,
+    "base_experience": 142,
+    "types": [
+        "fighting"
+    ],
+    "abilities": [
+        {
+            "name": "guts",
+            "is_hidden": false
+        },
+        {
+            "name": "no-guard",
+            "is_hidden": false
+        },
+        {
+            "name": "steadfast",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 80,
+        "attack": 100,
+        "defense": 70,
+        "special-attack": 50,
+        "special-defense": 60,
+        "speed": 45
+    },
+    "evolution_chain": {
+        "species": "machop",
+        "id": 66,
+        "sprite": "/static/sprites/pokemon/66.gif",
+        "evolves_to": [
+            {
+                "species": "machoke",
+                "id": 67,
+                "sprite": "/static/sprites/pokemon/67.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 28,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "machamp",
+                        "id": 68,
+                        "sprite": "/static/sprites/pokemon/68.gif",
+                        "details": [
+                            {
+                                "trigger": "trade",
+                                "min_level": null,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/67.gif"
+}

@@ -1,0 +1,61 @@
+{
+    "id": 712,
+    "name": "bergmite",
+    "category": "Ice Chunk Pokémon",
+    "description": "It blocks opponents’ attacks with the ice that shields its body. It uses cold air to repair any cracks with new ice.",
+    "generation": "generation-vi",
+    "height": 10,
+    "weight": 995,
+    "base_experience": 61,
+    "types": [
+        "ice"
+    ],
+    "abilities": [
+        {
+            "name": "own-tempo",
+            "is_hidden": false
+        },
+        {
+            "name": "ice-body",
+            "is_hidden": false
+        },
+        {
+            "name": "sturdy",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 55,
+        "attack": 69,
+        "defense": 85,
+        "special-attack": 32,
+        "special-defense": 35,
+        "speed": 28
+    },
+    "evolution_chain": {
+        "species": "bergmite",
+        "id": 712,
+        "sprite": "/static/sprites/pokemon/712.png",
+        "evolves_to": [
+            {
+                "species": "avalugg",
+                "id": 713,
+                "sprite": "/static/sprites/pokemon/713.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 37,
+                        "item": null
+                    },
+                    {
+                        "trigger": "level-up",
+                        "min_level": 37,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/712.png"
+}

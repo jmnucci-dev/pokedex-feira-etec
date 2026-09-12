@@ -1,0 +1,52 @@
+{
+    "id": 865,
+    "name": "sirfetchd",
+    "category": "Wild Duck Pokémon",
+    "description": "Only Farfetch’d that have survived many battles can attain this evolution. When this Pokémon’s leek withers, it will retire from combat.",
+    "generation": "generation-viii",
+    "height": 8,
+    "weight": 1170,
+    "base_experience": 177,
+    "types": [
+        "fighting"
+    ],
+    "abilities": [
+        {
+            "name": "steadfast",
+            "is_hidden": false
+        },
+        {
+            "name": "scrappy",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 62,
+        "attack": 135,
+        "defense": 95,
+        "special-attack": 68,
+        "special-defense": 82,
+        "speed": 65
+    },
+    "evolution_chain": {
+        "species": "farfetchd",
+        "id": 83,
+        "sprite": "/static/sprites/pokemon/83.gif",
+        "evolves_to": [
+            {
+                "species": "sirfetchd",
+                "id": 865,
+                "sprite": "/static/sprites/pokemon/865.png",
+                "details": [
+                    {
+                        "trigger": "three-critical-hits",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/865.png"
+}

@@ -1,0 +1,73 @@
+{
+    "id": 738,
+    "name": "vikavolt",
+    "category": "Stag Beetle Pokémon",
+    "description": "It zips around, on sharp lookout for an opening. It concentrates electrical energy within its large jaws and uses it to zap its enemies.",
+    "generation": "generation-vii",
+    "height": 15,
+    "weight": 450,
+    "base_experience": 225,
+    "types": [
+        "bug",
+        "electric"
+    ],
+    "abilities": [
+        {
+            "name": "levitate",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 77,
+        "attack": 70,
+        "defense": 90,
+        "special-attack": 145,
+        "special-defense": 75,
+        "speed": 43
+    },
+    "evolution_chain": {
+        "species": "grubbin",
+        "id": 736,
+        "sprite": "/static/sprites/pokemon/736.gif",
+        "evolves_to": [
+            {
+                "species": "charjabug",
+                "id": 737,
+                "sprite": "/static/sprites/pokemon/737.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 20,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "vikavolt",
+                        "id": 738,
+                        "sprite": "/static/sprites/pokemon/738.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": null,
+                                "item": null
+                            },
+                            {
+                                "trigger": "level-up",
+                                "min_level": null,
+                                "item": null
+                            },
+                            {
+                                "trigger": "use-item",
+                                "min_level": null,
+                                "item": "thunder-stone"
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/738.gif"
+}

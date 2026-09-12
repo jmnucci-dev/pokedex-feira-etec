@@ -1,0 +1,56 @@
+{
+    "id": 353,
+    "name": "shuppet",
+    "category": "Puppet Pokémon",
+    "description": "SHUPPET is attracted by feelings of jealousy and vindictiveness. If someone develops strong feelings of vengeance, this POKéMON will appear in a swarm and line up beneath the eaves of that person’s home.",
+    "generation": "generation-iii",
+    "height": 6,
+    "weight": 23,
+    "base_experience": 59,
+    "types": [
+        "ghost"
+    ],
+    "abilities": [
+        {
+            "name": "insomnia",
+            "is_hidden": false
+        },
+        {
+            "name": "frisk",
+            "is_hidden": false
+        },
+        {
+            "name": "cursed-body",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 44,
+        "attack": 75,
+        "defense": 35,
+        "special-attack": 63,
+        "special-defense": 33,
+        "speed": 45
+    },
+    "evolution_chain": {
+        "species": "shuppet",
+        "id": 353,
+        "sprite": "/static/sprites/pokemon/353.gif",
+        "evolves_to": [
+            {
+                "species": "banette",
+                "id": 354,
+                "sprite": "/static/sprites/pokemon/354.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 37,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/353.gif"
+}

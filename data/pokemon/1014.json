@@ -1,0 +1,39 @@
+{
+    "id": 1014,
+    "name": "okidogi",
+    "category": "Retainer Pokémon",
+    "description": "After all its muscles were stimulated by the toxic chain around its neck, Okidogi transformed and gained a powerful physique.",
+    "generation": "generation-ix",
+    "height": 18,
+    "weight": 922,
+    "base_experience": 278,
+    "types": [
+        "poison",
+        "fighting"
+    ],
+    "abilities": [
+        {
+            "name": "toxic-chain",
+            "is_hidden": false
+        },
+        {
+            "name": "guard-dog",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 88,
+        "attack": 128,
+        "defense": 115,
+        "special-attack": 58,
+        "special-defense": 86,
+        "speed": 80
+    },
+    "evolution_chain": {
+        "species": "okidogi",
+        "id": 1014,
+        "sprite": "/static/sprites/pokemon/1014.png",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/1014.png"
+}

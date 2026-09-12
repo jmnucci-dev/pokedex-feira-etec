@@ -1,0 +1,66 @@
+{
+    "id": 239,
+    "name": "elekid",
+    "category": "Electric Pokémon",
+    "description": "It rotates its arms to generate electricity, but it tires easily, so it charges up only a little bit.",
+    "generation": "generation-ii",
+    "height": 6,
+    "weight": 235,
+    "base_experience": 72,
+    "types": [
+        "electric"
+    ],
+    "abilities": [
+        {
+            "name": "static",
+            "is_hidden": false
+        },
+        {
+            "name": "vital-spirit",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 45,
+        "attack": 63,
+        "defense": 37,
+        "special-attack": 65,
+        "special-defense": 55,
+        "speed": 95
+    },
+    "evolution_chain": {
+        "species": "elekid",
+        "id": 239,
+        "sprite": "/static/sprites/pokemon/239.gif",
+        "evolves_to": [
+            {
+                "species": "electabuzz",
+                "id": 125,
+                "sprite": "/static/sprites/pokemon/125.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 30,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "electivire",
+                        "id": 466,
+                        "sprite": "/static/sprites/pokemon/466.gif",
+                        "details": [
+                            {
+                                "trigger": "trade",
+                                "min_level": null,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/239.gif"
+}

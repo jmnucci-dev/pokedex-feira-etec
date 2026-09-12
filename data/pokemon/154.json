@@ -1,0 +1,66 @@
+{
+    "id": 154,
+    "name": "meganium",
+    "category": "Herb Pokémon",
+    "description": "The aroma that rises from its petals contains a substance that calms aggressive feelings.",
+    "generation": "generation-ii",
+    "height": 18,
+    "weight": 1005,
+    "base_experience": 236,
+    "types": [
+        "grass"
+    ],
+    "abilities": [
+        {
+            "name": "overgrow",
+            "is_hidden": false
+        },
+        {
+            "name": "leaf-guard",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 80,
+        "attack": 82,
+        "defense": 100,
+        "special-attack": 83,
+        "special-defense": 100,
+        "speed": 80
+    },
+    "evolution_chain": {
+        "species": "chikorita",
+        "id": 152,
+        "sprite": "/static/sprites/pokemon/152.gif",
+        "evolves_to": [
+            {
+                "species": "bayleef",
+                "id": 153,
+                "sprite": "/static/sprites/pokemon/153.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 16,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "meganium",
+                        "id": 154,
+                        "sprite": "/static/sprites/pokemon/154.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 32,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/154.gif"
+}

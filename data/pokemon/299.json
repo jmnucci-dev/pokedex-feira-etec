@@ -1,0 +1,86 @@
+{
+    "id": 299,
+    "name": "nosepass",
+    "category": "Compass Pokémon",
+    "description": "NOSEPASS’s magnetic nose is always pointed to the north. If two of these POKéMON meet, they cannot turn their faces to each other when they are close because their magnetic noses repel one another.",
+    "generation": "generation-iii",
+    "height": 10,
+    "weight": 970,
+    "base_experience": 75,
+    "types": [
+        "rock"
+    ],
+    "abilities": [
+        {
+            "name": "sturdy",
+            "is_hidden": false
+        },
+        {
+            "name": "magnet-pull",
+            "is_hidden": false
+        },
+        {
+            "name": "sand-force",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 30,
+        "attack": 45,
+        "defense": 135,
+        "special-attack": 45,
+        "special-defense": 90,
+        "speed": 30
+    },
+    "evolution_chain": {
+        "species": "nosepass",
+        "id": 299,
+        "sprite": "/static/sprites/pokemon/299.gif",
+        "evolves_to": [
+            {
+                "species": "probopass",
+                "id": 476,
+                "sprite": "/static/sprites/pokemon/476.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    },
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    },
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    },
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    },
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    },
+                    {
+                        "trigger": "use-item",
+                        "min_level": null,
+                        "item": "thunder-stone"
+                    },
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/299.gif"
+}

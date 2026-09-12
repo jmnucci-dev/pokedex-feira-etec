@@ -1,0 +1,57 @@
+{
+    "id": 743,
+    "name": "ribombee",
+    "category": "Bee Fly Pokémon",
+    "description": "It rolls up pollen into puffs. It makes many different varieties, some used as food and others used in battle.",
+    "generation": "generation-vii",
+    "height": 2,
+    "weight": 5,
+    "base_experience": 162,
+    "types": [
+        "bug",
+        "fairy"
+    ],
+    "abilities": [
+        {
+            "name": "honey-gather",
+            "is_hidden": false
+        },
+        {
+            "name": "shield-dust",
+            "is_hidden": false
+        },
+        {
+            "name": "sweet-veil",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 60,
+        "attack": 55,
+        "defense": 60,
+        "special-attack": 95,
+        "special-defense": 70,
+        "speed": 124
+    },
+    "evolution_chain": {
+        "species": "cutiefly",
+        "id": 742,
+        "sprite": "/static/sprites/pokemon/742.gif",
+        "evolves_to": [
+            {
+                "species": "ribombee",
+                "id": 743,
+                "sprite": "/static/sprites/pokemon/743.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 25,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/743.gif"
+}

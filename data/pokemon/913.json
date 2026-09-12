@@ -1,0 +1,66 @@
+{
+    "id": 913,
+    "name": "quaxwell",
+    "category": "Practicing Pokémon",
+    "description": "These Pokémon constantly run through shallow waters to train their legs, then compete with each other to see which of them kicks most gracefully.",
+    "generation": "generation-ix",
+    "height": 12,
+    "weight": 215,
+    "base_experience": 144,
+    "types": [
+        "water"
+    ],
+    "abilities": [
+        {
+            "name": "torrent",
+            "is_hidden": false
+        },
+        {
+            "name": "moxie",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 70,
+        "attack": 85,
+        "defense": 65,
+        "special-attack": 65,
+        "special-defense": 60,
+        "speed": 65
+    },
+    "evolution_chain": {
+        "species": "quaxly",
+        "id": 912,
+        "sprite": "/static/sprites/pokemon/912.png",
+        "evolves_to": [
+            {
+                "species": "quaxwell",
+                "id": 913,
+                "sprite": "/static/sprites/pokemon/913.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 16,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "quaquaval",
+                        "id": 914,
+                        "sprite": "/static/sprites/pokemon/914.png",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 36,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/913.png"
+}

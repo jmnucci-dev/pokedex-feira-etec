@@ -1,0 +1,53 @@
+{
+    "id": 415,
+    "name": "combee",
+    "category": "Tiny Bee Pokémon",
+    "description": "A Pokémon formed by three others. It busily carries sweet floral honey to VESPIQUEN.",
+    "generation": "generation-iv",
+    "height": 3,
+    "weight": 55,
+    "base_experience": 49,
+    "types": [
+        "bug",
+        "flying"
+    ],
+    "abilities": [
+        {
+            "name": "honey-gather",
+            "is_hidden": false
+        },
+        {
+            "name": "hustle",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 30,
+        "attack": 30,
+        "defense": 42,
+        "special-attack": 30,
+        "special-defense": 42,
+        "speed": 70
+    },
+    "evolution_chain": {
+        "species": "combee",
+        "id": 415,
+        "sprite": "/static/sprites/pokemon/415.gif",
+        "evolves_to": [
+            {
+                "species": "vespiquen",
+                "id": 416,
+                "sprite": "/static/sprites/pokemon/416.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 21,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/415.gif"
+}

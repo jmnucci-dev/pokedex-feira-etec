@@ -1,0 +1,71 @@
+{
+    "id": 886,
+    "name": "drakloak",
+    "category": "Caretaker Pokémon",
+    "description": "It’s capable of flying faster than 120 mph. It battles alongside Dreepy and dotes on them until they successfully evolve.",
+    "generation": "generation-viii",
+    "height": 14,
+    "weight": 110,
+    "base_experience": 144,
+    "types": [
+        "dragon",
+        "ghost"
+    ],
+    "abilities": [
+        {
+            "name": "clear-body",
+            "is_hidden": false
+        },
+        {
+            "name": "infiltrator",
+            "is_hidden": false
+        },
+        {
+            "name": "cursed-body",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 68,
+        "attack": 80,
+        "defense": 50,
+        "special-attack": 60,
+        "special-defense": 50,
+        "speed": 102
+    },
+    "evolution_chain": {
+        "species": "dreepy",
+        "id": 885,
+        "sprite": "/static/sprites/pokemon/885.gif",
+        "evolves_to": [
+            {
+                "species": "drakloak",
+                "id": 886,
+                "sprite": "/static/sprites/pokemon/886.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 50,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "dragapult",
+                        "id": 887,
+                        "sprite": "/static/sprites/pokemon/887.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 60,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/886.gif"
+}

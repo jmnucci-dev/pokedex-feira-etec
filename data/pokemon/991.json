@@ -1,0 +1,35 @@
+{
+    "id": 991,
+    "name": "iron-bundle",
+    "category": "Paradox Pokémon",
+    "description": "Its shape is similar to a robot featured in a paranormal magazine article. The robot was said to have been created by an ancient civilization.",
+    "generation": "generation-ix",
+    "height": 6,
+    "weight": 110,
+    "base_experience": 285,
+    "types": [
+        "ice",
+        "water"
+    ],
+    "abilities": [
+        {
+            "name": "quark-drive",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 56,
+        "attack": 80,
+        "defense": 114,
+        "special-attack": 124,
+        "special-defense": 60,
+        "speed": 136
+    },
+    "evolution_chain": {
+        "species": "iron-bundle",
+        "id": 991,
+        "sprite": "/static/sprites/pokemon/991.png",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/991.png"
+}

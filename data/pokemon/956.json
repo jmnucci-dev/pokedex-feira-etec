@@ -1,0 +1,56 @@
+{
+    "id": 956,
+    "name": "espathra",
+    "category": "Ostrich Pokémon",
+    "description": "It immobilizes opponents by bathing them in psychic power from its large eyes. Despite its appearance, it has a vicious temperament.",
+    "generation": "generation-ix",
+    "height": 19,
+    "weight": 900,
+    "base_experience": 168,
+    "types": [
+        "psychic"
+    ],
+    "abilities": [
+        {
+            "name": "opportunist",
+            "is_hidden": false
+        },
+        {
+            "name": "frisk",
+            "is_hidden": false
+        },
+        {
+            "name": "speed-boost",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 95,
+        "attack": 60,
+        "defense": 60,
+        "special-attack": 101,
+        "special-defense": 60,
+        "speed": 105
+    },
+    "evolution_chain": {
+        "species": "flittle",
+        "id": 955,
+        "sprite": "/static/sprites/pokemon/955.png",
+        "evolves_to": [
+            {
+                "species": "espathra",
+                "id": 956,
+                "sprite": "/static/sprites/pokemon/956.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 35,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/956.png"
+}

@@ -1,0 +1,74 @@
+{
+    "id": 863,
+    "name": "perrserker",
+    "category": "Viking Pokémon",
+    "description": "What appears to be an iron helmet is actually hardened hair. This Pokémon lives for the thrill of battle.",
+    "generation": "generation-viii",
+    "height": 8,
+    "weight": 280,
+    "base_experience": 154,
+    "types": [
+        "steel"
+    ],
+    "abilities": [
+        {
+            "name": "battle-armor",
+            "is_hidden": false
+        },
+        {
+            "name": "tough-claws",
+            "is_hidden": false
+        },
+        {
+            "name": "steely-spirit",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 70,
+        "attack": 110,
+        "defense": 100,
+        "special-attack": 50,
+        "special-defense": 60,
+        "speed": 50
+    },
+    "evolution_chain": {
+        "species": "meowth",
+        "id": 52,
+        "sprite": "/static/sprites/pokemon/52.gif",
+        "evolves_to": [
+            {
+                "species": "persian",
+                "id": 53,
+                "sprite": "/static/sprites/pokemon/53.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 28,
+                        "item": null
+                    },
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": []
+            },
+            {
+                "species": "perrserker",
+                "id": 863,
+                "sprite": "/static/sprites/pokemon/863.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 28,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/863.gif"
+}

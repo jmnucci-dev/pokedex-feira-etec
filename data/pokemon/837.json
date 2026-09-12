@@ -1,0 +1,70 @@
+{
+    "id": 837,
+    "name": "rolycoly",
+    "category": "Coal Pokémon",
+    "description": "Most of its body has the same composition as coal. Fittingly, this Pokémon was first discovered in coal mines about 400 years ago.",
+    "generation": "generation-viii",
+    "height": 3,
+    "weight": 120,
+    "base_experience": 48,
+    "types": [
+        "rock"
+    ],
+    "abilities": [
+        {
+            "name": "steam-engine",
+            "is_hidden": false
+        },
+        {
+            "name": "heatproof",
+            "is_hidden": false
+        },
+        {
+            "name": "flash-fire",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 30,
+        "attack": 40,
+        "defense": 50,
+        "special-attack": 40,
+        "special-defense": 50,
+        "speed": 30
+    },
+    "evolution_chain": {
+        "species": "rolycoly",
+        "id": 837,
+        "sprite": "/static/sprites/pokemon/837.gif",
+        "evolves_to": [
+            {
+                "species": "carkol",
+                "id": 838,
+                "sprite": "/static/sprites/pokemon/838.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 18,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "coalossal",
+                        "id": 839,
+                        "sprite": "/static/sprites/pokemon/839.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 34,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/837.gif"
+}

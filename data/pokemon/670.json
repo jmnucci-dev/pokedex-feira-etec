@@ -1,0 +1,66 @@
+{
+    "id": 670,
+    "name": "floette",
+    "category": "Single Bloom Pokémon",
+    "description": "It flutters around fields of flowers and cares for flowers that are starting to wilt. It draws out the hidden power of flowers to battle.",
+    "generation": "generation-vi",
+    "height": 2,
+    "weight": 9,
+    "base_experience": 130,
+    "types": [
+        "fairy"
+    ],
+    "abilities": [
+        {
+            "name": "flower-veil",
+            "is_hidden": false
+        },
+        {
+            "name": "symbiosis",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 54,
+        "attack": 45,
+        "defense": 47,
+        "special-attack": 75,
+        "special-defense": 98,
+        "speed": 52
+    },
+    "evolution_chain": {
+        "species": "flabebe",
+        "id": 669,
+        "sprite": "/static/sprites/pokemon/669.png",
+        "evolves_to": [
+            {
+                "species": "floette",
+                "id": 670,
+                "sprite": "/static/sprites/pokemon/670.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 19,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "florges",
+                        "id": 671,
+                        "sprite": "/static/sprites/pokemon/671.png",
+                        "details": [
+                            {
+                                "trigger": "use-item",
+                                "min_level": null,
+                                "item": "shiny-stone"
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/670.png"
+}

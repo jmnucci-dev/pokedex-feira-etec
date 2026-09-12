@@ -1,0 +1,61 @@
+{
+    "id": 51,
+    "name": "dugtrio",
+    "category": "Mole Pokémon",
+    "description": "A team of DIGLETT triplets. It triggers huge earthquakes by burrowing 60 miles underground.",
+    "generation": "generation-i",
+    "height": 7,
+    "weight": 333,
+    "base_experience": 149,
+    "types": [
+        "ground"
+    ],
+    "abilities": [
+        {
+            "name": "sand-veil",
+            "is_hidden": false
+        },
+        {
+            "name": "arena-trap",
+            "is_hidden": false
+        },
+        {
+            "name": "sand-force",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 35,
+        "attack": 100,
+        "defense": 50,
+        "special-attack": 50,
+        "special-defense": 70,
+        "speed": 120
+    },
+    "evolution_chain": {
+        "species": "diglett",
+        "id": 50,
+        "sprite": "/static/sprites/pokemon/50.gif",
+        "evolves_to": [
+            {
+                "species": "dugtrio",
+                "id": 51,
+                "sprite": "/static/sprites/pokemon/51.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 26,
+                        "item": null
+                    },
+                    {
+                        "trigger": "level-up",
+                        "min_level": 26,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/51.gif"
+}

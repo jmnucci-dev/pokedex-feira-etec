@@ -1,0 +1,67 @@
+{
+    "id": 928,
+    "name": "smoliv",
+    "category": "Olive Pokémon",
+    "description": "It protects itself from enemies by emitting oil from the fruit on its head. This oil is bitter and astringent enough to make someone flinch.",
+    "generation": "generation-ix",
+    "height": 3,
+    "weight": 65,
+    "base_experience": 52,
+    "types": [
+        "grass",
+        "normal"
+    ],
+    "abilities": [
+        {
+            "name": "early-bird",
+            "is_hidden": false
+        },
+        {
+            "name": "harvest",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 41,
+        "attack": 35,
+        "defense": 45,
+        "special-attack": 58,
+        "special-defense": 51,
+        "speed": 30
+    },
+    "evolution_chain": {
+        "species": "smoliv",
+        "id": 928,
+        "sprite": "/static/sprites/pokemon/928.png",
+        "evolves_to": [
+            {
+                "species": "dolliv",
+                "id": 929,
+                "sprite": "/static/sprites/pokemon/929.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 25,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "arboliva",
+                        "id": 930,
+                        "sprite": "/static/sprites/pokemon/930.png",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 35,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/928.png"
+}

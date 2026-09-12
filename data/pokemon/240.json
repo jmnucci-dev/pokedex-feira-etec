@@ -1,0 +1,66 @@
+{
+    "id": 240,
+    "name": "magby",
+    "category": "Live Coal Pokémon",
+    "description": "Each and every time it inhales and exhales, hot embers dribble out of its mouth and nostrils.",
+    "generation": "generation-ii",
+    "height": 7,
+    "weight": 214,
+    "base_experience": 73,
+    "types": [
+        "fire"
+    ],
+    "abilities": [
+        {
+            "name": "flame-body",
+            "is_hidden": false
+        },
+        {
+            "name": "vital-spirit",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 45,
+        "attack": 75,
+        "defense": 37,
+        "special-attack": 70,
+        "special-defense": 55,
+        "speed": 83
+    },
+    "evolution_chain": {
+        "species": "magby",
+        "id": 240,
+        "sprite": "/static/sprites/pokemon/240.gif",
+        "evolves_to": [
+            {
+                "species": "magmar",
+                "id": 126,
+                "sprite": "/static/sprites/pokemon/126.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 30,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "magmortar",
+                        "id": 467,
+                        "sprite": "/static/sprites/pokemon/467.gif",
+                        "details": [
+                            {
+                                "trigger": "trade",
+                                "min_level": null,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/240.gif"
+}

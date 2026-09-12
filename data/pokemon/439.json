@@ -1,0 +1,76 @@
+{
+    "id": 439,
+    "name": "mime-jr",
+    "category": "Mime Pokémon",
+    "description": "It habitually mimics foes. Once mimicked, the foe cannot take its eyes off this Pokémon.",
+    "generation": "generation-iv",
+    "height": 6,
+    "weight": 130,
+    "base_experience": 62,
+    "types": [
+        "psychic",
+        "fairy"
+    ],
+    "abilities": [
+        {
+            "name": "soundproof",
+            "is_hidden": false
+        },
+        {
+            "name": "filter",
+            "is_hidden": false
+        },
+        {
+            "name": "technician",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 20,
+        "attack": 25,
+        "defense": 45,
+        "special-attack": 70,
+        "special-defense": 90,
+        "speed": 60
+    },
+    "evolution_chain": {
+        "species": "mime-jr",
+        "id": 439,
+        "sprite": "/static/sprites/pokemon/439.gif",
+        "evolves_to": [
+            {
+                "species": "mr-mime",
+                "id": 122,
+                "sprite": "/static/sprites/pokemon/122.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    },
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "mr-rime",
+                        "id": 866,
+                        "sprite": "/static/sprites/pokemon/866.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 42,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/439.gif"
+}

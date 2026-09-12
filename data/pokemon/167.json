@@ -1,0 +1,57 @@
+{
+    "id": 167,
+    "name": "spinarak",
+    "category": "String Spit Pokémon",
+    "description": "It lies still in the same pose for days in its web, waiting for its unsuspecting prey to wander close.",
+    "generation": "generation-ii",
+    "height": 5,
+    "weight": 85,
+    "base_experience": 50,
+    "types": [
+        "bug",
+        "poison"
+    ],
+    "abilities": [
+        {
+            "name": "swarm",
+            "is_hidden": false
+        },
+        {
+            "name": "insomnia",
+            "is_hidden": false
+        },
+        {
+            "name": "sniper",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 40,
+        "attack": 60,
+        "defense": 40,
+        "special-attack": 40,
+        "special-defense": 40,
+        "speed": 30
+    },
+    "evolution_chain": {
+        "species": "spinarak",
+        "id": 167,
+        "sprite": "/static/sprites/pokemon/167.gif",
+        "evolves_to": [
+            {
+                "species": "ariados",
+                "id": 168,
+                "sprite": "/static/sprites/pokemon/168.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 22,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/167.gif"
+}

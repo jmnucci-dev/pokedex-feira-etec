@@ -1,0 +1,82 @@
+{
+    "id": 106,
+    "name": "hitmonlee",
+    "category": "Kicking Pokémon",
+    "description": "When in a hurry, its legs lengthen progressively. It runs smoothly with extra long, loping strides.",
+    "generation": "generation-i",
+    "height": 15,
+    "weight": 498,
+    "base_experience": 159,
+    "types": [
+        "fighting"
+    ],
+    "abilities": [
+        {
+            "name": "limber",
+            "is_hidden": false
+        },
+        {
+            "name": "reckless",
+            "is_hidden": false
+        },
+        {
+            "name": "unburden",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 50,
+        "attack": 120,
+        "defense": 53,
+        "special-attack": 35,
+        "special-defense": 110,
+        "speed": 87
+    },
+    "evolution_chain": {
+        "species": "tyrogue",
+        "id": 236,
+        "sprite": "/static/sprites/pokemon/236.gif",
+        "evolves_to": [
+            {
+                "species": "hitmonlee",
+                "id": 106,
+                "sprite": "/static/sprites/pokemon/106.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 20,
+                        "item": null
+                    }
+                ],
+                "next": []
+            },
+            {
+                "species": "hitmonchan",
+                "id": 107,
+                "sprite": "/static/sprites/pokemon/107.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 20,
+                        "item": null
+                    }
+                ],
+                "next": []
+            },
+            {
+                "species": "hitmontop",
+                "id": 237,
+                "sprite": "/static/sprites/pokemon/237.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 20,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/106.gif"
+}

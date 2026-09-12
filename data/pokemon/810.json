@@ -1,0 +1,66 @@
+{
+    "id": 810,
+    "name": "grookey",
+    "category": "Chimp Pokémon",
+    "description": "When it uses its special stick to strike up a beat, the sound waves produced carry revitalizing energy to the plants and flowers in the area.",
+    "generation": "generation-viii",
+    "height": 3,
+    "weight": 50,
+    "base_experience": 62,
+    "types": [
+        "grass"
+    ],
+    "abilities": [
+        {
+            "name": "overgrow",
+            "is_hidden": false
+        },
+        {
+            "name": "grassy-surge",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 50,
+        "attack": 65,
+        "defense": 50,
+        "special-attack": 40,
+        "special-defense": 40,
+        "speed": 65
+    },
+    "evolution_chain": {
+        "species": "grookey",
+        "id": 810,
+        "sprite": "/static/sprites/pokemon/810.png",
+        "evolves_to": [
+            {
+                "species": "thwackey",
+                "id": 811,
+                "sprite": "/static/sprites/pokemon/811.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 16,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "rillaboom",
+                        "id": 812,
+                        "sprite": "/static/sprites/pokemon/812.png",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 35,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/810.png"
+}

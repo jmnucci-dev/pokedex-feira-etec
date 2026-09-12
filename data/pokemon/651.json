@@ -1,0 +1,66 @@
+{
+    "id": 651,
+    "name": "quilladin",
+    "category": "Spiny Armor Pokémon",
+    "description": "It relies on its sturdy shell to deflect predators’ attacks. It counterattacks with its sharp quills.",
+    "generation": "generation-vi",
+    "height": 7,
+    "weight": 290,
+    "base_experience": 142,
+    "types": [
+        "grass"
+    ],
+    "abilities": [
+        {
+            "name": "overgrow",
+            "is_hidden": false
+        },
+        {
+            "name": "bulletproof",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 61,
+        "attack": 78,
+        "defense": 95,
+        "special-attack": 56,
+        "special-defense": 58,
+        "speed": 57
+    },
+    "evolution_chain": {
+        "species": "chespin",
+        "id": 650,
+        "sprite": "/static/sprites/pokemon/650.png",
+        "evolves_to": [
+            {
+                "species": "quilladin",
+                "id": 651,
+                "sprite": "/static/sprites/pokemon/651.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 16,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "chesnaught",
+                        "id": 652,
+                        "sprite": "/static/sprites/pokemon/652.png",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 36,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/651.png"
+}

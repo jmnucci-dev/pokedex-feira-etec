@@ -1,0 +1,35 @@
+{
+    "id": 647,
+    "name": "keldeo-ordinary",
+    "category": "Colt Pokémon",
+    "description": "By blasting water from its hooves, it can glide across water. It excels at using leg moves while battling.",
+    "generation": "generation-v",
+    "height": 14,
+    "weight": 485,
+    "base_experience": 261,
+    "types": [
+        "water",
+        "fighting"
+    ],
+    "abilities": [
+        {
+            "name": "justified",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 91,
+        "attack": 72,
+        "defense": 90,
+        "special-attack": 129,
+        "special-defense": 90,
+        "speed": 108
+    },
+    "evolution_chain": {
+        "species": "keldeo",
+        "id": 647,
+        "sprite": "/static/sprites/pokemon/647.gif",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/647.gif"
+}

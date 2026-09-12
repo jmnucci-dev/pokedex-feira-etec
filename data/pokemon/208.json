@@ -1,0 +1,57 @@
+{
+    "id": 208,
+    "name": "steelix",
+    "category": "Iron Snake Pokémon",
+    "description": "Its body has been compressed deep under the ground. As a result, it is even harder than a diamond.",
+    "generation": "generation-ii",
+    "height": 92,
+    "weight": 4000,
+    "base_experience": 179,
+    "types": [
+        "steel",
+        "ground"
+    ],
+    "abilities": [
+        {
+            "name": "rock-head",
+            "is_hidden": false
+        },
+        {
+            "name": "sturdy",
+            "is_hidden": false
+        },
+        {
+            "name": "sheer-force",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 75,
+        "attack": 85,
+        "defense": 200,
+        "special-attack": 55,
+        "special-defense": 65,
+        "speed": 30
+    },
+    "evolution_chain": {
+        "species": "onix",
+        "id": 95,
+        "sprite": "/static/sprites/pokemon/95.gif",
+        "evolves_to": [
+            {
+                "species": "steelix",
+                "id": 208,
+                "sprite": "/static/sprites/pokemon/208.gif",
+                "details": [
+                    {
+                        "trigger": "trade",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/208.gif"
+}

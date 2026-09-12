@@ -1,0 +1,70 @@
+{
+    "id": 68,
+    "name": "machamp",
+    "category": "Superpower Pokémon",
+    "description": "Using its heavy muscles, it throws powerful punches that can send the victim clear over the horizon.",
+    "generation": "generation-i",
+    "height": 16,
+    "weight": 1300,
+    "base_experience": 227,
+    "types": [
+        "fighting"
+    ],
+    "abilities": [
+        {
+            "name": "guts",
+            "is_hidden": false
+        },
+        {
+            "name": "no-guard",
+            "is_hidden": false
+        },
+        {
+            "name": "steadfast",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 90,
+        "attack": 130,
+        "defense": 80,
+        "special-attack": 65,
+        "special-defense": 85,
+        "speed": 55
+    },
+    "evolution_chain": {
+        "species": "machop",
+        "id": 66,
+        "sprite": "/static/sprites/pokemon/66.gif",
+        "evolves_to": [
+            {
+                "species": "machoke",
+                "id": 67,
+                "sprite": "/static/sprites/pokemon/67.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 28,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "machamp",
+                        "id": 68,
+                        "sprite": "/static/sprites/pokemon/68.gif",
+                        "details": [
+                            {
+                                "trigger": "trade",
+                                "min_level": null,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/68.gif"
+}

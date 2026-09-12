@@ -1,0 +1,66 @@
+{
+    "id": 729,
+    "name": "brionne",
+    "category": "Pop Star Pokémon",
+    "description": "A skillful dancer, it creates a sequence of water balloons as it dances, and briskly bombards its enemies.",
+    "generation": "generation-vii",
+    "height": 6,
+    "weight": 175,
+    "base_experience": 147,
+    "types": [
+        "water"
+    ],
+    "abilities": [
+        {
+            "name": "torrent",
+            "is_hidden": false
+        },
+        {
+            "name": "liquid-voice",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 60,
+        "attack": 69,
+        "defense": 69,
+        "special-attack": 91,
+        "special-defense": 81,
+        "speed": 50
+    },
+    "evolution_chain": {
+        "species": "popplio",
+        "id": 728,
+        "sprite": "/static/sprites/pokemon/728.gif",
+        "evolves_to": [
+            {
+                "species": "brionne",
+                "id": 729,
+                "sprite": "/static/sprites/pokemon/729.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 17,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "primarina",
+                        "id": 730,
+                        "sprite": "/static/sprites/pokemon/730.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 34,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/729.gif"
+}

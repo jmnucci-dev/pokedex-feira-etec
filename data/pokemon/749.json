@@ -1,0 +1,56 @@
+{
+    "id": 749,
+    "name": "mudbray",
+    "category": "Donkey Pokémon",
+    "description": "The mud stuck to Mudbray’s hooves enhances its grip and its powerful running gait.",
+    "generation": "generation-vii",
+    "height": 10,
+    "weight": 1100,
+    "base_experience": 77,
+    "types": [
+        "ground"
+    ],
+    "abilities": [
+        {
+            "name": "own-tempo",
+            "is_hidden": false
+        },
+        {
+            "name": "stamina",
+            "is_hidden": false
+        },
+        {
+            "name": "inner-focus",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 70,
+        "attack": 100,
+        "defense": 70,
+        "special-attack": 45,
+        "special-defense": 55,
+        "speed": 45
+    },
+    "evolution_chain": {
+        "species": "mudbray",
+        "id": 749,
+        "sprite": "/static/sprites/pokemon/749.gif",
+        "evolves_to": [
+            {
+                "species": "mudsdale",
+                "id": 750,
+                "sprite": "/static/sprites/pokemon/750.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 30,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/749.gif"
+}

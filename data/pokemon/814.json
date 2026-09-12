@@ -1,0 +1,66 @@
+{
+    "id": 814,
+    "name": "raboot",
+    "category": "Rabbit Pokémon",
+    "description": "Its thick and fluffy fur protects it from the cold and enables it to use hotter fire moves.",
+    "generation": "generation-viii",
+    "height": 6,
+    "weight": 90,
+    "base_experience": 147,
+    "types": [
+        "fire"
+    ],
+    "abilities": [
+        {
+            "name": "blaze",
+            "is_hidden": false
+        },
+        {
+            "name": "libero",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 65,
+        "attack": 86,
+        "defense": 60,
+        "special-attack": 55,
+        "special-defense": 60,
+        "speed": 94
+    },
+    "evolution_chain": {
+        "species": "scorbunny",
+        "id": 813,
+        "sprite": "/static/sprites/pokemon/813.png",
+        "evolves_to": [
+            {
+                "species": "raboot",
+                "id": 814,
+                "sprite": "/static/sprites/pokemon/814.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 16,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "cinderace",
+                        "id": 815,
+                        "sprite": "/static/sprites/pokemon/815.png",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 35,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/814.gif"
+}

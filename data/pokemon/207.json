@@ -1,0 +1,57 @@
+{
+    "id": 207,
+    "name": "gligar",
+    "category": "Fly Scorpion Pokémon",
+    "description": "It flies straight at its target's face then clamps down on the star­ tled victim to inject poison.",
+    "generation": "generation-ii",
+    "height": 11,
+    "weight": 648,
+    "base_experience": 86,
+    "types": [
+        "ground",
+        "flying"
+    ],
+    "abilities": [
+        {
+            "name": "hyper-cutter",
+            "is_hidden": false
+        },
+        {
+            "name": "sand-veil",
+            "is_hidden": false
+        },
+        {
+            "name": "immunity",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 65,
+        "attack": 75,
+        "defense": 105,
+        "special-attack": 35,
+        "special-defense": 65,
+        "speed": 85
+    },
+    "evolution_chain": {
+        "species": "gligar",
+        "id": 207,
+        "sprite": "/static/sprites/pokemon/207.gif",
+        "evolves_to": [
+            {
+                "species": "gliscor",
+                "id": 472,
+                "sprite": "/static/sprites/pokemon/472.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/207.gif"
+}

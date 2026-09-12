@@ -1,0 +1,57 @@
+{
+    "id": 554,
+    "name": "darumaka",
+    "category": "Zen Charm Pokémon",
+    "description": "When its internal fire is burning, it cannot calm down and it runs around. When the fire diminishes, it falls asleep.",
+    "generation": "generation-v",
+    "height": 6,
+    "weight": 375,
+    "base_experience": 63,
+    "types": [
+        "fire"
+    ],
+    "abilities": [
+        {
+            "name": "hustle",
+            "is_hidden": false
+        },
+        {
+            "name": "inner-focus",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 70,
+        "attack": 90,
+        "defense": 45,
+        "special-attack": 15,
+        "special-defense": 45,
+        "speed": 50
+    },
+    "evolution_chain": {
+        "species": "darumaka",
+        "id": 554,
+        "sprite": "/static/sprites/pokemon/554.gif",
+        "evolves_to": [
+            {
+                "species": "darmanitan",
+                "id": 555,
+                "sprite": "/static/sprites/pokemon/555.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 35,
+                        "item": null
+                    },
+                    {
+                        "trigger": "use-item",
+                        "min_level": null,
+                        "item": "ice-stone"
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/554.gif"
+}

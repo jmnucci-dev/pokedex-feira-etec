@@ -1,0 +1,56 @@
+{
+    "id": 550,
+    "name": "basculin-red-striped",
+    "category": "Hostile Pokémon",
+    "description": "Red and blue Basculin get along so poorly, they’ll start fighting instantly. These Pokémon are very hostile.",
+    "generation": "generation-v",
+    "height": 10,
+    "weight": 180,
+    "base_experience": 161,
+    "types": [
+        "water"
+    ],
+    "abilities": [
+        {
+            "name": "reckless",
+            "is_hidden": false
+        },
+        {
+            "name": "adaptability",
+            "is_hidden": false
+        },
+        {
+            "name": "mold-breaker",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 70,
+        "attack": 92,
+        "defense": 65,
+        "special-attack": 80,
+        "special-defense": 55,
+        "speed": 98
+    },
+    "evolution_chain": {
+        "species": "basculin",
+        "id": 550,
+        "sprite": "/static/sprites/pokemon/550.gif",
+        "evolves_to": [
+            {
+                "species": "basculegion",
+                "id": 902,
+                "sprite": "/static/sprites/pokemon/902.gif",
+                "details": [
+                    {
+                        "trigger": "recoil-damage",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/550.gif"
+}

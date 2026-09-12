@@ -1,0 +1,39 @@
+{
+    "id": 1015,
+    "name": "munkidori",
+    "category": "Retainer Pokémon",
+    "description": "The chain is made from toxins that enhance capabilities. It stimulated Munkidori's brain and caused the Pokémon's psychic powers to bloom.",
+    "generation": "generation-ix",
+    "height": 10,
+    "weight": 122,
+    "base_experience": 278,
+    "types": [
+        "poison",
+        "psychic"
+    ],
+    "abilities": [
+        {
+            "name": "toxic-chain",
+            "is_hidden": false
+        },
+        {
+            "name": "frisk",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 88,
+        "attack": 75,
+        "defense": 66,
+        "special-attack": 130,
+        "special-defense": 90,
+        "speed": 106
+    },
+    "evolution_chain": {
+        "species": "munkidori",
+        "id": 1015,
+        "sprite": "/static/sprites/pokemon/1015.png",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/1015.png"
+}

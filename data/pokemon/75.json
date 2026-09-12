@@ -1,0 +1,81 @@
+{
+    "id": 75,
+    "name": "graveler",
+    "category": "Rock Pokémon",
+    "description": "Rolls down slopes to move. It rolls over any obstacle without slowing or changing its direction.",
+    "generation": "generation-i",
+    "height": 10,
+    "weight": 1050,
+    "base_experience": 137,
+    "types": [
+        "rock",
+        "ground"
+    ],
+    "abilities": [
+        {
+            "name": "rock-head",
+            "is_hidden": false
+        },
+        {
+            "name": "sturdy",
+            "is_hidden": false
+        },
+        {
+            "name": "sand-veil",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 55,
+        "attack": 95,
+        "defense": 115,
+        "special-attack": 45,
+        "special-defense": 45,
+        "speed": 35
+    },
+    "evolution_chain": {
+        "species": "geodude",
+        "id": 74,
+        "sprite": "/static/sprites/pokemon/74.gif",
+        "evolves_to": [
+            {
+                "species": "graveler",
+                "id": 75,
+                "sprite": "/static/sprites/pokemon/75.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 25,
+                        "item": null
+                    },
+                    {
+                        "trigger": "level-up",
+                        "min_level": 25,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "golem",
+                        "id": 76,
+                        "sprite": "/static/sprites/pokemon/76.gif",
+                        "details": [
+                            {
+                                "trigger": "trade",
+                                "min_level": null,
+                                "item": null
+                            },
+                            {
+                                "trigger": "trade",
+                                "min_level": null,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/75.gif"
+}

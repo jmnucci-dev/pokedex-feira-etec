@@ -1,0 +1,71 @@
+{
+    "id": 183,
+    "name": "marill",
+    "category": "Aqua Mouse Pokémon",
+    "description": "The tip of its tail, which con­ tains oil that is lighter than wa­ ter, lets it swim without drowning.",
+    "generation": "generation-ii",
+    "height": 4,
+    "weight": 85,
+    "base_experience": 88,
+    "types": [
+        "water",
+        "fairy"
+    ],
+    "abilities": [
+        {
+            "name": "thick-fat",
+            "is_hidden": false
+        },
+        {
+            "name": "huge-power",
+            "is_hidden": false
+        },
+        {
+            "name": "sap-sipper",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 70,
+        "attack": 20,
+        "defense": 50,
+        "special-attack": 20,
+        "special-defense": 50,
+        "speed": 40
+    },
+    "evolution_chain": {
+        "species": "azurill",
+        "id": 298,
+        "sprite": "/static/sprites/pokemon/298.gif",
+        "evolves_to": [
+            {
+                "species": "marill",
+                "id": 183,
+                "sprite": "/static/sprites/pokemon/183.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "azumarill",
+                        "id": 184,
+                        "sprite": "/static/sprites/pokemon/184.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 18,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/183.gif"
+}

@@ -1,0 +1,62 @@
+{
+    "id": 603,
+    "name": "eelektrik",
+    "category": "EleFish Pokémon",
+    "description": "They coil around foes and shock them with electricity-generating organs that seem simply to be circular patterns.",
+    "generation": "generation-v",
+    "height": 12,
+    "weight": 220,
+    "base_experience": 142,
+    "types": [
+        "electric"
+    ],
+    "abilities": [
+        {
+            "name": "levitate",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 65,
+        "attack": 85,
+        "defense": 70,
+        "special-attack": 75,
+        "special-defense": 70,
+        "speed": 40
+    },
+    "evolution_chain": {
+        "species": "tynamo",
+        "id": 602,
+        "sprite": "/static/sprites/pokemon/602.gif",
+        "evolves_to": [
+            {
+                "species": "eelektrik",
+                "id": 603,
+                "sprite": "/static/sprites/pokemon/603.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 39,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "eelektross",
+                        "id": 604,
+                        "sprite": "/static/sprites/pokemon/604.gif",
+                        "details": [
+                            {
+                                "trigger": "use-item",
+                                "min_level": null,
+                                "item": "thunder-stone"
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/603.gif"
+}

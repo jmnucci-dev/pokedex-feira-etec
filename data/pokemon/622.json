@@ -1,0 +1,57 @@
+{
+    "id": 622,
+    "name": "golett",
+    "category": "Automaton Pokémon",
+    "description": "The energy that burns inside it enables it to move, but no one has yet been able to identify this energy.",
+    "generation": "generation-v",
+    "height": 10,
+    "weight": 920,
+    "base_experience": 61,
+    "types": [
+        "ground",
+        "ghost"
+    ],
+    "abilities": [
+        {
+            "name": "iron-fist",
+            "is_hidden": false
+        },
+        {
+            "name": "klutz",
+            "is_hidden": false
+        },
+        {
+            "name": "no-guard",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 59,
+        "attack": 74,
+        "defense": 50,
+        "special-attack": 35,
+        "special-defense": 50,
+        "speed": 35
+    },
+    "evolution_chain": {
+        "species": "golett",
+        "id": 622,
+        "sprite": "/static/sprites/pokemon/622.gif",
+        "evolves_to": [
+            {
+                "species": "golurk",
+                "id": 623,
+                "sprite": "/static/sprites/pokemon/623.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 43,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/622.gif"
+}

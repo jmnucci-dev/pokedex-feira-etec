@@ -1,0 +1,43 @@
+{
+    "id": 881,
+    "name": "arctozolt",
+    "category": "Fossil Pokémon",
+    "description": "The shaking of its freezing upper half is what generates its electricity. It has a hard time walking around.",
+    "generation": "generation-viii",
+    "height": 23,
+    "weight": 1500,
+    "base_experience": 177,
+    "types": [
+        "electric",
+        "ice"
+    ],
+    "abilities": [
+        {
+            "name": "volt-absorb",
+            "is_hidden": false
+        },
+        {
+            "name": "static",
+            "is_hidden": false
+        },
+        {
+            "name": "slush-rush",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 90,
+        "attack": 100,
+        "defense": 90,
+        "special-attack": 90,
+        "special-defense": 80,
+        "speed": 55
+    },
+    "evolution_chain": {
+        "species": "arctozolt",
+        "id": 881,
+        "sprite": "/static/sprites/pokemon/881.png",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/881.png"
+}

@@ -1,0 +1,53 @@
+{
+    "id": 696,
+    "name": "tyrunt",
+    "category": "Royal Heir Pokémon",
+    "description": "This Pokémon was restored from a fossil. If something happens that it doesn’t like, it throws a tantrum and runs wild.",
+    "generation": "generation-vi",
+    "height": 8,
+    "weight": 260,
+    "base_experience": 72,
+    "types": [
+        "rock",
+        "dragon"
+    ],
+    "abilities": [
+        {
+            "name": "strong-jaw",
+            "is_hidden": false
+        },
+        {
+            "name": "sturdy",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 58,
+        "attack": 89,
+        "defense": 77,
+        "special-attack": 45,
+        "special-defense": 45,
+        "speed": 48
+    },
+    "evolution_chain": {
+        "species": "tyrunt",
+        "id": 696,
+        "sprite": "/static/sprites/pokemon/696.png",
+        "evolves_to": [
+            {
+                "species": "tyrantrum",
+                "id": 697,
+                "sprite": "/static/sprites/pokemon/697.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 39,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/696.png"
+}

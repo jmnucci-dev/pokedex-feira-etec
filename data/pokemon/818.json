@@ -1,0 +1,66 @@
+{
+    "id": 818,
+    "name": "inteleon",
+    "category": "Secret Agent Pokémon",
+    "description": "It has many hidden capabilities, such as fingertips that can shoot water and a membrane on its back that it can use to glide through the air.",
+    "generation": "generation-viii",
+    "height": 19,
+    "weight": 452,
+    "base_experience": 265,
+    "types": [
+        "water"
+    ],
+    "abilities": [
+        {
+            "name": "torrent",
+            "is_hidden": false
+        },
+        {
+            "name": "sniper",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 70,
+        "attack": 85,
+        "defense": 65,
+        "special-attack": 125,
+        "special-defense": 65,
+        "speed": 120
+    },
+    "evolution_chain": {
+        "species": "sobble",
+        "id": 816,
+        "sprite": "/static/sprites/pokemon/816.png",
+        "evolves_to": [
+            {
+                "species": "drizzile",
+                "id": 817,
+                "sprite": "/static/sprites/pokemon/817.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 16,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "inteleon",
+                        "id": 818,
+                        "sprite": "/static/sprites/pokemon/818.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 35,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/818.gif"
+}

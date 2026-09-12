@@ -1,0 +1,80 @@
+{
+    "id": 43,
+    "name": "oddish",
+    "category": "Weed Pokémon",
+    "description": "During the day, it keeps its face buried in the ground. At night, it wanders around sowing its seeds.",
+    "generation": "generation-i",
+    "height": 5,
+    "weight": 54,
+    "base_experience": 64,
+    "types": [
+        "grass",
+        "poison"
+    ],
+    "abilities": [
+        {
+            "name": "chlorophyll",
+            "is_hidden": false
+        },
+        {
+            "name": "run-away",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 45,
+        "attack": 50,
+        "defense": 55,
+        "special-attack": 75,
+        "special-defense": 65,
+        "speed": 30
+    },
+    "evolution_chain": {
+        "species": "oddish",
+        "id": 43,
+        "sprite": "/static/sprites/pokemon/43.gif",
+        "evolves_to": [
+            {
+                "species": "gloom",
+                "id": 44,
+                "sprite": "/static/sprites/pokemon/44.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 21,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "vileplume",
+                        "id": 45,
+                        "sprite": "/static/sprites/pokemon/45.gif",
+                        "details": [
+                            {
+                                "trigger": "use-item",
+                                "min_level": null,
+                                "item": "leaf-stone"
+                            }
+                        ],
+                        "next": []
+                    },
+                    {
+                        "species": "bellossom",
+                        "id": 182,
+                        "sprite": "/static/sprites/pokemon/182.gif",
+                        "details": [
+                            {
+                                "trigger": "use-item",
+                                "min_level": null,
+                                "item": "sun-stone"
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/43.gif"
+}

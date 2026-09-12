@@ -1,0 +1,66 @@
+{
+    "id": 9,
+    "name": "blastoise",
+    "category": "Shellfish Pokémon",
+    "description": "A brutal POKéMON with pressurized water jets on its shell. They are used for high speed tackles.",
+    "generation": "generation-i",
+    "height": 16,
+    "weight": 855,
+    "base_experience": 239,
+    "types": [
+        "water"
+    ],
+    "abilities": [
+        {
+            "name": "torrent",
+            "is_hidden": false
+        },
+        {
+            "name": "rain-dish",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 79,
+        "attack": 83,
+        "defense": 100,
+        "special-attack": 85,
+        "special-defense": 105,
+        "speed": 78
+    },
+    "evolution_chain": {
+        "species": "squirtle",
+        "id": 7,
+        "sprite": "/static/sprites/pokemon/7.gif",
+        "evolves_to": [
+            {
+                "species": "wartortle",
+                "id": 8,
+                "sprite": "/static/sprites/pokemon/8.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 16,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "blastoise",
+                        "id": 9,
+                        "sprite": "/static/sprites/pokemon/9.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 36,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/9.gif"
+}

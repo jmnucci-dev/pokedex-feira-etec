@@ -1,0 +1,52 @@
+{
+    "id": 360,
+    "name": "wynaut",
+    "category": "Bright Pokémon",
+    "description": "WYNAUT can always be seen with a big, happy smile on its face. Look at its tail to determine if it is angry. When angered, this POKéMON will be slapping the ground with its tail.",
+    "generation": "generation-iii",
+    "height": 6,
+    "weight": 140,
+    "base_experience": 52,
+    "types": [
+        "psychic"
+    ],
+    "abilities": [
+        {
+            "name": "shadow-tag",
+            "is_hidden": false
+        },
+        {
+            "name": "telepathy",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 95,
+        "attack": 23,
+        "defense": 48,
+        "special-attack": 23,
+        "special-defense": 48,
+        "speed": 23
+    },
+    "evolution_chain": {
+        "species": "wynaut",
+        "id": 360,
+        "sprite": "/static/sprites/pokemon/360.gif",
+        "evolves_to": [
+            {
+                "species": "wobbuffet",
+                "id": 202,
+                "sprite": "/static/sprites/pokemon/202.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 15,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/360.gif"
+}

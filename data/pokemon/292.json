@@ -1,0 +1,62 @@
+{
+    "id": 292,
+    "name": "shedinja",
+    "category": "Shed Pokémon",
+    "description": "SHEDINJA’s hard body doesn’t move - not even a twitch. In fact, its body appears to be merely a hollow shell. It is believed that this POKéMON will steal the spirit of anyone peering into its hollow body from its back.",
+    "generation": "generation-iii",
+    "height": 8,
+    "weight": 12,
+    "base_experience": 83,
+    "types": [
+        "bug",
+        "ghost"
+    ],
+    "abilities": [
+        {
+            "name": "wonder-guard",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 1,
+        "attack": 90,
+        "defense": 45,
+        "special-attack": 30,
+        "special-defense": 30,
+        "speed": 40
+    },
+    "evolution_chain": {
+        "species": "nincada",
+        "id": 290,
+        "sprite": "/static/sprites/pokemon/290.gif",
+        "evolves_to": [
+            {
+                "species": "ninjask",
+                "id": 291,
+                "sprite": "/static/sprites/pokemon/291.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 20,
+                        "item": null
+                    }
+                ],
+                "next": []
+            },
+            {
+                "species": "shedinja",
+                "id": 292,
+                "sprite": "/static/sprites/pokemon/292.gif",
+                "details": [
+                    {
+                        "trigger": "shed",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/292.gif"
+}

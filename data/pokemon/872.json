@@ -1,0 +1,53 @@
+{
+    "id": 872,
+    "name": "snom",
+    "category": "Worm Pokémon",
+    "description": "It spits out thread imbued with a frigid sort of energy and uses it to tie its body to branches, disguising itself as an icicle while it sleeps.",
+    "generation": "generation-viii",
+    "height": 3,
+    "weight": 38,
+    "base_experience": 37,
+    "types": [
+        "ice",
+        "bug"
+    ],
+    "abilities": [
+        {
+            "name": "shield-dust",
+            "is_hidden": false
+        },
+        {
+            "name": "ice-scales",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 30,
+        "attack": 25,
+        "defense": 35,
+        "special-attack": 45,
+        "special-defense": 30,
+        "speed": 20
+    },
+    "evolution_chain": {
+        "species": "snom",
+        "id": 872,
+        "sprite": "/static/sprites/pokemon/872.gif",
+        "evolves_to": [
+            {
+                "species": "frosmoth",
+                "id": 873,
+                "sprite": "/static/sprites/pokemon/873.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/872.gif"
+}

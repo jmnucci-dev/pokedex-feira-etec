@@ -1,0 +1,56 @@
+{
+    "id": 620,
+    "name": "mienshao",
+    "category": "Martial Arts Pokémon",
+    "description": "It wields the fur on its arms like a whip. Its arm attacks come with such rapidity that they cannot even be seen.",
+    "generation": "generation-v",
+    "height": 14,
+    "weight": 355,
+    "base_experience": 179,
+    "types": [
+        "fighting"
+    ],
+    "abilities": [
+        {
+            "name": "inner-focus",
+            "is_hidden": false
+        },
+        {
+            "name": "regenerator",
+            "is_hidden": false
+        },
+        {
+            "name": "reckless",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 65,
+        "attack": 125,
+        "defense": 60,
+        "special-attack": 95,
+        "special-defense": 60,
+        "speed": 105
+    },
+    "evolution_chain": {
+        "species": "mienfoo",
+        "id": 619,
+        "sprite": "/static/sprites/pokemon/619.gif",
+        "evolves_to": [
+            {
+                "species": "mienshao",
+                "id": 620,
+                "sprite": "/static/sprites/pokemon/620.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 50,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/620.gif"
+}

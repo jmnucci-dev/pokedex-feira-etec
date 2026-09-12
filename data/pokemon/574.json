@@ -1,0 +1,70 @@
+{
+    "id": 574,
+    "name": "gothita",
+    "category": "Fixation Pokémon",
+    "description": "Their ribbonlike feelers increase their psychic power. They are always staring at something.",
+    "generation": "generation-v",
+    "height": 4,
+    "weight": 58,
+    "base_experience": 58,
+    "types": [
+        "psychic"
+    ],
+    "abilities": [
+        {
+            "name": "frisk",
+            "is_hidden": false
+        },
+        {
+            "name": "competitive",
+            "is_hidden": false
+        },
+        {
+            "name": "shadow-tag",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 45,
+        "attack": 30,
+        "defense": 50,
+        "special-attack": 55,
+        "special-defense": 65,
+        "speed": 45
+    },
+    "evolution_chain": {
+        "species": "gothita",
+        "id": 574,
+        "sprite": "/static/sprites/pokemon/574.gif",
+        "evolves_to": [
+            {
+                "species": "gothorita",
+                "id": 575,
+                "sprite": "/static/sprites/pokemon/575.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 32,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "gothitelle",
+                        "id": 576,
+                        "sprite": "/static/sprites/pokemon/576.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 41,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/574.gif"
+}

@@ -1,0 +1,48 @@
+{
+    "id": 963,
+    "name": "finizen",
+    "category": "Dolphin Pokémon",
+    "description": "It likes playing with others of its kind using the water ring on its tail. It uses ultrasonic waves to sense the emotions of other living creatures.",
+    "generation": "generation-ix",
+    "height": 13,
+    "weight": 602,
+    "base_experience": 63,
+    "types": [
+        "water"
+    ],
+    "abilities": [
+        {
+            "name": "water-veil",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 70,
+        "attack": 45,
+        "defense": 40,
+        "special-attack": 45,
+        "special-defense": 40,
+        "speed": 75
+    },
+    "evolution_chain": {
+        "species": "finizen",
+        "id": 963,
+        "sprite": "/static/sprites/pokemon/963.png",
+        "evolves_to": [
+            {
+                "species": "palafin",
+                "id": 964,
+                "sprite": "/static/sprites/pokemon/964.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 38,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/963.png"
+}

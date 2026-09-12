@@ -1,0 +1,66 @@
+{
+    "id": 152,
+    "name": "chikorita",
+    "category": "Leaf Pokémon",
+    "description": "A sweet aroma gently wafts from the leaf on its head. It is docile and loves to soak up the sun's rays.",
+    "generation": "generation-ii",
+    "height": 9,
+    "weight": 64,
+    "base_experience": 64,
+    "types": [
+        "grass"
+    ],
+    "abilities": [
+        {
+            "name": "overgrow",
+            "is_hidden": false
+        },
+        {
+            "name": "leaf-guard",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 45,
+        "attack": 49,
+        "defense": 65,
+        "special-attack": 49,
+        "special-defense": 65,
+        "speed": 45
+    },
+    "evolution_chain": {
+        "species": "chikorita",
+        "id": 152,
+        "sprite": "/static/sprites/pokemon/152.gif",
+        "evolves_to": [
+            {
+                "species": "bayleef",
+                "id": 153,
+                "sprite": "/static/sprites/pokemon/153.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 16,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "meganium",
+                        "id": 154,
+                        "sprite": "/static/sprites/pokemon/154.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 32,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/152.gif"
+}

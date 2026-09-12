@@ -1,0 +1,56 @@
+{
+    "id": 844,
+    "name": "sandaconda",
+    "category": "Sand Snake Pokémon",
+    "description": "When it contracts its body, over 220 pounds of sand sprays from its nose. If it ever runs out of sand, it becomes disheartened.",
+    "generation": "generation-viii",
+    "height": 38,
+    "weight": 655,
+    "base_experience": 179,
+    "types": [
+        "ground"
+    ],
+    "abilities": [
+        {
+            "name": "sand-spit",
+            "is_hidden": false
+        },
+        {
+            "name": "shed-skin",
+            "is_hidden": false
+        },
+        {
+            "name": "sand-veil",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 72,
+        "attack": 107,
+        "defense": 125,
+        "special-attack": 65,
+        "special-defense": 70,
+        "speed": 71
+    },
+    "evolution_chain": {
+        "species": "silicobra",
+        "id": 843,
+        "sprite": "/static/sprites/pokemon/843.gif",
+        "evolves_to": [
+            {
+                "species": "sandaconda",
+                "id": 844,
+                "sprite": "/static/sprites/pokemon/844.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 36,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/844.png"
+}

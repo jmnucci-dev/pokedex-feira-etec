@@ -1,0 +1,75 @@
+{
+    "id": 789,
+    "name": "cosmog",
+    "category": "Nebula Pokémon",
+    "description": "Its body is gaseous and frail. It slowly grows as it collects dust from the atmosphere.",
+    "generation": "generation-vii",
+    "height": 2,
+    "weight": 1,
+    "base_experience": 40,
+    "types": [
+        "psychic"
+    ],
+    "abilities": [
+        {
+            "name": "unaware",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 43,
+        "attack": 29,
+        "defense": 31,
+        "special-attack": 29,
+        "special-defense": 31,
+        "speed": 37
+    },
+    "evolution_chain": {
+        "species": "cosmog",
+        "id": 789,
+        "sprite": "/static/sprites/pokemon/789.gif",
+        "evolves_to": [
+            {
+                "species": "cosmoem",
+                "id": 790,
+                "sprite": "/static/sprites/pokemon/790.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 43,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "solgaleo",
+                        "id": 791,
+                        "sprite": "/static/sprites/pokemon/791.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 53,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    },
+                    {
+                        "species": "lunala",
+                        "id": 792,
+                        "sprite": "/static/sprites/pokemon/792.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 53,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/789.gif"
+}

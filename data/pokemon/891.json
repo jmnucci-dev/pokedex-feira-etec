@@ -1,0 +1,63 @@
+{
+    "id": 891,
+    "name": "kubfu",
+    "category": "Wushu Pokémon",
+    "description": "Kubfu trains hard to perfect its moves. The moves it masters will determine which form it takes when it evolves.",
+    "generation": "generation-viii",
+    "height": 6,
+    "weight": 120,
+    "base_experience": 77,
+    "types": [
+        "fighting"
+    ],
+    "abilities": [
+        {
+            "name": "inner-focus",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 60,
+        "attack": 90,
+        "defense": 60,
+        "special-attack": 53,
+        "special-defense": 50,
+        "speed": 72
+    },
+    "evolution_chain": {
+        "species": "kubfu",
+        "id": 891,
+        "sprite": "/static/sprites/pokemon/891.png",
+        "evolves_to": [
+            {
+                "species": "urshifu",
+                "id": 892,
+                "sprite": "/static/sprites/pokemon/892.png",
+                "details": [
+                    {
+                        "trigger": "tower-of-darkness",
+                        "min_level": null,
+                        "item": null
+                    },
+                    {
+                        "trigger": "tower-of-waters",
+                        "min_level": null,
+                        "item": null
+                    },
+                    {
+                        "trigger": "use-item",
+                        "min_level": null,
+                        "item": "scroll-of-darkness"
+                    },
+                    {
+                        "trigger": "use-item",
+                        "min_level": null,
+                        "item": "scroll-of-waters"
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/891.png"
+}

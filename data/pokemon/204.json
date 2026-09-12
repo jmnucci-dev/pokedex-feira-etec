@@ -1,0 +1,52 @@
+{
+    "id": 204,
+    "name": "pineco",
+    "category": "Bagworm Pokémon",
+    "description": "It likes to make its shell thicker by adding layers of tree bark. The additional weight doesn't bother it.",
+    "generation": "generation-ii",
+    "height": 6,
+    "weight": 72,
+    "base_experience": 58,
+    "types": [
+        "bug"
+    ],
+    "abilities": [
+        {
+            "name": "sturdy",
+            "is_hidden": false
+        },
+        {
+            "name": "overcoat",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 50,
+        "attack": 65,
+        "defense": 90,
+        "special-attack": 35,
+        "special-defense": 35,
+        "speed": 15
+    },
+    "evolution_chain": {
+        "species": "pineco",
+        "id": 204,
+        "sprite": "/static/sprites/pokemon/204.gif",
+        "evolves_to": [
+            {
+                "species": "forretress",
+                "id": 205,
+                "sprite": "/static/sprites/pokemon/205.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 31,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/204.gif"
+}

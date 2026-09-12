@@ -1,0 +1,43 @@
+{
+    "id": 303,
+    "name": "mawile",
+    "category": "Deceiver Pokémon",
+    "description": "MAWHILE’s huge jaws are actually steel horns that have been transformed. Its docile-looking face serves to lull its foe into letting down its guard. When the foe least expects it, MAWHILE chomps it with its gaping jaws.",
+    "generation": "generation-iii",
+    "height": 6,
+    "weight": 115,
+    "base_experience": 133,
+    "types": [
+        "steel",
+        "fairy"
+    ],
+    "abilities": [
+        {
+            "name": "hyper-cutter",
+            "is_hidden": false
+        },
+        {
+            "name": "intimidate",
+            "is_hidden": false
+        },
+        {
+            "name": "sheer-force",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 50,
+        "attack": 85,
+        "defense": 85,
+        "special-attack": 55,
+        "special-defense": 55,
+        "speed": 50
+    },
+    "evolution_chain": {
+        "species": "mawile",
+        "id": 303,
+        "sprite": "/static/sprites/pokemon/303.gif",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/303.gif"
+}

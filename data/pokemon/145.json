@@ -1,0 +1,39 @@
+{
+    "id": 145,
+    "name": "zapdos",
+    "category": "Electric Pokémon",
+    "description": "A legendary bird POKéMON that is said to appear from clouds while dropping enormous lightning bolts.",
+    "generation": "generation-i",
+    "height": 16,
+    "weight": 526,
+    "base_experience": 261,
+    "types": [
+        "electric",
+        "flying"
+    ],
+    "abilities": [
+        {
+            "name": "pressure",
+            "is_hidden": false
+        },
+        {
+            "name": "static",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 90,
+        "attack": 90,
+        "defense": 85,
+        "special-attack": 125,
+        "special-defense": 90,
+        "speed": 100
+    },
+    "evolution_chain": {
+        "species": "zapdos",
+        "id": 145,
+        "sprite": "/static/sprites/pokemon/145.gif",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/145.gif"
+}

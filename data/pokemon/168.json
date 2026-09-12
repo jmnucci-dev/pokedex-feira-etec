@@ -1,0 +1,57 @@
+{
+    "id": 168,
+    "name": "ariados",
+    "category": "Long Leg Pokémon",
+    "description": "It spins string not only from its rear but also from its mouth. It is hard to tell which end is which.",
+    "generation": "generation-ii",
+    "height": 11,
+    "weight": 335,
+    "base_experience": 140,
+    "types": [
+        "bug",
+        "poison"
+    ],
+    "abilities": [
+        {
+            "name": "swarm",
+            "is_hidden": false
+        },
+        {
+            "name": "insomnia",
+            "is_hidden": false
+        },
+        {
+            "name": "sniper",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 70,
+        "attack": 90,
+        "defense": 70,
+        "special-attack": 60,
+        "special-defense": 70,
+        "speed": 40
+    },
+    "evolution_chain": {
+        "species": "spinarak",
+        "id": 167,
+        "sprite": "/static/sprites/pokemon/167.gif",
+        "evolves_to": [
+            {
+                "species": "ariados",
+                "id": 168,
+                "sprite": "/static/sprites/pokemon/168.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 22,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/168.gif"
+}

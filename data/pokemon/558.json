@@ -1,0 +1,57 @@
+{
+    "id": 558,
+    "name": "crustle",
+    "category": "Stone Home Pokémon",
+    "description": "Competing for territory, Crustle fight viciously. The one whose boulder is broken is the loser of the battle.",
+    "generation": "generation-v",
+    "height": 14,
+    "weight": 2000,
+    "base_experience": 170,
+    "types": [
+        "bug",
+        "rock"
+    ],
+    "abilities": [
+        {
+            "name": "sturdy",
+            "is_hidden": false
+        },
+        {
+            "name": "shell-armor",
+            "is_hidden": false
+        },
+        {
+            "name": "weak-armor",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 70,
+        "attack": 105,
+        "defense": 125,
+        "special-attack": 65,
+        "special-defense": 75,
+        "speed": 45
+    },
+    "evolution_chain": {
+        "species": "dwebble",
+        "id": 557,
+        "sprite": "/static/sprites/pokemon/557.gif",
+        "evolves_to": [
+            {
+                "species": "crustle",
+                "id": 558,
+                "sprite": "/static/sprites/pokemon/558.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 34,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/558.gif"
+}

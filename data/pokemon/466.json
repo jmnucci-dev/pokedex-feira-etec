@@ -1,0 +1,66 @@
+{
+    "id": 466,
+    "name": "electivire",
+    "category": "Thunderbolt Pokémon",
+    "description": "It pushes the tips of its two tails against the foe, then lets loose with over 20,000 volts of power.",
+    "generation": "generation-iv",
+    "height": 18,
+    "weight": 1386,
+    "base_experience": 243,
+    "types": [
+        "electric"
+    ],
+    "abilities": [
+        {
+            "name": "motor-drive",
+            "is_hidden": false
+        },
+        {
+            "name": "vital-spirit",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 75,
+        "attack": 123,
+        "defense": 67,
+        "special-attack": 95,
+        "special-defense": 85,
+        "speed": 95
+    },
+    "evolution_chain": {
+        "species": "elekid",
+        "id": 239,
+        "sprite": "/static/sprites/pokemon/239.gif",
+        "evolves_to": [
+            {
+                "species": "electabuzz",
+                "id": 125,
+                "sprite": "/static/sprites/pokemon/125.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 30,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "electivire",
+                        "id": 466,
+                        "sprite": "/static/sprites/pokemon/466.gif",
+                        "details": [
+                            {
+                                "trigger": "trade",
+                                "min_level": null,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/466.gif"
+}

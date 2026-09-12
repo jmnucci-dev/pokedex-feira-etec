@@ -1,0 +1,52 @@
+{
+    "id": 673,
+    "name": "gogoat",
+    "category": "Mount Pokémon",
+    "description": "It can tell how its Trainer is feeling by subtle shifts in the grip on its horns. This empathic sense lets them run as if one being.",
+    "generation": "generation-vi",
+    "height": 17,
+    "weight": 910,
+    "base_experience": 186,
+    "types": [
+        "grass"
+    ],
+    "abilities": [
+        {
+            "name": "sap-sipper",
+            "is_hidden": false
+        },
+        {
+            "name": "grass-pelt",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 123,
+        "attack": 100,
+        "defense": 62,
+        "special-attack": 97,
+        "special-defense": 81,
+        "speed": 68
+    },
+    "evolution_chain": {
+        "species": "skiddo",
+        "id": 672,
+        "sprite": "/static/sprites/pokemon/672.png",
+        "evolves_to": [
+            {
+                "species": "gogoat",
+                "id": 673,
+                "sprite": "/static/sprites/pokemon/673.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 32,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/673.png"
+}

@@ -1,0 +1,71 @@
+{
+    "id": 901,
+    "name": "ursaluna",
+    "category": "Peat Pokémon",
+    "description": "I believe it was Hisui's swampy terrain that gave Ursaluna its burly physique and newfound capacity to manipulate peat at will.",
+    "generation": "generation-viii",
+    "height": 24,
+    "weight": 2900,
+    "base_experience": 275,
+    "types": [
+        "ground",
+        "normal"
+    ],
+    "abilities": [
+        {
+            "name": "guts",
+            "is_hidden": false
+        },
+        {
+            "name": "bulletproof",
+            "is_hidden": false
+        },
+        {
+            "name": "unnerve",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 130,
+        "attack": 140,
+        "defense": 105,
+        "special-attack": 45,
+        "special-defense": 80,
+        "speed": 50
+    },
+    "evolution_chain": {
+        "species": "teddiursa",
+        "id": 216,
+        "sprite": "/static/sprites/pokemon/216.gif",
+        "evolves_to": [
+            {
+                "species": "ursaring",
+                "id": 217,
+                "sprite": "/static/sprites/pokemon/217.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 30,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "ursaluna",
+                        "id": 901,
+                        "sprite": "/static/sprites/pokemon/901.gif",
+                        "details": [
+                            {
+                                "trigger": "use-item",
+                                "min_level": null,
+                                "item": "peat-block"
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/901.gif"
+}

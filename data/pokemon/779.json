@@ -1,0 +1,43 @@
+{
+    "id": 779,
+    "name": "bruxish",
+    "category": "Gnash Teeth Pokémon",
+    "description": "When it unleashes its psychic power from the protuberance on its head, the grating sound of grinding teeth echoes through the area.",
+    "generation": "generation-vii",
+    "height": 9,
+    "weight": 190,
+    "base_experience": 166,
+    "types": [
+        "water",
+        "psychic"
+    ],
+    "abilities": [
+        {
+            "name": "dazzling",
+            "is_hidden": false
+        },
+        {
+            "name": "strong-jaw",
+            "is_hidden": false
+        },
+        {
+            "name": "wonder-skin",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 68,
+        "attack": 105,
+        "defense": 70,
+        "special-attack": 70,
+        "special-defense": 70,
+        "speed": 92
+    },
+    "evolution_chain": {
+        "species": "bruxish",
+        "id": 779,
+        "sprite": "/static/sprites/pokemon/779.gif",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/779.gif"
+}

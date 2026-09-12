@@ -1,0 +1,66 @@
+{
+    "id": 371,
+    "name": "bagon",
+    "category": "Rock Head Pokémon",
+    "description": "BAGON has a dream of one day soaring in the sky. In doomed efforts to fly, this POKéMON hurls itself off cliffs. As a result of its dives, its head has grown tough and as hard as tempered steel.",
+    "generation": "generation-iii",
+    "height": 6,
+    "weight": 421,
+    "base_experience": 60,
+    "types": [
+        "dragon"
+    ],
+    "abilities": [
+        {
+            "name": "rock-head",
+            "is_hidden": false
+        },
+        {
+            "name": "sheer-force",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 45,
+        "attack": 75,
+        "defense": 60,
+        "special-attack": 40,
+        "special-defense": 30,
+        "speed": 50
+    },
+    "evolution_chain": {
+        "species": "bagon",
+        "id": 371,
+        "sprite": "/static/sprites/pokemon/371.gif",
+        "evolves_to": [
+            {
+                "species": "shelgon",
+                "id": 372,
+                "sprite": "/static/sprites/pokemon/372.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 30,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "salamence",
+                        "id": 373,
+                        "sprite": "/static/sprites/pokemon/373.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 50,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/371.gif"
+}

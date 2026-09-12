@@ -1,0 +1,56 @@
+{
+    "id": 55,
+    "name": "golduck",
+    "category": "Duck Pokémon",
+    "description": "Often seen swim­ ming elegantly by lake shores. It is often mistaken for the Japanese monster, Kappa.",
+    "generation": "generation-i",
+    "height": 17,
+    "weight": 766,
+    "base_experience": 175,
+    "types": [
+        "water"
+    ],
+    "abilities": [
+        {
+            "name": "damp",
+            "is_hidden": false
+        },
+        {
+            "name": "cloud-nine",
+            "is_hidden": false
+        },
+        {
+            "name": "swift-swim",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 80,
+        "attack": 82,
+        "defense": 78,
+        "special-attack": 95,
+        "special-defense": 80,
+        "speed": 85
+    },
+    "evolution_chain": {
+        "species": "psyduck",
+        "id": 54,
+        "sprite": "/static/sprites/pokemon/54.gif",
+        "evolves_to": [
+            {
+                "species": "golduck",
+                "id": 55,
+                "sprite": "/static/sprites/pokemon/55.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 33,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/55.gif"
+}

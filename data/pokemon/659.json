@@ -1,0 +1,56 @@
+{
+    "id": 659,
+    "name": "bunnelby",
+    "category": "Digging Pokémon",
+    "description": "They use their large ears to dig burrows. They will dig the whole night through.",
+    "generation": "generation-vi",
+    "height": 4,
+    "weight": 50,
+    "base_experience": 47,
+    "types": [
+        "normal"
+    ],
+    "abilities": [
+        {
+            "name": "pickup",
+            "is_hidden": false
+        },
+        {
+            "name": "cheek-pouch",
+            "is_hidden": false
+        },
+        {
+            "name": "huge-power",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 38,
+        "attack": 36,
+        "defense": 38,
+        "special-attack": 32,
+        "special-defense": 36,
+        "speed": 57
+    },
+    "evolution_chain": {
+        "species": "bunnelby",
+        "id": 659,
+        "sprite": "/static/sprites/pokemon/659.png",
+        "evolves_to": [
+            {
+                "species": "diggersby",
+                "id": 660,
+                "sprite": "/static/sprites/pokemon/660.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 20,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/659.png"
+}

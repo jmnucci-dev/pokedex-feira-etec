@@ -1,0 +1,76 @@
+{
+    "id": 792,
+    "name": "lunala",
+    "category": "Moone Pokémon",
+    "description": "It is said to be a female evolution of Cosmog. When its third eye activates, away it flies to another world.",
+    "generation": "generation-vii",
+    "height": 40,
+    "weight": 1200,
+    "base_experience": 306,
+    "types": [
+        "psychic",
+        "ghost"
+    ],
+    "abilities": [
+        {
+            "name": "shadow-shield",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 137,
+        "attack": 113,
+        "defense": 89,
+        "special-attack": 137,
+        "special-defense": 107,
+        "speed": 97
+    },
+    "evolution_chain": {
+        "species": "cosmog",
+        "id": 789,
+        "sprite": "/static/sprites/pokemon/789.gif",
+        "evolves_to": [
+            {
+                "species": "cosmoem",
+                "id": 790,
+                "sprite": "/static/sprites/pokemon/790.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 43,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "solgaleo",
+                        "id": 791,
+                        "sprite": "/static/sprites/pokemon/791.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 53,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    },
+                    {
+                        "species": "lunala",
+                        "id": 792,
+                        "sprite": "/static/sprites/pokemon/792.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 53,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/792.gif"
+}

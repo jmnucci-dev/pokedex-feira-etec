@@ -1,0 +1,52 @@
+{
+    "id": 972,
+    "name": "houndstone",
+    "category": "Ghost Dog Pokémon",
+    "description": "Houndstone spends most of its time sleeping in graveyards. Among all the dog Pokémon, this one is most loyal to its master.",
+    "generation": "generation-ix",
+    "height": 20,
+    "weight": 150,
+    "base_experience": 171,
+    "types": [
+        "ghost"
+    ],
+    "abilities": [
+        {
+            "name": "sand-rush",
+            "is_hidden": false
+        },
+        {
+            "name": "fluffy",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 72,
+        "attack": 101,
+        "defense": 100,
+        "special-attack": 50,
+        "special-defense": 97,
+        "speed": 68
+    },
+    "evolution_chain": {
+        "species": "greavard",
+        "id": 971,
+        "sprite": "/static/sprites/pokemon/971.png",
+        "evolves_to": [
+            {
+                "species": "houndstone",
+                "id": 972,
+                "sprite": "/static/sprites/pokemon/972.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 30,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/972.png"
+}

@@ -1,0 +1,66 @@
+{
+    "id": 726,
+    "name": "torracat",
+    "category": "Fire Cat Pokémon",
+    "description": "At its throat, it bears a bell of fire. The bell rings brightly whenever this Pokémon spits fire.",
+    "generation": "generation-vii",
+    "height": 7,
+    "weight": 250,
+    "base_experience": 147,
+    "types": [
+        "fire"
+    ],
+    "abilities": [
+        {
+            "name": "blaze",
+            "is_hidden": false
+        },
+        {
+            "name": "intimidate",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 65,
+        "attack": 85,
+        "defense": 50,
+        "special-attack": 80,
+        "special-defense": 50,
+        "speed": 90
+    },
+    "evolution_chain": {
+        "species": "litten",
+        "id": 725,
+        "sprite": "/static/sprites/pokemon/725.gif",
+        "evolves_to": [
+            {
+                "species": "torracat",
+                "id": 726,
+                "sprite": "/static/sprites/pokemon/726.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 17,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "incineroar",
+                        "id": 727,
+                        "sprite": "/static/sprites/pokemon/727.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 34,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/726.png"
+}

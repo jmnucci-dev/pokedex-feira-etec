@@ -1,0 +1,56 @@
+{
+    "id": 326,
+    "name": "grumpig",
+    "category": "Manipulate Pokémon",
+    "description": "GRUMPIG uses the black pearls on its body to amplify its psychic power waves for gaining total control over its foe. When this POKéMON uses its special power, its snorting breath grows labored.",
+    "generation": "generation-iii",
+    "height": 9,
+    "weight": 715,
+    "base_experience": 165,
+    "types": [
+        "psychic"
+    ],
+    "abilities": [
+        {
+            "name": "thick-fat",
+            "is_hidden": false
+        },
+        {
+            "name": "own-tempo",
+            "is_hidden": false
+        },
+        {
+            "name": "gluttony",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 80,
+        "attack": 45,
+        "defense": 65,
+        "special-attack": 90,
+        "special-defense": 110,
+        "speed": 80
+    },
+    "evolution_chain": {
+        "species": "spoink",
+        "id": 325,
+        "sprite": "/static/sprites/pokemon/325.gif",
+        "evolves_to": [
+            {
+                "species": "grumpig",
+                "id": 326,
+                "sprite": "/static/sprites/pokemon/326.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 32,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/326.gif"
+}

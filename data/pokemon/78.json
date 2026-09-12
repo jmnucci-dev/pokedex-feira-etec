@@ -1,0 +1,61 @@
+{
+    "id": 78,
+    "name": "rapidash",
+    "category": "Fire Horse Pokémon",
+    "description": "Very competitive, this POKéMON will chase anything that moves fast in the hopes of racing it.",
+    "generation": "generation-i",
+    "height": 17,
+    "weight": 950,
+    "base_experience": 175,
+    "types": [
+        "fire"
+    ],
+    "abilities": [
+        {
+            "name": "run-away",
+            "is_hidden": false
+        },
+        {
+            "name": "flash-fire",
+            "is_hidden": false
+        },
+        {
+            "name": "flame-body",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 65,
+        "attack": 100,
+        "defense": 70,
+        "special-attack": 80,
+        "special-defense": 80,
+        "speed": 105
+    },
+    "evolution_chain": {
+        "species": "ponyta",
+        "id": 77,
+        "sprite": "/static/sprites/pokemon/77.gif",
+        "evolves_to": [
+            {
+                "species": "rapidash",
+                "id": 78,
+                "sprite": "/static/sprites/pokemon/78.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 40,
+                        "item": null
+                    },
+                    {
+                        "trigger": "level-up",
+                        "min_level": 40,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/78.gif"
+}

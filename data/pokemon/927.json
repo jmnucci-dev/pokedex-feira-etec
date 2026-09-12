@@ -1,0 +1,52 @@
+{
+    "id": 927,
+    "name": "dachsbun",
+    "category": "Dog Pokémon",
+    "description": "The pleasant aroma that emanates from this Pokémon’s body helps wheat grow, so Dachsbun has been treasured by farming villages.",
+    "generation": "generation-ix",
+    "height": 5,
+    "weight": 149,
+    "base_experience": 167,
+    "types": [
+        "fairy"
+    ],
+    "abilities": [
+        {
+            "name": "well-baked-body",
+            "is_hidden": false
+        },
+        {
+            "name": "aroma-veil",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 57,
+        "attack": 80,
+        "defense": 115,
+        "special-attack": 50,
+        "special-defense": 80,
+        "speed": 95
+    },
+    "evolution_chain": {
+        "species": "fidough",
+        "id": 926,
+        "sprite": "/static/sprites/pokemon/926.png",
+        "evolves_to": [
+            {
+                "species": "dachsbun",
+                "id": 927,
+                "sprite": "/static/sprites/pokemon/927.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 26,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/927.png"
+}

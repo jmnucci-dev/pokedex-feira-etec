@@ -1,0 +1,63 @@
+{
+    "id": 635,
+    "name": "hydreigon",
+    "category": "Brutal Pokémon",
+    "description": "This brutal Pokémon travels the skies on its six wings. Anything that moves seems like a foe to it, triggering its attack.",
+    "generation": "generation-v",
+    "height": 18,
+    "weight": 1600,
+    "base_experience": 270,
+    "types": [
+        "dark",
+        "dragon"
+    ],
+    "abilities": [
+        {
+            "name": "levitate",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 92,
+        "attack": 105,
+        "defense": 90,
+        "special-attack": 125,
+        "special-defense": 90,
+        "speed": 98
+    },
+    "evolution_chain": {
+        "species": "deino",
+        "id": 633,
+        "sprite": "/static/sprites/pokemon/633.gif",
+        "evolves_to": [
+            {
+                "species": "zweilous",
+                "id": 634,
+                "sprite": "/static/sprites/pokemon/634.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 50,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "hydreigon",
+                        "id": 635,
+                        "sprite": "/static/sprites/pokemon/635.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 64,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/635.gif"
+}

@@ -1,0 +1,56 @@
+{
+    "id": 310,
+    "name": "manectric",
+    "category": "Discharge Pokémon",
+    "description": "MANECTRIC is constantly discharging electricity from its mane. The sparks sometimes ignite forest fires. When it enters a battle, this POKéMON creates thunderclouds.",
+    "generation": "generation-iii",
+    "height": 15,
+    "weight": 402,
+    "base_experience": 166,
+    "types": [
+        "electric"
+    ],
+    "abilities": [
+        {
+            "name": "static",
+            "is_hidden": false
+        },
+        {
+            "name": "lightning-rod",
+            "is_hidden": false
+        },
+        {
+            "name": "minus",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 70,
+        "attack": 75,
+        "defense": 60,
+        "special-attack": 105,
+        "special-defense": 60,
+        "speed": 105
+    },
+    "evolution_chain": {
+        "species": "electrike",
+        "id": 309,
+        "sprite": "/static/sprites/pokemon/309.gif",
+        "evolves_to": [
+            {
+                "species": "manectric",
+                "id": 310,
+                "sprite": "/static/sprites/pokemon/310.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 26,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/310.gif"
+}

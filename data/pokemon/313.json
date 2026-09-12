@@ -1,0 +1,42 @@
+{
+    "id": 313,
+    "name": "volbeat",
+    "category": "Firefly Pokémon",
+    "description": "With the arrival of night, VOLBEAT emits light from its tail. It communicates with others by adjusting the intensity and flashing of its light. This POKéMON is attracted by the sweet aroma of ILLUMISE.",
+    "generation": "generation-iii",
+    "height": 7,
+    "weight": 177,
+    "base_experience": 151,
+    "types": [
+        "bug"
+    ],
+    "abilities": [
+        {
+            "name": "illuminate",
+            "is_hidden": false
+        },
+        {
+            "name": "swarm",
+            "is_hidden": false
+        },
+        {
+            "name": "prankster",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 65,
+        "attack": 73,
+        "defense": 75,
+        "special-attack": 47,
+        "special-defense": 85,
+        "speed": 85
+    },
+    "evolution_chain": {
+        "species": "volbeat",
+        "id": 313,
+        "sprite": "/static/sprites/pokemon/313.gif",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/313.gif"
+}

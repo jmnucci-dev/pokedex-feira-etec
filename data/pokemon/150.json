@@ -1,0 +1,38 @@
+{
+    "id": 150,
+    "name": "mewtwo",
+    "category": "Genetic Pokémon",
+    "description": "It was created by a scientist after years of horrific gene splicing and DNA engineering experiments.",
+    "generation": "generation-i",
+    "height": 20,
+    "weight": 1220,
+    "base_experience": 306,
+    "types": [
+        "psychic"
+    ],
+    "abilities": [
+        {
+            "name": "pressure",
+            "is_hidden": false
+        },
+        {
+            "name": "unnerve",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 106,
+        "attack": 110,
+        "defense": 90,
+        "special-attack": 154,
+        "special-defense": 90,
+        "speed": 130
+    },
+    "evolution_chain": {
+        "species": "mewtwo",
+        "id": 150,
+        "sprite": "/static/sprites/pokemon/150.gif",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/150.gif"
+}

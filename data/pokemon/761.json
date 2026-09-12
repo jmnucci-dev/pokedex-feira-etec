@@ -1,0 +1,70 @@
+{
+    "id": 761,
+    "name": "bounsweet",
+    "category": "Fruit Pokémon",
+    "description": "A delectable aroma pours from its body. They are often swallowed whole by Toucannon lured by that wafting deliciousness.",
+    "generation": "generation-vii",
+    "height": 3,
+    "weight": 32,
+    "base_experience": 42,
+    "types": [
+        "grass"
+    ],
+    "abilities": [
+        {
+            "name": "leaf-guard",
+            "is_hidden": false
+        },
+        {
+            "name": "oblivious",
+            "is_hidden": false
+        },
+        {
+            "name": "sweet-veil",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 42,
+        "attack": 30,
+        "defense": 38,
+        "special-attack": 30,
+        "special-defense": 38,
+        "speed": 32
+    },
+    "evolution_chain": {
+        "species": "bounsweet",
+        "id": 761,
+        "sprite": "/static/sprites/pokemon/761.gif",
+        "evolves_to": [
+            {
+                "species": "steenee",
+                "id": 762,
+                "sprite": "/static/sprites/pokemon/762.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 18,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "tsareena",
+                        "id": 763,
+                        "sprite": "/static/sprites/pokemon/763.png",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": null,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/761.gif"
+}

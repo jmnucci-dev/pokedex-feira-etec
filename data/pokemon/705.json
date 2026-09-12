@@ -1,0 +1,80 @@
+{
+    "id": 705,
+    "name": "sliggoo",
+    "category": "Soft Tissue Pokémon",
+    "description": "It drives away opponents by excreting a sticky liquid that can dissolve anything. Its eyes devolved, so it can’t see anything.",
+    "generation": "generation-vi",
+    "height": 8,
+    "weight": 175,
+    "base_experience": 158,
+    "types": [
+        "dragon"
+    ],
+    "abilities": [
+        {
+            "name": "sap-sipper",
+            "is_hidden": false
+        },
+        {
+            "name": "hydration",
+            "is_hidden": false
+        },
+        {
+            "name": "gooey",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 68,
+        "attack": 75,
+        "defense": 53,
+        "special-attack": 83,
+        "special-defense": 113,
+        "speed": 60
+    },
+    "evolution_chain": {
+        "species": "goomy",
+        "id": 704,
+        "sprite": "/static/sprites/pokemon/704.png",
+        "evolves_to": [
+            {
+                "species": "sliggoo",
+                "id": 705,
+                "sprite": "/static/sprites/pokemon/705.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 40,
+                        "item": null
+                    },
+                    {
+                        "trigger": "level-up",
+                        "min_level": 40,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "goodra",
+                        "id": 706,
+                        "sprite": "/static/sprites/pokemon/706.png",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 50,
+                                "item": null
+                            },
+                            {
+                                "trigger": "level-up",
+                                "min_level": 50,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/705.png"
+}

@@ -1,0 +1,71 @@
+{
+    "id": 464,
+    "name": "rhyperior",
+    "category": "Drill Pokémon",
+    "description": "It puts rocks in holes in its palms and uses its muscles to shoot them. GEODUDE are shot at rare times.",
+    "generation": "generation-iv",
+    "height": 24,
+    "weight": 2828,
+    "base_experience": 241,
+    "types": [
+        "ground",
+        "rock"
+    ],
+    "abilities": [
+        {
+            "name": "lightning-rod",
+            "is_hidden": false
+        },
+        {
+            "name": "solid-rock",
+            "is_hidden": false
+        },
+        {
+            "name": "reckless",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 115,
+        "attack": 140,
+        "defense": 130,
+        "special-attack": 55,
+        "special-defense": 55,
+        "speed": 40
+    },
+    "evolution_chain": {
+        "species": "rhyhorn",
+        "id": 111,
+        "sprite": "/static/sprites/pokemon/111.gif",
+        "evolves_to": [
+            {
+                "species": "rhydon",
+                "id": 112,
+                "sprite": "/static/sprites/pokemon/112.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 42,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "rhyperior",
+                        "id": 464,
+                        "sprite": "/static/sprites/pokemon/464.gif",
+                        "details": [
+                            {
+                                "trigger": "trade",
+                                "min_level": null,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/464.gif"
+}

@@ -1,0 +1,71 @@
+{
+    "id": 112,
+    "name": "rhydon",
+    "category": "Drill Pokémon",
+    "description": "Protected by an armor-like hide, it is capable of living in molten lava of 3,600 degrees.",
+    "generation": "generation-i",
+    "height": 19,
+    "weight": 1200,
+    "base_experience": 170,
+    "types": [
+        "ground",
+        "rock"
+    ],
+    "abilities": [
+        {
+            "name": "lightning-rod",
+            "is_hidden": false
+        },
+        {
+            "name": "rock-head",
+            "is_hidden": false
+        },
+        {
+            "name": "reckless",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 105,
+        "attack": 130,
+        "defense": 120,
+        "special-attack": 45,
+        "special-defense": 45,
+        "speed": 40
+    },
+    "evolution_chain": {
+        "species": "rhyhorn",
+        "id": 111,
+        "sprite": "/static/sprites/pokemon/111.gif",
+        "evolves_to": [
+            {
+                "species": "rhydon",
+                "id": 112,
+                "sprite": "/static/sprites/pokemon/112.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 42,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "rhyperior",
+                        "id": 464,
+                        "sprite": "/static/sprites/pokemon/464.gif",
+                        "details": [
+                            {
+                                "trigger": "trade",
+                                "min_level": null,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/112.gif"
+}

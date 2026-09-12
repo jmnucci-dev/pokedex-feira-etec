@@ -1,0 +1,35 @@
+{
+    "id": 992,
+    "name": "iron-hands",
+    "category": "Paradox Pokémon",
+    "description": "It is very similar to a cyborg covered exclusively by a paranormal magazine. The cyborg was said to be the modified form of a certain athlete.",
+    "generation": "generation-ix",
+    "height": 18,
+    "weight": 3807,
+    "base_experience": 285,
+    "types": [
+        "fighting",
+        "electric"
+    ],
+    "abilities": [
+        {
+            "name": "quark-drive",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 154,
+        "attack": 140,
+        "defense": 108,
+        "special-attack": 50,
+        "special-defense": 68,
+        "speed": 50
+    },
+    "evolution_chain": {
+        "species": "iron-hands",
+        "id": 992,
+        "sprite": "/static/sprites/pokemon/992.png",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/992.png"
+}

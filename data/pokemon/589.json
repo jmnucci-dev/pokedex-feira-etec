@@ -1,0 +1,57 @@
+{
+    "id": 589,
+    "name": "escavalier",
+    "category": "Cavalry Pokémon",
+    "description": "They fly around at high speed, striking with their pointed spears. Even when in trouble, they face opponents bravely.",
+    "generation": "generation-v",
+    "height": 10,
+    "weight": 330,
+    "base_experience": 173,
+    "types": [
+        "bug",
+        "steel"
+    ],
+    "abilities": [
+        {
+            "name": "swarm",
+            "is_hidden": false
+        },
+        {
+            "name": "shell-armor",
+            "is_hidden": false
+        },
+        {
+            "name": "overcoat",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 70,
+        "attack": 135,
+        "defense": 105,
+        "special-attack": 60,
+        "special-defense": 105,
+        "speed": 20
+    },
+    "evolution_chain": {
+        "species": "karrablast",
+        "id": 588,
+        "sprite": "/static/sprites/pokemon/588.gif",
+        "evolves_to": [
+            {
+                "species": "escavalier",
+                "id": 589,
+                "sprite": "/static/sprites/pokemon/589.gif",
+                "details": [
+                    {
+                        "trigger": "trade",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/589.gif"
+}

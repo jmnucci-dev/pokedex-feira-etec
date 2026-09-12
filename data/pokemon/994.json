@@ -1,0 +1,35 @@
+{
+    "id": 994,
+    "name": "iron-moth",
+    "category": "Paradox Pokémon",
+    "description": "This Pokémon resembles an unknown object described in a paranormal magazine as a UFO sent to observe humanity.",
+    "generation": "generation-ix",
+    "height": 12,
+    "weight": 360,
+    "base_experience": 285,
+    "types": [
+        "fire",
+        "poison"
+    ],
+    "abilities": [
+        {
+            "name": "quark-drive",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 80,
+        "attack": 70,
+        "defense": 60,
+        "special-attack": 140,
+        "special-defense": 110,
+        "speed": 110
+    },
+    "evolution_chain": {
+        "species": "iron-moth",
+        "id": 994,
+        "sprite": "/static/sprites/pokemon/994.png",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/994.png"
+}

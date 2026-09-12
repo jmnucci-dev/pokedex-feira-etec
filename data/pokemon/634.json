@@ -1,0 +1,63 @@
+{
+    "id": 634,
+    "name": "zweilous",
+    "category": "Hostile Pokémon",
+    "description": "After it has eaten up all the food in its territory, it moves to another area. Its two heads do not get along.",
+    "generation": "generation-v",
+    "height": 14,
+    "weight": 500,
+    "base_experience": 147,
+    "types": [
+        "dark",
+        "dragon"
+    ],
+    "abilities": [
+        {
+            "name": "hustle",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 72,
+        "attack": 85,
+        "defense": 70,
+        "special-attack": 65,
+        "special-defense": 70,
+        "speed": 58
+    },
+    "evolution_chain": {
+        "species": "deino",
+        "id": 633,
+        "sprite": "/static/sprites/pokemon/633.gif",
+        "evolves_to": [
+            {
+                "species": "zweilous",
+                "id": 634,
+                "sprite": "/static/sprites/pokemon/634.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 50,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "hydreigon",
+                        "id": 635,
+                        "sprite": "/static/sprites/pokemon/635.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 64,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/634.gif"
+}

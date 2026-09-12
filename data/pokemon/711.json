@@ -1,0 +1,72 @@
+{
+    "id": 711,
+    "name": "gourgeist-average",
+    "category": "Pumpkin Pokémon",
+    "description": "Singing in eerie voices, they wander town streets on the night of the new moon. Anyone who hears their song is cursed.",
+    "generation": "generation-vi",
+    "height": 9,
+    "weight": 125,
+    "base_experience": 173,
+    "types": [
+        "ghost",
+        "grass"
+    ],
+    "abilities": [
+        {
+            "name": "pickup",
+            "is_hidden": false
+        },
+        {
+            "name": "frisk",
+            "is_hidden": false
+        },
+        {
+            "name": "insomnia",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 65,
+        "attack": 90,
+        "defense": 122,
+        "special-attack": 58,
+        "special-defense": 75,
+        "speed": 84
+    },
+    "evolution_chain": {
+        "species": "pumpkaboo",
+        "id": 710,
+        "sprite": "/static/sprites/pokemon/710.png",
+        "evolves_to": [
+            {
+                "species": "gourgeist",
+                "id": 711,
+                "sprite": "/static/sprites/pokemon/711.png",
+                "details": [
+                    {
+                        "trigger": "trade",
+                        "min_level": null,
+                        "item": null
+                    },
+                    {
+                        "trigger": "trade",
+                        "min_level": null,
+                        "item": null
+                    },
+                    {
+                        "trigger": "trade",
+                        "min_level": null,
+                        "item": null
+                    },
+                    {
+                        "trigger": "trade",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/711.png"
+}

@@ -1,0 +1,35 @@
+{
+    "id": 794,
+    "name": "buzzwole",
+    "category": "Swollen Pokémon",
+    "description": "This Ultra Beast appeared from another world. It shows off its body, but whether that display is a boast or a threat remains unclear.",
+    "generation": "generation-vii",
+    "height": 24,
+    "weight": 3336,
+    "base_experience": 257,
+    "types": [
+        "bug",
+        "fighting"
+    ],
+    "abilities": [
+        {
+            "name": "beast-boost",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 107,
+        "attack": 139,
+        "defense": 139,
+        "special-attack": 53,
+        "special-defense": 53,
+        "speed": 79
+    },
+    "evolution_chain": {
+        "species": "buzzwole",
+        "id": 794,
+        "sprite": "/static/sprites/pokemon/794.gif",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/794.gif"
+}

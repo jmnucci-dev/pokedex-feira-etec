@@ -1,0 +1,67 @@
+{
+    "id": 42,
+    "name": "golbat",
+    "category": "Bat Pokémon",
+    "description": "Once it strikes, it will not stop draining energy from the victim even if it gets too heavy to fly.",
+    "generation": "generation-i",
+    "height": 16,
+    "weight": 550,
+    "base_experience": 159,
+    "types": [
+        "poison",
+        "flying"
+    ],
+    "abilities": [
+        {
+            "name": "inner-focus",
+            "is_hidden": false
+        },
+        {
+            "name": "infiltrator",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 75,
+        "attack": 80,
+        "defense": 70,
+        "special-attack": 65,
+        "special-defense": 75,
+        "speed": 90
+    },
+    "evolution_chain": {
+        "species": "zubat",
+        "id": 41,
+        "sprite": "/static/sprites/pokemon/41.gif",
+        "evolves_to": [
+            {
+                "species": "golbat",
+                "id": 42,
+                "sprite": "/static/sprites/pokemon/42.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 22,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "crobat",
+                        "id": 169,
+                        "sprite": "/static/sprites/pokemon/169.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": null,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/42.gif"
+}

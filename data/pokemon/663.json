@@ -1,0 +1,67 @@
+{
+    "id": 663,
+    "name": "talonflame",
+    "category": "Scorching Pokémon",
+    "description": "In the fever of an exciting battle, it showers embers from the gaps between its feathers and takes to the air.",
+    "generation": "generation-vi",
+    "height": 12,
+    "weight": 245,
+    "base_experience": 175,
+    "types": [
+        "fire",
+        "flying"
+    ],
+    "abilities": [
+        {
+            "name": "flame-body",
+            "is_hidden": false
+        },
+        {
+            "name": "gale-wings",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 78,
+        "attack": 81,
+        "defense": 71,
+        "special-attack": 74,
+        "special-defense": 69,
+        "speed": 126
+    },
+    "evolution_chain": {
+        "species": "fletchling",
+        "id": 661,
+        "sprite": "/static/sprites/pokemon/661.png",
+        "evolves_to": [
+            {
+                "species": "fletchinder",
+                "id": 662,
+                "sprite": "/static/sprites/pokemon/662.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 17,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "talonflame",
+                        "id": 663,
+                        "sprite": "/static/sprites/pokemon/663.png",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 35,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/663.png"
+}

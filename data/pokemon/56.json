@@ -1,0 +1,70 @@
+{
+    "id": 56,
+    "name": "mankey",
+    "category": "Pig Monkey Pokémon",
+    "description": "Extremely quick to anger. It could be docile one moment then thrashing away the next instant.",
+    "generation": "generation-i",
+    "height": 5,
+    "weight": 280,
+    "base_experience": 61,
+    "types": [
+        "fighting"
+    ],
+    "abilities": [
+        {
+            "name": "vital-spirit",
+            "is_hidden": false
+        },
+        {
+            "name": "anger-point",
+            "is_hidden": false
+        },
+        {
+            "name": "defiant",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 40,
+        "attack": 80,
+        "defense": 35,
+        "special-attack": 35,
+        "special-defense": 45,
+        "speed": 70
+    },
+    "evolution_chain": {
+        "species": "mankey",
+        "id": 56,
+        "sprite": "/static/sprites/pokemon/56.gif",
+        "evolves_to": [
+            {
+                "species": "primeape",
+                "id": 57,
+                "sprite": "/static/sprites/pokemon/57.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 28,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "annihilape",
+                        "id": 979,
+                        "sprite": "/static/sprites/pokemon/979.png",
+                        "details": [
+                            {
+                                "trigger": "use-move",
+                                "min_level": null,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/56.gif"
+}

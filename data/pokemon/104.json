@@ -1,0 +1,61 @@
+{
+    "id": 104,
+    "name": "cubone",
+    "category": "Lonely Pokémon",
+    "description": "Because it never removes its skull helmet, no one has ever seen this POKéMON's real face.",
+    "generation": "generation-i",
+    "height": 4,
+    "weight": 65,
+    "base_experience": 64,
+    "types": [
+        "ground"
+    ],
+    "abilities": [
+        {
+            "name": "rock-head",
+            "is_hidden": false
+        },
+        {
+            "name": "lightning-rod",
+            "is_hidden": false
+        },
+        {
+            "name": "battle-armor",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 50,
+        "attack": 50,
+        "defense": 95,
+        "special-attack": 40,
+        "special-defense": 50,
+        "speed": 35
+    },
+    "evolution_chain": {
+        "species": "cubone",
+        "id": 104,
+        "sprite": "/static/sprites/pokemon/104.gif",
+        "evolves_to": [
+            {
+                "species": "marowak",
+                "id": 105,
+                "sprite": "/static/sprites/pokemon/105.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 28,
+                        "item": null
+                    },
+                    {
+                        "trigger": "level-up",
+                        "min_level": 28,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/104.gif"
+}

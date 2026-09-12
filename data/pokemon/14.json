@@ -1,0 +1,63 @@
+{
+    "id": 14,
+    "name": "kakuna",
+    "category": "Cocoon Pokémon",
+    "description": "Almost incapable of moving, this POKéMON can only harden its shell to protect itself from predators.",
+    "generation": "generation-i",
+    "height": 6,
+    "weight": 100,
+    "base_experience": 72,
+    "types": [
+        "bug",
+        "poison"
+    ],
+    "abilities": [
+        {
+            "name": "shed-skin",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 45,
+        "attack": 25,
+        "defense": 50,
+        "special-attack": 25,
+        "special-defense": 25,
+        "speed": 35
+    },
+    "evolution_chain": {
+        "species": "weedle",
+        "id": 13,
+        "sprite": "/static/sprites/pokemon/13.gif",
+        "evolves_to": [
+            {
+                "species": "kakuna",
+                "id": 14,
+                "sprite": "/static/sprites/pokemon/14.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 7,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "beedrill",
+                        "id": 15,
+                        "sprite": "/static/sprites/pokemon/15.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 10,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/14.gif"
+}

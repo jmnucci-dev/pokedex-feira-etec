@@ -1,0 +1,67 @@
+{
+    "id": 259,
+    "name": "marshtomp",
+    "category": "Mud Fish Pokémon",
+    "description": "The surface of MARSHTOMP’s body is enveloped by a thin, sticky film that enables it to live on land. This POKéMON plays in mud on beaches when the ocean tide is low.",
+    "generation": "generation-iii",
+    "height": 7,
+    "weight": 280,
+    "base_experience": 142,
+    "types": [
+        "water",
+        "ground"
+    ],
+    "abilities": [
+        {
+            "name": "torrent",
+            "is_hidden": false
+        },
+        {
+            "name": "damp",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 70,
+        "attack": 85,
+        "defense": 70,
+        "special-attack": 60,
+        "special-defense": 70,
+        "speed": 50
+    },
+    "evolution_chain": {
+        "species": "mudkip",
+        "id": 258,
+        "sprite": "/static/sprites/pokemon/258.gif",
+        "evolves_to": [
+            {
+                "species": "marshtomp",
+                "id": 259,
+                "sprite": "/static/sprites/pokemon/259.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 16,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "swampert",
+                        "id": 260,
+                        "sprite": "/static/sprites/pokemon/260.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 36,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/259.gif"
+}

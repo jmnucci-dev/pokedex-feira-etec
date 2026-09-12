@@ -1,0 +1,66 @@
+{
+    "id": 356,
+    "name": "dusclops",
+    "category": "Beckon Pokémon",
+    "description": "DUSCLOPS’s body is completely hollow - there is nothing at all inside. It is said that its body is like a black hole. This POKéMON will absorb anything into its body, but nothing will ever come back out.",
+    "generation": "generation-iii",
+    "height": 16,
+    "weight": 306,
+    "base_experience": 159,
+    "types": [
+        "ghost"
+    ],
+    "abilities": [
+        {
+            "name": "pressure",
+            "is_hidden": false
+        },
+        {
+            "name": "frisk",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 40,
+        "attack": 70,
+        "defense": 130,
+        "special-attack": 60,
+        "special-defense": 130,
+        "speed": 25
+    },
+    "evolution_chain": {
+        "species": "duskull",
+        "id": 355,
+        "sprite": "/static/sprites/pokemon/355.gif",
+        "evolves_to": [
+            {
+                "species": "dusclops",
+                "id": 356,
+                "sprite": "/static/sprites/pokemon/356.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 37,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "dusknoir",
+                        "id": 477,
+                        "sprite": "/static/sprites/pokemon/477.gif",
+                        "details": [
+                            {
+                                "trigger": "trade",
+                                "min_level": null,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/356.gif"
+}

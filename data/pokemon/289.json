@@ -1,0 +1,62 @@
+{
+    "id": 289,
+    "name": "slaking",
+    "category": "Lazy Pokémon",
+    "description": "SLAKING spends all day lying down and lolling about. It eats grass growing within its reach. If it eats all the grass it can reach, this POKéMON reluctantly moves to another spot.",
+    "generation": "generation-iii",
+    "height": 20,
+    "weight": 1305,
+    "base_experience": 252,
+    "types": [
+        "normal"
+    ],
+    "abilities": [
+        {
+            "name": "truant",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 150,
+        "attack": 160,
+        "defense": 100,
+        "special-attack": 95,
+        "special-defense": 65,
+        "speed": 100
+    },
+    "evolution_chain": {
+        "species": "slakoth",
+        "id": 287,
+        "sprite": "/static/sprites/pokemon/287.gif",
+        "evolves_to": [
+            {
+                "species": "vigoroth",
+                "id": 288,
+                "sprite": "/static/sprites/pokemon/288.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 18,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "slaking",
+                        "id": 289,
+                        "sprite": "/static/sprites/pokemon/289.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 36,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/289.gif"
+}

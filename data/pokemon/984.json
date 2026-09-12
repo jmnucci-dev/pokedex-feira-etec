@@ -1,0 +1,35 @@
+{
+    "id": 984,
+    "name": "great-tusk",
+    "category": "Paradox Pokémon",
+    "description": "Sightings of this Pokémon have occurred in recent years. The name Great Tusk was taken from a creature listed in a certain book.",
+    "generation": "generation-ix",
+    "height": 22,
+    "weight": 3200,
+    "base_experience": 285,
+    "types": [
+        "ground",
+        "fighting"
+    ],
+    "abilities": [
+        {
+            "name": "protosynthesis",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 115,
+        "attack": 131,
+        "defense": 131,
+        "special-attack": 53,
+        "special-defense": 53,
+        "speed": 87
+    },
+    "evolution_chain": {
+        "species": "great-tusk",
+        "id": 984,
+        "sprite": "/static/sprites/pokemon/984.png",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/984.png"
+}

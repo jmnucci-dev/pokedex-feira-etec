@@ -1,0 +1,43 @@
+{
+    "id": 882,
+    "name": "dracovish",
+    "category": "Fossil Pokémon",
+    "description": "Powerful legs and jaws made it the apex predator of its time. Its own overhunting of its prey was what drove it to extinction.",
+    "generation": "generation-viii",
+    "height": 23,
+    "weight": 2150,
+    "base_experience": 177,
+    "types": [
+        "water",
+        "dragon"
+    ],
+    "abilities": [
+        {
+            "name": "water-absorb",
+            "is_hidden": false
+        },
+        {
+            "name": "strong-jaw",
+            "is_hidden": false
+        },
+        {
+            "name": "sand-rush",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 90,
+        "attack": 90,
+        "defense": 100,
+        "special-attack": 70,
+        "special-defense": 80,
+        "speed": 75
+    },
+    "evolution_chain": {
+        "species": "dracovish",
+        "id": 882,
+        "sprite": "/static/sprites/pokemon/882.gif",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/882.gif"
+}

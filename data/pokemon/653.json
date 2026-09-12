@@ -1,0 +1,66 @@
+{
+    "id": 653,
+    "name": "fennekin",
+    "category": "Fox Pokémon",
+    "description": "Eating a twig fills it with energy, and its roomy ears give vent to air hotter than 390 degrees Fahrenheit.",
+    "generation": "generation-vi",
+    "height": 4,
+    "weight": 94,
+    "base_experience": 61,
+    "types": [
+        "fire"
+    ],
+    "abilities": [
+        {
+            "name": "blaze",
+            "is_hidden": false
+        },
+        {
+            "name": "magician",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 40,
+        "attack": 45,
+        "defense": 40,
+        "special-attack": 62,
+        "special-defense": 60,
+        "speed": 60
+    },
+    "evolution_chain": {
+        "species": "fennekin",
+        "id": 653,
+        "sprite": "/static/sprites/pokemon/653.png",
+        "evolves_to": [
+            {
+                "species": "braixen",
+                "id": 654,
+                "sprite": "/static/sprites/pokemon/654.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 16,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "delphox",
+                        "id": 655,
+                        "sprite": "/static/sprites/pokemon/655.png",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 36,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/653.png"
+}

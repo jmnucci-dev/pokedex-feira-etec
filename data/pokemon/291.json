@@ -1,0 +1,66 @@
+{
+    "id": 291,
+    "name": "ninjask",
+    "category": "Ninja Pokémon",
+    "description": "NINJASK moves around at such a high speed that it cannot be seen, even while its crying can be clearly heard. For that reason, this POKéMON was long believed to be invisible.",
+    "generation": "generation-iii",
+    "height": 8,
+    "weight": 120,
+    "base_experience": 160,
+    "types": [
+        "bug",
+        "flying"
+    ],
+    "abilities": [
+        {
+            "name": "speed-boost",
+            "is_hidden": false
+        },
+        {
+            "name": "infiltrator",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 61,
+        "attack": 90,
+        "defense": 45,
+        "special-attack": 50,
+        "special-defense": 50,
+        "speed": 160
+    },
+    "evolution_chain": {
+        "species": "nincada",
+        "id": 290,
+        "sprite": "/static/sprites/pokemon/290.gif",
+        "evolves_to": [
+            {
+                "species": "ninjask",
+                "id": 291,
+                "sprite": "/static/sprites/pokemon/291.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 20,
+                        "item": null
+                    }
+                ],
+                "next": []
+            },
+            {
+                "species": "shedinja",
+                "id": 292,
+                "sprite": "/static/sprites/pokemon/292.gif",
+                "details": [
+                    {
+                        "trigger": "shed",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/291.gif"
+}

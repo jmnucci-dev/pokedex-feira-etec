@@ -1,0 +1,67 @@
+{
+    "id": 397,
+    "name": "staravia",
+    "category": "Starling Pokémon",
+    "description": "It flies around forests and fields in search of bug Pokémon. It stays within a huge flock.",
+    "generation": "generation-iv",
+    "height": 6,
+    "weight": 155,
+    "base_experience": 119,
+    "types": [
+        "normal",
+        "flying"
+    ],
+    "abilities": [
+        {
+            "name": "intimidate",
+            "is_hidden": false
+        },
+        {
+            "name": "reckless",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 55,
+        "attack": 75,
+        "defense": 50,
+        "special-attack": 40,
+        "special-defense": 40,
+        "speed": 80
+    },
+    "evolution_chain": {
+        "species": "starly",
+        "id": 396,
+        "sprite": "/static/sprites/pokemon/396.gif",
+        "evolves_to": [
+            {
+                "species": "staravia",
+                "id": 397,
+                "sprite": "/static/sprites/pokemon/397.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 14,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "staraptor",
+                        "id": 398,
+                        "sprite": "/static/sprites/pokemon/398.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 34,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/397.gif"
+}

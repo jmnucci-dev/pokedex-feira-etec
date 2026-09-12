@@ -1,0 +1,67 @@
+{
+    "id": 256,
+    "name": "combusken",
+    "category": "Young Fowl Pokémon",
+    "description": "COMBUSKEN toughens up its legs and thighs by running through fields and mountains. This POKéMON’s legs possess both speed and power, enabling it to dole out ten kicks in one second.",
+    "generation": "generation-iii",
+    "height": 9,
+    "weight": 195,
+    "base_experience": 142,
+    "types": [
+        "fire",
+        "fighting"
+    ],
+    "abilities": [
+        {
+            "name": "blaze",
+            "is_hidden": false
+        },
+        {
+            "name": "speed-boost",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 60,
+        "attack": 85,
+        "defense": 60,
+        "special-attack": 85,
+        "special-defense": 60,
+        "speed": 55
+    },
+    "evolution_chain": {
+        "species": "torchic",
+        "id": 255,
+        "sprite": "/static/sprites/pokemon/255.gif",
+        "evolves_to": [
+            {
+                "species": "combusken",
+                "id": 256,
+                "sprite": "/static/sprites/pokemon/256.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 16,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "blaziken",
+                        "id": 257,
+                        "sprite": "/static/sprites/pokemon/257.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 36,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/256.gif"
+}

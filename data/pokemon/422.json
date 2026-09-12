@@ -1,0 +1,56 @@
+{
+    "id": 422,
+    "name": "shellos",
+    "category": "Sea Slug Pokémon",
+    "description": "Its colors and shapes differ from region to region. In the Sinnoh region, two types are confirmed.",
+    "generation": "generation-iv",
+    "height": 3,
+    "weight": 63,
+    "base_experience": 65,
+    "types": [
+        "water"
+    ],
+    "abilities": [
+        {
+            "name": "sticky-hold",
+            "is_hidden": false
+        },
+        {
+            "name": "storm-drain",
+            "is_hidden": false
+        },
+        {
+            "name": "sand-force",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 76,
+        "attack": 48,
+        "defense": 48,
+        "special-attack": 57,
+        "special-defense": 62,
+        "speed": 34
+    },
+    "evolution_chain": {
+        "species": "shellos",
+        "id": 422,
+        "sprite": "/static/sprites/pokemon/422.gif",
+        "evolves_to": [
+            {
+                "species": "gastrodon",
+                "id": 423,
+                "sprite": "/static/sprites/pokemon/423.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 30,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/422.gif"
+}

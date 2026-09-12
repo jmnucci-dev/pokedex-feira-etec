@@ -1,0 +1,70 @@
+{
+    "id": 577,
+    "name": "solosis",
+    "category": "Cell Pokémon",
+    "description": "They drive away attackers by unleashing psychic power. They can use telepathy to talk with others.",
+    "generation": "generation-v",
+    "height": 3,
+    "weight": 10,
+    "base_experience": 58,
+    "types": [
+        "psychic"
+    ],
+    "abilities": [
+        {
+            "name": "overcoat",
+            "is_hidden": false
+        },
+        {
+            "name": "magic-guard",
+            "is_hidden": false
+        },
+        {
+            "name": "regenerator",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 45,
+        "attack": 30,
+        "defense": 40,
+        "special-attack": 105,
+        "special-defense": 50,
+        "speed": 20
+    },
+    "evolution_chain": {
+        "species": "solosis",
+        "id": 577,
+        "sprite": "/static/sprites/pokemon/577.gif",
+        "evolves_to": [
+            {
+                "species": "duosion",
+                "id": 578,
+                "sprite": "/static/sprites/pokemon/578.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 32,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "reuniclus",
+                        "id": 579,
+                        "sprite": "/static/sprites/pokemon/579.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 41,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/577.gif"
+}

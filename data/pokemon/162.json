@@ -1,0 +1,56 @@
+{
+    "id": 162,
+    "name": "furret",
+    "category": "Long Body Pokémon",
+    "description": "It makes a nest to suit its long and skinny body. The nest is impossible for other POKéMON to enter.",
+    "generation": "generation-ii",
+    "height": 18,
+    "weight": 325,
+    "base_experience": 145,
+    "types": [
+        "normal"
+    ],
+    "abilities": [
+        {
+            "name": "run-away",
+            "is_hidden": false
+        },
+        {
+            "name": "keen-eye",
+            "is_hidden": false
+        },
+        {
+            "name": "frisk",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 85,
+        "attack": 76,
+        "defense": 64,
+        "special-attack": 45,
+        "special-defense": 55,
+        "speed": 90
+    },
+    "evolution_chain": {
+        "species": "sentret",
+        "id": 161,
+        "sprite": "/static/sprites/pokemon/161.gif",
+        "evolves_to": [
+            {
+                "species": "furret",
+                "id": 162,
+                "sprite": "/static/sprites/pokemon/162.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 15,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/162.gif"
+}

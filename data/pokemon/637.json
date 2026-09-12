@@ -1,0 +1,53 @@
+{
+    "id": 637,
+    "name": "volcarona",
+    "category": "Sun Pokémon",
+    "description": "When volcanic ash darkened the atmosphere, it is said that Volcarona’s fire provided a replacement for the sun.",
+    "generation": "generation-v",
+    "height": 16,
+    "weight": 460,
+    "base_experience": 248,
+    "types": [
+        "bug",
+        "fire"
+    ],
+    "abilities": [
+        {
+            "name": "flame-body",
+            "is_hidden": false
+        },
+        {
+            "name": "swarm",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 85,
+        "attack": 60,
+        "defense": 65,
+        "special-attack": 135,
+        "special-defense": 105,
+        "speed": 100
+    },
+    "evolution_chain": {
+        "species": "larvesta",
+        "id": 636,
+        "sprite": "/static/sprites/pokemon/636.gif",
+        "evolves_to": [
+            {
+                "species": "volcarona",
+                "id": 637,
+                "sprite": "/static/sprites/pokemon/637.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 59,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/637.gif"
+}

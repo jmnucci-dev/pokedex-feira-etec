@@ -1,0 +1,56 @@
+{
+    "id": 285,
+    "name": "shroomish",
+    "category": "Mushroom Pokémon",
+    "description": "SHROOMISH live in damp soil in the dark depths of forests. They are often found keeping still under fallen leaves. This POKéMON feeds on compost that is made up of fallen, rotted leaves.",
+    "generation": "generation-iii",
+    "height": 4,
+    "weight": 45,
+    "base_experience": 59,
+    "types": [
+        "grass"
+    ],
+    "abilities": [
+        {
+            "name": "effect-spore",
+            "is_hidden": false
+        },
+        {
+            "name": "poison-heal",
+            "is_hidden": false
+        },
+        {
+            "name": "quick-feet",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 60,
+        "attack": 40,
+        "defense": 60,
+        "special-attack": 40,
+        "special-defense": 60,
+        "speed": 35
+    },
+    "evolution_chain": {
+        "species": "shroomish",
+        "id": 285,
+        "sprite": "/static/sprites/pokemon/285.gif",
+        "evolves_to": [
+            {
+                "species": "breloom",
+                "id": 286,
+                "sprite": "/static/sprites/pokemon/286.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 23,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/285.gif"
+}

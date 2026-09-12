@@ -1,0 +1,94 @@
+{
+    "id": 267,
+    "name": "beautifly",
+    "category": "Butterfly Pokémon",
+    "description": "BEAUTIFLY’s favorite food is the sweet pollen of flowers. If you want to see this POKéMON, just leave a potted flower by an open window. BEAUTIFLY is sure to come looking for pollen.",
+    "generation": "generation-iii",
+    "height": 10,
+    "weight": 284,
+    "base_experience": 178,
+    "types": [
+        "bug",
+        "flying"
+    ],
+    "abilities": [
+        {
+            "name": "swarm",
+            "is_hidden": false
+        },
+        {
+            "name": "rivalry",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 60,
+        "attack": 70,
+        "defense": 50,
+        "special-attack": 100,
+        "special-defense": 50,
+        "speed": 65
+    },
+    "evolution_chain": {
+        "species": "wurmple",
+        "id": 265,
+        "sprite": "/static/sprites/pokemon/265.gif",
+        "evolves_to": [
+            {
+                "species": "silcoon",
+                "id": 266,
+                "sprite": "/static/sprites/pokemon/266.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 7,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "beautifly",
+                        "id": 267,
+                        "sprite": "/static/sprites/pokemon/267.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 10,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            },
+            {
+                "species": "cascoon",
+                "id": 268,
+                "sprite": "/static/sprites/pokemon/268.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 7,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "dustox",
+                        "id": 269,
+                        "sprite": "/static/sprites/pokemon/269.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 10,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/267.gif"
+}

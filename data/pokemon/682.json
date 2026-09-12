@@ -1,0 +1,52 @@
+{
+    "id": 682,
+    "name": "spritzee",
+    "category": "Perfume Pokémon",
+    "description": "It emits a scent that enraptures those who smell it. This fragrance changes depending on what it has eaten.",
+    "generation": "generation-vi",
+    "height": 2,
+    "weight": 5,
+    "base_experience": 68,
+    "types": [
+        "fairy"
+    ],
+    "abilities": [
+        {
+            "name": "healer",
+            "is_hidden": false
+        },
+        {
+            "name": "aroma-veil",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 78,
+        "attack": 52,
+        "defense": 60,
+        "special-attack": 63,
+        "special-defense": 65,
+        "speed": 23
+    },
+    "evolution_chain": {
+        "species": "spritzee",
+        "id": 682,
+        "sprite": "/static/sprites/pokemon/682.png",
+        "evolves_to": [
+            {
+                "species": "aromatisse",
+                "id": 683,
+                "sprite": "/static/sprites/pokemon/683.png",
+                "details": [
+                    {
+                        "trigger": "trade",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/682.png"
+}

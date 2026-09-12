@@ -1,0 +1,53 @@
+{
+    "id": 752,
+    "name": "araquanid",
+    "category": "Water Bubble Pokémon",
+    "description": "It delivers headbutts with the water bubble on its head. Small Pokémon get sucked into the bubble, where they drown.",
+    "generation": "generation-vii",
+    "height": 18,
+    "weight": 820,
+    "base_experience": 159,
+    "types": [
+        "water",
+        "bug"
+    ],
+    "abilities": [
+        {
+            "name": "water-bubble",
+            "is_hidden": false
+        },
+        {
+            "name": "water-absorb",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 68,
+        "attack": 70,
+        "defense": 92,
+        "special-attack": 50,
+        "special-defense": 132,
+        "speed": 42
+    },
+    "evolution_chain": {
+        "species": "dewpider",
+        "id": 751,
+        "sprite": "/static/sprites/pokemon/751.gif",
+        "evolves_to": [
+            {
+                "species": "araquanid",
+                "id": 752,
+                "sprite": "/static/sprites/pokemon/752.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 22,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/752.gif"
+}

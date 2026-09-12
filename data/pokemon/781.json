@@ -1,0 +1,35 @@
+{
+    "id": 781,
+    "name": "dhelmise",
+    "category": "Sea Creeper Pokémon",
+    "description": "Swinging its massive anchor, it can KO Wailord in a single blow. What appears to be green seaweed is actually its body.",
+    "generation": "generation-vii",
+    "height": 39,
+    "weight": 2100,
+    "base_experience": 181,
+    "types": [
+        "ghost",
+        "grass"
+    ],
+    "abilities": [
+        {
+            "name": "steelworker",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 70,
+        "attack": 131,
+        "defense": 100,
+        "special-attack": 86,
+        "special-defense": 90,
+        "speed": 40
+    },
+    "evolution_chain": {
+        "species": "dhelmise",
+        "id": 781,
+        "sprite": "/static/sprites/pokemon/781.gif",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/781.gif"
+}

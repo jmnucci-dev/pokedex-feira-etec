@@ -1,0 +1,66 @@
+{
+    "id": 650,
+    "name": "chespin",
+    "category": "Spiny Nut Pokémon",
+    "description": "The quills on its head are usually soft. When it flexes them, the points become so hard and sharp that they can pierce rock.",
+    "generation": "generation-vi",
+    "height": 4,
+    "weight": 90,
+    "base_experience": 63,
+    "types": [
+        "grass"
+    ],
+    "abilities": [
+        {
+            "name": "overgrow",
+            "is_hidden": false
+        },
+        {
+            "name": "bulletproof",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 56,
+        "attack": 61,
+        "defense": 65,
+        "special-attack": 48,
+        "special-defense": 45,
+        "speed": 38
+    },
+    "evolution_chain": {
+        "species": "chespin",
+        "id": 650,
+        "sprite": "/static/sprites/pokemon/650.png",
+        "evolves_to": [
+            {
+                "species": "quilladin",
+                "id": 651,
+                "sprite": "/static/sprites/pokemon/651.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 16,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "chesnaught",
+                        "id": 652,
+                        "sprite": "/static/sprites/pokemon/652.png",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 36,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/650.png"
+}

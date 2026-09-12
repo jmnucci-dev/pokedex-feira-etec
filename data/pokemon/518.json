@@ -1,0 +1,56 @@
+{
+    "id": 518,
+    "name": "musharna",
+    "category": "Drowsing Pokémon",
+    "description": "The mist emanating from their foreheads is packed with the dreams of people and Pokémon.",
+    "generation": "generation-v",
+    "height": 11,
+    "weight": 605,
+    "base_experience": 170,
+    "types": [
+        "psychic"
+    ],
+    "abilities": [
+        {
+            "name": "forewarn",
+            "is_hidden": false
+        },
+        {
+            "name": "synchronize",
+            "is_hidden": false
+        },
+        {
+            "name": "telepathy",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 116,
+        "attack": 55,
+        "defense": 85,
+        "special-attack": 107,
+        "special-defense": 95,
+        "speed": 29
+    },
+    "evolution_chain": {
+        "species": "munna",
+        "id": 517,
+        "sprite": "/static/sprites/pokemon/517.gif",
+        "evolves_to": [
+            {
+                "species": "musharna",
+                "id": 518,
+                "sprite": "/static/sprites/pokemon/518.gif",
+                "details": [
+                    {
+                        "trigger": "use-item",
+                        "min_level": null,
+                        "item": "moon-stone"
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/518.gif"
+}

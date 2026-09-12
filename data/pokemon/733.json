@@ -1,0 +1,71 @@
+{
+    "id": 733,
+    "name": "toucannon",
+    "category": "Cannon Pokémon",
+    "description": "When it battles, its beak heats up. The temperature can easily exceed 212 degrees Fahrenheit, causing severe burns when it hits.",
+    "generation": "generation-vii",
+    "height": 11,
+    "weight": 260,
+    "base_experience": 218,
+    "types": [
+        "normal",
+        "flying"
+    ],
+    "abilities": [
+        {
+            "name": "keen-eye",
+            "is_hidden": false
+        },
+        {
+            "name": "skill-link",
+            "is_hidden": false
+        },
+        {
+            "name": "sheer-force",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 80,
+        "attack": 120,
+        "defense": 75,
+        "special-attack": 75,
+        "special-defense": 75,
+        "speed": 60
+    },
+    "evolution_chain": {
+        "species": "pikipek",
+        "id": 731,
+        "sprite": "/static/sprites/pokemon/731.gif",
+        "evolves_to": [
+            {
+                "species": "trumbeak",
+                "id": 732,
+                "sprite": "/static/sprites/pokemon/732.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 14,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "toucannon",
+                        "id": 733,
+                        "sprite": "/static/sprites/pokemon/733.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 28,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/733.gif"
+}

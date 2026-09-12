@@ -1,0 +1,74 @@
+{
+    "id": 53,
+    "name": "persian",
+    "category": "Classy Cat Pokémon",
+    "description": "Although its fur has many admirers, it is tough to raise as a pet because of its fickle meanness.",
+    "generation": "generation-i",
+    "height": 10,
+    "weight": 320,
+    "base_experience": 154,
+    "types": [
+        "normal"
+    ],
+    "abilities": [
+        {
+            "name": "limber",
+            "is_hidden": false
+        },
+        {
+            "name": "technician",
+            "is_hidden": false
+        },
+        {
+            "name": "unnerve",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 65,
+        "attack": 70,
+        "defense": 60,
+        "special-attack": 65,
+        "special-defense": 65,
+        "speed": 115
+    },
+    "evolution_chain": {
+        "species": "meowth",
+        "id": 52,
+        "sprite": "/static/sprites/pokemon/52.gif",
+        "evolves_to": [
+            {
+                "species": "persian",
+                "id": 53,
+                "sprite": "/static/sprites/pokemon/53.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 28,
+                        "item": null
+                    },
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": []
+            },
+            {
+                "species": "perrserker",
+                "id": 863,
+                "sprite": "/static/sprites/pokemon/863.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 28,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/53.gif"
+}

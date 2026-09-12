@@ -1,0 +1,39 @@
+{
+    "id": 788,
+    "name": "tapu-fini",
+    "category": "Land Spirit Pokémon",
+    "description": "The dense fog it creates brings the downfall and destruction of its confused enemies. Ocean currents are the source of its energy.",
+    "generation": "generation-vii",
+    "height": 13,
+    "weight": 212,
+    "base_experience": 257,
+    "types": [
+        "water",
+        "fairy"
+    ],
+    "abilities": [
+        {
+            "name": "misty-surge",
+            "is_hidden": false
+        },
+        {
+            "name": "telepathy",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 70,
+        "attack": 75,
+        "defense": 115,
+        "special-attack": 95,
+        "special-defense": 130,
+        "speed": 85
+    },
+    "evolution_chain": {
+        "species": "tapu-fini",
+        "id": 788,
+        "sprite": "/static/sprites/pokemon/788.png",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/788.png"
+}

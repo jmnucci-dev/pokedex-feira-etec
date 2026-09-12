@@ -1,0 +1,70 @@
+{
+    "id": 29,
+    "name": "nidoran-f",
+    "category": "Poison Pin Pokémon",
+    "description": "Although small, its venomous barbs render this POKéMON dangerous. The female has smaller horns.",
+    "generation": "generation-i",
+    "height": 4,
+    "weight": 70,
+    "base_experience": 55,
+    "types": [
+        "poison"
+    ],
+    "abilities": [
+        {
+            "name": "poison-point",
+            "is_hidden": false
+        },
+        {
+            "name": "rivalry",
+            "is_hidden": false
+        },
+        {
+            "name": "hustle",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 55,
+        "attack": 47,
+        "defense": 52,
+        "special-attack": 40,
+        "special-defense": 40,
+        "speed": 41
+    },
+    "evolution_chain": {
+        "species": "nidoran-f",
+        "id": 29,
+        "sprite": "/static/sprites/pokemon/29.gif",
+        "evolves_to": [
+            {
+                "species": "nidorina",
+                "id": 30,
+                "sprite": "/static/sprites/pokemon/30.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 16,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "nidoqueen",
+                        "id": 31,
+                        "sprite": "/static/sprites/pokemon/31.gif",
+                        "details": [
+                            {
+                                "trigger": "use-item",
+                                "min_level": null,
+                                "item": "moon-stone"
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/29.gif"
+}

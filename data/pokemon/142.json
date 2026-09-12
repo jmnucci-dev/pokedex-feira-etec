@@ -1,0 +1,43 @@
+{
+    "id": 142,
+    "name": "aerodactyl",
+    "category": "Fossil Pokémon",
+    "description": "A ferocious, pre­ historic POKéMON that goes for the enemy's throat with its serrated saw-like fangs.",
+    "generation": "generation-i",
+    "height": 18,
+    "weight": 590,
+    "base_experience": 180,
+    "types": [
+        "rock",
+        "flying"
+    ],
+    "abilities": [
+        {
+            "name": "rock-head",
+            "is_hidden": false
+        },
+        {
+            "name": "pressure",
+            "is_hidden": false
+        },
+        {
+            "name": "unnerve",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 80,
+        "attack": 105,
+        "defense": 65,
+        "special-attack": 60,
+        "special-defense": 75,
+        "speed": 130
+    },
+    "evolution_chain": {
+        "species": "aerodactyl",
+        "id": 142,
+        "sprite": "/static/sprites/pokemon/142.gif",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/142.gif"
+}

@@ -1,0 +1,62 @@
+{
+    "id": 740,
+    "name": "crabominable",
+    "category": "Woolly Crab Pokémon",
+    "description": "It aimed for the top but got lost and ended up on a snowy mountain. Being forced to endure the cold, this Pokémon evolved and grew fur.",
+    "generation": "generation-vii",
+    "height": 17,
+    "weight": 1800,
+    "base_experience": 167,
+    "types": [
+        "fighting",
+        "ice"
+    ],
+    "abilities": [
+        {
+            "name": "hyper-cutter",
+            "is_hidden": false
+        },
+        {
+            "name": "iron-fist",
+            "is_hidden": false
+        },
+        {
+            "name": "anger-point",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 97,
+        "attack": 132,
+        "defense": 77,
+        "special-attack": 62,
+        "special-defense": 67,
+        "speed": 43
+    },
+    "evolution_chain": {
+        "species": "crabrawler",
+        "id": 739,
+        "sprite": "/static/sprites/pokemon/739.gif",
+        "evolves_to": [
+            {
+                "species": "crabominable",
+                "id": 740,
+                "sprite": "/static/sprites/pokemon/740.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    },
+                    {
+                        "trigger": "use-item",
+                        "min_level": null,
+                        "item": "ice-stone"
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/740.gif"
+}

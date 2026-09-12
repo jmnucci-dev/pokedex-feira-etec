@@ -1,0 +1,43 @@
+{
+    "id": 973,
+    "name": "flamigo",
+    "category": "Synchronize Pokémon",
+    "description": "This Pokémon apparently ties the base of its neck into a knot so that energy stored in its belly does not escape from its beak.",
+    "generation": "generation-ix",
+    "height": 16,
+    "weight": 370,
+    "base_experience": 175,
+    "types": [
+        "flying",
+        "fighting"
+    ],
+    "abilities": [
+        {
+            "name": "scrappy",
+            "is_hidden": false
+        },
+        {
+            "name": "tangled-feet",
+            "is_hidden": false
+        },
+        {
+            "name": "costar",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 82,
+        "attack": 115,
+        "defense": 74,
+        "special-attack": 75,
+        "special-defense": 64,
+        "speed": 90
+    },
+    "evolution_chain": {
+        "species": "flamigo",
+        "id": 973,
+        "sprite": "/static/sprites/pokemon/973.png",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/973.png"
+}

@@ -1,0 +1,65 @@
+{
+    "id": 366,
+    "name": "clamperl",
+    "category": "Bivalve Pokémon",
+    "description": "CLAMPERL’s sturdy shell is not only good for protection - it is also used for clamping and catching prey. A fully grown CLAMPERL’s shell will be scored with nicks and scratches all over.",
+    "generation": "generation-iii",
+    "height": 4,
+    "weight": 525,
+    "base_experience": 69,
+    "types": [
+        "water"
+    ],
+    "abilities": [
+        {
+            "name": "shell-armor",
+            "is_hidden": false
+        },
+        {
+            "name": "rattled",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 35,
+        "attack": 64,
+        "defense": 85,
+        "special-attack": 74,
+        "special-defense": 55,
+        "speed": 32
+    },
+    "evolution_chain": {
+        "species": "clamperl",
+        "id": 366,
+        "sprite": "/static/sprites/pokemon/366.gif",
+        "evolves_to": [
+            {
+                "species": "huntail",
+                "id": 367,
+                "sprite": "/static/sprites/pokemon/367.gif",
+                "details": [
+                    {
+                        "trigger": "trade",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": []
+            },
+            {
+                "species": "gorebyss",
+                "id": 368,
+                "sprite": "/static/sprites/pokemon/368.gif",
+                "details": [
+                    {
+                        "trigger": "trade",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/366.gif"
+}

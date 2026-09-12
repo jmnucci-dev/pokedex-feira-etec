@@ -1,0 +1,72 @@
+{
+    "id": 723,
+    "name": "dartrix",
+    "category": "Blade Quill Pokémon",
+    "description": "A bit of a dandy, it spends its free time preening its wings. Its preoccupation with any dirt on its plumage can leave it unable to battle.",
+    "generation": "generation-vii",
+    "height": 7,
+    "weight": 160,
+    "base_experience": 147,
+    "types": [
+        "grass",
+        "flying"
+    ],
+    "abilities": [
+        {
+            "name": "overgrow",
+            "is_hidden": false
+        },
+        {
+            "name": "long-reach",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 78,
+        "attack": 75,
+        "defense": 75,
+        "special-attack": 70,
+        "special-defense": 70,
+        "speed": 52
+    },
+    "evolution_chain": {
+        "species": "rowlet",
+        "id": 722,
+        "sprite": "/static/sprites/pokemon/722.gif",
+        "evolves_to": [
+            {
+                "species": "dartrix",
+                "id": 723,
+                "sprite": "/static/sprites/pokemon/723.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 17,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "decidueye",
+                        "id": 724,
+                        "sprite": "/static/sprites/pokemon/724.png",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 34,
+                                "item": null
+                            },
+                            {
+                                "trigger": "level-up",
+                                "min_level": 36,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/723.png"
+}

@@ -1,0 +1,35 @@
+{
+    "id": 639,
+    "name": "terrakion",
+    "category": "Cavern Pokémon",
+    "description": "This Pokémon came to the defense of Pokémon that had lost their homes in a war among humans.",
+    "generation": "generation-v",
+    "height": 19,
+    "weight": 2600,
+    "base_experience": 261,
+    "types": [
+        "rock",
+        "fighting"
+    ],
+    "abilities": [
+        {
+            "name": "justified",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 91,
+        "attack": 129,
+        "defense": 90,
+        "special-attack": 72,
+        "special-defense": 90,
+        "speed": 108
+    },
+    "evolution_chain": {
+        "species": "terrakion",
+        "id": 639,
+        "sprite": "/static/sprites/pokemon/639.gif",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/639.gif"
+}

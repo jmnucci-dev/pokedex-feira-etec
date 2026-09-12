@@ -1,0 +1,52 @@
+{
+    "id": 512,
+    "name": "simisage",
+    "category": "Thorn Monkey Pokémon",
+    "description": "Ill tempered, it fights by swinging its barbed tail around wildly. The leaf growing on its head is very bitter.",
+    "generation": "generation-v",
+    "height": 11,
+    "weight": 305,
+    "base_experience": 174,
+    "types": [
+        "grass"
+    ],
+    "abilities": [
+        {
+            "name": "gluttony",
+            "is_hidden": false
+        },
+        {
+            "name": "overgrow",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 75,
+        "attack": 98,
+        "defense": 63,
+        "special-attack": 98,
+        "special-defense": 63,
+        "speed": 101
+    },
+    "evolution_chain": {
+        "species": "pansage",
+        "id": 511,
+        "sprite": "/static/sprites/pokemon/511.gif",
+        "evolves_to": [
+            {
+                "species": "simisage",
+                "id": 512,
+                "sprite": "/static/sprites/pokemon/512.gif",
+                "details": [
+                    {
+                        "trigger": "use-item",
+                        "min_level": null,
+                        "item": "leaf-stone"
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/512.gif"
+}

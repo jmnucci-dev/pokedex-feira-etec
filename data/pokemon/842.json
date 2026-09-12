@@ -1,0 +1,97 @@
+{
+    "id": 842,
+    "name": "appletun",
+    "category": "Apple Nectar Pokémon",
+    "description": "Eating a sweet apple caused its evolution. A nectarous scent wafts from its body, luring in the bug Pokémon it preys on.",
+    "generation": "generation-viii",
+    "height": 4,
+    "weight": 130,
+    "base_experience": 170,
+    "types": [
+        "grass",
+        "dragon"
+    ],
+    "abilities": [
+        {
+            "name": "ripen",
+            "is_hidden": false
+        },
+        {
+            "name": "gluttony",
+            "is_hidden": false
+        },
+        {
+            "name": "thick-fat",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 110,
+        "attack": 85,
+        "defense": 80,
+        "special-attack": 100,
+        "special-defense": 80,
+        "speed": 30
+    },
+    "evolution_chain": {
+        "species": "applin",
+        "id": 840,
+        "sprite": "/static/sprites/pokemon/840.gif",
+        "evolves_to": [
+            {
+                "species": "flapple",
+                "id": 841,
+                "sprite": "/static/sprites/pokemon/841.png",
+                "details": [
+                    {
+                        "trigger": "use-item",
+                        "min_level": null,
+                        "item": "tart-apple"
+                    }
+                ],
+                "next": []
+            },
+            {
+                "species": "appletun",
+                "id": 842,
+                "sprite": "/static/sprites/pokemon/842.png",
+                "details": [
+                    {
+                        "trigger": "use-item",
+                        "min_level": null,
+                        "item": "sweet-apple"
+                    }
+                ],
+                "next": []
+            },
+            {
+                "species": "dipplin",
+                "id": 1011,
+                "sprite": "/static/sprites/pokemon/1011.png",
+                "details": [
+                    {
+                        "trigger": "use-item",
+                        "min_level": null,
+                        "item": "syrupy-apple"
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "hydrapple",
+                        "id": 1019,
+                        "sprite": "/static/sprites/pokemon/1019.png",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": null,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/842.png"
+}

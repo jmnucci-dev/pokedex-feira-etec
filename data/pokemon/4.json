@@ -1,0 +1,66 @@
+{
+    "id": 4,
+    "name": "charmander",
+    "category": "Lizard Pokémon",
+    "description": "Obviously prefers hot places. When it rains, steam is said to spout from the tip of its tail.",
+    "generation": "generation-i",
+    "height": 6,
+    "weight": 85,
+    "base_experience": 62,
+    "types": [
+        "fire"
+    ],
+    "abilities": [
+        {
+            "name": "blaze",
+            "is_hidden": false
+        },
+        {
+            "name": "solar-power",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 39,
+        "attack": 52,
+        "defense": 43,
+        "special-attack": 60,
+        "special-defense": 50,
+        "speed": 65
+    },
+    "evolution_chain": {
+        "species": "charmander",
+        "id": 4,
+        "sprite": "/static/sprites/pokemon/4.gif",
+        "evolves_to": [
+            {
+                "species": "charmeleon",
+                "id": 5,
+                "sprite": "/static/sprites/pokemon/5.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 16,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "charizard",
+                        "id": 6,
+                        "sprite": "/static/sprites/pokemon/6.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 36,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/4.gif"
+}

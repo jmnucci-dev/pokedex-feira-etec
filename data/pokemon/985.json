@@ -1,0 +1,35 @@
+{
+    "id": 985,
+    "name": "scream-tail",
+    "category": "Paradox Pokémon",
+    "description": "There has been only one reported sighting of this Pokémon. It resembles a mysterious creature depicted in an old expedition journal.",
+    "generation": "generation-ix",
+    "height": 12,
+    "weight": 80,
+    "base_experience": 285,
+    "types": [
+        "fairy",
+        "psychic"
+    ],
+    "abilities": [
+        {
+            "name": "protosynthesis",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 115,
+        "attack": 65,
+        "defense": 99,
+        "special-attack": 65,
+        "special-defense": 115,
+        "speed": 111
+    },
+    "evolution_chain": {
+        "species": "scream-tail",
+        "id": 985,
+        "sprite": "/static/sprites/pokemon/985.png",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/985.png"
+}

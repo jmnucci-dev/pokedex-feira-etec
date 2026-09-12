@@ -1,0 +1,57 @@
+{
+    "id": 437,
+    "name": "bronzong",
+    "category": "Bronze Bell Pokémon",
+    "description": "One caused a news sensation when it was dug up at a construction site after a 2,000-year sleep.",
+    "generation": "generation-iv",
+    "height": 13,
+    "weight": 1870,
+    "base_experience": 175,
+    "types": [
+        "steel",
+        "psychic"
+    ],
+    "abilities": [
+        {
+            "name": "levitate",
+            "is_hidden": false
+        },
+        {
+            "name": "heatproof",
+            "is_hidden": false
+        },
+        {
+            "name": "heavy-metal",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 67,
+        "attack": 89,
+        "defense": 116,
+        "special-attack": 79,
+        "special-defense": 116,
+        "speed": 33
+    },
+    "evolution_chain": {
+        "species": "bronzor",
+        "id": 436,
+        "sprite": "/static/sprites/pokemon/436.gif",
+        "evolves_to": [
+            {
+                "species": "bronzong",
+                "id": 437,
+                "sprite": "/static/sprites/pokemon/437.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 33,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/437.gif"
+}

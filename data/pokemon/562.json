@@ -1,0 +1,61 @@
+{
+    "id": 562,
+    "name": "yamask",
+    "category": "Spirit Pokémon",
+    "description": "Each of them carries a mask that used to be its face when it was human. Sometimes they look at it and cry.",
+    "generation": "generation-v",
+    "height": 5,
+    "weight": 15,
+    "base_experience": 61,
+    "types": [
+        "ghost"
+    ],
+    "abilities": [
+        {
+            "name": "mummy",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 38,
+        "attack": 30,
+        "defense": 85,
+        "special-attack": 55,
+        "special-defense": 65,
+        "speed": 30
+    },
+    "evolution_chain": {
+        "species": "yamask",
+        "id": 562,
+        "sprite": "/static/sprites/pokemon/562.gif",
+        "evolves_to": [
+            {
+                "species": "cofagrigus",
+                "id": 563,
+                "sprite": "/static/sprites/pokemon/563.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 34,
+                        "item": null
+                    }
+                ],
+                "next": []
+            },
+            {
+                "species": "runerigus",
+                "id": 867,
+                "sprite": "/static/sprites/pokemon/867.gif",
+                "details": [
+                    {
+                        "trigger": "take-damage",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/562.gif"
+}

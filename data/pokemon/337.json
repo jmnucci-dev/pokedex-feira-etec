@@ -1,0 +1,35 @@
+{
+    "id": 337,
+    "name": "lunatone",
+    "category": "Meteorite Pokémon",
+    "description": "LUNATONE was discovered at a location where a meteorite fell. As a result, some people theorize that this POKéMON came from space. However, no one has been able to prove this theory so far.",
+    "generation": "generation-iii",
+    "height": 10,
+    "weight": 1680,
+    "base_experience": 161,
+    "types": [
+        "rock",
+        "psychic"
+    ],
+    "abilities": [
+        {
+            "name": "levitate",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 90,
+        "attack": 55,
+        "defense": 65,
+        "special-attack": 95,
+        "special-defense": 85,
+        "speed": 70
+    },
+    "evolution_chain": {
+        "species": "lunatone",
+        "id": 337,
+        "sprite": "/static/sprites/pokemon/337.gif",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/337.gif"
+}

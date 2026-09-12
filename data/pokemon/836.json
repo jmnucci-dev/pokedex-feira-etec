@@ -1,0 +1,52 @@
+{
+    "id": 836,
+    "name": "boltund",
+    "category": "Dog Pokémon",
+    "description": "This Pokémon generates electricity and channels it into its legs to keep them going strong. Boltund can run nonstop for three full days.",
+    "generation": "generation-viii",
+    "height": 10,
+    "weight": 340,
+    "base_experience": 172,
+    "types": [
+        "electric"
+    ],
+    "abilities": [
+        {
+            "name": "strong-jaw",
+            "is_hidden": false
+        },
+        {
+            "name": "competitive",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 69,
+        "attack": 90,
+        "defense": 60,
+        "special-attack": 90,
+        "special-defense": 60,
+        "speed": 121
+    },
+    "evolution_chain": {
+        "species": "yamper",
+        "id": 835,
+        "sprite": "/static/sprites/pokemon/835.gif",
+        "evolves_to": [
+            {
+                "species": "boltund",
+                "id": 836,
+                "sprite": "/static/sprites/pokemon/836.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 25,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/836.png"
+}

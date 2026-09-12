@@ -1,0 +1,42 @@
+{
+    "id": 241,
+    "name": "miltank",
+    "category": "Milk Cow Pokémon",
+    "description": "Its milk is packed with nutrition, making it the ultimate beverage for the sick or weary.",
+    "generation": "generation-ii",
+    "height": 12,
+    "weight": 755,
+    "base_experience": 172,
+    "types": [
+        "normal"
+    ],
+    "abilities": [
+        {
+            "name": "thick-fat",
+            "is_hidden": false
+        },
+        {
+            "name": "scrappy",
+            "is_hidden": false
+        },
+        {
+            "name": "sap-sipper",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 95,
+        "attack": 80,
+        "defense": 105,
+        "special-attack": 40,
+        "special-defense": 70,
+        "speed": 100
+    },
+    "evolution_chain": {
+        "species": "miltank",
+        "id": 241,
+        "sprite": "/static/sprites/pokemon/241.gif",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/241.gif"
+}

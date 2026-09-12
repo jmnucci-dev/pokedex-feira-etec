@@ -1,0 +1,56 @@
+{
+    "id": 614,
+    "name": "beartic",
+    "category": "Freezing Pokémon",
+    "description": "It can make its breath freeze at will. Very able in the water, it swims around in northern seas and catches prey.",
+    "generation": "generation-v",
+    "height": 26,
+    "weight": 2600,
+    "base_experience": 177,
+    "types": [
+        "ice"
+    ],
+    "abilities": [
+        {
+            "name": "snow-cloak",
+            "is_hidden": false
+        },
+        {
+            "name": "slush-rush",
+            "is_hidden": false
+        },
+        {
+            "name": "swift-swim",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 95,
+        "attack": 130,
+        "defense": 80,
+        "special-attack": 70,
+        "special-defense": 80,
+        "speed": 50
+    },
+    "evolution_chain": {
+        "species": "cubchoo",
+        "id": 613,
+        "sprite": "/static/sprites/pokemon/613.gif",
+        "evolves_to": [
+            {
+                "species": "beartic",
+                "id": 614,
+                "sprite": "/static/sprites/pokemon/614.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 37,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/614.gif"
+}

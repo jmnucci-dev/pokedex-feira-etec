@@ -1,0 +1,43 @@
+{
+    "id": 302,
+    "name": "sableye",
+    "category": "Darkness Pokémon",
+    "description": "SABLEYE lead quiet lives deep inside caverns. They are feared, however, because these POKéMON are thought to steal the spirits of people when their eyes burn with a sinister glow in the darkness.",
+    "generation": "generation-iii",
+    "height": 5,
+    "weight": 110,
+    "base_experience": 133,
+    "types": [
+        "dark",
+        "ghost"
+    ],
+    "abilities": [
+        {
+            "name": "keen-eye",
+            "is_hidden": false
+        },
+        {
+            "name": "stall",
+            "is_hidden": false
+        },
+        {
+            "name": "prankster",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 50,
+        "attack": 75,
+        "defense": 75,
+        "special-attack": 65,
+        "special-defense": 65,
+        "speed": 50
+    },
+    "evolution_chain": {
+        "species": "sableye",
+        "id": 302,
+        "sprite": "/static/sprites/pokemon/302.gif",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/302.gif"
+}

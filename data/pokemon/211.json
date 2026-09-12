@@ -1,0 +1,67 @@
+{
+    "id": 211,
+    "name": "qwilfish",
+    "category": "Balloon Pokémon",
+    "description": "To fire its poison spikes, it must inflate its body by drinking over 2.6 gallons of water all at once.",
+    "generation": "generation-ii",
+    "height": 5,
+    "weight": 39,
+    "base_experience": 88,
+    "types": [
+        "water",
+        "poison"
+    ],
+    "abilities": [
+        {
+            "name": "poison-point",
+            "is_hidden": false
+        },
+        {
+            "name": "swift-swim",
+            "is_hidden": false
+        },
+        {
+            "name": "intimidate",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 65,
+        "attack": 95,
+        "defense": 85,
+        "special-attack": 55,
+        "special-defense": 55,
+        "speed": 85
+    },
+    "evolution_chain": {
+        "species": "qwilfish",
+        "id": 211,
+        "sprite": "/static/sprites/pokemon/211.gif",
+        "evolves_to": [
+            {
+                "species": "overqwil",
+                "id": 904,
+                "sprite": "/static/sprites/pokemon/904.gif",
+                "details": [
+                    {
+                        "trigger": "strong-style-move",
+                        "min_level": null,
+                        "item": null
+                    },
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    },
+                    {
+                        "trigger": "use-move",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/211.gif"
+}

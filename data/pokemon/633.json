@@ -1,0 +1,63 @@
+{
+    "id": 633,
+    "name": "deino",
+    "category": "Irate Pokémon",
+    "description": "It tends to bite everything, and it is not a picky eater. Approaching it carelessly is dangerous.",
+    "generation": "generation-v",
+    "height": 8,
+    "weight": 173,
+    "base_experience": 60,
+    "types": [
+        "dark",
+        "dragon"
+    ],
+    "abilities": [
+        {
+            "name": "hustle",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 52,
+        "attack": 65,
+        "defense": 50,
+        "special-attack": 45,
+        "special-defense": 50,
+        "speed": 38
+    },
+    "evolution_chain": {
+        "species": "deino",
+        "id": 633,
+        "sprite": "/static/sprites/pokemon/633.gif",
+        "evolves_to": [
+            {
+                "species": "zweilous",
+                "id": 634,
+                "sprite": "/static/sprites/pokemon/634.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 50,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "hydreigon",
+                        "id": 635,
+                        "sprite": "/static/sprites/pokemon/635.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 64,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/633.gif"
+}

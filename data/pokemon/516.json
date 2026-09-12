@@ -1,0 +1,52 @@
+{
+    "id": 516,
+    "name": "simipour",
+    "category": "Geyser Pokémon",
+    "description": "The tuft on its head holds water. When the level runs low, it replenishes the tuft by siphoning up water with its tail.",
+    "generation": "generation-v",
+    "height": 10,
+    "weight": 290,
+    "base_experience": 174,
+    "types": [
+        "water"
+    ],
+    "abilities": [
+        {
+            "name": "gluttony",
+            "is_hidden": false
+        },
+        {
+            "name": "torrent",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 75,
+        "attack": 98,
+        "defense": 63,
+        "special-attack": 98,
+        "special-defense": 63,
+        "speed": 101
+    },
+    "evolution_chain": {
+        "species": "panpour",
+        "id": 515,
+        "sprite": "/static/sprites/pokemon/515.gif",
+        "evolves_to": [
+            {
+                "species": "simipour",
+                "id": 516,
+                "sprite": "/static/sprites/pokemon/516.gif",
+                "details": [
+                    {
+                        "trigger": "use-item",
+                        "min_level": null,
+                        "item": "water-stone"
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/516.gif"
+}

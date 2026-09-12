@@ -1,0 +1,67 @@
+{
+    "id": 169,
+    "name": "crobat",
+    "category": "Bat Pokémon",
+    "description": "It flies so si­ lently through the dark on its four wings that it may not be noticed even when nearby.",
+    "generation": "generation-ii",
+    "height": 18,
+    "weight": 750,
+    "base_experience": 241,
+    "types": [
+        "poison",
+        "flying"
+    ],
+    "abilities": [
+        {
+            "name": "inner-focus",
+            "is_hidden": false
+        },
+        {
+            "name": "infiltrator",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 85,
+        "attack": 90,
+        "defense": 80,
+        "special-attack": 70,
+        "special-defense": 80,
+        "speed": 130
+    },
+    "evolution_chain": {
+        "species": "zubat",
+        "id": 41,
+        "sprite": "/static/sprites/pokemon/41.gif",
+        "evolves_to": [
+            {
+                "species": "golbat",
+                "id": 42,
+                "sprite": "/static/sprites/pokemon/42.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 22,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "crobat",
+                        "id": 169,
+                        "sprite": "/static/sprites/pokemon/169.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": null,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/169.gif"
+}

@@ -1,0 +1,70 @@
+{
+    "id": 600,
+    "name": "klang",
+    "category": "Gear Pokémon",
+    "description": "By changing the direction in which it rotates, it communicates its feelings to others. When angry, it rotates faster.",
+    "generation": "generation-v",
+    "height": 6,
+    "weight": 510,
+    "base_experience": 154,
+    "types": [
+        "steel"
+    ],
+    "abilities": [
+        {
+            "name": "plus",
+            "is_hidden": false
+        },
+        {
+            "name": "minus",
+            "is_hidden": false
+        },
+        {
+            "name": "clear-body",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 60,
+        "attack": 80,
+        "defense": 95,
+        "special-attack": 70,
+        "special-defense": 85,
+        "speed": 50
+    },
+    "evolution_chain": {
+        "species": "klink",
+        "id": 599,
+        "sprite": "/static/sprites/pokemon/599.gif",
+        "evolves_to": [
+            {
+                "species": "klang",
+                "id": 600,
+                "sprite": "/static/sprites/pokemon/600.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 38,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "klinklang",
+                        "id": 601,
+                        "sprite": "/static/sprites/pokemon/601.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 49,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/600.gif"
+}

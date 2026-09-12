@@ -1,0 +1,56 @@
+{
+    "id": 301,
+    "name": "delcatty",
+    "category": "Prim Pokémon",
+    "description": "DELCATTY prefers to live an unfettered existence in which it can do as it pleases at its own pace. Because this POKéMON eats and sleeps whenever it decides, its daily routines are completely random.",
+    "generation": "generation-iii",
+    "height": 11,
+    "weight": 326,
+    "base_experience": 140,
+    "types": [
+        "normal"
+    ],
+    "abilities": [
+        {
+            "name": "cute-charm",
+            "is_hidden": false
+        },
+        {
+            "name": "normalize",
+            "is_hidden": false
+        },
+        {
+            "name": "wonder-skin",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 70,
+        "attack": 65,
+        "defense": 65,
+        "special-attack": 55,
+        "special-defense": 55,
+        "speed": 90
+    },
+    "evolution_chain": {
+        "species": "skitty",
+        "id": 300,
+        "sprite": "/static/sprites/pokemon/300.gif",
+        "evolves_to": [
+            {
+                "species": "delcatty",
+                "id": 301,
+                "sprite": "/static/sprites/pokemon/301.gif",
+                "details": [
+                    {
+                        "trigger": "use-item",
+                        "min_level": null,
+                        "item": "moon-stone"
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/301.gif"
+}

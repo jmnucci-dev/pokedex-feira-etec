@@ -1,0 +1,57 @@
+{
+    "id": 84,
+    "name": "doduo",
+    "category": "Twin Bird Pokémon",
+    "description": "A bird that makes up for its poor flying with its fast foot speed. Leaves giant footprints.",
+    "generation": "generation-i",
+    "height": 14,
+    "weight": 392,
+    "base_experience": 62,
+    "types": [
+        "normal",
+        "flying"
+    ],
+    "abilities": [
+        {
+            "name": "run-away",
+            "is_hidden": false
+        },
+        {
+            "name": "early-bird",
+            "is_hidden": false
+        },
+        {
+            "name": "tangled-feet",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 35,
+        "attack": 85,
+        "defense": 45,
+        "special-attack": 35,
+        "special-defense": 35,
+        "speed": 75
+    },
+    "evolution_chain": {
+        "species": "doduo",
+        "id": 84,
+        "sprite": "/static/sprites/pokemon/84.gif",
+        "evolves_to": [
+            {
+                "species": "dodrio",
+                "id": 85,
+                "sprite": "/static/sprites/pokemon/85.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 31,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/84.gif"
+}

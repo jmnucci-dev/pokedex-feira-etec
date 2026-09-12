@@ -1,0 +1,57 @@
+{
+    "id": 581,
+    "name": "swanna",
+    "category": "White Bird Pokémon",
+    "description": "Swanna start to dance at dusk. The one dancing in the middle is the leader of the flock.",
+    "generation": "generation-v",
+    "height": 13,
+    "weight": 242,
+    "base_experience": 166,
+    "types": [
+        "water",
+        "flying"
+    ],
+    "abilities": [
+        {
+            "name": "keen-eye",
+            "is_hidden": false
+        },
+        {
+            "name": "big-pecks",
+            "is_hidden": false
+        },
+        {
+            "name": "hydration",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 75,
+        "attack": 87,
+        "defense": 63,
+        "special-attack": 87,
+        "special-defense": 63,
+        "speed": 98
+    },
+    "evolution_chain": {
+        "species": "ducklett",
+        "id": 580,
+        "sprite": "/static/sprites/pokemon/580.gif",
+        "evolves_to": [
+            {
+                "species": "swanna",
+                "id": 581,
+                "sprite": "/static/sprites/pokemon/581.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 35,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/581.gif"
+}

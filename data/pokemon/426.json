@@ -1,0 +1,57 @@
+{
+    "id": 426,
+    "name": "drifblim",
+    "category": "Blimp Pokémon",
+    "description": "It’s drowzy in daytime, but flies off in the evening in big groups. No one knows where they go.",
+    "generation": "generation-iv",
+    "height": 12,
+    "weight": 150,
+    "base_experience": 174,
+    "types": [
+        "ghost",
+        "flying"
+    ],
+    "abilities": [
+        {
+            "name": "aftermath",
+            "is_hidden": false
+        },
+        {
+            "name": "unburden",
+            "is_hidden": false
+        },
+        {
+            "name": "flare-boost",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 150,
+        "attack": 80,
+        "defense": 44,
+        "special-attack": 90,
+        "special-defense": 54,
+        "speed": 80
+    },
+    "evolution_chain": {
+        "species": "drifloon",
+        "id": 425,
+        "sprite": "/static/sprites/pokemon/425.gif",
+        "evolves_to": [
+            {
+                "species": "drifblim",
+                "id": 426,
+                "sprite": "/static/sprites/pokemon/426.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 28,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/426.gif"
+}

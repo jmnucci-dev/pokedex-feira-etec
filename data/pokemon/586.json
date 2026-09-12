@@ -1,0 +1,57 @@
+{
+    "id": 586,
+    "name": "sawsbuck",
+    "category": "Season Pokémon",
+    "description": "They migrate according to the seasons. People can tell the season by looking at Sawsbuck’s horns.",
+    "generation": "generation-v",
+    "height": 19,
+    "weight": 925,
+    "base_experience": 166,
+    "types": [
+        "normal",
+        "grass"
+    ],
+    "abilities": [
+        {
+            "name": "chlorophyll",
+            "is_hidden": false
+        },
+        {
+            "name": "sap-sipper",
+            "is_hidden": false
+        },
+        {
+            "name": "serene-grace",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 80,
+        "attack": 100,
+        "defense": 70,
+        "special-attack": 60,
+        "special-defense": 70,
+        "speed": 95
+    },
+    "evolution_chain": {
+        "species": "deerling",
+        "id": 585,
+        "sprite": "/static/sprites/pokemon/585.gif",
+        "evolves_to": [
+            {
+                "species": "sawsbuck",
+                "id": 586,
+                "sprite": "/static/sprites/pokemon/586.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 34,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/586.gif"
+}

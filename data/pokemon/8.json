@@ -1,0 +1,66 @@
+{
+    "id": 8,
+    "name": "wartortle",
+    "category": "Turtle Pokémon",
+    "description": "Often hides in water to stalk unwary prey. For swimming fast, it moves its ears to maintain balance.",
+    "generation": "generation-i",
+    "height": 10,
+    "weight": 225,
+    "base_experience": 142,
+    "types": [
+        "water"
+    ],
+    "abilities": [
+        {
+            "name": "torrent",
+            "is_hidden": false
+        },
+        {
+            "name": "rain-dish",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 59,
+        "attack": 63,
+        "defense": 80,
+        "special-attack": 65,
+        "special-defense": 80,
+        "speed": 58
+    },
+    "evolution_chain": {
+        "species": "squirtle",
+        "id": 7,
+        "sprite": "/static/sprites/pokemon/7.gif",
+        "evolves_to": [
+            {
+                "species": "wartortle",
+                "id": 8,
+                "sprite": "/static/sprites/pokemon/8.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 16,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "blastoise",
+                        "id": 9,
+                        "sprite": "/static/sprites/pokemon/9.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 36,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/8.gif"
+}

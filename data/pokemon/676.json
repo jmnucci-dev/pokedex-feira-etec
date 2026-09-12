@@ -1,0 +1,34 @@
+{
+    "id": 676,
+    "name": "furfrou",
+    "category": "Poodle Pokémon",
+    "description": "Trimming its fluffy fur not only makes it more elegant but also increases the swiftness of its movements.",
+    "generation": "generation-vi",
+    "height": 12,
+    "weight": 280,
+    "base_experience": 165,
+    "types": [
+        "normal"
+    ],
+    "abilities": [
+        {
+            "name": "fur-coat",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 75,
+        "attack": 80,
+        "defense": 60,
+        "special-attack": 65,
+        "special-defense": 90,
+        "speed": 102
+    },
+    "evolution_chain": {
+        "species": "furfrou",
+        "id": 676,
+        "sprite": "/static/sprites/pokemon/676.png",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/676.png"
+}

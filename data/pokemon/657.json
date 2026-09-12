@@ -1,0 +1,66 @@
+{
+    "id": 657,
+    "name": "frogadier",
+    "category": "Bubble Frog Pokémon",
+    "description": "It can throw bubble-covered pebbles with precise control, hitting empty cans up to a hundred feet away.",
+    "generation": "generation-vi",
+    "height": 6,
+    "weight": 109,
+    "base_experience": 142,
+    "types": [
+        "water"
+    ],
+    "abilities": [
+        {
+            "name": "torrent",
+            "is_hidden": false
+        },
+        {
+            "name": "protean",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 54,
+        "attack": 63,
+        "defense": 52,
+        "special-attack": 83,
+        "special-defense": 56,
+        "speed": 97
+    },
+    "evolution_chain": {
+        "species": "froakie",
+        "id": 656,
+        "sprite": "/static/sprites/pokemon/656.png",
+        "evolves_to": [
+            {
+                "species": "frogadier",
+                "id": 657,
+                "sprite": "/static/sprites/pokemon/657.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 16,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "greninja",
+                        "id": 658,
+                        "sprite": "/static/sprites/pokemon/658.png",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 36,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/657.png"
+}

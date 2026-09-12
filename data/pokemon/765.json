@@ -1,0 +1,43 @@
+{
+    "id": 765,
+    "name": "oranguru",
+    "category": "Sage Pokémon",
+    "description": "Known for its extreme intelligence, this Pokémon will look down on inexperienced Trainers, so it’s best suited to veteran Trainers.",
+    "generation": "generation-vii",
+    "height": 15,
+    "weight": 760,
+    "base_experience": 172,
+    "types": [
+        "normal",
+        "psychic"
+    ],
+    "abilities": [
+        {
+            "name": "inner-focus",
+            "is_hidden": false
+        },
+        {
+            "name": "telepathy",
+            "is_hidden": false
+        },
+        {
+            "name": "symbiosis",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 90,
+        "attack": 60,
+        "defense": 80,
+        "special-attack": 90,
+        "special-defense": 110,
+        "speed": 60
+    },
+    "evolution_chain": {
+        "species": "oranguru",
+        "id": 765,
+        "sprite": "/static/sprites/pokemon/765.png",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/765.png"
+}

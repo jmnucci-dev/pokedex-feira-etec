@@ -1,0 +1,35 @@
+{
+    "id": 798,
+    "name": "kartana",
+    "category": "Drawn Sword Pokémon",
+    "description": "This Ultra Beast came from the Ultra Wormhole. It seems not to attack enemies on its own, but its sharp body is a dangerous weapon in itself.",
+    "generation": "generation-vii",
+    "height": 3,
+    "weight": 1,
+    "base_experience": 257,
+    "types": [
+        "grass",
+        "steel"
+    ],
+    "abilities": [
+        {
+            "name": "beast-boost",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 59,
+        "attack": 181,
+        "defense": 131,
+        "special-attack": 59,
+        "special-defense": 31,
+        "speed": 109
+    },
+    "evolution_chain": {
+        "species": "kartana",
+        "id": 798,
+        "sprite": "/static/sprites/pokemon/798.gif",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/798.gif"
+}

@@ -1,0 +1,67 @@
+{
+    "id": 376,
+    "name": "metagross",
+    "category": "Iron Leg Pokémon",
+    "description": "METAGROSS has four brains in total. Combined, the four brains can breeze through difficult calculations faster than a supercomputer. This POKéMON can float in the air by tucking in its four legs.",
+    "generation": "generation-iii",
+    "height": 16,
+    "weight": 5500,
+    "base_experience": 270,
+    "types": [
+        "steel",
+        "psychic"
+    ],
+    "abilities": [
+        {
+            "name": "clear-body",
+            "is_hidden": false
+        },
+        {
+            "name": "light-metal",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 80,
+        "attack": 135,
+        "defense": 130,
+        "special-attack": 95,
+        "special-defense": 90,
+        "speed": 70
+    },
+    "evolution_chain": {
+        "species": "beldum",
+        "id": 374,
+        "sprite": "/static/sprites/pokemon/374.gif",
+        "evolves_to": [
+            {
+                "species": "metang",
+                "id": 375,
+                "sprite": "/static/sprites/pokemon/375.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 20,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "metagross",
+                        "id": 376,
+                        "sprite": "/static/sprites/pokemon/376.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 45,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/376.gif"
+}

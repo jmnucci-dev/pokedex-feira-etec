@@ -1,0 +1,38 @@
+{
+    "id": 379,
+    "name": "registeel",
+    "category": "Iron Pokémon",
+    "description": "REGISTEEL has a body that is harder than any kind of metal. Its body is apparently hollow. No one has any idea what this POKéMON eats.",
+    "generation": "generation-iii",
+    "height": 19,
+    "weight": 2050,
+    "base_experience": 261,
+    "types": [
+        "steel"
+    ],
+    "abilities": [
+        {
+            "name": "clear-body",
+            "is_hidden": false
+        },
+        {
+            "name": "light-metal",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 80,
+        "attack": 75,
+        "defense": 150,
+        "special-attack": 75,
+        "special-defense": 150,
+        "speed": 50
+    },
+    "evolution_chain": {
+        "species": "registeel",
+        "id": 379,
+        "sprite": "/static/sprites/pokemon/379.gif",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/379.gif"
+}

@@ -1,0 +1,70 @@
+{
+    "id": 173,
+    "name": "cleffa",
+    "category": "Star Shape Pokémon",
+    "description": "Because of its unusual, star-like silhouette, people believe that it came here on a meteor.",
+    "generation": "generation-ii",
+    "height": 3,
+    "weight": 30,
+    "base_experience": 44,
+    "types": [
+        "fairy"
+    ],
+    "abilities": [
+        {
+            "name": "cute-charm",
+            "is_hidden": false
+        },
+        {
+            "name": "magic-guard",
+            "is_hidden": false
+        },
+        {
+            "name": "friend-guard",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 50,
+        "attack": 25,
+        "defense": 28,
+        "special-attack": 45,
+        "special-defense": 55,
+        "speed": 15
+    },
+    "evolution_chain": {
+        "species": "cleffa",
+        "id": 173,
+        "sprite": "/static/sprites/pokemon/173.gif",
+        "evolves_to": [
+            {
+                "species": "clefairy",
+                "id": 35,
+                "sprite": "/static/sprites/pokemon/35.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "clefable",
+                        "id": 36,
+                        "sprite": "/static/sprites/pokemon/36.gif",
+                        "details": [
+                            {
+                                "trigger": "use-item",
+                                "min_level": null,
+                                "item": "moon-stone"
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/173.gif"
+}

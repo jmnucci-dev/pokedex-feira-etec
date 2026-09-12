@@ -1,0 +1,38 @@
+{
+    "id": 311,
+    "name": "plusle",
+    "category": "Cheering Pokémon",
+    "description": "PLUSLE always acts as a cheerleader for its partners. Whenever a teammate puts out a good effort in battle, this POKéMON shorts out its body to create the crackling noises of sparks to show its joy.",
+    "generation": "generation-iii",
+    "height": 4,
+    "weight": 42,
+    "base_experience": 142,
+    "types": [
+        "electric"
+    ],
+    "abilities": [
+        {
+            "name": "plus",
+            "is_hidden": false
+        },
+        {
+            "name": "lightning-rod",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 60,
+        "attack": 50,
+        "defense": 40,
+        "special-attack": 85,
+        "special-defense": 75,
+        "speed": 95
+    },
+    "evolution_chain": {
+        "species": "plusle",
+        "id": 311,
+        "sprite": "/static/sprites/pokemon/311.gif",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/311.gif"
+}

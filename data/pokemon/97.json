@@ -1,0 +1,56 @@
+{
+    "id": 97,
+    "name": "hypno",
+    "category": "Hypnosis Pokémon",
+    "description": "When it locks eyes with an enemy, it will use a mix of PSI moves such as HYPNOSIS and CONFUSION.",
+    "generation": "generation-i",
+    "height": 16,
+    "weight": 756,
+    "base_experience": 169,
+    "types": [
+        "psychic"
+    ],
+    "abilities": [
+        {
+            "name": "insomnia",
+            "is_hidden": false
+        },
+        {
+            "name": "forewarn",
+            "is_hidden": false
+        },
+        {
+            "name": "inner-focus",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 85,
+        "attack": 73,
+        "defense": 70,
+        "special-attack": 73,
+        "special-defense": 115,
+        "speed": 67
+    },
+    "evolution_chain": {
+        "species": "drowzee",
+        "id": 96,
+        "sprite": "/static/sprites/pokemon/96.gif",
+        "evolves_to": [
+            {
+                "species": "hypno",
+                "id": 97,
+                "sprite": "/static/sprites/pokemon/97.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 26,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/97.gif"
+}

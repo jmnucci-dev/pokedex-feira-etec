@@ -1,0 +1,56 @@
+{
+    "id": 569,
+    "name": "garbodor",
+    "category": "Trash Heap Pokémon",
+    "description": "It clenches opponents with its left arm and finishes them off with foul-smelling poison gas belched from its mouth.",
+    "generation": "generation-v",
+    "height": 19,
+    "weight": 1073,
+    "base_experience": 166,
+    "types": [
+        "poison"
+    ],
+    "abilities": [
+        {
+            "name": "stench",
+            "is_hidden": false
+        },
+        {
+            "name": "weak-armor",
+            "is_hidden": false
+        },
+        {
+            "name": "aftermath",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 80,
+        "attack": 95,
+        "defense": 82,
+        "special-attack": 60,
+        "special-defense": 82,
+        "speed": 75
+    },
+    "evolution_chain": {
+        "species": "trubbish",
+        "id": 568,
+        "sprite": "/static/sprites/pokemon/568.gif",
+        "evolves_to": [
+            {
+                "species": "garbodor",
+                "id": 569,
+                "sprite": "/static/sprites/pokemon/569.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 36,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/569.gif"
+}

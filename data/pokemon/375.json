@@ -1,0 +1,67 @@
+{
+    "id": 375,
+    "name": "metang",
+    "category": "Iron Claw Pokémon",
+    "description": "When two BELDUM fuse together, METANG is formed. The brains of the BELDUM are joined by a magnetic nervous system. By linking its brains magnetically, this POKéMON generates strong psychokinetic power.",
+    "generation": "generation-iii",
+    "height": 12,
+    "weight": 2025,
+    "base_experience": 147,
+    "types": [
+        "steel",
+        "psychic"
+    ],
+    "abilities": [
+        {
+            "name": "clear-body",
+            "is_hidden": false
+        },
+        {
+            "name": "light-metal",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 60,
+        "attack": 75,
+        "defense": 100,
+        "special-attack": 55,
+        "special-defense": 80,
+        "speed": 50
+    },
+    "evolution_chain": {
+        "species": "beldum",
+        "id": 374,
+        "sprite": "/static/sprites/pokemon/374.gif",
+        "evolves_to": [
+            {
+                "species": "metang",
+                "id": 375,
+                "sprite": "/static/sprites/pokemon/375.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 20,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "metagross",
+                        "id": 376,
+                        "sprite": "/static/sprites/pokemon/376.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 45,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/375.gif"
+}

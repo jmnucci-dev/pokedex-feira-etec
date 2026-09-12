@@ -1,0 +1,56 @@
+{
+    "id": 925,
+    "name": "maushold-family-of-four",
+    "category": "Family Pokémon",
+    "description": "The two little ones just appeared one day. The group might be a family of related Pokémon, but nobody knows for sure.",
+    "generation": "generation-ix",
+    "height": 3,
+    "weight": 28,
+    "base_experience": 165,
+    "types": [
+        "normal"
+    ],
+    "abilities": [
+        {
+            "name": "friend-guard",
+            "is_hidden": false
+        },
+        {
+            "name": "cheek-pouch",
+            "is_hidden": false
+        },
+        {
+            "name": "technician",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 74,
+        "attack": 75,
+        "defense": 70,
+        "special-attack": 65,
+        "special-defense": 75,
+        "speed": 111
+    },
+    "evolution_chain": {
+        "species": "tandemaus",
+        "id": 924,
+        "sprite": "/static/sprites/pokemon/924.png",
+        "evolves_to": [
+            {
+                "species": "maushold",
+                "id": 925,
+                "sprite": "/static/sprites/pokemon/925.png",
+                "details": [
+                    {
+                        "trigger": "other",
+                        "min_level": 25,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/925.png"
+}

@@ -1,0 +1,58 @@
+{
+    "id": 102,
+    "name": "exeggcute",
+    "category": "Egg Pokémon",
+    "description": "Often mistaken for eggs. When disturbed, they quickly gather and attack in swarms.",
+    "generation": "generation-i",
+    "height": 4,
+    "weight": 25,
+    "base_experience": 65,
+    "types": [
+        "grass",
+        "psychic"
+    ],
+    "abilities": [
+        {
+            "name": "chlorophyll",
+            "is_hidden": false
+        },
+        {
+            "name": "harvest",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 60,
+        "attack": 40,
+        "defense": 80,
+        "special-attack": 60,
+        "special-defense": 45,
+        "speed": 40
+    },
+    "evolution_chain": {
+        "species": "exeggcute",
+        "id": 102,
+        "sprite": "/static/sprites/pokemon/102.gif",
+        "evolves_to": [
+            {
+                "species": "exeggutor",
+                "id": 103,
+                "sprite": "/static/sprites/pokemon/103.gif",
+                "details": [
+                    {
+                        "trigger": "use-item",
+                        "min_level": null,
+                        "item": "leaf-stone"
+                    },
+                    {
+                        "trigger": "use-item",
+                        "min_level": null,
+                        "item": "leaf-stone"
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/102.gif"
+}

@@ -1,0 +1,57 @@
+{
+    "id": 278,
+    "name": "wingull",
+    "category": "Seagull Pokémon",
+    "description": "WINGULL has the habit of carrying prey and valuables in its beak and hiding them in all sorts of locations. This POKéMON rides the winds and flies as if it were skating across the sky.",
+    "generation": "generation-iii",
+    "height": 6,
+    "weight": 95,
+    "base_experience": 54,
+    "types": [
+        "water",
+        "flying"
+    ],
+    "abilities": [
+        {
+            "name": "keen-eye",
+            "is_hidden": false
+        },
+        {
+            "name": "hydration",
+            "is_hidden": false
+        },
+        {
+            "name": "rain-dish",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 40,
+        "attack": 30,
+        "defense": 30,
+        "special-attack": 55,
+        "special-defense": 30,
+        "speed": 85
+    },
+    "evolution_chain": {
+        "species": "wingull",
+        "id": 278,
+        "sprite": "/static/sprites/pokemon/278.gif",
+        "evolves_to": [
+            {
+                "species": "pelipper",
+                "id": 279,
+                "sprite": "/static/sprites/pokemon/279.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 25,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/278.gif"
+}

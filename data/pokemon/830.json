@@ -1,0 +1,56 @@
+{
+    "id": 830,
+    "name": "eldegoss",
+    "category": "Cotton Bloom Pokémon",
+    "description": "The seeds attached to its cotton fluff are full of nutrients. It spreads them on the wind so that plants and other Pokémon can benefit from them.",
+    "generation": "generation-viii",
+    "height": 5,
+    "weight": 25,
+    "base_experience": 161,
+    "types": [
+        "grass"
+    ],
+    "abilities": [
+        {
+            "name": "cotton-down",
+            "is_hidden": false
+        },
+        {
+            "name": "regenerator",
+            "is_hidden": false
+        },
+        {
+            "name": "effect-spore",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 60,
+        "attack": 50,
+        "defense": 90,
+        "special-attack": 80,
+        "special-defense": 120,
+        "speed": 60
+    },
+    "evolution_chain": {
+        "species": "gossifleur",
+        "id": 829,
+        "sprite": "/static/sprites/pokemon/829.png",
+        "evolves_to": [
+            {
+                "species": "eldegoss",
+                "id": 830,
+                "sprite": "/static/sprites/pokemon/830.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 20,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/830.gif"
+}

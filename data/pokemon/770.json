@@ -1,0 +1,53 @@
+{
+    "id": 770,
+    "name": "palossand",
+    "category": "Sand Castle Pokémon",
+    "description": "Possessed people controlled by this Pokémon transformed its sand mound into a castle. As it evolved, its power to curse grew ever stronger.",
+    "generation": "generation-vii",
+    "height": 13,
+    "weight": 2500,
+    "base_experience": 168,
+    "types": [
+        "ghost",
+        "ground"
+    ],
+    "abilities": [
+        {
+            "name": "water-compaction",
+            "is_hidden": false
+        },
+        {
+            "name": "sand-veil",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 85,
+        "attack": 75,
+        "defense": 110,
+        "special-attack": 100,
+        "special-defense": 75,
+        "speed": 35
+    },
+    "evolution_chain": {
+        "species": "sandygast",
+        "id": 769,
+        "sprite": "/static/sprites/pokemon/769.gif",
+        "evolves_to": [
+            {
+                "species": "palossand",
+                "id": 770,
+                "sprite": "/static/sprites/pokemon/770.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 42,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/770.gif"
+}

@@ -1,0 +1,56 @@
+{
+    "id": 924,
+    "name": "tandemaus",
+    "category": "Couple Pokémon",
+    "description": "Exhibiting great teamwork, they use their incisors to cut pieces out of any material that might be useful for a nest, then make off with them.",
+    "generation": "generation-ix",
+    "height": 3,
+    "weight": 18,
+    "base_experience": 61,
+    "types": [
+        "normal"
+    ],
+    "abilities": [
+        {
+            "name": "run-away",
+            "is_hidden": false
+        },
+        {
+            "name": "pickup",
+            "is_hidden": false
+        },
+        {
+            "name": "own-tempo",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 50,
+        "attack": 50,
+        "defense": 45,
+        "special-attack": 40,
+        "special-defense": 45,
+        "speed": 75
+    },
+    "evolution_chain": {
+        "species": "tandemaus",
+        "id": 924,
+        "sprite": "/static/sprites/pokemon/924.png",
+        "evolves_to": [
+            {
+                "species": "maushold",
+                "id": 925,
+                "sprite": "/static/sprites/pokemon/925.png",
+                "details": [
+                    {
+                        "trigger": "other",
+                        "min_level": 25,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/924.png"
+}

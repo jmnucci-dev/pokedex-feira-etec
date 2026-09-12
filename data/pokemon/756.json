@@ -1,0 +1,57 @@
+{
+    "id": 756,
+    "name": "shiinotic",
+    "category": "Illuminating Pokémon",
+    "description": "Forests where Shiinotic live are treacherous to enter at night. People confused by its strange lights can never find their way home again.",
+    "generation": "generation-vii",
+    "height": 10,
+    "weight": 115,
+    "base_experience": 142,
+    "types": [
+        "grass",
+        "fairy"
+    ],
+    "abilities": [
+        {
+            "name": "illuminate",
+            "is_hidden": false
+        },
+        {
+            "name": "effect-spore",
+            "is_hidden": false
+        },
+        {
+            "name": "rain-dish",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 60,
+        "attack": 45,
+        "defense": 80,
+        "special-attack": 90,
+        "special-defense": 100,
+        "speed": 30
+    },
+    "evolution_chain": {
+        "species": "morelull",
+        "id": 755,
+        "sprite": "/static/sprites/pokemon/755.gif",
+        "evolves_to": [
+            {
+                "species": "shiinotic",
+                "id": 756,
+                "sprite": "/static/sprites/pokemon/756.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 24,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/756.gif"
+}

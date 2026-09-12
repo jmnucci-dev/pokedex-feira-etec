@@ -1,0 +1,57 @@
+{
+    "id": 138,
+    "name": "omanyte",
+    "category": "Spiral Pokémon",
+    "description": "Although long extinct, in rare cases, it can be genetically resurrected from fossils.",
+    "generation": "generation-i",
+    "height": 4,
+    "weight": 75,
+    "base_experience": 71,
+    "types": [
+        "rock",
+        "water"
+    ],
+    "abilities": [
+        {
+            "name": "swift-swim",
+            "is_hidden": false
+        },
+        {
+            "name": "shell-armor",
+            "is_hidden": false
+        },
+        {
+            "name": "weak-armor",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 35,
+        "attack": 40,
+        "defense": 100,
+        "special-attack": 90,
+        "special-defense": 55,
+        "speed": 35
+    },
+    "evolution_chain": {
+        "species": "omanyte",
+        "id": 138,
+        "sprite": "/static/sprites/pokemon/138.gif",
+        "evolves_to": [
+            {
+                "species": "omastar",
+                "id": 139,
+                "sprite": "/static/sprites/pokemon/139.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 40,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/138.gif"
+}

@@ -1,0 +1,53 @@
+{
+    "id": 22,
+    "name": "fearow",
+    "category": "Beak Pokémon",
+    "description": "With its huge and magnificent wings, it can keep aloft without ever having to land for rest.",
+    "generation": "generation-i",
+    "height": 12,
+    "weight": 380,
+    "base_experience": 155,
+    "types": [
+        "normal",
+        "flying"
+    ],
+    "abilities": [
+        {
+            "name": "keen-eye",
+            "is_hidden": false
+        },
+        {
+            "name": "sniper",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 65,
+        "attack": 90,
+        "defense": 65,
+        "special-attack": 61,
+        "special-defense": 61,
+        "speed": 100
+    },
+    "evolution_chain": {
+        "species": "spearow",
+        "id": 21,
+        "sprite": "/static/sprites/pokemon/21.gif",
+        "evolves_to": [
+            {
+                "species": "fearow",
+                "id": 22,
+                "sprite": "/static/sprites/pokemon/22.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 20,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/22.gif"
+}

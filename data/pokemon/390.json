@@ -1,0 +1,66 @@
+{
+    "id": 390,
+    "name": "chimchar",
+    "category": "Chimp Pokémon",
+    "description": "It agilely scales sheer cliffs to live atop craggy mountains. Its fire is put out when it sleeps.",
+    "generation": "generation-iv",
+    "height": 5,
+    "weight": 62,
+    "base_experience": 62,
+    "types": [
+        "fire"
+    ],
+    "abilities": [
+        {
+            "name": "blaze",
+            "is_hidden": false
+        },
+        {
+            "name": "iron-fist",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 44,
+        "attack": 58,
+        "defense": 44,
+        "special-attack": 58,
+        "special-defense": 44,
+        "speed": 61
+    },
+    "evolution_chain": {
+        "species": "chimchar",
+        "id": 390,
+        "sprite": "/static/sprites/pokemon/390.gif",
+        "evolves_to": [
+            {
+                "species": "monferno",
+                "id": 391,
+                "sprite": "/static/sprites/pokemon/391.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 14,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "infernape",
+                        "id": 392,
+                        "sprite": "/static/sprites/pokemon/392.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 36,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/390.gif"
+}

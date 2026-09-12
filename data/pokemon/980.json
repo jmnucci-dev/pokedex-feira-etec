@@ -1,0 +1,70 @@
+{
+    "id": 980,
+    "name": "clodsire",
+    "category": "Spiny Fish Pokémon",
+    "description": "When attacked, this Pokémon will retaliate by sticking thick spines out from its body. It’s a risky move that puts everything on the line.",
+    "generation": "generation-ix",
+    "height": 18,
+    "weight": 2230,
+    "base_experience": 151,
+    "types": [
+        "poison",
+        "ground"
+    ],
+    "abilities": [
+        {
+            "name": "poison-point",
+            "is_hidden": false
+        },
+        {
+            "name": "water-absorb",
+            "is_hidden": false
+        },
+        {
+            "name": "unaware",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 130,
+        "attack": 75,
+        "defense": 60,
+        "special-attack": 45,
+        "special-defense": 100,
+        "speed": 20
+    },
+    "evolution_chain": {
+        "species": "wooper",
+        "id": 194,
+        "sprite": "/static/sprites/pokemon/194.gif",
+        "evolves_to": [
+            {
+                "species": "quagsire",
+                "id": 195,
+                "sprite": "/static/sprites/pokemon/195.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 20,
+                        "item": null
+                    }
+                ],
+                "next": []
+            },
+            {
+                "species": "clodsire",
+                "id": 980,
+                "sprite": "/static/sprites/pokemon/980.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 20,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/980.png"
+}

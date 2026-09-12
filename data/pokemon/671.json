@@ -1,0 +1,66 @@
+{
+    "id": 671,
+    "name": "florges",
+    "category": "Garden Pokémon",
+    "description": "It claims exquisite flower gardens as its territory, and it obtains power from basking in the energy emitted by flowering plants.",
+    "generation": "generation-vi",
+    "height": 11,
+    "weight": 100,
+    "base_experience": 248,
+    "types": [
+        "fairy"
+    ],
+    "abilities": [
+        {
+            "name": "flower-veil",
+            "is_hidden": false
+        },
+        {
+            "name": "symbiosis",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 78,
+        "attack": 65,
+        "defense": 68,
+        "special-attack": 112,
+        "special-defense": 154,
+        "speed": 75
+    },
+    "evolution_chain": {
+        "species": "flabebe",
+        "id": 669,
+        "sprite": "/static/sprites/pokemon/669.png",
+        "evolves_to": [
+            {
+                "species": "floette",
+                "id": 670,
+                "sprite": "/static/sprites/pokemon/670.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 19,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "florges",
+                        "id": 671,
+                        "sprite": "/static/sprites/pokemon/671.png",
+                        "details": [
+                            {
+                                "trigger": "use-item",
+                                "min_level": null,
+                                "item": "shiny-stone"
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/671.png"
+}

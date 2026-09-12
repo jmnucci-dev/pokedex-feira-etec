@@ -1,0 +1,56 @@
+{
+    "id": 24,
+    "name": "arbok",
+    "category": "Cobra Pokémon",
+    "description": "It is rumored that the ferocious warning markings on its belly differ from area to area.",
+    "generation": "generation-i",
+    "height": 35,
+    "weight": 650,
+    "base_experience": 157,
+    "types": [
+        "poison"
+    ],
+    "abilities": [
+        {
+            "name": "intimidate",
+            "is_hidden": false
+        },
+        {
+            "name": "shed-skin",
+            "is_hidden": false
+        },
+        {
+            "name": "unnerve",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 60,
+        "attack": 95,
+        "defense": 69,
+        "special-attack": 65,
+        "special-defense": 79,
+        "speed": 80
+    },
+    "evolution_chain": {
+        "species": "ekans",
+        "id": 23,
+        "sprite": "/static/sprites/pokemon/23.gif",
+        "evolves_to": [
+            {
+                "species": "arbok",
+                "id": 24,
+                "sprite": "/static/sprites/pokemon/24.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 22,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/24.gif"
+}

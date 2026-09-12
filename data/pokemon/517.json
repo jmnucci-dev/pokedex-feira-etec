@@ -1,0 +1,56 @@
+{
+    "id": 517,
+    "name": "munna",
+    "category": "Dream Eater Pokémon",
+    "description": "Munna always float in the air. People whose dreams are eaten by them forget what the dreams had been about.",
+    "generation": "generation-v",
+    "height": 6,
+    "weight": 233,
+    "base_experience": 58,
+    "types": [
+        "psychic"
+    ],
+    "abilities": [
+        {
+            "name": "forewarn",
+            "is_hidden": false
+        },
+        {
+            "name": "synchronize",
+            "is_hidden": false
+        },
+        {
+            "name": "telepathy",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 76,
+        "attack": 25,
+        "defense": 45,
+        "special-attack": 67,
+        "special-defense": 55,
+        "speed": 24
+    },
+    "evolution_chain": {
+        "species": "munna",
+        "id": 517,
+        "sprite": "/static/sprites/pokemon/517.gif",
+        "evolves_to": [
+            {
+                "species": "musharna",
+                "id": 518,
+                "sprite": "/static/sprites/pokemon/518.gif",
+                "details": [
+                    {
+                        "trigger": "use-item",
+                        "min_level": null,
+                        "item": "moon-stone"
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/517.gif"
+}

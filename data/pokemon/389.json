@@ -1,0 +1,67 @@
+{
+    "id": 389,
+    "name": "torterra",
+    "category": "Continent Pokémon",
+    "description": "Small Pokémon occasionally gather on its unmoving back to begin building their nests.",
+    "generation": "generation-iv",
+    "height": 22,
+    "weight": 3100,
+    "base_experience": 236,
+    "types": [
+        "grass",
+        "ground"
+    ],
+    "abilities": [
+        {
+            "name": "overgrow",
+            "is_hidden": false
+        },
+        {
+            "name": "shell-armor",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 95,
+        "attack": 109,
+        "defense": 105,
+        "special-attack": 75,
+        "special-defense": 85,
+        "speed": 56
+    },
+    "evolution_chain": {
+        "species": "turtwig",
+        "id": 387,
+        "sprite": "/static/sprites/pokemon/387.gif",
+        "evolves_to": [
+            {
+                "species": "grotle",
+                "id": 388,
+                "sprite": "/static/sprites/pokemon/388.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 18,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "torterra",
+                        "id": 389,
+                        "sprite": "/static/sprites/pokemon/389.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 32,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/389.gif"
+}

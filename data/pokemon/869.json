@@ -1,0 +1,52 @@
+{
+    "id": 869,
+    "name": "alcremie",
+    "category": "Cream Pokémon",
+    "description": "When it trusts a Trainer, it will treat them to berries it’s decorated with cream.",
+    "generation": "generation-viii",
+    "height": 3,
+    "weight": 5,
+    "base_experience": 173,
+    "types": [
+        "fairy"
+    ],
+    "abilities": [
+        {
+            "name": "sweet-veil",
+            "is_hidden": false
+        },
+        {
+            "name": "aroma-veil",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 65,
+        "attack": 60,
+        "defense": 75,
+        "special-attack": 110,
+        "special-defense": 121,
+        "speed": 64
+    },
+    "evolution_chain": {
+        "species": "milcery",
+        "id": 868,
+        "sprite": "/static/sprites/pokemon/868.gif",
+        "evolves_to": [
+            {
+                "species": "alcremie",
+                "id": 869,
+                "sprite": "/static/sprites/pokemon/869.png",
+                "details": [
+                    {
+                        "trigger": "spin",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/869.png"
+}

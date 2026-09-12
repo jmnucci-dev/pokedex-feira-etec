@@ -1,0 +1,71 @@
+{
+    "id": 552,
+    "name": "krokorok",
+    "category": "Desert Croc Pokémon",
+    "description": "They live in groups of a few individuals. Protective membranes shield their eyes from sandstorms.",
+    "generation": "generation-v",
+    "height": 10,
+    "weight": 334,
+    "base_experience": 123,
+    "types": [
+        "ground",
+        "dark"
+    ],
+    "abilities": [
+        {
+            "name": "intimidate",
+            "is_hidden": false
+        },
+        {
+            "name": "moxie",
+            "is_hidden": false
+        },
+        {
+            "name": "anger-point",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 60,
+        "attack": 82,
+        "defense": 45,
+        "special-attack": 45,
+        "special-defense": 45,
+        "speed": 74
+    },
+    "evolution_chain": {
+        "species": "sandile",
+        "id": 551,
+        "sprite": "/static/sprites/pokemon/551.gif",
+        "evolves_to": [
+            {
+                "species": "krokorok",
+                "id": 552,
+                "sprite": "/static/sprites/pokemon/552.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 29,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "krookodile",
+                        "id": 553,
+                        "sprite": "/static/sprites/pokemon/553.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 40,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/552.gif"
+}

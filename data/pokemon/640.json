@@ -1,0 +1,35 @@
+{
+    "id": 640,
+    "name": "virizion",
+    "category": "Grassland Pokémon",
+    "description": "This Pokémon fought humans in order to protect its friends. Legends about it continue to be passed down.",
+    "generation": "generation-v",
+    "height": 20,
+    "weight": 2000,
+    "base_experience": 261,
+    "types": [
+        "grass",
+        "fighting"
+    ],
+    "abilities": [
+        {
+            "name": "justified",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 91,
+        "attack": 90,
+        "defense": 72,
+        "special-attack": 90,
+        "special-defense": 129,
+        "speed": 108
+    },
+    "evolution_chain": {
+        "species": "virizion",
+        "id": 640,
+        "sprite": "/static/sprites/pokemon/640.gif",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/640.gif"
+}

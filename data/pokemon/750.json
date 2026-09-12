@@ -1,0 +1,56 @@
+{
+    "id": 750,
+    "name": "mudsdale",
+    "category": "Draft Horse Pokémon",
+    "description": "It spits a mud that provides resistance to both wind and rain, so the walls of old houses were often coated with it.",
+    "generation": "generation-vii",
+    "height": 25,
+    "weight": 9200,
+    "base_experience": 175,
+    "types": [
+        "ground"
+    ],
+    "abilities": [
+        {
+            "name": "own-tempo",
+            "is_hidden": false
+        },
+        {
+            "name": "stamina",
+            "is_hidden": false
+        },
+        {
+            "name": "inner-focus",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 100,
+        "attack": 125,
+        "defense": 100,
+        "special-attack": 55,
+        "special-defense": 85,
+        "speed": 35
+    },
+    "evolution_chain": {
+        "species": "mudbray",
+        "id": 749,
+        "sprite": "/static/sprites/pokemon/749.gif",
+        "evolves_to": [
+            {
+                "species": "mudsdale",
+                "id": 750,
+                "sprite": "/static/sprites/pokemon/750.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 30,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/750.gif"
+}

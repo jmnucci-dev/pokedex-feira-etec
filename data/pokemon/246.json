@@ -1,0 +1,67 @@
+{
+    "id": 246,
+    "name": "larvitar",
+    "category": "Rock Skin Pokémon",
+    "description": "It feeds on soil. After it has eaten a large mountain, it will fall asleep so it can grow.",
+    "generation": "generation-ii",
+    "height": 6,
+    "weight": 720,
+    "base_experience": 60,
+    "types": [
+        "rock",
+        "ground"
+    ],
+    "abilities": [
+        {
+            "name": "guts",
+            "is_hidden": false
+        },
+        {
+            "name": "sand-veil",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 50,
+        "attack": 64,
+        "defense": 50,
+        "special-attack": 45,
+        "special-defense": 50,
+        "speed": 41
+    },
+    "evolution_chain": {
+        "species": "larvitar",
+        "id": 246,
+        "sprite": "/static/sprites/pokemon/246.gif",
+        "evolves_to": [
+            {
+                "species": "pupitar",
+                "id": 247,
+                "sprite": "/static/sprites/pokemon/247.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 30,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "tyranitar",
+                        "id": 248,
+                        "sprite": "/static/sprites/pokemon/248.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 55,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/246.gif"
+}

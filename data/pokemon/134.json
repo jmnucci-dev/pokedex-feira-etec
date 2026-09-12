@@ -1,0 +1,198 @@
+{
+    "id": 134,
+    "name": "vaporeon",
+    "category": "Bubble Jet Pokémon",
+    "description": "Lives close to water. Its long tail is ridged with a fin which is often mistaken for a mermaid's.",
+    "generation": "generation-i",
+    "height": 10,
+    "weight": 290,
+    "base_experience": 184,
+    "types": [
+        "water"
+    ],
+    "abilities": [
+        {
+            "name": "water-absorb",
+            "is_hidden": false
+        },
+        {
+            "name": "hydration",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 130,
+        "attack": 65,
+        "defense": 60,
+        "special-attack": 110,
+        "special-defense": 95,
+        "speed": 65
+    },
+    "evolution_chain": {
+        "species": "eevee",
+        "id": 133,
+        "sprite": "/static/sprites/pokemon/133.gif",
+        "evolves_to": [
+            {
+                "species": "vaporeon",
+                "id": 134,
+                "sprite": "/static/sprites/pokemon/134.gif",
+                "details": [
+                    {
+                        "trigger": "use-item",
+                        "min_level": null,
+                        "item": "water-stone"
+                    }
+                ],
+                "next": []
+            },
+            {
+                "species": "jolteon",
+                "id": 135,
+                "sprite": "/static/sprites/pokemon/135.gif",
+                "details": [
+                    {
+                        "trigger": "use-item",
+                        "min_level": null,
+                        "item": "thunder-stone"
+                    }
+                ],
+                "next": []
+            },
+            {
+                "species": "flareon",
+                "id": 136,
+                "sprite": "/static/sprites/pokemon/136.gif",
+                "details": [
+                    {
+                        "trigger": "use-item",
+                        "min_level": null,
+                        "item": "fire-stone"
+                    }
+                ],
+                "next": []
+            },
+            {
+                "species": "espeon",
+                "id": 196,
+                "sprite": "/static/sprites/pokemon/196.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": []
+            },
+            {
+                "species": "umbreon",
+                "id": 197,
+                "sprite": "/static/sprites/pokemon/197.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": []
+            },
+            {
+                "species": "leafeon",
+                "id": 470,
+                "sprite": "/static/sprites/pokemon/470.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    },
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    },
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    },
+                    {
+                        "trigger": "use-item",
+                        "min_level": null,
+                        "item": "leaf-stone"
+                    },
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    },
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": []
+            },
+            {
+                "species": "glaceon",
+                "id": 471,
+                "sprite": "/static/sprites/pokemon/471.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    },
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    },
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    },
+                    {
+                        "trigger": "use-item",
+                        "min_level": null,
+                        "item": "ice-stone"
+                    },
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    },
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": []
+            },
+            {
+                "species": "sylveon",
+                "id": 700,
+                "sprite": "/static/sprites/pokemon/700.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    },
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/134.gif"
+}

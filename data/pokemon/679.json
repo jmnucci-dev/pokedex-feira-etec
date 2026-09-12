@@ -1,0 +1,63 @@
+{
+    "id": 679,
+    "name": "honedge",
+    "category": "Sword Pokémon",
+    "description": "Apparently this Pokémon is born when a departed spirit inhabits a sword. It attaches itself to people and drinks their life force.",
+    "generation": "generation-vi",
+    "height": 8,
+    "weight": 20,
+    "base_experience": 65,
+    "types": [
+        "steel",
+        "ghost"
+    ],
+    "abilities": [
+        {
+            "name": "no-guard",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 45,
+        "attack": 80,
+        "defense": 100,
+        "special-attack": 35,
+        "special-defense": 37,
+        "speed": 28
+    },
+    "evolution_chain": {
+        "species": "honedge",
+        "id": 679,
+        "sprite": "/static/sprites/pokemon/679.png",
+        "evolves_to": [
+            {
+                "species": "doublade",
+                "id": 680,
+                "sprite": "/static/sprites/pokemon/680.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 35,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "aegislash",
+                        "id": 681,
+                        "sprite": "/static/sprites/pokemon/681.png",
+                        "details": [
+                            {
+                                "trigger": "use-item",
+                                "min_level": null,
+                                "item": "dusk-stone"
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/679.png"
+}

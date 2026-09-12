@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <section id="comeco" style="text-align:center; padding: 10px 28px;">
+    <img src="{{ url_for('static', filename='images/comum/pokebola.png') }}" alt="Pokebola" style="height:45px; object-fit:contain;">
+    <h2 style="color:#fff; margin-top:10px; font-family:'Inter',sans-serif;">Escolha uma região para explorar</h2>
+    <p style="color:#ccc;">Cada região possui Pokémons únicos e histórias incríveis</p>
+  </section>
+
+  <div class="scroll-cards">
+    <div class="container-cards">
+      {% for r in regioes %}
+    <a href="{{ url_for('pokemon_region.region_pokemons', nome=r.nome) }}" class="card-region" style="background-image: url('{{ url_for('static', filename=r.bg) }}');" aria-label="{{ r.nome }}">
+      <img class="destaque-img" src="{{ url_for('static', filename=r.destaque) }}" alt="" />
+      <div class="card-region-info">
+        <img class="simbolo" src="{{ url_for('static', filename=r.logo) }}" alt="{{ r.nome }} logo">
+        <h3>{{ r.nome.upper() }}</h3>
+        <p class="pokemon-range" style="color:{{ r.cor }};">#{{ r.range }}</p>
+        <div class="pokemon-contagem">
+          <img class="pokebola-contagem" src="{{ url_for('static', filename='images/comum/pokebola-feira.png') }}" alt="">
+          <span>{{ r.range.split('-')[1] }} Pokémons</span>
+        </div>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+
+  <a href="{{ url_for('pokemon_region.region_pokemons', nome='Todas') }}" class="ns-regiao" style="margin: 20px auto 40px; text-decoration: none; color: inherit;" aria-label="Não sei a região">
+    <img src="{{ url_for('static', filename='images/comum/ponto.png') }}" alt="" style="width:100px; height:100px; object-fit:contain;">
+    <div class="texto">
+      <h3 style="color:white;">Não sei a região</h3>
+      <p style="color:#ccc;">Quero ver todos os Pokémons de todas as regiões!</p>
+    </div>
+  </a>
+  </div>
+{% endblock %}

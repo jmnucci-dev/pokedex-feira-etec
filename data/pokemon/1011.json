@@ -1,0 +1,97 @@
+{
+    "id": 1011,
+    "name": "dipplin",
+    "category": "Candy Apple Pokémon",
+    "description": "Dipplin is two creatures in one Pokémon. Its evolution was triggered by a special apple grown only in one place.",
+    "generation": "generation-ix",
+    "height": 4,
+    "weight": 97,
+    "base_experience": 170,
+    "types": [
+        "grass",
+        "dragon"
+    ],
+    "abilities": [
+        {
+            "name": "supersweet-syrup",
+            "is_hidden": false
+        },
+        {
+            "name": "gluttony",
+            "is_hidden": false
+        },
+        {
+            "name": "sticky-hold",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 80,
+        "attack": 80,
+        "defense": 110,
+        "special-attack": 95,
+        "special-defense": 80,
+        "speed": 40
+    },
+    "evolution_chain": {
+        "species": "applin",
+        "id": 840,
+        "sprite": "/static/sprites/pokemon/840.gif",
+        "evolves_to": [
+            {
+                "species": "flapple",
+                "id": 841,
+                "sprite": "/static/sprites/pokemon/841.png",
+                "details": [
+                    {
+                        "trigger": "use-item",
+                        "min_level": null,
+                        "item": "tart-apple"
+                    }
+                ],
+                "next": []
+            },
+            {
+                "species": "appletun",
+                "id": 842,
+                "sprite": "/static/sprites/pokemon/842.png",
+                "details": [
+                    {
+                        "trigger": "use-item",
+                        "min_level": null,
+                        "item": "sweet-apple"
+                    }
+                ],
+                "next": []
+            },
+            {
+                "species": "dipplin",
+                "id": 1011,
+                "sprite": "/static/sprites/pokemon/1011.png",
+                "details": [
+                    {
+                        "trigger": "use-item",
+                        "min_level": null,
+                        "item": "syrupy-apple"
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "hydrapple",
+                        "id": 1019,
+                        "sprite": "/static/sprites/pokemon/1019.png",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": null,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/1011.png"
+}

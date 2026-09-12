@@ -1,0 +1,66 @@
+{
+    "id": 388,
+    "name": "grotle",
+    "category": "Grove Pokémon",
+    "description": "It lives along water in forests. In the daytime, it leaves the forest to sunbathe its treed shell.",
+    "generation": "generation-iv",
+    "height": 11,
+    "weight": 970,
+    "base_experience": 142,
+    "types": [
+        "grass"
+    ],
+    "abilities": [
+        {
+            "name": "overgrow",
+            "is_hidden": false
+        },
+        {
+            "name": "shell-armor",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 75,
+        "attack": 89,
+        "defense": 85,
+        "special-attack": 55,
+        "special-defense": 65,
+        "speed": 36
+    },
+    "evolution_chain": {
+        "species": "turtwig",
+        "id": 387,
+        "sprite": "/static/sprites/pokemon/387.gif",
+        "evolves_to": [
+            {
+                "species": "grotle",
+                "id": 388,
+                "sprite": "/static/sprites/pokemon/388.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 18,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "torterra",
+                        "id": 389,
+                        "sprite": "/static/sprites/pokemon/389.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 32,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/388.gif"
+}

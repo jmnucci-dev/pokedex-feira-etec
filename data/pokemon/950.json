@@ -1,0 +1,42 @@
+{
+    "id": 950,
+    "name": "klawf",
+    "category": "Ambush Pokémon",
+    "description": "Klawf hangs upside-down from cliffs, waiting for prey. But Klawf can’t remain in this position for long because its blood rushes to its head.",
+    "generation": "generation-ix",
+    "height": 13,
+    "weight": 790,
+    "base_experience": 158,
+    "types": [
+        "rock"
+    ],
+    "abilities": [
+        {
+            "name": "anger-shell",
+            "is_hidden": false
+        },
+        {
+            "name": "shell-armor",
+            "is_hidden": false
+        },
+        {
+            "name": "regenerator",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 70,
+        "attack": 100,
+        "defense": 115,
+        "special-attack": 35,
+        "special-defense": 55,
+        "speed": 75
+    },
+    "evolution_chain": {
+        "species": "klawf",
+        "id": 950,
+        "sprite": "/static/sprites/pokemon/950.png",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/950.png"
+}

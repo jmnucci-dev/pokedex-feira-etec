@@ -1,0 +1,62 @@
+{
+    "id": 628,
+    "name": "braviary",
+    "category": "Valiant Pokémon",
+    "description": "They fight for their friends without any thought about danger to themselves. One can carry a car while flying.",
+    "generation": "generation-v",
+    "height": 15,
+    "weight": 410,
+    "base_experience": 179,
+    "types": [
+        "normal",
+        "flying"
+    ],
+    "abilities": [
+        {
+            "name": "keen-eye",
+            "is_hidden": false
+        },
+        {
+            "name": "sheer-force",
+            "is_hidden": false
+        },
+        {
+            "name": "defiant",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 100,
+        "attack": 123,
+        "defense": 75,
+        "special-attack": 57,
+        "special-defense": 75,
+        "speed": 80
+    },
+    "evolution_chain": {
+        "species": "rufflet",
+        "id": 627,
+        "sprite": "/static/sprites/pokemon/627.gif",
+        "evolves_to": [
+            {
+                "species": "braviary",
+                "id": 628,
+                "sprite": "/static/sprites/pokemon/628.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 54,
+                        "item": null
+                    },
+                    {
+                        "trigger": "level-up",
+                        "min_level": 54,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/628.gif"
+}

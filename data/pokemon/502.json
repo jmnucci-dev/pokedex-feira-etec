@@ -1,0 +1,71 @@
+{
+    "id": 502,
+    "name": "dewott",
+    "category": "Discipline Pokémon",
+    "description": "Strict training is how it learns its flowing double-scalchop technique.",
+    "generation": "generation-v",
+    "height": 8,
+    "weight": 245,
+    "base_experience": 145,
+    "types": [
+        "water"
+    ],
+    "abilities": [
+        {
+            "name": "torrent",
+            "is_hidden": false
+        },
+        {
+            "name": "shell-armor",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 75,
+        "attack": 75,
+        "defense": 60,
+        "special-attack": 83,
+        "special-defense": 60,
+        "speed": 60
+    },
+    "evolution_chain": {
+        "species": "oshawott",
+        "id": 501,
+        "sprite": "/static/sprites/pokemon/501.gif",
+        "evolves_to": [
+            {
+                "species": "dewott",
+                "id": 502,
+                "sprite": "/static/sprites/pokemon/502.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 17,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "samurott",
+                        "id": 503,
+                        "sprite": "/static/sprites/pokemon/503.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 36,
+                                "item": null
+                            },
+                            {
+                                "trigger": "level-up",
+                                "min_level": 36,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/502.gif"
+}

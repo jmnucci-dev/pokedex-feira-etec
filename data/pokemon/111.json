@@ -1,0 +1,71 @@
+{
+    "id": 111,
+    "name": "rhyhorn",
+    "category": "Spikes Pokémon",
+    "description": "Its massive bones are 1000 times harder than human bones. It can easily knock a trailer flying.",
+    "generation": "generation-i",
+    "height": 10,
+    "weight": 1150,
+    "base_experience": 69,
+    "types": [
+        "ground",
+        "rock"
+    ],
+    "abilities": [
+        {
+            "name": "lightning-rod",
+            "is_hidden": false
+        },
+        {
+            "name": "rock-head",
+            "is_hidden": false
+        },
+        {
+            "name": "reckless",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 80,
+        "attack": 85,
+        "defense": 95,
+        "special-attack": 30,
+        "special-defense": 30,
+        "speed": 25
+    },
+    "evolution_chain": {
+        "species": "rhyhorn",
+        "id": 111,
+        "sprite": "/static/sprites/pokemon/111.gif",
+        "evolves_to": [
+            {
+                "species": "rhydon",
+                "id": 112,
+                "sprite": "/static/sprites/pokemon/112.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 42,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "rhyperior",
+                        "id": 464,
+                        "sprite": "/static/sprites/pokemon/464.gif",
+                        "details": [
+                            {
+                                "trigger": "trade",
+                                "min_level": null,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/111.gif"
+}

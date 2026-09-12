@@ -1,0 +1,71 @@
+{
+    "id": 270,
+    "name": "lotad",
+    "category": "Water Weed Pokémon",
+    "description": "LOTAD live in ponds and lakes, where they float on the surface. It grows weak if its broad leaf dies. On rare occasions, this POKéMON travels on land in search of clean water.",
+    "generation": "generation-iii",
+    "height": 5,
+    "weight": 26,
+    "base_experience": 44,
+    "types": [
+        "water",
+        "grass"
+    ],
+    "abilities": [
+        {
+            "name": "swift-swim",
+            "is_hidden": false
+        },
+        {
+            "name": "rain-dish",
+            "is_hidden": false
+        },
+        {
+            "name": "own-tempo",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 40,
+        "attack": 30,
+        "defense": 30,
+        "special-attack": 40,
+        "special-defense": 50,
+        "speed": 30
+    },
+    "evolution_chain": {
+        "species": "lotad",
+        "id": 270,
+        "sprite": "/static/sprites/pokemon/270.gif",
+        "evolves_to": [
+            {
+                "species": "lombre",
+                "id": 271,
+                "sprite": "/static/sprites/pokemon/271.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 14,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "ludicolo",
+                        "id": 272,
+                        "sprite": "/static/sprites/pokemon/272.gif",
+                        "details": [
+                            {
+                                "trigger": "use-item",
+                                "min_level": null,
+                                "item": "water-stone"
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/270.gif"
+}

@@ -1,0 +1,66 @@
+{
+    "id": 909,
+    "name": "fuecoco",
+    "category": "Fire Croc Pokémon",
+    "description": "It lies on warm rocks and uses the heat absorbed by its square-shaped scales to create fire energy.",
+    "generation": "generation-ix",
+    "height": 4,
+    "weight": 98,
+    "base_experience": 62,
+    "types": [
+        "fire"
+    ],
+    "abilities": [
+        {
+            "name": "blaze",
+            "is_hidden": false
+        },
+        {
+            "name": "unaware",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 67,
+        "attack": 45,
+        "defense": 59,
+        "special-attack": 63,
+        "special-defense": 40,
+        "speed": 36
+    },
+    "evolution_chain": {
+        "species": "fuecoco",
+        "id": 909,
+        "sprite": "/static/sprites/pokemon/909.png",
+        "evolves_to": [
+            {
+                "species": "crocalor",
+                "id": 910,
+                "sprite": "/static/sprites/pokemon/910.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 16,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "skeledirge",
+                        "id": 911,
+                        "sprite": "/static/sprites/pokemon/911.png",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 36,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/909.png"
+}

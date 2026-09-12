@@ -1,0 +1,66 @@
+{
+    "id": 181,
+    "name": "ampharos",
+    "category": "Light Pokémon",
+    "description": "The tail's tip shines brightly and can be seen from far away. It acts as a beacon for lost people.",
+    "generation": "generation-ii",
+    "height": 14,
+    "weight": 615,
+    "base_experience": 230,
+    "types": [
+        "electric"
+    ],
+    "abilities": [
+        {
+            "name": "static",
+            "is_hidden": false
+        },
+        {
+            "name": "plus",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 90,
+        "attack": 75,
+        "defense": 85,
+        "special-attack": 115,
+        "special-defense": 90,
+        "speed": 55
+    },
+    "evolution_chain": {
+        "species": "mareep",
+        "id": 179,
+        "sprite": "/static/sprites/pokemon/179.gif",
+        "evolves_to": [
+            {
+                "species": "flaaffy",
+                "id": 180,
+                "sprite": "/static/sprites/pokemon/180.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 15,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "ampharos",
+                        "id": 181,
+                        "sprite": "/static/sprites/pokemon/181.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 30,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/181.gif"
+}

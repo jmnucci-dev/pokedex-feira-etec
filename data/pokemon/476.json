@@ -1,0 +1,87 @@
+{
+    "id": 476,
+    "name": "probopass",
+    "category": "Compass Pokémon",
+    "description": "It exudes strong magnetism from all over. It controls three small units called Mini-Noses.",
+    "generation": "generation-iv",
+    "height": 14,
+    "weight": 3400,
+    "base_experience": 184,
+    "types": [
+        "rock",
+        "steel"
+    ],
+    "abilities": [
+        {
+            "name": "sturdy",
+            "is_hidden": false
+        },
+        {
+            "name": "magnet-pull",
+            "is_hidden": false
+        },
+        {
+            "name": "sand-force",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 60,
+        "attack": 55,
+        "defense": 145,
+        "special-attack": 75,
+        "special-defense": 150,
+        "speed": 40
+    },
+    "evolution_chain": {
+        "species": "nosepass",
+        "id": 299,
+        "sprite": "/static/sprites/pokemon/299.gif",
+        "evolves_to": [
+            {
+                "species": "probopass",
+                "id": 476,
+                "sprite": "/static/sprites/pokemon/476.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    },
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    },
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    },
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    },
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    },
+                    {
+                        "trigger": "use-item",
+                        "min_level": null,
+                        "item": "thunder-stone"
+                    },
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/476.gif"
+}

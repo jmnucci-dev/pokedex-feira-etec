@@ -1,0 +1,66 @@
+{
+    "id": 372,
+    "name": "shelgon",
+    "category": "Endurance Pokémon",
+    "description": "Inside SHELGON’s armor-like shell, cells are in the midst of transformation to create an entirely new body. This POKéMON’s shell is extremely heavy, making its movements sluggish.",
+    "generation": "generation-iii",
+    "height": 11,
+    "weight": 1105,
+    "base_experience": 147,
+    "types": [
+        "dragon"
+    ],
+    "abilities": [
+        {
+            "name": "rock-head",
+            "is_hidden": false
+        },
+        {
+            "name": "overcoat",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 65,
+        "attack": 95,
+        "defense": 100,
+        "special-attack": 60,
+        "special-defense": 50,
+        "speed": 50
+    },
+    "evolution_chain": {
+        "species": "bagon",
+        "id": 371,
+        "sprite": "/static/sprites/pokemon/371.gif",
+        "evolves_to": [
+            {
+                "species": "shelgon",
+                "id": 372,
+                "sprite": "/static/sprites/pokemon/372.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 30,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "salamence",
+                        "id": 373,
+                        "sprite": "/static/sprites/pokemon/373.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 50,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/372.gif"
+}

@@ -1,0 +1,57 @@
+{
+    "id": 760,
+    "name": "bewear",
+    "category": "Strong Arm Pokémon",
+    "description": "This immensely dangerous Pokémon possesses overwhelming physical strength. Its habitat is generally off-limits.",
+    "generation": "generation-vii",
+    "height": 21,
+    "weight": 1350,
+    "base_experience": 175,
+    "types": [
+        "normal",
+        "fighting"
+    ],
+    "abilities": [
+        {
+            "name": "fluffy",
+            "is_hidden": false
+        },
+        {
+            "name": "klutz",
+            "is_hidden": false
+        },
+        {
+            "name": "unnerve",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 120,
+        "attack": 125,
+        "defense": 80,
+        "special-attack": 55,
+        "special-defense": 60,
+        "speed": 60
+    },
+    "evolution_chain": {
+        "species": "stufful",
+        "id": 759,
+        "sprite": "/static/sprites/pokemon/759.gif",
+        "evolves_to": [
+            {
+                "species": "bewear",
+                "id": 760,
+                "sprite": "/static/sprites/pokemon/760.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 27,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/760.gif"
+}

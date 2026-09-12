@@ -1,0 +1,56 @@
+{
+    "id": 98,
+    "name": "krabby",
+    "category": "River Crab Pokémon",
+    "description": "Its pincers are not only powerful weapons, they are used for balance when walking sideways.",
+    "generation": "generation-i",
+    "height": 4,
+    "weight": 65,
+    "base_experience": 65,
+    "types": [
+        "water"
+    ],
+    "abilities": [
+        {
+            "name": "hyper-cutter",
+            "is_hidden": false
+        },
+        {
+            "name": "shell-armor",
+            "is_hidden": false
+        },
+        {
+            "name": "sheer-force",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 30,
+        "attack": 105,
+        "defense": 90,
+        "special-attack": 25,
+        "special-defense": 25,
+        "speed": 50
+    },
+    "evolution_chain": {
+        "species": "krabby",
+        "id": 98,
+        "sprite": "/static/sprites/pokemon/98.gif",
+        "evolves_to": [
+            {
+                "species": "kingler",
+                "id": 99,
+                "sprite": "/static/sprites/pokemon/99.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 28,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/98.gif"
+}

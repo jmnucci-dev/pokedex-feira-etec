@@ -1,0 +1,70 @@
+{
+    "id": 821,
+    "name": "rookidee",
+    "category": "Tiny Bird Pokémon",
+    "description": "It will bravely challenge any opponent, no matter how powerful. This Pokémon benefits from every battle—even a defeat increases its strength a bit.",
+    "generation": "generation-viii",
+    "height": 2,
+    "weight": 18,
+    "base_experience": 49,
+    "types": [
+        "flying"
+    ],
+    "abilities": [
+        {
+            "name": "keen-eye",
+            "is_hidden": false
+        },
+        {
+            "name": "unnerve",
+            "is_hidden": false
+        },
+        {
+            "name": "big-pecks",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 38,
+        "attack": 47,
+        "defense": 35,
+        "special-attack": 33,
+        "special-defense": 35,
+        "speed": 57
+    },
+    "evolution_chain": {
+        "species": "rookidee",
+        "id": 821,
+        "sprite": "/static/sprites/pokemon/821.gif",
+        "evolves_to": [
+            {
+                "species": "corvisquire",
+                "id": 822,
+                "sprite": "/static/sprites/pokemon/822.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 18,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "corviknight",
+                        "id": 823,
+                        "sprite": "/static/sprites/pokemon/823.png",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 38,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/821.gif"
+}

@@ -1,0 +1,56 @@
+{
+    "id": 96,
+    "name": "drowzee",
+    "category": "Hypnosis Pokémon",
+    "description": "Puts enemies to sleep then eats their dreams. Occasionally gets sick from eating bad dreams.",
+    "generation": "generation-i",
+    "height": 10,
+    "weight": 324,
+    "base_experience": 66,
+    "types": [
+        "psychic"
+    ],
+    "abilities": [
+        {
+            "name": "insomnia",
+            "is_hidden": false
+        },
+        {
+            "name": "forewarn",
+            "is_hidden": false
+        },
+        {
+            "name": "inner-focus",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 60,
+        "attack": 48,
+        "defense": 45,
+        "special-attack": 43,
+        "special-defense": 90,
+        "speed": 42
+    },
+    "evolution_chain": {
+        "species": "drowzee",
+        "id": 96,
+        "sprite": "/static/sprites/pokemon/96.gif",
+        "evolves_to": [
+            {
+                "species": "hypno",
+                "id": 97,
+                "sprite": "/static/sprites/pokemon/97.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 26,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/96.gif"
+}

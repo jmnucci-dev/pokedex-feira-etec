@@ -1,0 +1,35 @@
+{
+    "id": 741,
+    "name": "oricorio-baile",
+    "category": "Dancing Pokémon",
+    "description": "It beats its wings together to create fire. As it moves in the steps of its beautiful dance, it bathes opponents in intense flames.",
+    "generation": "generation-vii",
+    "height": 6,
+    "weight": 34,
+    "base_experience": 167,
+    "types": [
+        "fire",
+        "flying"
+    ],
+    "abilities": [
+        {
+            "name": "dancer",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 75,
+        "attack": 70,
+        "defense": 70,
+        "special-attack": 98,
+        "special-defense": 70,
+        "speed": 93
+    },
+    "evolution_chain": {
+        "species": "oricorio",
+        "id": 741,
+        "sprite": "/static/sprites/pokemon/741.png",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/741.png"
+}

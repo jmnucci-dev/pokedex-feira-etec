@@ -1,0 +1,49 @@
+{
+    "id": 597,
+    "name": "ferroseed",
+    "category": "Thorn Seed Pokémon",
+    "description": "When threatened, it attacks by shooting a barrage of spikes, which gives it a chance to escape by rolling away.",
+    "generation": "generation-v",
+    "height": 6,
+    "weight": 188,
+    "base_experience": 61,
+    "types": [
+        "grass",
+        "steel"
+    ],
+    "abilities": [
+        {
+            "name": "iron-barbs",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 44,
+        "attack": 50,
+        "defense": 91,
+        "special-attack": 24,
+        "special-defense": 86,
+        "speed": 10
+    },
+    "evolution_chain": {
+        "species": "ferroseed",
+        "id": 597,
+        "sprite": "/static/sprites/pokemon/597.gif",
+        "evolves_to": [
+            {
+                "species": "ferrothorn",
+                "id": 598,
+                "sprite": "/static/sprites/pokemon/598.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 40,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/597.gif"
+}

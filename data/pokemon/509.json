@@ -1,0 +1,56 @@
+{
+    "id": 509,
+    "name": "purrloin",
+    "category": "Devious Pokémon",
+    "description": "They steal from people for fun, but their victims can’t help but forgive them. Their deceptively cute act is perfect.",
+    "generation": "generation-v",
+    "height": 4,
+    "weight": 101,
+    "base_experience": 56,
+    "types": [
+        "dark"
+    ],
+    "abilities": [
+        {
+            "name": "limber",
+            "is_hidden": false
+        },
+        {
+            "name": "unburden",
+            "is_hidden": false
+        },
+        {
+            "name": "prankster",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 41,
+        "attack": 50,
+        "defense": 37,
+        "special-attack": 50,
+        "special-defense": 37,
+        "speed": 66
+    },
+    "evolution_chain": {
+        "species": "purrloin",
+        "id": 509,
+        "sprite": "/static/sprites/pokemon/509.gif",
+        "evolves_to": [
+            {
+                "species": "liepard",
+                "id": 510,
+                "sprite": "/static/sprites/pokemon/510.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 20,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/509.gif"
+}

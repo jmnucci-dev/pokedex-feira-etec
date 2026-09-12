@@ -1,0 +1,63 @@
+{
+    "id": 93,
+    "name": "haunter",
+    "category": "Gas Pokémon",
+    "description": "Because of its ability to slip through block walls, it is said to be from an­ other dimension.",
+    "generation": "generation-i",
+    "height": 16,
+    "weight": 1,
+    "base_experience": 142,
+    "types": [
+        "ghost",
+        "poison"
+    ],
+    "abilities": [
+        {
+            "name": "levitate",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 45,
+        "attack": 50,
+        "defense": 45,
+        "special-attack": 115,
+        "special-defense": 55,
+        "speed": 95
+    },
+    "evolution_chain": {
+        "species": "gastly",
+        "id": 92,
+        "sprite": "/static/sprites/pokemon/92.gif",
+        "evolves_to": [
+            {
+                "species": "haunter",
+                "id": 93,
+                "sprite": "/static/sprites/pokemon/93.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 25,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "gengar",
+                        "id": 94,
+                        "sprite": "/static/sprites/pokemon/94.gif",
+                        "details": [
+                            {
+                                "trigger": "trade",
+                                "min_level": null,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/93.gif"
+}

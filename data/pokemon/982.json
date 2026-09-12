@@ -1,0 +1,56 @@
+{
+    "id": 982,
+    "name": "dudunsparce-two-segment",
+    "category": "Land Snake Pokémon",
+    "description": "This Pokémon uses its hard tail to make its nest by boring holes into bedrock deep underground. The nest can reach lengths of over six miles.",
+    "generation": "generation-ix",
+    "height": 36,
+    "weight": 392,
+    "base_experience": 182,
+    "types": [
+        "normal"
+    ],
+    "abilities": [
+        {
+            "name": "serene-grace",
+            "is_hidden": false
+        },
+        {
+            "name": "run-away",
+            "is_hidden": false
+        },
+        {
+            "name": "rattled",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 125,
+        "attack": 100,
+        "defense": 80,
+        "special-attack": 85,
+        "special-defense": 75,
+        "speed": 55
+    },
+    "evolution_chain": {
+        "species": "dunsparce",
+        "id": 206,
+        "sprite": "/static/sprites/pokemon/206.gif",
+        "evolves_to": [
+            {
+                "species": "dudunsparce",
+                "id": 982,
+                "sprite": "/static/sprites/pokemon/982.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/982.png"
+}

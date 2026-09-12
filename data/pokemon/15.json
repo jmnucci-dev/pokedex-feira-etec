@@ -1,0 +1,67 @@
+{
+    "id": 15,
+    "name": "beedrill",
+    "category": "Poison Bee Pokémon",
+    "description": "Flies at high speed and attacks using its large venomous stingers on its forelegs and tail.",
+    "generation": "generation-i",
+    "height": 10,
+    "weight": 295,
+    "base_experience": 178,
+    "types": [
+        "bug",
+        "poison"
+    ],
+    "abilities": [
+        {
+            "name": "swarm",
+            "is_hidden": false
+        },
+        {
+            "name": "sniper",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 65,
+        "attack": 90,
+        "defense": 40,
+        "special-attack": 45,
+        "special-defense": 80,
+        "speed": 75
+    },
+    "evolution_chain": {
+        "species": "weedle",
+        "id": 13,
+        "sprite": "/static/sprites/pokemon/13.gif",
+        "evolves_to": [
+            {
+                "species": "kakuna",
+                "id": 14,
+                "sprite": "/static/sprites/pokemon/14.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 7,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "beedrill",
+                        "id": 15,
+                        "sprite": "/static/sprites/pokemon/15.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 10,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/15.gif"
+}

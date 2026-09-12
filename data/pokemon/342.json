@@ -1,0 +1,57 @@
+{
+    "id": 342,
+    "name": "crawdaunt",
+    "category": "Rogue Pokémon",
+    "description": "CRAWDAUNT has an extremely violent nature that compels it to challenge other living things to battle. Other life-forms refuse to live in ponds inhabited by this POKéMON, making them desolate places.",
+    "generation": "generation-iii",
+    "height": 11,
+    "weight": 328,
+    "base_experience": 164,
+    "types": [
+        "water",
+        "dark"
+    ],
+    "abilities": [
+        {
+            "name": "hyper-cutter",
+            "is_hidden": false
+        },
+        {
+            "name": "shell-armor",
+            "is_hidden": false
+        },
+        {
+            "name": "adaptability",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 63,
+        "attack": 120,
+        "defense": 85,
+        "special-attack": 90,
+        "special-defense": 55,
+        "speed": 55
+    },
+    "evolution_chain": {
+        "species": "corphish",
+        "id": 341,
+        "sprite": "/static/sprites/pokemon/341.gif",
+        "evolves_to": [
+            {
+                "species": "crawdaunt",
+                "id": 342,
+                "sprite": "/static/sprites/pokemon/342.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 30,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/342.gif"
+}

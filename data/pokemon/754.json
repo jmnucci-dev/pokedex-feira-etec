@@ -1,0 +1,52 @@
+{
+    "id": 754,
+    "name": "lurantis",
+    "category": "Bloom Sickle Pokémon",
+    "description": "It requires a lot of effort to maintain Lurantis’s vivid coloring, but some collectors enjoy this work and treat it as their hobby.",
+    "generation": "generation-vii",
+    "height": 9,
+    "weight": 185,
+    "base_experience": 168,
+    "types": [
+        "grass"
+    ],
+    "abilities": [
+        {
+            "name": "leaf-guard",
+            "is_hidden": false
+        },
+        {
+            "name": "contrary",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 70,
+        "attack": 105,
+        "defense": 90,
+        "special-attack": 80,
+        "special-defense": 90,
+        "speed": 45
+    },
+    "evolution_chain": {
+        "species": "fomantis",
+        "id": 753,
+        "sprite": "/static/sprites/pokemon/753.gif",
+        "evolves_to": [
+            {
+                "species": "lurantis",
+                "id": 754,
+                "sprite": "/static/sprites/pokemon/754.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 34,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/754.gif"
+}

@@ -1,0 +1,43 @@
+{
+    "id": 880,
+    "name": "dracozolt",
+    "category": "Fossil Pokémon",
+    "description": "In ancient times, it was unbeatable thanks to its powerful lower body, but it went extinct anyway after it depleted all its plant-based food sources.",
+    "generation": "generation-viii",
+    "height": 18,
+    "weight": 1900,
+    "base_experience": 177,
+    "types": [
+        "electric",
+        "dragon"
+    ],
+    "abilities": [
+        {
+            "name": "volt-absorb",
+            "is_hidden": false
+        },
+        {
+            "name": "hustle",
+            "is_hidden": false
+        },
+        {
+            "name": "sand-rush",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 90,
+        "attack": 100,
+        "defense": 90,
+        "special-attack": 80,
+        "special-defense": 70,
+        "speed": 75
+    },
+    "evolution_chain": {
+        "species": "dracozolt",
+        "id": 880,
+        "sprite": "/static/sprites/pokemon/880.gif",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/880.gif"
+}

@@ -1,0 +1,57 @@
+{
+    "id": 834,
+    "name": "drednaw",
+    "category": "Bite Pokémon",
+    "description": "With jaws that can shear through steel rods, this highly aggressive Pokémon chomps down on its unfortunate prey.",
+    "generation": "generation-viii",
+    "height": 10,
+    "weight": 1155,
+    "base_experience": 170,
+    "types": [
+        "water",
+        "rock"
+    ],
+    "abilities": [
+        {
+            "name": "strong-jaw",
+            "is_hidden": false
+        },
+        {
+            "name": "shell-armor",
+            "is_hidden": false
+        },
+        {
+            "name": "swift-swim",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 90,
+        "attack": 115,
+        "defense": 90,
+        "special-attack": 48,
+        "special-defense": 68,
+        "speed": 74
+    },
+    "evolution_chain": {
+        "species": "chewtle",
+        "id": 833,
+        "sprite": "/static/sprites/pokemon/833.gif",
+        "evolves_to": [
+            {
+                "species": "drednaw",
+                "id": 834,
+                "sprite": "/static/sprites/pokemon/834.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 22,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/834.gif"
+}

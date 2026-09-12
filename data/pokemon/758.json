@@ -1,0 +1,53 @@
+{
+    "id": 758,
+    "name": "salazzle",
+    "category": "Toxic Lizard Pokémon",
+    "description": "For some reason, only females have been found. It creates a reverse harem of male Salandit that it lives with.",
+    "generation": "generation-vii",
+    "height": 12,
+    "weight": 222,
+    "base_experience": 168,
+    "types": [
+        "poison",
+        "fire"
+    ],
+    "abilities": [
+        {
+            "name": "corrosion",
+            "is_hidden": false
+        },
+        {
+            "name": "oblivious",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 68,
+        "attack": 64,
+        "defense": 60,
+        "special-attack": 111,
+        "special-defense": 60,
+        "speed": 117
+    },
+    "evolution_chain": {
+        "species": "salandit",
+        "id": 757,
+        "sprite": "/static/sprites/pokemon/757.png",
+        "evolves_to": [
+            {
+                "species": "salazzle",
+                "id": 758,
+                "sprite": "/static/sprites/pokemon/758.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 33,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/758.png"
+}

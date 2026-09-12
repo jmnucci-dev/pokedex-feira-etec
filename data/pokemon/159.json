@@ -1,0 +1,66 @@
+{
+    "id": 159,
+    "name": "croconaw",
+    "category": "Big Jaw Pokémon",
+    "description": "If it loses a fang, a new one grows back in its place. There are always 48 fangs lining its mouth.",
+    "generation": "generation-ii",
+    "height": 11,
+    "weight": 250,
+    "base_experience": 142,
+    "types": [
+        "water"
+    ],
+    "abilities": [
+        {
+            "name": "torrent",
+            "is_hidden": false
+        },
+        {
+            "name": "sheer-force",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 65,
+        "attack": 80,
+        "defense": 80,
+        "special-attack": 59,
+        "special-defense": 63,
+        "speed": 58
+    },
+    "evolution_chain": {
+        "species": "totodile",
+        "id": 158,
+        "sprite": "/static/sprites/pokemon/158.gif",
+        "evolves_to": [
+            {
+                "species": "croconaw",
+                "id": 159,
+                "sprite": "/static/sprites/pokemon/159.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 18,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "feraligatr",
+                        "id": 160,
+                        "sprite": "/static/sprites/pokemon/160.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 30,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/159.gif"
+}

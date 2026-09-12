@@ -1,0 +1,70 @@
+{
+    "id": 194,
+    "name": "wooper",
+    "category": "Water Fish Pokémon",
+    "description": "This POKéMON lives in cold water. It will leave the water to search for food when it gets cold outside.",
+    "generation": "generation-ii",
+    "height": 4,
+    "weight": 85,
+    "base_experience": 42,
+    "types": [
+        "water",
+        "ground"
+    ],
+    "abilities": [
+        {
+            "name": "damp",
+            "is_hidden": false
+        },
+        {
+            "name": "water-absorb",
+            "is_hidden": false
+        },
+        {
+            "name": "unaware",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 55,
+        "attack": 45,
+        "defense": 45,
+        "special-attack": 25,
+        "special-defense": 25,
+        "speed": 15
+    },
+    "evolution_chain": {
+        "species": "wooper",
+        "id": 194,
+        "sprite": "/static/sprites/pokemon/194.gif",
+        "evolves_to": [
+            {
+                "species": "quagsire",
+                "id": 195,
+                "sprite": "/static/sprites/pokemon/195.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 20,
+                        "item": null
+                    }
+                ],
+                "next": []
+            },
+            {
+                "species": "clodsire",
+                "id": 980,
+                "sprite": "/static/sprites/pokemon/980.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 20,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/194.gif"
+}

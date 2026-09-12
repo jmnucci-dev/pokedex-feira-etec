@@ -1,0 +1,57 @@
+{
+    "id": 423,
+    "name": "gastrodon",
+    "category": "Sea Slug Pokémon",
+    "description": "It has a pliable body without any bones. If any part of its body is torn off, it grows right back.",
+    "generation": "generation-iv",
+    "height": 9,
+    "weight": 299,
+    "base_experience": 166,
+    "types": [
+        "water",
+        "ground"
+    ],
+    "abilities": [
+        {
+            "name": "sticky-hold",
+            "is_hidden": false
+        },
+        {
+            "name": "storm-drain",
+            "is_hidden": false
+        },
+        {
+            "name": "sand-force",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 111,
+        "attack": 83,
+        "defense": 68,
+        "special-attack": 92,
+        "special-defense": 82,
+        "speed": 39
+    },
+    "evolution_chain": {
+        "species": "shellos",
+        "id": 422,
+        "sprite": "/static/sprites/pokemon/422.gif",
+        "evolves_to": [
+            {
+                "species": "gastrodon",
+                "id": 423,
+                "sprite": "/static/sprites/pokemon/423.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 30,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/423.gif"
+}

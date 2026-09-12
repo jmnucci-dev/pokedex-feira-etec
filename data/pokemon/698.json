@@ -1,0 +1,53 @@
+{
+    "id": 698,
+    "name": "amaura",
+    "category": "Tundra Pokémon",
+    "description": "This ancient Pokémon was restored from part of its body that had been frozen in ice for over 100 million years.",
+    "generation": "generation-vi",
+    "height": 13,
+    "weight": 252,
+    "base_experience": 72,
+    "types": [
+        "rock",
+        "ice"
+    ],
+    "abilities": [
+        {
+            "name": "refrigerate",
+            "is_hidden": false
+        },
+        {
+            "name": "snow-warning",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 77,
+        "attack": 59,
+        "defense": 50,
+        "special-attack": 67,
+        "special-defense": 63,
+        "speed": 46
+    },
+    "evolution_chain": {
+        "species": "amaura",
+        "id": 698,
+        "sprite": "/static/sprites/pokemon/698.png",
+        "evolves_to": [
+            {
+                "species": "aurorus",
+                "id": 699,
+                "sprite": "/static/sprites/pokemon/699.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 39,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/698.png"
+}

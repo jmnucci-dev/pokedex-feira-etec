@@ -1,0 +1,35 @@
+{
+    "id": 776,
+    "name": "turtonator",
+    "category": "Blast Turtle Pokémon",
+    "description": "The shell on its back is chemically unstable and explodes violently if struck. The hole in its stomach is its weak point.",
+    "generation": "generation-vii",
+    "height": 20,
+    "weight": 2120,
+    "base_experience": 170,
+    "types": [
+        "fire",
+        "dragon"
+    ],
+    "abilities": [
+        {
+            "name": "shell-armor",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 60,
+        "attack": 78,
+        "defense": 135,
+        "special-attack": 91,
+        "special-defense": 85,
+        "speed": 36
+    },
+    "evolution_chain": {
+        "species": "turtonator",
+        "id": 776,
+        "sprite": "/static/sprites/pokemon/776.gif",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/776.gif"
+}

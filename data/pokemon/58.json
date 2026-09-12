@@ -1,0 +1,61 @@
+{
+    "id": 58,
+    "name": "growlithe",
+    "category": "Puppy Pokémon",
+    "description": "Very protective of its territory. It will bark and bite to repel intruders from its space.",
+    "generation": "generation-i",
+    "height": 7,
+    "weight": 190,
+    "base_experience": 70,
+    "types": [
+        "fire"
+    ],
+    "abilities": [
+        {
+            "name": "intimidate",
+            "is_hidden": false
+        },
+        {
+            "name": "flash-fire",
+            "is_hidden": false
+        },
+        {
+            "name": "justified",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 55,
+        "attack": 70,
+        "defense": 45,
+        "special-attack": 70,
+        "special-defense": 50,
+        "speed": 60
+    },
+    "evolution_chain": {
+        "species": "growlithe",
+        "id": 58,
+        "sprite": "/static/sprites/pokemon/58.gif",
+        "evolves_to": [
+            {
+                "species": "arcanine",
+                "id": 59,
+                "sprite": "/static/sprites/pokemon/59.gif",
+                "details": [
+                    {
+                        "trigger": "use-item",
+                        "min_level": null,
+                        "item": "fire-stone"
+                    },
+                    {
+                        "trigger": "use-item",
+                        "min_level": null,
+                        "item": "fire-stone"
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/58.gif"
+}

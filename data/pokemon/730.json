@@ -1,0 +1,67 @@
+{
+    "id": 730,
+    "name": "primarina",
+    "category": "Soloist Pokémon",
+    "description": "It controls its water balloons with song. The melody is learned from others of its kind and is passed down from one generation to the next.",
+    "generation": "generation-vii",
+    "height": 18,
+    "weight": 440,
+    "base_experience": 239,
+    "types": [
+        "water",
+        "fairy"
+    ],
+    "abilities": [
+        {
+            "name": "torrent",
+            "is_hidden": false
+        },
+        {
+            "name": "liquid-voice",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 80,
+        "attack": 74,
+        "defense": 74,
+        "special-attack": 126,
+        "special-defense": 116,
+        "speed": 60
+    },
+    "evolution_chain": {
+        "species": "popplio",
+        "id": 728,
+        "sprite": "/static/sprites/pokemon/728.gif",
+        "evolves_to": [
+            {
+                "species": "brionne",
+                "id": 729,
+                "sprite": "/static/sprites/pokemon/729.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 17,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "primarina",
+                        "id": 730,
+                        "sprite": "/static/sprites/pokemon/730.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 34,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/730.gif"
+}

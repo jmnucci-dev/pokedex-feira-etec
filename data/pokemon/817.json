@@ -1,0 +1,66 @@
+{
+    "id": 817,
+    "name": "drizzile",
+    "category": "Water Lizard Pokémon",
+    "description": "A clever combatant, this Pokémon battles using water balloons created with moisture secreted from its palms.",
+    "generation": "generation-viii",
+    "height": 7,
+    "weight": 115,
+    "base_experience": 147,
+    "types": [
+        "water"
+    ],
+    "abilities": [
+        {
+            "name": "torrent",
+            "is_hidden": false
+        },
+        {
+            "name": "sniper",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 65,
+        "attack": 60,
+        "defense": 55,
+        "special-attack": 95,
+        "special-defense": 55,
+        "speed": 90
+    },
+    "evolution_chain": {
+        "species": "sobble",
+        "id": 816,
+        "sprite": "/static/sprites/pokemon/816.png",
+        "evolves_to": [
+            {
+                "species": "drizzile",
+                "id": 817,
+                "sprite": "/static/sprites/pokemon/817.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 16,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "inteleon",
+                        "id": 818,
+                        "sprite": "/static/sprites/pokemon/818.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 35,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/817.gif"
+}

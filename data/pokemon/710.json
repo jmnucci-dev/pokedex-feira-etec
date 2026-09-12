@@ -1,0 +1,72 @@
+{
+    "id": 710,
+    "name": "pumpkaboo-average",
+    "category": "Pumpkin Pokémon",
+    "description": "The pumpkin body is inhabited by a spirit trapped in this world. As the sun sets, it becomes restless and active.",
+    "generation": "generation-vi",
+    "height": 4,
+    "weight": 50,
+    "base_experience": 67,
+    "types": [
+        "ghost",
+        "grass"
+    ],
+    "abilities": [
+        {
+            "name": "pickup",
+            "is_hidden": false
+        },
+        {
+            "name": "frisk",
+            "is_hidden": false
+        },
+        {
+            "name": "insomnia",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 49,
+        "attack": 66,
+        "defense": 70,
+        "special-attack": 44,
+        "special-defense": 55,
+        "speed": 51
+    },
+    "evolution_chain": {
+        "species": "pumpkaboo",
+        "id": 710,
+        "sprite": "/static/sprites/pokemon/710.png",
+        "evolves_to": [
+            {
+                "species": "gourgeist",
+                "id": 711,
+                "sprite": "/static/sprites/pokemon/711.png",
+                "details": [
+                    {
+                        "trigger": "trade",
+                        "min_level": null,
+                        "item": null
+                    },
+                    {
+                        "trigger": "trade",
+                        "min_level": null,
+                        "item": null
+                    },
+                    {
+                        "trigger": "trade",
+                        "min_level": null,
+                        "item": null
+                    },
+                    {
+                        "trigger": "trade",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/710.png"
+}

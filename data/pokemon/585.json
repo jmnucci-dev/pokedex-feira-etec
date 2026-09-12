@@ -1,0 +1,57 @@
+{
+    "id": 585,
+    "name": "deerling",
+    "category": "Season Pokémon",
+    "description": "The color and scent of their fur changes to match the mountain grass. When they sense hostility, they hide in the grass.",
+    "generation": "generation-v",
+    "height": 6,
+    "weight": 195,
+    "base_experience": 67,
+    "types": [
+        "normal",
+        "grass"
+    ],
+    "abilities": [
+        {
+            "name": "chlorophyll",
+            "is_hidden": false
+        },
+        {
+            "name": "sap-sipper",
+            "is_hidden": false
+        },
+        {
+            "name": "serene-grace",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 60,
+        "attack": 60,
+        "defense": 50,
+        "special-attack": 40,
+        "special-defense": 50,
+        "speed": 75
+    },
+    "evolution_chain": {
+        "species": "deerling",
+        "id": 585,
+        "sprite": "/static/sprites/pokemon/585.gif",
+        "evolves_to": [
+            {
+                "species": "sawsbuck",
+                "id": 586,
+                "sprite": "/static/sprites/pokemon/586.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 34,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/585.gif"
+}

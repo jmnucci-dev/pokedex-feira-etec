@@ -1,0 +1,56 @@
+{
+    "id": 961,
+    "name": "wugtrio",
+    "category": "Garden Eel Pokémon",
+    "description": "It has a vicious temperament, contrary to what its appearance may suggest. It wraps its long bodies around prey, then drags the prey into its den.",
+    "generation": "generation-ix",
+    "height": 12,
+    "weight": 54,
+    "base_experience": 149,
+    "types": [
+        "water"
+    ],
+    "abilities": [
+        {
+            "name": "gooey",
+            "is_hidden": false
+        },
+        {
+            "name": "rattled",
+            "is_hidden": false
+        },
+        {
+            "name": "sand-veil",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 35,
+        "attack": 100,
+        "defense": 50,
+        "special-attack": 50,
+        "special-defense": 70,
+        "speed": 120
+    },
+    "evolution_chain": {
+        "species": "wiglett",
+        "id": 960,
+        "sprite": "/static/sprites/pokemon/960.png",
+        "evolves_to": [
+            {
+                "species": "wugtrio",
+                "id": 961,
+                "sprite": "/static/sprites/pokemon/961.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 26,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/961.png"
+}

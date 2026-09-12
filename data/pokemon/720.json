@@ -1,0 +1,35 @@
+{
+    "id": 720,
+    "name": "hoopa",
+    "category": "Mischief Pokémon",
+    "description": "This troublemaker sends anything and everything to faraway places using its loop, which can warp space.",
+    "generation": "generation-vi",
+    "height": 5,
+    "weight": 90,
+    "base_experience": 270,
+    "types": [
+        "psychic",
+        "ghost"
+    ],
+    "abilities": [
+        {
+            "name": "magician",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 80,
+        "attack": 110,
+        "defense": 60,
+        "special-attack": 150,
+        "special-defense": 130,
+        "speed": 70
+    },
+    "evolution_chain": {
+        "species": "hoopa",
+        "id": 720,
+        "sprite": "/static/sprites/pokemon/720.png",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/720.png"
+}

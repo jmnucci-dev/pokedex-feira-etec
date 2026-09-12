@@ -1,0 +1,49 @@
+{
+    "id": 1000,
+    "name": "gholdengo",
+    "category": "Coin Entity Pokémon",
+    "description": "Its body seems to be made up of 1,000 coins. This Pokémon gets along well with others and is quick to make friends with anybody.",
+    "generation": "generation-ix",
+    "height": 12,
+    "weight": 300,
+    "base_experience": 275,
+    "types": [
+        "steel",
+        "ghost"
+    ],
+    "abilities": [
+        {
+            "name": "good-as-gold",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 87,
+        "attack": 60,
+        "defense": 95,
+        "special-attack": 133,
+        "special-defense": 91,
+        "speed": 84
+    },
+    "evolution_chain": {
+        "species": "gimmighoul",
+        "id": 999,
+        "sprite": "/static/sprites/pokemon/999.png",
+        "evolves_to": [
+            {
+                "species": "gholdengo",
+                "id": 1000,
+                "sprite": "/static/sprites/pokemon/1000.png",
+                "details": [
+                    {
+                        "trigger": "gimmighoul-coins",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/1000.png"
+}

@@ -1,0 +1,57 @@
+{
+    "id": 400,
+    "name": "bibarel",
+    "category": "Beaver Pokémon",
+    "description": "It makes its nest by damming streams with bark and mud. It is known as an industrious worker.",
+    "generation": "generation-iv",
+    "height": 10,
+    "weight": 315,
+    "base_experience": 144,
+    "types": [
+        "normal",
+        "water"
+    ],
+    "abilities": [
+        {
+            "name": "simple",
+            "is_hidden": false
+        },
+        {
+            "name": "unaware",
+            "is_hidden": false
+        },
+        {
+            "name": "moody",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 79,
+        "attack": 85,
+        "defense": 60,
+        "special-attack": 55,
+        "special-defense": 60,
+        "speed": 71
+    },
+    "evolution_chain": {
+        "species": "bidoof",
+        "id": 399,
+        "sprite": "/static/sprites/pokemon/399.gif",
+        "evolves_to": [
+            {
+                "species": "bibarel",
+                "id": 400,
+                "sprite": "/static/sprites/pokemon/400.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 15,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/400.gif"
+}

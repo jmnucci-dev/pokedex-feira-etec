@@ -1,0 +1,56 @@
+{
+    "id": 734,
+    "name": "yungoos",
+    "category": "Loitering Pokémon",
+    "description": "With its sharp fangs, it will bite anything. It did not originally live in Alola but was imported from another region.",
+    "generation": "generation-vii",
+    "height": 4,
+    "weight": 60,
+    "base_experience": 51,
+    "types": [
+        "normal"
+    ],
+    "abilities": [
+        {
+            "name": "stakeout",
+            "is_hidden": false
+        },
+        {
+            "name": "strong-jaw",
+            "is_hidden": false
+        },
+        {
+            "name": "adaptability",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 48,
+        "attack": 70,
+        "defense": 30,
+        "special-attack": 30,
+        "special-defense": 30,
+        "speed": 45
+    },
+    "evolution_chain": {
+        "species": "yungoos",
+        "id": 734,
+        "sprite": "/static/sprites/pokemon/734.gif",
+        "evolves_to": [
+            {
+                "species": "gumshoos",
+                "id": 735,
+                "sprite": "/static/sprites/pokemon/735.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 20,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/734.gif"
+}

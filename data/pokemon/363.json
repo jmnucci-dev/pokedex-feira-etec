@@ -1,0 +1,71 @@
+{
+    "id": 363,
+    "name": "spheal",
+    "category": "Clap Pokémon",
+    "description": "SPHEAL is much faster rolling than walking to get around. When groups of this POKéMON eat, they all clap at once to show their pleasure. Because of this, their mealtimes are noisy.",
+    "generation": "generation-iii",
+    "height": 8,
+    "weight": 395,
+    "base_experience": 58,
+    "types": [
+        "ice",
+        "water"
+    ],
+    "abilities": [
+        {
+            "name": "thick-fat",
+            "is_hidden": false
+        },
+        {
+            "name": "ice-body",
+            "is_hidden": false
+        },
+        {
+            "name": "oblivious",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 70,
+        "attack": 40,
+        "defense": 50,
+        "special-attack": 55,
+        "special-defense": 50,
+        "speed": 25
+    },
+    "evolution_chain": {
+        "species": "spheal",
+        "id": 363,
+        "sprite": "/static/sprites/pokemon/363.gif",
+        "evolves_to": [
+            {
+                "species": "sealeo",
+                "id": 364,
+                "sprite": "/static/sprites/pokemon/364.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 32,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "walrein",
+                        "id": 365,
+                        "sprite": "/static/sprites/pokemon/365.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 44,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/363.gif"
+}

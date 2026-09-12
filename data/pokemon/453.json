@@ -1,0 +1,57 @@
+{
+    "id": 453,
+    "name": "croagunk",
+    "category": "Toxic Mouth Pokémon",
+    "description": "Its cheeks hold poison sacs. It tries to catch foes off guard to jab them with toxic fingers.",
+    "generation": "generation-iv",
+    "height": 7,
+    "weight": 230,
+    "base_experience": 60,
+    "types": [
+        "poison",
+        "fighting"
+    ],
+    "abilities": [
+        {
+            "name": "anticipation",
+            "is_hidden": false
+        },
+        {
+            "name": "dry-skin",
+            "is_hidden": false
+        },
+        {
+            "name": "poison-touch",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 48,
+        "attack": 61,
+        "defense": 40,
+        "special-attack": 61,
+        "special-defense": 40,
+        "speed": 50
+    },
+    "evolution_chain": {
+        "species": "croagunk",
+        "id": 453,
+        "sprite": "/static/sprites/pokemon/453.gif",
+        "evolves_to": [
+            {
+                "species": "toxicroak",
+                "id": 454,
+                "sprite": "/static/sprites/pokemon/454.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 37,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/453.gif"
+}

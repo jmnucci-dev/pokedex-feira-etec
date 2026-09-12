@@ -1,0 +1,56 @@
+{
+    "id": 735,
+    "name": "gumshoos",
+    "category": "Stakeout Pokémon",
+    "description": "When it finds a trace of its prey, it patiently stakes out the location...but it’s always snoozing by nightfall.",
+    "generation": "generation-vii",
+    "height": 7,
+    "weight": 142,
+    "base_experience": 146,
+    "types": [
+        "normal"
+    ],
+    "abilities": [
+        {
+            "name": "stakeout",
+            "is_hidden": false
+        },
+        {
+            "name": "strong-jaw",
+            "is_hidden": false
+        },
+        {
+            "name": "adaptability",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 88,
+        "attack": 110,
+        "defense": 60,
+        "special-attack": 55,
+        "special-defense": 60,
+        "speed": 45
+    },
+    "evolution_chain": {
+        "species": "yungoos",
+        "id": 734,
+        "sprite": "/static/sprites/pokemon/734.gif",
+        "evolves_to": [
+            {
+                "species": "gumshoos",
+                "id": 735,
+                "sprite": "/static/sprites/pokemon/735.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 20,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/735.gif"
+}

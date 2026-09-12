@@ -1,0 +1,71 @@
+{
+    "id": 520,
+    "name": "tranquill",
+    "category": "Wild Pigeon Pokémon",
+    "description": "It can return to its Trainer’s location regardless of the distance separating them.",
+    "generation": "generation-v",
+    "height": 6,
+    "weight": 150,
+    "base_experience": 125,
+    "types": [
+        "normal",
+        "flying"
+    ],
+    "abilities": [
+        {
+            "name": "big-pecks",
+            "is_hidden": false
+        },
+        {
+            "name": "super-luck",
+            "is_hidden": false
+        },
+        {
+            "name": "rivalry",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 62,
+        "attack": 77,
+        "defense": 62,
+        "special-attack": 50,
+        "special-defense": 42,
+        "speed": 65
+    },
+    "evolution_chain": {
+        "species": "pidove",
+        "id": 519,
+        "sprite": "/static/sprites/pokemon/519.gif",
+        "evolves_to": [
+            {
+                "species": "tranquill",
+                "id": 520,
+                "sprite": "/static/sprites/pokemon/520.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 21,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "unfezant",
+                        "id": 521,
+                        "sprite": "/static/sprites/pokemon/521.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 32,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/520.gif"
+}

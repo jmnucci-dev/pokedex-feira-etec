@@ -1,0 +1,61 @@
+{
+    "id": 110,
+    "name": "weezing",
+    "category": "Poison Gas Pokémon",
+    "description": "Where two kinds of poison gases meet, 2 KOFFINGs can fuse into a WEEZING over many years.",
+    "generation": "generation-i",
+    "height": 12,
+    "weight": 95,
+    "base_experience": 172,
+    "types": [
+        "poison"
+    ],
+    "abilities": [
+        {
+            "name": "levitate",
+            "is_hidden": false
+        },
+        {
+            "name": "neutralizing-gas",
+            "is_hidden": false
+        },
+        {
+            "name": "stench",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 65,
+        "attack": 90,
+        "defense": 120,
+        "special-attack": 85,
+        "special-defense": 70,
+        "speed": 60
+    },
+    "evolution_chain": {
+        "species": "koffing",
+        "id": 109,
+        "sprite": "/static/sprites/pokemon/109.gif",
+        "evolves_to": [
+            {
+                "species": "weezing",
+                "id": 110,
+                "sprite": "/static/sprites/pokemon/110.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 35,
+                        "item": null
+                    },
+                    {
+                        "trigger": "level-up",
+                        "min_level": 35,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/110.gif"
+}

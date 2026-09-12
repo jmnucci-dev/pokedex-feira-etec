@@ -1,0 +1,66 @@
+{
+    "id": 497,
+    "name": "serperior",
+    "category": "Regal Pokémon",
+    "description": "It can stop its opponents’ movements with just a glare. It takes in solar energy and boosts it internally.",
+    "generation": "generation-v",
+    "height": 33,
+    "weight": 630,
+    "base_experience": 238,
+    "types": [
+        "grass"
+    ],
+    "abilities": [
+        {
+            "name": "overgrow",
+            "is_hidden": false
+        },
+        {
+            "name": "contrary",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 75,
+        "attack": 75,
+        "defense": 95,
+        "special-attack": 75,
+        "special-defense": 95,
+        "speed": 113
+    },
+    "evolution_chain": {
+        "species": "snivy",
+        "id": 495,
+        "sprite": "/static/sprites/pokemon/495.gif",
+        "evolves_to": [
+            {
+                "species": "servine",
+                "id": 496,
+                "sprite": "/static/sprites/pokemon/496.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 17,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "serperior",
+                        "id": 497,
+                        "sprite": "/static/sprites/pokemon/497.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 36,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/497.gif"
+}

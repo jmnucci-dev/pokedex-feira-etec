@@ -1,0 +1,52 @@
+{
+    "id": 853,
+    "name": "grapploct",
+    "category": "Jujitsu Pokémon",
+    "description": "A body made up of nothing but muscle makes the grappling moves this Pokémon performs with its tentacles tremendously powerful.",
+    "generation": "generation-viii",
+    "height": 16,
+    "weight": 390,
+    "base_experience": 168,
+    "types": [
+        "fighting"
+    ],
+    "abilities": [
+        {
+            "name": "limber",
+            "is_hidden": false
+        },
+        {
+            "name": "technician",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 80,
+        "attack": 118,
+        "defense": 90,
+        "special-attack": 70,
+        "special-defense": 80,
+        "speed": 42
+    },
+    "evolution_chain": {
+        "species": "clobbopus",
+        "id": 852,
+        "sprite": "/static/sprites/pokemon/852.gif",
+        "evolves_to": [
+            {
+                "species": "grapploct",
+                "id": 853,
+                "sprite": "/static/sprites/pokemon/853.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/853.png"
+}

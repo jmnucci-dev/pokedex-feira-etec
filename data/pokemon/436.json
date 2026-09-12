@@ -1,0 +1,57 @@
+{
+    "id": 436,
+    "name": "bronzor",
+    "category": "Bronze Pokémon",
+    "description": "Implements shaped like it were discovered in ancient tombs. It is unknown if they are related.",
+    "generation": "generation-iv",
+    "height": 5,
+    "weight": 605,
+    "base_experience": 60,
+    "types": [
+        "steel",
+        "psychic"
+    ],
+    "abilities": [
+        {
+            "name": "levitate",
+            "is_hidden": false
+        },
+        {
+            "name": "heatproof",
+            "is_hidden": false
+        },
+        {
+            "name": "heavy-metal",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 57,
+        "attack": 24,
+        "defense": 86,
+        "special-attack": 24,
+        "special-defense": 86,
+        "speed": 23
+    },
+    "evolution_chain": {
+        "species": "bronzor",
+        "id": 436,
+        "sprite": "/static/sprites/pokemon/436.gif",
+        "evolves_to": [
+            {
+                "species": "bronzong",
+                "id": 437,
+                "sprite": "/static/sprites/pokemon/437.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 33,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/436.gif"
+}

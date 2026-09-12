@@ -1,0 +1,56 @@
+{
+    "id": 915,
+    "name": "lechonk",
+    "category": "Hog Pokémon",
+    "description": "It searches for food all day. It possesses a keen sense of smell but doesn’t use it for anything other than foraging.",
+    "generation": "generation-ix",
+    "height": 5,
+    "weight": 102,
+    "base_experience": 51,
+    "types": [
+        "normal"
+    ],
+    "abilities": [
+        {
+            "name": "aroma-veil",
+            "is_hidden": false
+        },
+        {
+            "name": "gluttony",
+            "is_hidden": false
+        },
+        {
+            "name": "thick-fat",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 54,
+        "attack": 45,
+        "defense": 40,
+        "special-attack": 35,
+        "special-defense": 45,
+        "speed": 35
+    },
+    "evolution_chain": {
+        "species": "lechonk",
+        "id": 915,
+        "sprite": "/static/sprites/pokemon/915.png",
+        "evolves_to": [
+            {
+                "species": "oinkologne",
+                "id": 916,
+                "sprite": "/static/sprites/pokemon/916.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 18,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/915.png"
+}

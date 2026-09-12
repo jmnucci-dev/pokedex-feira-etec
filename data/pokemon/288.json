@@ -1,0 +1,62 @@
+{
+    "id": 288,
+    "name": "vigoroth",
+    "category": "Wild Monkey Pokémon",
+    "description": "VIGOROTH is always itching and agitated to go on a wild rampage. It simply can’t tolerate sitting still for even a minute. This POKéMON’s stress level rises if it can’t be moving constantly.",
+    "generation": "generation-iii",
+    "height": 14,
+    "weight": 465,
+    "base_experience": 154,
+    "types": [
+        "normal"
+    ],
+    "abilities": [
+        {
+            "name": "vital-spirit",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 80,
+        "attack": 80,
+        "defense": 80,
+        "special-attack": 55,
+        "special-defense": 55,
+        "speed": 90
+    },
+    "evolution_chain": {
+        "species": "slakoth",
+        "id": 287,
+        "sprite": "/static/sprites/pokemon/287.gif",
+        "evolves_to": [
+            {
+                "species": "vigoroth",
+                "id": 288,
+                "sprite": "/static/sprites/pokemon/288.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 18,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "slaking",
+                        "id": 289,
+                        "sprite": "/static/sprites/pokemon/289.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 36,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/288.gif"
+}

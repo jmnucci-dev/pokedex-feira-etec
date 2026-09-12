@@ -1,0 +1,63 @@
+{
+    "id": 247,
+    "name": "pupitar",
+    "category": "Hard Shell Pokémon",
+    "description": "Its shell is as hard as sheet rock, and it is also very strong. Its THRASHING can topple a mountain.",
+    "generation": "generation-ii",
+    "height": 12,
+    "weight": 1520,
+    "base_experience": 144,
+    "types": [
+        "rock",
+        "ground"
+    ],
+    "abilities": [
+        {
+            "name": "shed-skin",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 70,
+        "attack": 84,
+        "defense": 70,
+        "special-attack": 65,
+        "special-defense": 70,
+        "speed": 51
+    },
+    "evolution_chain": {
+        "species": "larvitar",
+        "id": 246,
+        "sprite": "/static/sprites/pokemon/246.gif",
+        "evolves_to": [
+            {
+                "species": "pupitar",
+                "id": 247,
+                "sprite": "/static/sprites/pokemon/247.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 30,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "tyranitar",
+                        "id": 248,
+                        "sprite": "/static/sprites/pokemon/248.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 55,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/247.gif"
+}

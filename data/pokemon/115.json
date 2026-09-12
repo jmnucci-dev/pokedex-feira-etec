@@ -1,0 +1,42 @@
+{
+    "id": 115,
+    "name": "kangaskhan",
+    "category": "Parent Pokémon",
+    "description": "The infant rarely ventures out of its mother's protective pouch until it is 3 years old.",
+    "generation": "generation-i",
+    "height": 22,
+    "weight": 800,
+    "base_experience": 172,
+    "types": [
+        "normal"
+    ],
+    "abilities": [
+        {
+            "name": "early-bird",
+            "is_hidden": false
+        },
+        {
+            "name": "scrappy",
+            "is_hidden": false
+        },
+        {
+            "name": "inner-focus",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 105,
+        "attack": 95,
+        "defense": 80,
+        "special-attack": 40,
+        "special-defense": 80,
+        "speed": 90
+    },
+    "evolution_chain": {
+        "species": "kangaskhan",
+        "id": 115,
+        "sprite": "/static/sprites/pokemon/115.gif",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/115.gif"
+}

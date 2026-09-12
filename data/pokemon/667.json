@@ -1,0 +1,57 @@
+{
+    "id": 667,
+    "name": "litleo",
+    "category": "Lion Cub Pokémon",
+    "description": "The stronger the opponent it faces, the more heat surges from its mane and the more power flows through its body.",
+    "generation": "generation-vi",
+    "height": 6,
+    "weight": 135,
+    "base_experience": 74,
+    "types": [
+        "fire",
+        "normal"
+    ],
+    "abilities": [
+        {
+            "name": "rivalry",
+            "is_hidden": false
+        },
+        {
+            "name": "unnerve",
+            "is_hidden": false
+        },
+        {
+            "name": "moxie",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 62,
+        "attack": 50,
+        "defense": 58,
+        "special-attack": 73,
+        "special-defense": 54,
+        "speed": 72
+    },
+    "evolution_chain": {
+        "species": "litleo",
+        "id": 667,
+        "sprite": "/static/sprites/pokemon/667.png",
+        "evolves_to": [
+            {
+                "species": "pyroar",
+                "id": 668,
+                "sprite": "/static/sprites/pokemon/668.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 35,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/667.png"
+}

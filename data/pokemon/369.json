@@ -1,0 +1,43 @@
+{
+    "id": 369,
+    "name": "relicanth",
+    "category": "Longevity Pokémon",
+    "description": "RELICANTH is a POKéMON species that existed for a hundred million years without ever changing its form. This ancient POKéMON feeds on microscopic organisms with its toothless mouth.",
+    "generation": "generation-iii",
+    "height": 10,
+    "weight": 234,
+    "base_experience": 170,
+    "types": [
+        "water",
+        "rock"
+    ],
+    "abilities": [
+        {
+            "name": "swift-swim",
+            "is_hidden": false
+        },
+        {
+            "name": "rock-head",
+            "is_hidden": false
+        },
+        {
+            "name": "sturdy",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 100,
+        "attack": 90,
+        "defense": 130,
+        "special-attack": 45,
+        "special-defense": 65,
+        "speed": 55
+    },
+    "evolution_chain": {
+        "species": "relicanth",
+        "id": 369,
+        "sprite": "/static/sprites/pokemon/369.gif",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/369.gif"
+}

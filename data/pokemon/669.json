@@ -1,0 +1,66 @@
+{
+    "id": 669,
+    "name": "flabebe",
+    "category": "Single Bloom Pokémon",
+    "description": "It draws out and controls the hidden power of flowers. The flower Flabébé holds is most likely part of its body.",
+    "generation": "generation-vi",
+    "height": 1,
+    "weight": 1,
+    "base_experience": 61,
+    "types": [
+        "fairy"
+    ],
+    "abilities": [
+        {
+            "name": "flower-veil",
+            "is_hidden": false
+        },
+        {
+            "name": "symbiosis",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 44,
+        "attack": 38,
+        "defense": 39,
+        "special-attack": 61,
+        "special-defense": 79,
+        "speed": 42
+    },
+    "evolution_chain": {
+        "species": "flabebe",
+        "id": 669,
+        "sprite": "/static/sprites/pokemon/669.png",
+        "evolves_to": [
+            {
+                "species": "floette",
+                "id": 670,
+                "sprite": "/static/sprites/pokemon/670.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 19,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "florges",
+                        "id": 671,
+                        "sprite": "/static/sprites/pokemon/671.png",
+                        "details": [
+                            {
+                                "trigger": "use-item",
+                                "min_level": null,
+                                "item": "shiny-stone"
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/669.png"
+}

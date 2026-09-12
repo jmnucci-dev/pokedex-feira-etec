@@ -1,0 +1,70 @@
+{
+    "id": 32,
+    "name": "nidoran-m",
+    "category": "Poison Pin Pokémon",
+    "description": "Stiffens its ears to sense danger. The larger its horns, the more powerful its secreted venom.",
+    "generation": "generation-i",
+    "height": 5,
+    "weight": 90,
+    "base_experience": 55,
+    "types": [
+        "poison"
+    ],
+    "abilities": [
+        {
+            "name": "poison-point",
+            "is_hidden": false
+        },
+        {
+            "name": "rivalry",
+            "is_hidden": false
+        },
+        {
+            "name": "hustle",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 46,
+        "attack": 57,
+        "defense": 40,
+        "special-attack": 40,
+        "special-defense": 40,
+        "speed": 50
+    },
+    "evolution_chain": {
+        "species": "nidoran-m",
+        "id": 32,
+        "sprite": "/static/sprites/pokemon/32.gif",
+        "evolves_to": [
+            {
+                "species": "nidorino",
+                "id": 33,
+                "sprite": "/static/sprites/pokemon/33.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 16,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "nidoking",
+                        "id": 34,
+                        "sprite": "/static/sprites/pokemon/34.gif",
+                        "details": [
+                            {
+                                "trigger": "use-item",
+                                "min_level": null,
+                                "item": "moon-stone"
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/32.gif"
+}

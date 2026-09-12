@@ -1,0 +1,57 @@
+{
+    "id": 434,
+    "name": "stunky",
+    "category": "Skunk Pokémon",
+    "description": "It protects itself by spraying a noxious fluid from its rear. The stench lingers for 24 hours.",
+    "generation": "generation-iv",
+    "height": 4,
+    "weight": 192,
+    "base_experience": 66,
+    "types": [
+        "poison",
+        "dark"
+    ],
+    "abilities": [
+        {
+            "name": "stench",
+            "is_hidden": false
+        },
+        {
+            "name": "aftermath",
+            "is_hidden": false
+        },
+        {
+            "name": "keen-eye",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 63,
+        "attack": 63,
+        "defense": 47,
+        "special-attack": 41,
+        "special-defense": 41,
+        "speed": 74
+    },
+    "evolution_chain": {
+        "species": "stunky",
+        "id": 434,
+        "sprite": "/static/sprites/pokemon/434.gif",
+        "evolves_to": [
+            {
+                "species": "skuntank",
+                "id": 435,
+                "sprite": "/static/sprites/pokemon/435.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 34,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/434.gif"
+}

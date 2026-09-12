@@ -1,0 +1,35 @@
+{
+    "id": 805,
+    "name": "stakataka",
+    "category": "Rampart Pokémon",
+    "description": "It appeared from an Ultra Wormhole. Each one appears to be made up of many life-forms stacked one on top of each other.",
+    "generation": "generation-vii",
+    "height": 55,
+    "weight": 8200,
+    "base_experience": 257,
+    "types": [
+        "rock",
+        "steel"
+    ],
+    "abilities": [
+        {
+            "name": "beast-boost",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 61,
+        "attack": 131,
+        "defense": 211,
+        "special-attack": 53,
+        "special-defense": 101,
+        "speed": 13
+    },
+    "evolution_chain": {
+        "species": "stakataka",
+        "id": 805,
+        "sprite": "/static/sprites/pokemon/805.gif",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/805.gif"
+}

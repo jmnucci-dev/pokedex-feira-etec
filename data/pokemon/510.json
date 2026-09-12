@@ -1,0 +1,56 @@
+{
+    "id": 510,
+    "name": "liepard",
+    "category": "Cruel Pokémon",
+    "description": "These Pokémon vanish and appear unexpectedly. Many Trainers are drawn to their beautiful form and fur.",
+    "generation": "generation-v",
+    "height": 11,
+    "weight": 375,
+    "base_experience": 156,
+    "types": [
+        "dark"
+    ],
+    "abilities": [
+        {
+            "name": "limber",
+            "is_hidden": false
+        },
+        {
+            "name": "unburden",
+            "is_hidden": false
+        },
+        {
+            "name": "prankster",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 64,
+        "attack": 88,
+        "defense": 50,
+        "special-attack": 88,
+        "special-defense": 50,
+        "speed": 106
+    },
+    "evolution_chain": {
+        "species": "purrloin",
+        "id": 509,
+        "sprite": "/static/sprites/pokemon/509.gif",
+        "evolves_to": [
+            {
+                "species": "liepard",
+                "id": 510,
+                "sprite": "/static/sprites/pokemon/510.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 20,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/510.gif"
+}

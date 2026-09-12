@@ -1,0 +1,52 @@
+{
+    "id": 864,
+    "name": "cursola",
+    "category": "Coral Pokémon",
+    "description": "Its shell is overflowing with its heightened otherworldly energy. The ectoplasm serves as protection for this Pokémon’s core spirit.",
+    "generation": "generation-viii",
+    "height": 10,
+    "weight": 4,
+    "base_experience": 179,
+    "types": [
+        "ghost"
+    ],
+    "abilities": [
+        {
+            "name": "weak-armor",
+            "is_hidden": false
+        },
+        {
+            "name": "perish-body",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 60,
+        "attack": 95,
+        "defense": 50,
+        "special-attack": 145,
+        "special-defense": 130,
+        "speed": 30
+    },
+    "evolution_chain": {
+        "species": "corsola",
+        "id": 222,
+        "sprite": "/static/sprites/pokemon/222.gif",
+        "evolves_to": [
+            {
+                "species": "cursola",
+                "id": 864,
+                "sprite": "/static/sprites/pokemon/864.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 38,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/864.gif"
+}

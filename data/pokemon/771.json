@@ -1,0 +1,38 @@
+{
+    "id": 771,
+    "name": "pyukumuku",
+    "category": "Sea Cucumber Pokémon",
+    "description": "It lives in shallow seas, such as areas near a beach. It can eject its internal organs, which it uses to engulf its prey or battle enemies.",
+    "generation": "generation-vii",
+    "height": 3,
+    "weight": 12,
+    "base_experience": 144,
+    "types": [
+        "water"
+    ],
+    "abilities": [
+        {
+            "name": "innards-out",
+            "is_hidden": false
+        },
+        {
+            "name": "unaware",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 55,
+        "attack": 60,
+        "defense": 130,
+        "special-attack": 30,
+        "special-defense": 130,
+        "speed": 5
+    },
+    "evolution_chain": {
+        "species": "pyukumuku",
+        "id": 771,
+        "sprite": "/static/sprites/pokemon/771.gif",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/771.gif"
+}

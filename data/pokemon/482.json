@@ -1,0 +1,34 @@
+{
+    "id": 482,
+    "name": "azelf",
+    "category": "Willpower Pokémon",
+    "description": "Known as “The Being of Willpower.” It sleeps at the bottom of a lake to keep the world in balance.",
+    "generation": "generation-iv",
+    "height": 3,
+    "weight": 3,
+    "base_experience": 261,
+    "types": [
+        "psychic"
+    ],
+    "abilities": [
+        {
+            "name": "levitate",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 75,
+        "attack": 125,
+        "defense": 70,
+        "special-attack": 125,
+        "special-defense": 70,
+        "speed": 115
+    },
+    "evolution_chain": {
+        "species": "azelf",
+        "id": 482,
+        "sprite": "/static/sprites/pokemon/482.gif",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/482.gif"
+}

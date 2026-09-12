@@ -1,0 +1,70 @@
+{
+    "id": 579,
+    "name": "reuniclus",
+    "category": "Multiplying Pokémon",
+    "description": "When Reuniclus shake hands, a network forms between their brains, increasing their psychic power.",
+    "generation": "generation-v",
+    "height": 10,
+    "weight": 201,
+    "base_experience": 221,
+    "types": [
+        "psychic"
+    ],
+    "abilities": [
+        {
+            "name": "overcoat",
+            "is_hidden": false
+        },
+        {
+            "name": "magic-guard",
+            "is_hidden": false
+        },
+        {
+            "name": "regenerator",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 110,
+        "attack": 65,
+        "defense": 75,
+        "special-attack": 125,
+        "special-defense": 85,
+        "speed": 30
+    },
+    "evolution_chain": {
+        "species": "solosis",
+        "id": 577,
+        "sprite": "/static/sprites/pokemon/577.gif",
+        "evolves_to": [
+            {
+                "species": "duosion",
+                "id": 578,
+                "sprite": "/static/sprites/pokemon/578.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 32,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "reuniclus",
+                        "id": 579,
+                        "sprite": "/static/sprites/pokemon/579.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 41,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/579.gif"
+}

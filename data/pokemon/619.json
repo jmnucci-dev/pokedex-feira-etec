@@ -1,0 +1,56 @@
+{
+    "id": 619,
+    "name": "mienfoo",
+    "category": "Martial Arts Pokémon",
+    "description": "In fights, they dominate with onslaughts of flowing, continuous attacks. With their sharp claws, they cut enemies.",
+    "generation": "generation-v",
+    "height": 9,
+    "weight": 200,
+    "base_experience": 70,
+    "types": [
+        "fighting"
+    ],
+    "abilities": [
+        {
+            "name": "inner-focus",
+            "is_hidden": false
+        },
+        {
+            "name": "regenerator",
+            "is_hidden": false
+        },
+        {
+            "name": "reckless",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 45,
+        "attack": 85,
+        "defense": 50,
+        "special-attack": 55,
+        "special-defense": 50,
+        "speed": 65
+    },
+    "evolution_chain": {
+        "species": "mienfoo",
+        "id": 619,
+        "sprite": "/static/sprites/pokemon/619.gif",
+        "evolves_to": [
+            {
+                "species": "mienshao",
+                "id": 620,
+                "sprite": "/static/sprites/pokemon/620.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 50,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/619.gif"
+}

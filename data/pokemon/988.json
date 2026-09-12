@@ -1,0 +1,35 @@
+{
+    "id": 988,
+    "name": "slither-wing",
+    "category": "Paradox Pokémon",
+    "description": "This mysterious Pokémon has some similarities to a creature that an old book introduced as Slither Wing.",
+    "generation": "generation-ix",
+    "height": 32,
+    "weight": 920,
+    "base_experience": 285,
+    "types": [
+        "bug",
+        "fighting"
+    ],
+    "abilities": [
+        {
+            "name": "protosynthesis",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 85,
+        "attack": 135,
+        "defense": 79,
+        "special-attack": 85,
+        "special-defense": 105,
+        "speed": 81
+    },
+    "evolution_chain": {
+        "species": "slither-wing",
+        "id": 988,
+        "sprite": "/static/sprites/pokemon/988.png",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/988.png"
+}

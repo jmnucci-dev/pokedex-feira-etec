@@ -1,0 +1,67 @@
+{
+    "id": 398,
+    "name": "staraptor",
+    "category": "Predator Pokémon",
+    "description": "It has a savage nature. It will courageously challenge foes that are much larger.",
+    "generation": "generation-iv",
+    "height": 12,
+    "weight": 249,
+    "base_experience": 218,
+    "types": [
+        "normal",
+        "flying"
+    ],
+    "abilities": [
+        {
+            "name": "intimidate",
+            "is_hidden": false
+        },
+        {
+            "name": "reckless",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 85,
+        "attack": 120,
+        "defense": 70,
+        "special-attack": 50,
+        "special-defense": 60,
+        "speed": 100
+    },
+    "evolution_chain": {
+        "species": "starly",
+        "id": 396,
+        "sprite": "/static/sprites/pokemon/396.gif",
+        "evolves_to": [
+            {
+                "species": "staravia",
+                "id": 397,
+                "sprite": "/static/sprites/pokemon/397.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 14,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "staraptor",
+                        "id": 398,
+                        "sprite": "/static/sprites/pokemon/398.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 34,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/398.gif"
+}

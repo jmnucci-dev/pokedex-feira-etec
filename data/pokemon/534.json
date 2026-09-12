@@ -1,0 +1,70 @@
+{
+    "id": 534,
+    "name": "conkeldurr",
+    "category": "Muscular Pokémon",
+    "description": "It is thought that Conkeldurr taught humans how to make concrete more than 2,000 years ago.",
+    "generation": "generation-v",
+    "height": 14,
+    "weight": 870,
+    "base_experience": 227,
+    "types": [
+        "fighting"
+    ],
+    "abilities": [
+        {
+            "name": "guts",
+            "is_hidden": false
+        },
+        {
+            "name": "sheer-force",
+            "is_hidden": false
+        },
+        {
+            "name": "iron-fist",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 105,
+        "attack": 140,
+        "defense": 95,
+        "special-attack": 55,
+        "special-defense": 65,
+        "speed": 45
+    },
+    "evolution_chain": {
+        "species": "timburr",
+        "id": 532,
+        "sprite": "/static/sprites/pokemon/532.gif",
+        "evolves_to": [
+            {
+                "species": "gurdurr",
+                "id": 533,
+                "sprite": "/static/sprites/pokemon/533.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 25,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "conkeldurr",
+                        "id": 534,
+                        "sprite": "/static/sprites/pokemon/534.gif",
+                        "details": [
+                            {
+                                "trigger": "trade",
+                                "min_level": null,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/534.gif"
+}

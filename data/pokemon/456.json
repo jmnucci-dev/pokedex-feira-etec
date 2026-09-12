@@ -1,0 +1,56 @@
+{
+    "id": 456,
+    "name": "finneon",
+    "category": "Wing Fish Pokémon",
+    "description": "After long exposure to sunlight, the patterns on its tail fins shine vividly when darkness arrives.",
+    "generation": "generation-iv",
+    "height": 4,
+    "weight": 70,
+    "base_experience": 66,
+    "types": [
+        "water"
+    ],
+    "abilities": [
+        {
+            "name": "swift-swim",
+            "is_hidden": false
+        },
+        {
+            "name": "storm-drain",
+            "is_hidden": false
+        },
+        {
+            "name": "water-veil",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 49,
+        "attack": 49,
+        "defense": 56,
+        "special-attack": 49,
+        "special-defense": 61,
+        "speed": 66
+    },
+    "evolution_chain": {
+        "species": "finneon",
+        "id": 456,
+        "sprite": "/static/sprites/pokemon/456.gif",
+        "evolves_to": [
+            {
+                "species": "lumineon",
+                "id": 457,
+                "sprite": "/static/sprites/pokemon/457.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 31,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/456.gif"
+}

@@ -1,0 +1,38 @@
+{
+    "id": 870,
+    "name": "falinks",
+    "category": "Formation Pokémon",
+    "description": "Five of them are troopers, and one is the brass. The brass’s orders are absolute.",
+    "generation": "generation-viii",
+    "height": 30,
+    "weight": 620,
+    "base_experience": 165,
+    "types": [
+        "fighting"
+    ],
+    "abilities": [
+        {
+            "name": "battle-armor",
+            "is_hidden": false
+        },
+        {
+            "name": "defiant",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 65,
+        "attack": 100,
+        "defense": 100,
+        "special-attack": 70,
+        "special-defense": 60,
+        "speed": 75
+    },
+    "evolution_chain": {
+        "species": "falinks",
+        "id": 870,
+        "sprite": "/static/sprites/pokemon/870.gif",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/870.gif"
+}

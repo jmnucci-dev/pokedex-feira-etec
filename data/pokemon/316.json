@@ -1,0 +1,56 @@
+{
+    "id": 316,
+    "name": "gulpin",
+    "category": "Stomach Pokémon",
+    "description": "Virtually all of GULPIN’s body is its stomach. As a result, it can swallow something its own size. This POKéMON’s stomach contains a special fluid that digests anything.",
+    "generation": "generation-iii",
+    "height": 4,
+    "weight": 103,
+    "base_experience": 60,
+    "types": [
+        "poison"
+    ],
+    "abilities": [
+        {
+            "name": "liquid-ooze",
+            "is_hidden": false
+        },
+        {
+            "name": "sticky-hold",
+            "is_hidden": false
+        },
+        {
+            "name": "gluttony",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 70,
+        "attack": 43,
+        "defense": 53,
+        "special-attack": 43,
+        "special-defense": 53,
+        "speed": 40
+    },
+    "evolution_chain": {
+        "species": "gulpin",
+        "id": 316,
+        "sprite": "/static/sprites/pokemon/316.gif",
+        "evolves_to": [
+            {
+                "species": "swalot",
+                "id": 317,
+                "sprite": "/static/sprites/pokemon/317.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 26,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/316.gif"
+}

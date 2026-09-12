@@ -1,0 +1,71 @@
+{
+    "id": 825,
+    "name": "dottler",
+    "category": "Radome Pokémon",
+    "description": "It barely moves, but it’s still alive. Hiding in its shell without food or water seems to have awakened its psychic powers.",
+    "generation": "generation-viii",
+    "height": 4,
+    "weight": 195,
+    "base_experience": 117,
+    "types": [
+        "bug",
+        "psychic"
+    ],
+    "abilities": [
+        {
+            "name": "swarm",
+            "is_hidden": false
+        },
+        {
+            "name": "compound-eyes",
+            "is_hidden": false
+        },
+        {
+            "name": "telepathy",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 50,
+        "attack": 35,
+        "defense": 80,
+        "special-attack": 50,
+        "special-defense": 90,
+        "speed": 30
+    },
+    "evolution_chain": {
+        "species": "blipbug",
+        "id": 824,
+        "sprite": "/static/sprites/pokemon/824.gif",
+        "evolves_to": [
+            {
+                "species": "dottler",
+                "id": 825,
+                "sprite": "/static/sprites/pokemon/825.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 10,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "orbeetle",
+                        "id": 826,
+                        "sprite": "/static/sprites/pokemon/826.png",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 30,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/825.png"
+}

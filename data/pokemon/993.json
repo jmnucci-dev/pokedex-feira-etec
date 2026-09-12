@@ -1,0 +1,35 @@
+{
+    "id": 993,
+    "name": "iron-jugulis",
+    "category": "Paradox Pokémon",
+    "description": "It resembles a certain Pokémon introduced in a paranormal magazine, described as the offspring of a Hydreigon that fell in love with a robot.",
+    "generation": "generation-ix",
+    "height": 13,
+    "weight": 1110,
+    "base_experience": 285,
+    "types": [
+        "dark",
+        "flying"
+    ],
+    "abilities": [
+        {
+            "name": "quark-drive",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 94,
+        "attack": 80,
+        "defense": 86,
+        "special-attack": 122,
+        "special-defense": 80,
+        "speed": 108
+    },
+    "evolution_chain": {
+        "species": "iron-jugulis",
+        "id": 993,
+        "sprite": "/static/sprites/pokemon/993.png",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/993.png"
+}

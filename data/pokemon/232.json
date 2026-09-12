@@ -1,0 +1,52 @@
+{
+    "id": 232,
+    "name": "donphan",
+    "category": "Armor Pokémon",
+    "description": "It has sharp, hard tusks and a rugged hide. Its TACKLE is strong enough to knock down a house.",
+    "generation": "generation-ii",
+    "height": 11,
+    "weight": 1200,
+    "base_experience": 175,
+    "types": [
+        "ground"
+    ],
+    "abilities": [
+        {
+            "name": "sturdy",
+            "is_hidden": false
+        },
+        {
+            "name": "sand-veil",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 90,
+        "attack": 120,
+        "defense": 120,
+        "special-attack": 60,
+        "special-defense": 60,
+        "speed": 50
+    },
+    "evolution_chain": {
+        "species": "phanpy",
+        "id": 231,
+        "sprite": "/static/sprites/pokemon/231.gif",
+        "evolves_to": [
+            {
+                "species": "donphan",
+                "id": 232,
+                "sprite": "/static/sprites/pokemon/232.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 25,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/232.gif"
+}

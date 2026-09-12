@@ -1,0 +1,75 @@
+{
+    "id": 263,
+    "name": "zigzagoon",
+    "category": "Tiny Raccoon Pokémon",
+    "description": "ZIGZAGOON restlessly wanders everywhere at all times. This POKéMON does so because it is very curious. It becomes interested in anything that it happens to see.",
+    "generation": "generation-iii",
+    "height": 4,
+    "weight": 175,
+    "base_experience": 56,
+    "types": [
+        "normal"
+    ],
+    "abilities": [
+        {
+            "name": "pickup",
+            "is_hidden": false
+        },
+        {
+            "name": "gluttony",
+            "is_hidden": false
+        },
+        {
+            "name": "quick-feet",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 38,
+        "attack": 30,
+        "defense": 41,
+        "special-attack": 30,
+        "special-defense": 41,
+        "speed": 60
+    },
+    "evolution_chain": {
+        "species": "zigzagoon",
+        "id": 263,
+        "sprite": "/static/sprites/pokemon/263.gif",
+        "evolves_to": [
+            {
+                "species": "linoone",
+                "id": 264,
+                "sprite": "/static/sprites/pokemon/264.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 20,
+                        "item": null
+                    },
+                    {
+                        "trigger": "level-up",
+                        "min_level": 20,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "obstagoon",
+                        "id": 862,
+                        "sprite": "/static/sprites/pokemon/862.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 35,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/263.gif"
+}

@@ -1,0 +1,89 @@
+{
+    "id": 268,
+    "name": "cascoon",
+    "category": "Cocoon Pokémon",
+    "description": "CASCOON makes its protective cocoon by wrapping its body entirely with a fine silk from its mouth. Once the silk goes around its body, it hardens. This POKéMON prepares for its evolution inside the cocoon.",
+    "generation": "generation-iii",
+    "height": 7,
+    "weight": 115,
+    "base_experience": 72,
+    "types": [
+        "bug"
+    ],
+    "abilities": [
+        {
+            "name": "shed-skin",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 50,
+        "attack": 35,
+        "defense": 55,
+        "special-attack": 25,
+        "special-defense": 25,
+        "speed": 15
+    },
+    "evolution_chain": {
+        "species": "wurmple",
+        "id": 265,
+        "sprite": "/static/sprites/pokemon/265.gif",
+        "evolves_to": [
+            {
+                "species": "silcoon",
+                "id": 266,
+                "sprite": "/static/sprites/pokemon/266.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 7,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "beautifly",
+                        "id": 267,
+                        "sprite": "/static/sprites/pokemon/267.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 10,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            },
+            {
+                "species": "cascoon",
+                "id": 268,
+                "sprite": "/static/sprites/pokemon/268.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 7,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "dustox",
+                        "id": 269,
+                        "sprite": "/static/sprites/pokemon/269.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 10,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/268.gif"
+}

@@ -1,0 +1,70 @@
+{
+    "id": 242,
+    "name": "blissey",
+    "category": "Happiness Pokémon",
+    "description": "Anyone who takes even one bite of BLISSEY's egg be­ comes unfailingly caring and pleas­ ant to everyone.",
+    "generation": "generation-ii",
+    "height": 15,
+    "weight": 468,
+    "base_experience": 608,
+    "types": [
+        "normal"
+    ],
+    "abilities": [
+        {
+            "name": "natural-cure",
+            "is_hidden": false
+        },
+        {
+            "name": "serene-grace",
+            "is_hidden": false
+        },
+        {
+            "name": "healer",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 255,
+        "attack": 10,
+        "defense": 10,
+        "special-attack": 75,
+        "special-defense": 135,
+        "speed": 55
+    },
+    "evolution_chain": {
+        "species": "happiny",
+        "id": 440,
+        "sprite": "/static/sprites/pokemon/440.gif",
+        "evolves_to": [
+            {
+                "species": "chansey",
+                "id": 113,
+                "sprite": "/static/sprites/pokemon/113.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "blissey",
+                        "id": 242,
+                        "sprite": "/static/sprites/pokemon/242.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": null,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/242.gif"
+}

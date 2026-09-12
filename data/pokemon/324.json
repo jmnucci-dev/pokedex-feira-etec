@@ -1,0 +1,42 @@
+{
+    "id": 324,
+    "name": "torkoal",
+    "category": "Coal Pokémon",
+    "description": "TORKOAL digs through mountains in search of coal. If it finds some, it fills hollow spaces on its shell with the coal and burns it. If it is attacked, this POKéMON spouts thick black smoke to beat a retreat.",
+    "generation": "generation-iii",
+    "height": 5,
+    "weight": 804,
+    "base_experience": 165,
+    "types": [
+        "fire"
+    ],
+    "abilities": [
+        {
+            "name": "white-smoke",
+            "is_hidden": false
+        },
+        {
+            "name": "drought",
+            "is_hidden": false
+        },
+        {
+            "name": "shell-armor",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 70,
+        "attack": 85,
+        "defense": 140,
+        "special-attack": 85,
+        "special-defense": 70,
+        "speed": 20
+    },
+    "evolution_chain": {
+        "species": "torkoal",
+        "id": 324,
+        "sprite": "/static/sprites/pokemon/324.gif",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/324.gif"
+}

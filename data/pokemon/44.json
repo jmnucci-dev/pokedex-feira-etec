@@ -1,0 +1,80 @@
+{
+    "id": 44,
+    "name": "gloom",
+    "category": "Weed Pokémon",
+    "description": "The fluid that oozes from its mouth isn't drool. It is a nectar that is used to attract prey.",
+    "generation": "generation-i",
+    "height": 8,
+    "weight": 86,
+    "base_experience": 138,
+    "types": [
+        "grass",
+        "poison"
+    ],
+    "abilities": [
+        {
+            "name": "chlorophyll",
+            "is_hidden": false
+        },
+        {
+            "name": "stench",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 60,
+        "attack": 65,
+        "defense": 70,
+        "special-attack": 85,
+        "special-defense": 75,
+        "speed": 40
+    },
+    "evolution_chain": {
+        "species": "oddish",
+        "id": 43,
+        "sprite": "/static/sprites/pokemon/43.gif",
+        "evolves_to": [
+            {
+                "species": "gloom",
+                "id": 44,
+                "sprite": "/static/sprites/pokemon/44.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 21,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "vileplume",
+                        "id": 45,
+                        "sprite": "/static/sprites/pokemon/45.gif",
+                        "details": [
+                            {
+                                "trigger": "use-item",
+                                "min_level": null,
+                                "item": "leaf-stone"
+                            }
+                        ],
+                        "next": []
+                    },
+                    {
+                        "species": "bellossom",
+                        "id": 182,
+                        "sprite": "/static/sprites/pokemon/182.gif",
+                        "details": [
+                            {
+                                "trigger": "use-item",
+                                "min_level": null,
+                                "item": "sun-stone"
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/44.gif"
+}

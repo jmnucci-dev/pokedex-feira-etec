@@ -1,0 +1,52 @@
+{
+    "id": 408,
+    "name": "cranidos",
+    "category": "Head Butt Pokémon",
+    "description": "It lived in jungles around 100 million years ago. Its skull is as hard as iron.",
+    "generation": "generation-iv",
+    "height": 9,
+    "weight": 315,
+    "base_experience": 70,
+    "types": [
+        "rock"
+    ],
+    "abilities": [
+        {
+            "name": "mold-breaker",
+            "is_hidden": false
+        },
+        {
+            "name": "sheer-force",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 67,
+        "attack": 125,
+        "defense": 40,
+        "special-attack": 30,
+        "special-defense": 30,
+        "speed": 58
+    },
+    "evolution_chain": {
+        "species": "cranidos",
+        "id": 408,
+        "sprite": "/static/sprites/pokemon/408.gif",
+        "evolves_to": [
+            {
+                "species": "rampardos",
+                "id": 409,
+                "sprite": "/static/sprites/pokemon/409.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 30,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/408.gif"
+}

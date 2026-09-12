@@ -1,0 +1,56 @@
+{
+    "id": 206,
+    "name": "dunsparce",
+    "category": "Land Snake Pokémon",
+    "description": "When spotted, this POKéMON escapes backward by furi­ ously boring into the ground with its tail.",
+    "generation": "generation-ii",
+    "height": 15,
+    "weight": 140,
+    "base_experience": 145,
+    "types": [
+        "normal"
+    ],
+    "abilities": [
+        {
+            "name": "serene-grace",
+            "is_hidden": false
+        },
+        {
+            "name": "run-away",
+            "is_hidden": false
+        },
+        {
+            "name": "rattled",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 100,
+        "attack": 70,
+        "defense": 70,
+        "special-attack": 65,
+        "special-defense": 65,
+        "speed": 45
+    },
+    "evolution_chain": {
+        "species": "dunsparce",
+        "id": 206,
+        "sprite": "/static/sprites/pokemon/206.gif",
+        "evolves_to": [
+            {
+                "species": "dudunsparce",
+                "id": 982,
+                "sprite": "/static/sprites/pokemon/982.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/206.gif"
+}

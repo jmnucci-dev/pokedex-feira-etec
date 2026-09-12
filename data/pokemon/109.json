@@ -1,0 +1,61 @@
+{
+    "id": 109,
+    "name": "koffing",
+    "category": "Poison Gas Pokémon",
+    "description": "Because it stores several kinds of toxic gases in its body, it is prone to exploding without warning.",
+    "generation": "generation-i",
+    "height": 6,
+    "weight": 10,
+    "base_experience": 68,
+    "types": [
+        "poison"
+    ],
+    "abilities": [
+        {
+            "name": "levitate",
+            "is_hidden": false
+        },
+        {
+            "name": "neutralizing-gas",
+            "is_hidden": false
+        },
+        {
+            "name": "stench",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 40,
+        "attack": 65,
+        "defense": 95,
+        "special-attack": 60,
+        "special-defense": 45,
+        "speed": 35
+    },
+    "evolution_chain": {
+        "species": "koffing",
+        "id": 109,
+        "sprite": "/static/sprites/pokemon/109.gif",
+        "evolves_to": [
+            {
+                "species": "weezing",
+                "id": 110,
+                "sprite": "/static/sprites/pokemon/110.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 35,
+                        "item": null
+                    },
+                    {
+                        "trigger": "level-up",
+                        "min_level": 35,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/109.gif"
+}

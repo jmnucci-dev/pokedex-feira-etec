@@ -1,0 +1,57 @@
+{
+    "id": 629,
+    "name": "vullaby",
+    "category": "Diapered Pokémon",
+    "description": "Its wings are too tiny to allow it to fly. As the time approaches for it to evolve, it discards the bones it was wearing.",
+    "generation": "generation-v",
+    "height": 5,
+    "weight": 90,
+    "base_experience": 74,
+    "types": [
+        "dark",
+        "flying"
+    ],
+    "abilities": [
+        {
+            "name": "big-pecks",
+            "is_hidden": false
+        },
+        {
+            "name": "overcoat",
+            "is_hidden": false
+        },
+        {
+            "name": "weak-armor",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 70,
+        "attack": 55,
+        "defense": 75,
+        "special-attack": 45,
+        "special-defense": 65,
+        "speed": 60
+    },
+    "evolution_chain": {
+        "species": "vullaby",
+        "id": 629,
+        "sprite": "/static/sprites/pokemon/629.gif",
+        "evolves_to": [
+            {
+                "species": "mandibuzz",
+                "id": 630,
+                "sprite": "/static/sprites/pokemon/630.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 54,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/629.gif"
+}

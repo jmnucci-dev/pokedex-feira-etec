@@ -1,0 +1,39 @@
+{
+    "id": 249,
+    "name": "lugia",
+    "category": "Diving Pokémon",
+    "description": "It is said that it quietly spends its time deep at the bottom of the sea because its powers are too strong.",
+    "generation": "generation-ii",
+    "height": 52,
+    "weight": 2160,
+    "base_experience": 306,
+    "types": [
+        "psychic",
+        "flying"
+    ],
+    "abilities": [
+        {
+            "name": "pressure",
+            "is_hidden": false
+        },
+        {
+            "name": "multiscale",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 106,
+        "attack": 90,
+        "defense": 130,
+        "special-attack": 90,
+        "special-defense": 154,
+        "speed": 110
+    },
+    "evolution_chain": {
+        "species": "lugia",
+        "id": 249,
+        "sprite": "/static/sprites/pokemon/249.gif",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/249.gif"
+}

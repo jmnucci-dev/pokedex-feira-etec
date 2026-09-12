@@ -1,0 +1,61 @@
+{
+    "id": 105,
+    "name": "marowak",
+    "category": "Bone Keeper Pokémon",
+    "description": "The bone it holds is its key weapon. It throws the bone skillfully like a boomerang to KO targets.",
+    "generation": "generation-i",
+    "height": 10,
+    "weight": 450,
+    "base_experience": 149,
+    "types": [
+        "ground"
+    ],
+    "abilities": [
+        {
+            "name": "rock-head",
+            "is_hidden": false
+        },
+        {
+            "name": "lightning-rod",
+            "is_hidden": false
+        },
+        {
+            "name": "battle-armor",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 60,
+        "attack": 80,
+        "defense": 110,
+        "special-attack": 50,
+        "special-defense": 80,
+        "speed": 45
+    },
+    "evolution_chain": {
+        "species": "cubone",
+        "id": 104,
+        "sprite": "/static/sprites/pokemon/104.gif",
+        "evolves_to": [
+            {
+                "species": "marowak",
+                "id": 105,
+                "sprite": "/static/sprites/pokemon/105.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 28,
+                        "item": null
+                    },
+                    {
+                        "trigger": "level-up",
+                        "min_level": 28,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/105.gif"
+}

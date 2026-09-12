@@ -1,0 +1,56 @@
+{
+    "id": 955,
+    "name": "flittle",
+    "category": "Frill Pokémon",
+    "description": "Flittle’s toes levitate about half an inch above the ground because of the psychic power emitted from the frills on the Pokémon’s belly.",
+    "generation": "generation-ix",
+    "height": 2,
+    "weight": 15,
+    "base_experience": 51,
+    "types": [
+        "psychic"
+    ],
+    "abilities": [
+        {
+            "name": "anticipation",
+            "is_hidden": false
+        },
+        {
+            "name": "frisk",
+            "is_hidden": false
+        },
+        {
+            "name": "speed-boost",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 30,
+        "attack": 35,
+        "defense": 30,
+        "special-attack": 55,
+        "special-defense": 30,
+        "speed": 75
+    },
+    "evolution_chain": {
+        "species": "flittle",
+        "id": 955,
+        "sprite": "/static/sprites/pokemon/955.png",
+        "evolves_to": [
+            {
+                "species": "espathra",
+                "id": 956,
+                "sprite": "/static/sprites/pokemon/956.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 35,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/955.png"
+}

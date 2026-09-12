@@ -1,0 +1,42 @@
+{
+    "id": 621,
+    "name": "druddigon",
+    "category": "Cave Pokémon",
+    "description": "It warms its body by absorbing sunlight with its wings. When its body temperature falls, it can no longer move.",
+    "generation": "generation-v",
+    "height": 16,
+    "weight": 1390,
+    "base_experience": 170,
+    "types": [
+        "dragon"
+    ],
+    "abilities": [
+        {
+            "name": "rough-skin",
+            "is_hidden": false
+        },
+        {
+            "name": "sheer-force",
+            "is_hidden": false
+        },
+        {
+            "name": "mold-breaker",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 77,
+        "attack": 120,
+        "defense": 90,
+        "special-attack": 60,
+        "special-defense": 90,
+        "speed": 48
+    },
+    "evolution_chain": {
+        "species": "druddigon",
+        "id": 621,
+        "sprite": "/static/sprites/pokemon/621.gif",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/621.gif"
+}

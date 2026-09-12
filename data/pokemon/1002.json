@@ -1,0 +1,35 @@
+{
+    "id": 1002,
+    "name": "chien-pao",
+    "category": "Ruinous Pokémon",
+    "description": "This Pokémon can control 100 tons of fallen snow. It plays around innocently by leaping in and out of avalanches it has caused.",
+    "generation": "generation-ix",
+    "height": 19,
+    "weight": 1522,
+    "base_experience": 285,
+    "types": [
+        "dark",
+        "ice"
+    ],
+    "abilities": [
+        {
+            "name": "sword-of-ruin",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 80,
+        "attack": 120,
+        "defense": 80,
+        "special-attack": 90,
+        "special-defense": 65,
+        "speed": 135
+    },
+    "evolution_chain": {
+        "species": "chien-pao",
+        "id": 1002,
+        "sprite": "/static/sprites/pokemon/1002.png",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/1002.png"
+}

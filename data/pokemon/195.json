@@ -1,0 +1,70 @@
+{
+    "id": 195,
+    "name": "quagsire",
+    "category": "Water Fish Pokémon",
+    "description": "This carefree POKéMON has an easy-going nature. While swimming, it always bumps into boat hulls.",
+    "generation": "generation-ii",
+    "height": 14,
+    "weight": 750,
+    "base_experience": 151,
+    "types": [
+        "water",
+        "ground"
+    ],
+    "abilities": [
+        {
+            "name": "damp",
+            "is_hidden": false
+        },
+        {
+            "name": "water-absorb",
+            "is_hidden": false
+        },
+        {
+            "name": "unaware",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 95,
+        "attack": 85,
+        "defense": 85,
+        "special-attack": 65,
+        "special-defense": 65,
+        "speed": 35
+    },
+    "evolution_chain": {
+        "species": "wooper",
+        "id": 194,
+        "sprite": "/static/sprites/pokemon/194.gif",
+        "evolves_to": [
+            {
+                "species": "quagsire",
+                "id": 195,
+                "sprite": "/static/sprites/pokemon/195.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 20,
+                        "item": null
+                    }
+                ],
+                "next": []
+            },
+            {
+                "species": "clodsire",
+                "id": 980,
+                "sprite": "/static/sprites/pokemon/980.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 20,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/195.gif"
+}

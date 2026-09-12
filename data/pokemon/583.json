@@ -1,0 +1,70 @@
+{
+    "id": 583,
+    "name": "vanillish",
+    "category": "Icy Snow Pokémon",
+    "description": "Snowy mountains are this Pokémon’s habitat. During an ancient ice age, they moved to southern areas.",
+    "generation": "generation-v",
+    "height": 11,
+    "weight": 410,
+    "base_experience": 138,
+    "types": [
+        "ice"
+    ],
+    "abilities": [
+        {
+            "name": "ice-body",
+            "is_hidden": false
+        },
+        {
+            "name": "snow-cloak",
+            "is_hidden": false
+        },
+        {
+            "name": "weak-armor",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 51,
+        "attack": 65,
+        "defense": 65,
+        "special-attack": 80,
+        "special-defense": 75,
+        "speed": 59
+    },
+    "evolution_chain": {
+        "species": "vanillite",
+        "id": 582,
+        "sprite": "/static/sprites/pokemon/582.gif",
+        "evolves_to": [
+            {
+                "species": "vanillish",
+                "id": 583,
+                "sprite": "/static/sprites/pokemon/583.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 35,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "vanilluxe",
+                        "id": 584,
+                        "sprite": "/static/sprites/pokemon/584.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 47,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/583.gif"
+}

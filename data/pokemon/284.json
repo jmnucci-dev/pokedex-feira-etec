@@ -1,0 +1,53 @@
+{
+    "id": 284,
+    "name": "masquerain",
+    "category": "Eyeball Pokémon",
+    "description": "MASQUERAIN intimidates enemies with the eyelike patterns on its antennas. This POKéMON flaps its four wings to freely fly in any direction - even sideways and backwards - as if it were a helicopter.",
+    "generation": "generation-iii",
+    "height": 8,
+    "weight": 36,
+    "base_experience": 159,
+    "types": [
+        "bug",
+        "flying"
+    ],
+    "abilities": [
+        {
+            "name": "intimidate",
+            "is_hidden": false
+        },
+        {
+            "name": "unnerve",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 70,
+        "attack": 60,
+        "defense": 62,
+        "special-attack": 100,
+        "special-defense": 82,
+        "speed": 80
+    },
+    "evolution_chain": {
+        "species": "surskit",
+        "id": 283,
+        "sprite": "/static/sprites/pokemon/283.gif",
+        "evolves_to": [
+            {
+                "species": "masquerain",
+                "id": 284,
+                "sprite": "/static/sprites/pokemon/284.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 22,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/284.gif"
+}

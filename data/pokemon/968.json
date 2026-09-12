@@ -1,0 +1,38 @@
+{
+    "id": 968,
+    "name": "orthworm",
+    "category": "Earthworm Pokémon",
+    "description": "When attacked, this Pokémon will wield the tendrils on its body like fists and pelt the opponent with a storm of punches.",
+    "generation": "generation-ix",
+    "height": 25,
+    "weight": 3100,
+    "base_experience": 240,
+    "types": [
+        "steel"
+    ],
+    "abilities": [
+        {
+            "name": "earth-eater",
+            "is_hidden": false
+        },
+        {
+            "name": "sand-veil",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 70,
+        "attack": 85,
+        "defense": 145,
+        "special-attack": 60,
+        "special-defense": 55,
+        "speed": 65
+    },
+    "evolution_chain": {
+        "species": "orthworm",
+        "id": 968,
+        "sprite": "/static/sprites/pokemon/968.png",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/968.png"
+}

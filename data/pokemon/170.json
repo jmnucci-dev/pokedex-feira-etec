@@ -1,0 +1,57 @@
+{
+    "id": 170,
+    "name": "chinchou",
+    "category": "Angler Pokémon",
+    "description": "It shoots positive and negative elec­ tricity between the tips of its two antennae and zaps its enemies.",
+    "generation": "generation-ii",
+    "height": 5,
+    "weight": 120,
+    "base_experience": 66,
+    "types": [
+        "water",
+        "electric"
+    ],
+    "abilities": [
+        {
+            "name": "volt-absorb",
+            "is_hidden": false
+        },
+        {
+            "name": "illuminate",
+            "is_hidden": false
+        },
+        {
+            "name": "water-absorb",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 75,
+        "attack": 38,
+        "defense": 38,
+        "special-attack": 56,
+        "special-defense": 56,
+        "speed": 67
+    },
+    "evolution_chain": {
+        "species": "chinchou",
+        "id": 170,
+        "sprite": "/static/sprites/pokemon/170.gif",
+        "evolves_to": [
+            {
+                "species": "lanturn",
+                "id": 171,
+                "sprite": "/static/sprites/pokemon/171.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 27,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/170.gif"
+}

@@ -1,0 +1,57 @@
+{
+    "id": 140,
+    "name": "kabuto",
+    "category": "Shellfish Pokémon",
+    "description": "A POKéMON that was resurrected from a fossil found in what was once the ocean floor eons ago.",
+    "generation": "generation-i",
+    "height": 5,
+    "weight": 115,
+    "base_experience": 71,
+    "types": [
+        "rock",
+        "water"
+    ],
+    "abilities": [
+        {
+            "name": "swift-swim",
+            "is_hidden": false
+        },
+        {
+            "name": "battle-armor",
+            "is_hidden": false
+        },
+        {
+            "name": "weak-armor",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 30,
+        "attack": 80,
+        "defense": 90,
+        "special-attack": 55,
+        "special-defense": 45,
+        "speed": 55
+    },
+    "evolution_chain": {
+        "species": "kabuto",
+        "id": 140,
+        "sprite": "/static/sprites/pokemon/140.gif",
+        "evolves_to": [
+            {
+                "species": "kabutops",
+                "id": 141,
+                "sprite": "/static/sprites/pokemon/141.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 40,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/140.gif"
+}

@@ -1,0 +1,57 @@
+{
+    "id": 899,
+    "name": "wyrdeer",
+    "category": "Big Horn Pokémon",
+    "description": "The black orbs shine with an uncanny light when the Pokémon is erecting invisible barriers. The fur shed from its beard retains heat well and is a highly useful material for winter clothing.",
+    "generation": "generation-viii",
+    "height": 18,
+    "weight": 951,
+    "base_experience": 263,
+    "types": [
+        "normal",
+        "psychic"
+    ],
+    "abilities": [
+        {
+            "name": "intimidate",
+            "is_hidden": false
+        },
+        {
+            "name": "frisk",
+            "is_hidden": false
+        },
+        {
+            "name": "sap-sipper",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 103,
+        "attack": 105,
+        "defense": 72,
+        "special-attack": 105,
+        "special-defense": 75,
+        "speed": 65
+    },
+    "evolution_chain": {
+        "species": "stantler",
+        "id": 234,
+        "sprite": "/static/sprites/pokemon/234.gif",
+        "evolves_to": [
+            {
+                "species": "wyrdeer",
+                "id": 899,
+                "sprite": "/static/sprites/pokemon/899.gif",
+                "details": [
+                    {
+                        "trigger": "agile-style-move",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/899.gif"
+}

@@ -1,0 +1,53 @@
+{
+    "id": 697,
+    "name": "tyrantrum",
+    "category": "Despot Pokémon",
+    "description": "Thanks to its gargantuan jaws, which could shred thick metal plates as if they were paper, it was invincible in the ancient world it once inhabited.",
+    "generation": "generation-vi",
+    "height": 25,
+    "weight": 2700,
+    "base_experience": 182,
+    "types": [
+        "rock",
+        "dragon"
+    ],
+    "abilities": [
+        {
+            "name": "strong-jaw",
+            "is_hidden": false
+        },
+        {
+            "name": "rock-head",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 82,
+        "attack": 121,
+        "defense": 119,
+        "special-attack": 69,
+        "special-defense": 59,
+        "speed": 71
+    },
+    "evolution_chain": {
+        "species": "tyrunt",
+        "id": 696,
+        "sprite": "/static/sprites/pokemon/696.png",
+        "evolves_to": [
+            {
+                "species": "tyrantrum",
+                "id": 697,
+                "sprite": "/static/sprites/pokemon/697.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 39,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/697.png"
+}

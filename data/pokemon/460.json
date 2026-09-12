@@ -1,0 +1,53 @@
+{
+    "id": 460,
+    "name": "abomasnow",
+    "category": "Frost Tree Pokémon",
+    "description": "It whips up blizzards in mountains that are always buried in snow. It is the abominable snowman.",
+    "generation": "generation-iv",
+    "height": 22,
+    "weight": 1355,
+    "base_experience": 173,
+    "types": [
+        "grass",
+        "ice"
+    ],
+    "abilities": [
+        {
+            "name": "snow-warning",
+            "is_hidden": false
+        },
+        {
+            "name": "soundproof",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 90,
+        "attack": 92,
+        "defense": 75,
+        "special-attack": 92,
+        "special-defense": 85,
+        "speed": 60
+    },
+    "evolution_chain": {
+        "species": "snover",
+        "id": 459,
+        "sprite": "/static/sprites/pokemon/459.gif",
+        "evolves_to": [
+            {
+                "species": "abomasnow",
+                "id": 460,
+                "sprite": "/static/sprites/pokemon/460.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 40,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/460.gif"
+}

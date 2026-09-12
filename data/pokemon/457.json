@@ -1,0 +1,56 @@
+{
+    "id": 457,
+    "name": "lumineon",
+    "category": "Neon Pokémon",
+    "description": "It lives on the deep-sea floor. It attracts prey by flashing the patterns on its four tail fins.",
+    "generation": "generation-iv",
+    "height": 12,
+    "weight": 240,
+    "base_experience": 161,
+    "types": [
+        "water"
+    ],
+    "abilities": [
+        {
+            "name": "swift-swim",
+            "is_hidden": false
+        },
+        {
+            "name": "storm-drain",
+            "is_hidden": false
+        },
+        {
+            "name": "water-veil",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 69,
+        "attack": 69,
+        "defense": 76,
+        "special-attack": 69,
+        "special-defense": 86,
+        "speed": 91
+    },
+    "evolution_chain": {
+        "species": "finneon",
+        "id": 456,
+        "sprite": "/static/sprites/pokemon/456.gif",
+        "evolves_to": [
+            {
+                "species": "lumineon",
+                "id": 457,
+                "sprite": "/static/sprites/pokemon/457.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 31,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/457.gif"
+}

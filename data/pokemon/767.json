@@ -1,0 +1,49 @@
+{
+    "id": 767,
+    "name": "wimpod",
+    "category": "Turn Tail Pokémon",
+    "description": "This Pokémon is a coward. As it desperately dashes off, the flailing of its many legs leaves a sparkling clean path in its wake.",
+    "generation": "generation-vii",
+    "height": 5,
+    "weight": 120,
+    "base_experience": 46,
+    "types": [
+        "bug",
+        "water"
+    ],
+    "abilities": [
+        {
+            "name": "wimp-out",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 25,
+        "attack": 35,
+        "defense": 40,
+        "special-attack": 20,
+        "special-defense": 30,
+        "speed": 80
+    },
+    "evolution_chain": {
+        "species": "wimpod",
+        "id": 767,
+        "sprite": "/static/sprites/pokemon/767.gif",
+        "evolves_to": [
+            {
+                "species": "golisopod",
+                "id": 768,
+                "sprite": "/static/sprites/pokemon/768.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 30,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/767.gif"
+}

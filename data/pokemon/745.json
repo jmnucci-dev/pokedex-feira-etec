@@ -1,0 +1,66 @@
+{
+    "id": 745,
+    "name": "lycanroc-midday",
+    "category": "Wolf Pokémon",
+    "description": "Its quick movements confuse its enemies. Well equipped with claws and fangs, it also uses the sharp rocks in its mane as weapons.",
+    "generation": "generation-vii",
+    "height": 8,
+    "weight": 250,
+    "base_experience": 170,
+    "types": [
+        "rock"
+    ],
+    "abilities": [
+        {
+            "name": "keen-eye",
+            "is_hidden": false
+        },
+        {
+            "name": "sand-rush",
+            "is_hidden": false
+        },
+        {
+            "name": "steadfast",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 75,
+        "attack": 115,
+        "defense": 65,
+        "special-attack": 55,
+        "special-defense": 65,
+        "speed": 112
+    },
+    "evolution_chain": {
+        "species": "rockruff",
+        "id": 744,
+        "sprite": "/static/sprites/pokemon/744.gif",
+        "evolves_to": [
+            {
+                "species": "lycanroc",
+                "id": 745,
+                "sprite": "/static/sprites/pokemon/745.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 25,
+                        "item": null
+                    },
+                    {
+                        "trigger": "level-up",
+                        "min_level": 25,
+                        "item": null
+                    },
+                    {
+                        "trigger": "level-up",
+                        "min_level": 25,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/745.gif"
+}

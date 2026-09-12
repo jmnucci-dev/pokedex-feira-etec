@@ -1,0 +1,70 @@
+{
+    "id": 762,
+    "name": "steenee",
+    "category": "Fruit Pokémon",
+    "description": "The sepals on its head developed to protect its body. These are quite hard, so even if pecked by bird Pokémon, this Pokémon is totally fine.",
+    "generation": "generation-vii",
+    "height": 7,
+    "weight": 82,
+    "base_experience": 102,
+    "types": [
+        "grass"
+    ],
+    "abilities": [
+        {
+            "name": "leaf-guard",
+            "is_hidden": false
+        },
+        {
+            "name": "oblivious",
+            "is_hidden": false
+        },
+        {
+            "name": "sweet-veil",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 52,
+        "attack": 40,
+        "defense": 48,
+        "special-attack": 40,
+        "special-defense": 48,
+        "speed": 62
+    },
+    "evolution_chain": {
+        "species": "bounsweet",
+        "id": 761,
+        "sprite": "/static/sprites/pokemon/761.gif",
+        "evolves_to": [
+            {
+                "species": "steenee",
+                "id": 762,
+                "sprite": "/static/sprites/pokemon/762.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 18,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "tsareena",
+                        "id": 763,
+                        "sprite": "/static/sprites/pokemon/763.png",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": null,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/762.gif"
+}

@@ -1,0 +1,35 @@
+{
+    "id": 990,
+    "name": "iron-treads",
+    "category": "Paradox Pokémon",
+    "description": "This Pokémon closely resembles a scientific weapon that a paranormal magazine claimed was sent to this planet by aliens.",
+    "generation": "generation-ix",
+    "height": 9,
+    "weight": 2400,
+    "base_experience": 285,
+    "types": [
+        "ground",
+        "steel"
+    ],
+    "abilities": [
+        {
+            "name": "quark-drive",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 90,
+        "attack": 112,
+        "defense": 120,
+        "special-attack": 72,
+        "special-defense": 70,
+        "speed": 106
+    },
+    "evolution_chain": {
+        "species": "iron-treads",
+        "id": 990,
+        "sprite": "/static/sprites/pokemon/990.png",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/990.png"
+}

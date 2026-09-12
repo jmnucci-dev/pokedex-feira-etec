@@ -1,0 +1,56 @@
+{
+    "id": 446,
+    "name": "munchlax",
+    "category": "Big Eater Pokémon",
+    "description": "It wolfs down its weight in food once a day, swallowing food whole with almost no chewing.",
+    "generation": "generation-iv",
+    "height": 6,
+    "weight": 1050,
+    "base_experience": 78,
+    "types": [
+        "normal"
+    ],
+    "abilities": [
+        {
+            "name": "pickup",
+            "is_hidden": false
+        },
+        {
+            "name": "thick-fat",
+            "is_hidden": false
+        },
+        {
+            "name": "gluttony",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 135,
+        "attack": 85,
+        "defense": 40,
+        "special-attack": 40,
+        "special-defense": 85,
+        "speed": 5
+    },
+    "evolution_chain": {
+        "species": "munchlax",
+        "id": 446,
+        "sprite": "/static/sprites/pokemon/446.gif",
+        "evolves_to": [
+            {
+                "species": "snorlax",
+                "id": 143,
+                "sprite": "/static/sprites/pokemon/143.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/446.gif"
+}

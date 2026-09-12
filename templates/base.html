@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Pokédex</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}"/>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    {% include "components/header.html" %}
+
+  <main style="padding-top: 90px;">
+    {% block content %}{% endblock %}
+  </main>
+
+    <footer class="pokedex-footer">
+      <svg
+        class="barra-shape"
+        viewBox="0 0 1364 68"
+        preserveAspectRatio="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <defs>
+          <linearGradient id="barraGradient" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#A92F2F" />
+
+            <stop offset="50%" stop-color="#7A2020" />
+
+            <stop offset="100%" stop-color="#4A1111" />
+          </linearGradient>
+        </defs>
+
+        <path
+          d="M0 10H313L346.5 45H658V32C658 19.2975 668.298 9 681 9C693.702 9 704 19.2975 704 32V45H1029.5L1063 10H1364V68H0V10Z"
+          fill="url(#barraGradient)"
+          stroke="#3F424A"
+          stroke-width="7"
+        />
+
+        <path
+          d="M0 10H313L346.5 45H658V32C658 19.2975 668.298 9 681 9C693.702 9 704 19.2975 704 32V45H1029.5L1063 10H1364V68H0V10Z"
+          fill="url(#barraGradient)"
+          stroke="#161616"
+          stroke-width="3"
+        />
+      </svg>
+
+      <img
+          src="{{ url_for('static', filename='images/comum/pokebola.png') }}"
+          alt="Pokébola Central"
+          class="pokebola-btn"
+      />
+    </footer>
+  </body>
+</html>

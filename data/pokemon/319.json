@@ -1,0 +1,53 @@
+{
+    "id": 319,
+    "name": "sharpedo",
+    "category": "Brutal Pokémon",
+    "description": "Nicknamed “the bully of the sea,” SHARPEDO is widely feared. Its cruel fangs grow back immediately if they snap off. Just one of these POKéMON can thoroughly tear apart a supertanker.",
+    "generation": "generation-iii",
+    "height": 18,
+    "weight": 888,
+    "base_experience": 161,
+    "types": [
+        "water",
+        "dark"
+    ],
+    "abilities": [
+        {
+            "name": "rough-skin",
+            "is_hidden": false
+        },
+        {
+            "name": "speed-boost",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 70,
+        "attack": 120,
+        "defense": 40,
+        "special-attack": 95,
+        "special-defense": 40,
+        "speed": 95
+    },
+    "evolution_chain": {
+        "species": "carvanha",
+        "id": 318,
+        "sprite": "/static/sprites/pokemon/318.gif",
+        "evolves_to": [
+            {
+                "species": "sharpedo",
+                "id": 319,
+                "sprite": "/static/sprites/pokemon/319.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 30,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/319.gif"
+}

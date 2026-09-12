@@ -1,0 +1,57 @@
+{
+    "id": 226,
+    "name": "mantine",
+    "category": "Kite Pokémon",
+    "description": "As it majestically swims, it doesn't care if REMORAID attach to it for scavenging its leftovers.",
+    "generation": "generation-ii",
+    "height": 21,
+    "weight": 2200,
+    "base_experience": 170,
+    "types": [
+        "water",
+        "flying"
+    ],
+    "abilities": [
+        {
+            "name": "swift-swim",
+            "is_hidden": false
+        },
+        {
+            "name": "water-absorb",
+            "is_hidden": false
+        },
+        {
+            "name": "water-veil",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 85,
+        "attack": 40,
+        "defense": 70,
+        "special-attack": 80,
+        "special-defense": 140,
+        "speed": 70
+    },
+    "evolution_chain": {
+        "species": "mantyke",
+        "id": 458,
+        "sprite": "/static/sprites/pokemon/458.gif",
+        "evolves_to": [
+            {
+                "species": "mantine",
+                "id": 226,
+                "sprite": "/static/sprites/pokemon/226.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/226.gif"
+}

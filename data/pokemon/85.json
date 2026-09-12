@@ -1,0 +1,57 @@
+{
+    "id": 85,
+    "name": "dodrio",
+    "category": "Triple Bird Pokémon",
+    "description": "Uses its three brains to execute complex plans. While two heads sleep, one head stays awake.",
+    "generation": "generation-i",
+    "height": 18,
+    "weight": 852,
+    "base_experience": 165,
+    "types": [
+        "normal",
+        "flying"
+    ],
+    "abilities": [
+        {
+            "name": "run-away",
+            "is_hidden": false
+        },
+        {
+            "name": "early-bird",
+            "is_hidden": false
+        },
+        {
+            "name": "tangled-feet",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 60,
+        "attack": 110,
+        "defense": 70,
+        "special-attack": 60,
+        "special-defense": 60,
+        "speed": 110
+    },
+    "evolution_chain": {
+        "species": "doduo",
+        "id": 84,
+        "sprite": "/static/sprites/pokemon/84.gif",
+        "evolves_to": [
+            {
+                "species": "dodrio",
+                "id": 85,
+                "sprite": "/static/sprites/pokemon/85.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 31,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/85.gif"
+}

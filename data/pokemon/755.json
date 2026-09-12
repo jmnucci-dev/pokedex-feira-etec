@@ -1,0 +1,57 @@
+{
+    "id": 755,
+    "name": "morelull",
+    "category": "Illuminating Pokémon",
+    "description": "It scatters spores that flicker and glow. Anyone seeing these lights falls into a deep slumber.",
+    "generation": "generation-vii",
+    "height": 2,
+    "weight": 15,
+    "base_experience": 57,
+    "types": [
+        "grass",
+        "fairy"
+    ],
+    "abilities": [
+        {
+            "name": "illuminate",
+            "is_hidden": false
+        },
+        {
+            "name": "effect-spore",
+            "is_hidden": false
+        },
+        {
+            "name": "rain-dish",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 40,
+        "attack": 35,
+        "defense": 55,
+        "special-attack": 65,
+        "special-defense": 75,
+        "speed": 15
+    },
+    "evolution_chain": {
+        "species": "morelull",
+        "id": 755,
+        "sprite": "/static/sprites/pokemon/755.gif",
+        "evolves_to": [
+            {
+                "species": "shiinotic",
+                "id": 756,
+                "sprite": "/static/sprites/pokemon/756.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 24,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/755.gif"
+}

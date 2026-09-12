@@ -1,0 +1,49 @@
+{
+    "id": 949,
+    "name": "toedscruel",
+    "category": "Woodear Pokémon",
+    "description": "These Pokémon gather into groups and form colonies deep within forests. They absolutely hate it when strangers approach.",
+    "generation": "generation-ix",
+    "height": 19,
+    "weight": 580,
+    "base_experience": 180,
+    "types": [
+        "ground",
+        "grass"
+    ],
+    "abilities": [
+        {
+            "name": "mycelium-might",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 80,
+        "attack": 70,
+        "defense": 65,
+        "special-attack": 80,
+        "special-defense": 120,
+        "speed": 100
+    },
+    "evolution_chain": {
+        "species": "toedscool",
+        "id": 948,
+        "sprite": "/static/sprites/pokemon/948.png",
+        "evolves_to": [
+            {
+                "species": "toedscruel",
+                "id": 949,
+                "sprite": "/static/sprites/pokemon/949.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 30,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/949.png"
+}

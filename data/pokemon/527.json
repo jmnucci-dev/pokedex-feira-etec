@@ -1,0 +1,57 @@
+{
+    "id": 527,
+    "name": "woobat",
+    "category": "Bat Pokémon",
+    "description": "Its habitat is dark forests and caves. It emits ultrasonic waves from its nose to learn about its surroundings.",
+    "generation": "generation-v",
+    "height": 4,
+    "weight": 21,
+    "base_experience": 65,
+    "types": [
+        "psychic",
+        "flying"
+    ],
+    "abilities": [
+        {
+            "name": "unaware",
+            "is_hidden": false
+        },
+        {
+            "name": "klutz",
+            "is_hidden": false
+        },
+        {
+            "name": "simple",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 65,
+        "attack": 45,
+        "defense": 43,
+        "special-attack": 55,
+        "special-defense": 43,
+        "speed": 72
+    },
+    "evolution_chain": {
+        "species": "woobat",
+        "id": 527,
+        "sprite": "/static/sprites/pokemon/527.gif",
+        "evolves_to": [
+            {
+                "species": "swoobat",
+                "id": 528,
+                "sprite": "/static/sprites/pokemon/528.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/527.gif"
+}

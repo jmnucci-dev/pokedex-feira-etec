@@ -1,0 +1,73 @@
+{
+    "id": 737,
+    "name": "charjabug",
+    "category": "Battery Pokémon",
+    "description": "Its body is capable of storing electricity. On camping trips, people are grateful to have one around.",
+    "generation": "generation-vii",
+    "height": 5,
+    "weight": 105,
+    "base_experience": 140,
+    "types": [
+        "bug",
+        "electric"
+    ],
+    "abilities": [
+        {
+            "name": "battery",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 57,
+        "attack": 82,
+        "defense": 95,
+        "special-attack": 55,
+        "special-defense": 75,
+        "speed": 36
+    },
+    "evolution_chain": {
+        "species": "grubbin",
+        "id": 736,
+        "sprite": "/static/sprites/pokemon/736.gif",
+        "evolves_to": [
+            {
+                "species": "charjabug",
+                "id": 737,
+                "sprite": "/static/sprites/pokemon/737.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 20,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "vikavolt",
+                        "id": 738,
+                        "sprite": "/static/sprites/pokemon/738.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": null,
+                                "item": null
+                            },
+                            {
+                                "trigger": "level-up",
+                                "min_level": null,
+                                "item": null
+                            },
+                            {
+                                "trigger": "use-item",
+                                "min_level": null,
+                                "item": "thunder-stone"
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/737.gif"
+}

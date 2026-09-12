@@ -1,0 +1,53 @@
+{
+    "id": 348,
+    "name": "armaldo",
+    "category": "Plate Pokémon",
+    "description": "ARMALDO’s tough armor makes all attacks bounce off. This POKéMON’s two enormous claws can be freely extended or contracted. They have the power to punch right through a steel slab.",
+    "generation": "generation-iii",
+    "height": 15,
+    "weight": 682,
+    "base_experience": 173,
+    "types": [
+        "rock",
+        "bug"
+    ],
+    "abilities": [
+        {
+            "name": "battle-armor",
+            "is_hidden": false
+        },
+        {
+            "name": "swift-swim",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 75,
+        "attack": 125,
+        "defense": 100,
+        "special-attack": 70,
+        "special-defense": 80,
+        "speed": 45
+    },
+    "evolution_chain": {
+        "species": "anorith",
+        "id": 347,
+        "sprite": "/static/sprites/pokemon/347.gif",
+        "evolves_to": [
+            {
+                "species": "armaldo",
+                "id": 348,
+                "sprite": "/static/sprites/pokemon/348.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 40,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/348.gif"
+}

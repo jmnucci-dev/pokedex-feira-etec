@@ -1,0 +1,70 @@
+{
+    "id": 610,
+    "name": "axew",
+    "category": "Tusk Pokémon",
+    "description": "They use their tusks to crush the berries they eat. Repeated regrowth makes their tusks strong and sharp.",
+    "generation": "generation-v",
+    "height": 6,
+    "weight": 180,
+    "base_experience": 64,
+    "types": [
+        "dragon"
+    ],
+    "abilities": [
+        {
+            "name": "rivalry",
+            "is_hidden": false
+        },
+        {
+            "name": "mold-breaker",
+            "is_hidden": false
+        },
+        {
+            "name": "unnerve",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 46,
+        "attack": 87,
+        "defense": 60,
+        "special-attack": 30,
+        "special-defense": 40,
+        "speed": 57
+    },
+    "evolution_chain": {
+        "species": "axew",
+        "id": 610,
+        "sprite": "/static/sprites/pokemon/610.gif",
+        "evolves_to": [
+            {
+                "species": "fraxure",
+                "id": 611,
+                "sprite": "/static/sprites/pokemon/611.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 38,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "haxorus",
+                        "id": 612,
+                        "sprite": "/static/sprites/pokemon/612.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 48,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/610.gif"
+}

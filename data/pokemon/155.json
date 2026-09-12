@@ -1,0 +1,76 @@
+{
+    "id": 155,
+    "name": "cyndaquil",
+    "category": "Fire Mouse Pokémon",
+    "description": "It is timid, and always curls it­ self up in a ball. If attacked, it flares up its back for protection.",
+    "generation": "generation-ii",
+    "height": 5,
+    "weight": 79,
+    "base_experience": 62,
+    "types": [
+        "fire"
+    ],
+    "abilities": [
+        {
+            "name": "blaze",
+            "is_hidden": false
+        },
+        {
+            "name": "flash-fire",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 39,
+        "attack": 52,
+        "defense": 43,
+        "special-attack": 60,
+        "special-defense": 50,
+        "speed": 65
+    },
+    "evolution_chain": {
+        "species": "cyndaquil",
+        "id": 155,
+        "sprite": "/static/sprites/pokemon/155.gif",
+        "evolves_to": [
+            {
+                "species": "quilava",
+                "id": 156,
+                "sprite": "/static/sprites/pokemon/156.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 14,
+                        "item": null
+                    },
+                    {
+                        "trigger": "level-up",
+                        "min_level": 17,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "typhlosion",
+                        "id": 157,
+                        "sprite": "/static/sprites/pokemon/157.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 36,
+                                "item": null
+                            },
+                            {
+                                "trigger": "level-up",
+                                "min_level": 36,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/155.gif"
+}

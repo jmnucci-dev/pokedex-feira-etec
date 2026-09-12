@@ -1,0 +1,56 @@
+{
+    "id": 833,
+    "name": "chewtle",
+    "category": "Snapping Pokémon",
+    "description": "Apparently the itch of its teething impels it to snap its jaws at anything in front of it.",
+    "generation": "generation-viii",
+    "height": 3,
+    "weight": 85,
+    "base_experience": 57,
+    "types": [
+        "water"
+    ],
+    "abilities": [
+        {
+            "name": "strong-jaw",
+            "is_hidden": false
+        },
+        {
+            "name": "shell-armor",
+            "is_hidden": false
+        },
+        {
+            "name": "swift-swim",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 50,
+        "attack": 64,
+        "defense": 50,
+        "special-attack": 38,
+        "special-defense": 38,
+        "speed": 44
+    },
+    "evolution_chain": {
+        "species": "chewtle",
+        "id": 833,
+        "sprite": "/static/sprites/pokemon/833.gif",
+        "evolves_to": [
+            {
+                "species": "drednaw",
+                "id": 834,
+                "sprite": "/static/sprites/pokemon/834.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 22,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/833.gif"
+}

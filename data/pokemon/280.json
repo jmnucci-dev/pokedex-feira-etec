@@ -1,0 +1,84 @@
+{
+    "id": 280,
+    "name": "ralts",
+    "category": "Feeling Pokémon",
+    "description": "RALTS senses the emotions of people using the horns on its head. This POKéMON rarely appears before people. But when it does, it draws closer if it senses that the person has a positive disposition.",
+    "generation": "generation-iii",
+    "height": 4,
+    "weight": 66,
+    "base_experience": 40,
+    "types": [
+        "psychic",
+        "fairy"
+    ],
+    "abilities": [
+        {
+            "name": "synchronize",
+            "is_hidden": false
+        },
+        {
+            "name": "trace",
+            "is_hidden": false
+        },
+        {
+            "name": "telepathy",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 28,
+        "attack": 25,
+        "defense": 25,
+        "special-attack": 45,
+        "special-defense": 35,
+        "speed": 40
+    },
+    "evolution_chain": {
+        "species": "ralts",
+        "id": 280,
+        "sprite": "/static/sprites/pokemon/280.gif",
+        "evolves_to": [
+            {
+                "species": "kirlia",
+                "id": 281,
+                "sprite": "/static/sprites/pokemon/281.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 20,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "gardevoir",
+                        "id": 282,
+                        "sprite": "/static/sprites/pokemon/282.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 30,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    },
+                    {
+                        "species": "gallade",
+                        "id": 475,
+                        "sprite": "/static/sprites/pokemon/475.gif",
+                        "details": [
+                            {
+                                "trigger": "use-item",
+                                "min_level": null,
+                                "item": "dawn-stone"
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/280.gif"
+}

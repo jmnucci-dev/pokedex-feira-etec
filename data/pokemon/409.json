@@ -1,0 +1,52 @@
+{
+    "id": 409,
+    "name": "rampardos",
+    "category": "Head Butt Pokémon",
+    "description": "Its powerful head butt has enough power to shatter even the most durable things upon impact.",
+    "generation": "generation-iv",
+    "height": 16,
+    "weight": 1025,
+    "base_experience": 173,
+    "types": [
+        "rock"
+    ],
+    "abilities": [
+        {
+            "name": "mold-breaker",
+            "is_hidden": false
+        },
+        {
+            "name": "sheer-force",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 97,
+        "attack": 165,
+        "defense": 60,
+        "special-attack": 65,
+        "special-defense": 50,
+        "speed": 58
+    },
+    "evolution_chain": {
+        "species": "cranidos",
+        "id": 408,
+        "sprite": "/static/sprites/pokemon/408.gif",
+        "evolves_to": [
+            {
+                "species": "rampardos",
+                "id": 409,
+                "sprite": "/static/sprites/pokemon/409.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 30,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/409.gif"
+}

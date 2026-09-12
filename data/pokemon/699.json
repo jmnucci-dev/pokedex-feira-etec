@@ -1,0 +1,53 @@
+{
+    "id": 699,
+    "name": "aurorus",
+    "category": "Tundra Pokémon",
+    "description": "The diamond-shaped crystals on its body expel air as cold as -240 degrees Fahrenheit, surrounding its enemies and encasing them in ice.",
+    "generation": "generation-vi",
+    "height": 27,
+    "weight": 2250,
+    "base_experience": 104,
+    "types": [
+        "rock",
+        "ice"
+    ],
+    "abilities": [
+        {
+            "name": "refrigerate",
+            "is_hidden": false
+        },
+        {
+            "name": "snow-warning",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 123,
+        "attack": 77,
+        "defense": 72,
+        "special-attack": 99,
+        "special-defense": 92,
+        "speed": 58
+    },
+    "evolution_chain": {
+        "species": "amaura",
+        "id": 698,
+        "sprite": "/static/sprites/pokemon/698.png",
+        "evolves_to": [
+            {
+                "species": "aurorus",
+                "id": 699,
+                "sprite": "/static/sprites/pokemon/699.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 39,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/699.png"
+}

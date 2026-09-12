@@ -1,0 +1,56 @@
+{
+    "id": 23,
+    "name": "ekans",
+    "category": "Snake Pokémon",
+    "description": "Moves silently and stealthily. Eats the eggs of birds, such as PIDGEY and SPEAROW, whole.",
+    "generation": "generation-i",
+    "height": 20,
+    "weight": 69,
+    "base_experience": 58,
+    "types": [
+        "poison"
+    ],
+    "abilities": [
+        {
+            "name": "intimidate",
+            "is_hidden": false
+        },
+        {
+            "name": "shed-skin",
+            "is_hidden": false
+        },
+        {
+            "name": "unnerve",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 35,
+        "attack": 60,
+        "defense": 44,
+        "special-attack": 40,
+        "special-defense": 54,
+        "speed": 55
+    },
+    "evolution_chain": {
+        "species": "ekans",
+        "id": 23,
+        "sprite": "/static/sprites/pokemon/23.gif",
+        "evolves_to": [
+            {
+                "species": "arbok",
+                "id": 24,
+                "sprite": "/static/sprites/pokemon/24.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 22,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/23.gif"
+}

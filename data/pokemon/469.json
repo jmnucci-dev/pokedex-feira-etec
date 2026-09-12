@@ -1,0 +1,57 @@
+{
+    "id": 469,
+    "name": "yanmega",
+    "category": "Ogre Darner Pokémon",
+    "description": "By churning its wings, it creates shock waves that inflict critical internal injuries to foes.",
+    "generation": "generation-iv",
+    "height": 19,
+    "weight": 515,
+    "base_experience": 180,
+    "types": [
+        "bug",
+        "flying"
+    ],
+    "abilities": [
+        {
+            "name": "speed-boost",
+            "is_hidden": false
+        },
+        {
+            "name": "tinted-lens",
+            "is_hidden": false
+        },
+        {
+            "name": "frisk",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 86,
+        "attack": 76,
+        "defense": 86,
+        "special-attack": 116,
+        "special-defense": 56,
+        "speed": 95
+    },
+    "evolution_chain": {
+        "species": "yanma",
+        "id": 193,
+        "sprite": "/static/sprites/pokemon/193.gif",
+        "evolves_to": [
+            {
+                "species": "yanmega",
+                "id": 469,
+                "sprite": "/static/sprites/pokemon/469.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/469.gif"
+}

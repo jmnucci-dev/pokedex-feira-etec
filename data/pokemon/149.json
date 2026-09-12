@@ -1,0 +1,67 @@
+{
+    "id": 149,
+    "name": "dragonite",
+    "category": "Dragon Pokémon",
+    "description": "An extremely rarely seen marine POKéMON. Its intelligence is said to match that of humans.",
+    "generation": "generation-i",
+    "height": 22,
+    "weight": 2100,
+    "base_experience": 270,
+    "types": [
+        "dragon",
+        "flying"
+    ],
+    "abilities": [
+        {
+            "name": "inner-focus",
+            "is_hidden": false
+        },
+        {
+            "name": "multiscale",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 91,
+        "attack": 134,
+        "defense": 95,
+        "special-attack": 100,
+        "special-defense": 100,
+        "speed": 80
+    },
+    "evolution_chain": {
+        "species": "dratini",
+        "id": 147,
+        "sprite": "/static/sprites/pokemon/147.gif",
+        "evolves_to": [
+            {
+                "species": "dragonair",
+                "id": 148,
+                "sprite": "/static/sprites/pokemon/148.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 30,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "dragonite",
+                        "id": 149,
+                        "sprite": "/static/sprites/pokemon/149.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 55,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/149.gif"
+}

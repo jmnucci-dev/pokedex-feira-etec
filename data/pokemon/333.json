@@ -1,0 +1,53 @@
+{
+    "id": 333,
+    "name": "swablu",
+    "category": "Cotton Bird Pokémon",
+    "description": "SWABLU has light and fluffy wings that are like cottony clouds. This POKéMON is not frightened of people. It lands on the heads of people and sits there like a cotton-fluff hat.",
+    "generation": "generation-iii",
+    "height": 4,
+    "weight": 12,
+    "base_experience": 62,
+    "types": [
+        "normal",
+        "flying"
+    ],
+    "abilities": [
+        {
+            "name": "natural-cure",
+            "is_hidden": false
+        },
+        {
+            "name": "cloud-nine",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 45,
+        "attack": 40,
+        "defense": 60,
+        "special-attack": 40,
+        "special-defense": 75,
+        "speed": 50
+    },
+    "evolution_chain": {
+        "species": "swablu",
+        "id": 333,
+        "sprite": "/static/sprites/pokemon/333.gif",
+        "evolves_to": [
+            {
+                "species": "altaria",
+                "id": 334,
+                "sprite": "/static/sprites/pokemon/334.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 35,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/333.gif"
+}

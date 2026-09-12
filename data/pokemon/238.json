@@ -1,0 +1,57 @@
+{
+    "id": 238,
+    "name": "smoochum",
+    "category": "Kiss Pokémon",
+    "description": "Its lips are the most sensitive parts on its body. It always uses its lips first to examine things.",
+    "generation": "generation-ii",
+    "height": 4,
+    "weight": 60,
+    "base_experience": 61,
+    "types": [
+        "ice",
+        "psychic"
+    ],
+    "abilities": [
+        {
+            "name": "oblivious",
+            "is_hidden": false
+        },
+        {
+            "name": "forewarn",
+            "is_hidden": false
+        },
+        {
+            "name": "hydration",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 45,
+        "attack": 30,
+        "defense": 15,
+        "special-attack": 85,
+        "special-defense": 65,
+        "speed": 65
+    },
+    "evolution_chain": {
+        "species": "smoochum",
+        "id": 238,
+        "sprite": "/static/sprites/pokemon/238.gif",
+        "evolves_to": [
+            {
+                "species": "jynx",
+                "id": 124,
+                "sprite": "/static/sprites/pokemon/124.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 30,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/238.gif"
+}

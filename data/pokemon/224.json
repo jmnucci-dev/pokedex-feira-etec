@@ -1,0 +1,56 @@
+{
+    "id": 224,
+    "name": "octillery",
+    "category": "Jet Pokémon",
+    "description": "It traps enemies with its suction- cupped tentacles then smashes them with its rock-hard head.",
+    "generation": "generation-ii",
+    "height": 9,
+    "weight": 285,
+    "base_experience": 168,
+    "types": [
+        "water"
+    ],
+    "abilities": [
+        {
+            "name": "suction-cups",
+            "is_hidden": false
+        },
+        {
+            "name": "sniper",
+            "is_hidden": false
+        },
+        {
+            "name": "moody",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 75,
+        "attack": 105,
+        "defense": 75,
+        "special-attack": 105,
+        "special-defense": 75,
+        "speed": 45
+    },
+    "evolution_chain": {
+        "species": "remoraid",
+        "id": 223,
+        "sprite": "/static/sprites/pokemon/223.gif",
+        "evolves_to": [
+            {
+                "species": "octillery",
+                "id": 224,
+                "sprite": "/static/sprites/pokemon/224.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 25,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/224.gif"
+}

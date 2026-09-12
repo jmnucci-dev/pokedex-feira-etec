@@ -1,0 +1,39 @@
+{
+    "id": 146,
+    "name": "moltres",
+    "category": "Flame Pokémon",
+    "description": "Known as the legendary bird of fire. Every flap of its wings creates a dazzling flash of flames.",
+    "generation": "generation-i",
+    "height": 20,
+    "weight": 600,
+    "base_experience": 261,
+    "types": [
+        "fire",
+        "flying"
+    ],
+    "abilities": [
+        {
+            "name": "pressure",
+            "is_hidden": false
+        },
+        {
+            "name": "flame-body",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 90,
+        "attack": 100,
+        "defense": 90,
+        "special-attack": 125,
+        "special-defense": 85,
+        "speed": 90
+    },
+    "evolution_chain": {
+        "species": "moltres",
+        "id": 146,
+        "sprite": "/static/sprites/pokemon/146.gif",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/146.gif"
+}

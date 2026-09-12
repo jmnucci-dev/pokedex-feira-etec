@@ -1,0 +1,70 @@
+{
+    "id": 30,
+    "name": "nidorina",
+    "category": "Poison Pin Pokémon",
+    "description": "The female's horn develops slowly. Prefers physical attacks such as clawing and biting.",
+    "generation": "generation-i",
+    "height": 8,
+    "weight": 200,
+    "base_experience": 128,
+    "types": [
+        "poison"
+    ],
+    "abilities": [
+        {
+            "name": "poison-point",
+            "is_hidden": false
+        },
+        {
+            "name": "rivalry",
+            "is_hidden": false
+        },
+        {
+            "name": "hustle",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 70,
+        "attack": 62,
+        "defense": 67,
+        "special-attack": 55,
+        "special-defense": 55,
+        "speed": 56
+    },
+    "evolution_chain": {
+        "species": "nidoran-f",
+        "id": 29,
+        "sprite": "/static/sprites/pokemon/29.gif",
+        "evolves_to": [
+            {
+                "species": "nidorina",
+                "id": 30,
+                "sprite": "/static/sprites/pokemon/30.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 16,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "nidoqueen",
+                        "id": 31,
+                        "sprite": "/static/sprites/pokemon/31.gif",
+                        "details": [
+                            {
+                                "trigger": "use-item",
+                                "min_level": null,
+                                "item": "moon-stone"
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/30.gif"
+}

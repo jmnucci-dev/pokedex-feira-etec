@@ -1,0 +1,48 @@
+{
+    "id": 693,
+    "name": "clawitzer",
+    "category": "Howitzer Pokémon",
+    "description": "Their enormous claws launch cannonballs of water powerful enough to pierce tanker hulls.",
+    "generation": "generation-vi",
+    "height": 13,
+    "weight": 353,
+    "base_experience": 100,
+    "types": [
+        "water"
+    ],
+    "abilities": [
+        {
+            "name": "mega-launcher",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 71,
+        "attack": 73,
+        "defense": 88,
+        "special-attack": 120,
+        "special-defense": 89,
+        "speed": 59
+    },
+    "evolution_chain": {
+        "species": "clauncher",
+        "id": 692,
+        "sprite": "/static/sprites/pokemon/692.png",
+        "evolves_to": [
+            {
+                "species": "clawitzer",
+                "id": 693,
+                "sprite": "/static/sprites/pokemon/693.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 37,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/693.png"
+}

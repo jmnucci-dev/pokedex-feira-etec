@@ -1,0 +1,71 @@
+{
+    "id": 305,
+    "name": "lairon",
+    "category": "Iron Armor Pokémon",
+    "description": "LAIRON tempers its steel body by drinking highly nutritious mineral springwater until it is bloated. This POKéMON makes its nest close to springs of delicious water.",
+    "generation": "generation-iii",
+    "height": 9,
+    "weight": 1200,
+    "base_experience": 151,
+    "types": [
+        "steel",
+        "rock"
+    ],
+    "abilities": [
+        {
+            "name": "sturdy",
+            "is_hidden": false
+        },
+        {
+            "name": "rock-head",
+            "is_hidden": false
+        },
+        {
+            "name": "heavy-metal",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 60,
+        "attack": 90,
+        "defense": 140,
+        "special-attack": 50,
+        "special-defense": 50,
+        "speed": 40
+    },
+    "evolution_chain": {
+        "species": "aron",
+        "id": 304,
+        "sprite": "/static/sprites/pokemon/304.gif",
+        "evolves_to": [
+            {
+                "species": "lairon",
+                "id": 305,
+                "sprite": "/static/sprites/pokemon/305.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 32,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "aggron",
+                        "id": 306,
+                        "sprite": "/static/sprites/pokemon/306.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 42,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/305.gif"
+}

@@ -1,0 +1,66 @@
+{
+    "id": 147,
+    "name": "dratini",
+    "category": "Dragon Pokémon",
+    "description": "Long considered a mythical POKéMON until recently when a small colony was found living underwater.",
+    "generation": "generation-i",
+    "height": 18,
+    "weight": 33,
+    "base_experience": 60,
+    "types": [
+        "dragon"
+    ],
+    "abilities": [
+        {
+            "name": "shed-skin",
+            "is_hidden": false
+        },
+        {
+            "name": "marvel-scale",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 41,
+        "attack": 64,
+        "defense": 45,
+        "special-attack": 50,
+        "special-defense": 50,
+        "speed": 50
+    },
+    "evolution_chain": {
+        "species": "dratini",
+        "id": 147,
+        "sprite": "/static/sprites/pokemon/147.gif",
+        "evolves_to": [
+            {
+                "species": "dragonair",
+                "id": 148,
+                "sprite": "/static/sprites/pokemon/148.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 30,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "dragonite",
+                        "id": 149,
+                        "sprite": "/static/sprites/pokemon/149.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 55,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/147.gif"
+}

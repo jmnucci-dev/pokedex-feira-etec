@@ -1,0 +1,57 @@
+{
+    "id": 687,
+    "name": "malamar",
+    "category": "Overturning Pokémon",
+    "description": "It wields the most compelling hypnotic powers of any Pokémon, and it forces others to do whatever it wants.",
+    "generation": "generation-vi",
+    "height": 15,
+    "weight": 470,
+    "base_experience": 169,
+    "types": [
+        "dark",
+        "psychic"
+    ],
+    "abilities": [
+        {
+            "name": "contrary",
+            "is_hidden": false
+        },
+        {
+            "name": "suction-cups",
+            "is_hidden": false
+        },
+        {
+            "name": "infiltrator",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 86,
+        "attack": 92,
+        "defense": 88,
+        "special-attack": 68,
+        "special-defense": 75,
+        "speed": 73
+    },
+    "evolution_chain": {
+        "species": "inkay",
+        "id": 686,
+        "sprite": "/static/sprites/pokemon/686.png",
+        "evolves_to": [
+            {
+                "species": "malamar",
+                "id": 687,
+                "sprite": "/static/sprites/pokemon/687.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 30,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/687.png"
+}

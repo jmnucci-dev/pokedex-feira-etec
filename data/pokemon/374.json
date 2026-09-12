@@ -1,0 +1,67 @@
+{
+    "id": 374,
+    "name": "beldum",
+    "category": "Iron Ball Pokémon",
+    "description": "Instead of blood, a powerful magnetic force courses throughout BELDUM’s body. This POKéMON communicates with others by sending controlled pulses of magnetism.",
+    "generation": "generation-iii",
+    "height": 6,
+    "weight": 952,
+    "base_experience": 60,
+    "types": [
+        "steel",
+        "psychic"
+    ],
+    "abilities": [
+        {
+            "name": "clear-body",
+            "is_hidden": false
+        },
+        {
+            "name": "light-metal",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 40,
+        "attack": 55,
+        "defense": 80,
+        "special-attack": 35,
+        "special-defense": 60,
+        "speed": 30
+    },
+    "evolution_chain": {
+        "species": "beldum",
+        "id": 374,
+        "sprite": "/static/sprites/pokemon/374.gif",
+        "evolves_to": [
+            {
+                "species": "metang",
+                "id": 375,
+                "sprite": "/static/sprites/pokemon/375.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 20,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "metagross",
+                        "id": 376,
+                        "sprite": "/static/sprites/pokemon/376.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 45,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/374.gif"
+}

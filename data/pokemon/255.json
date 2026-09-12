@@ -1,0 +1,66 @@
+{
+    "id": 255,
+    "name": "torchic",
+    "category": "Chick Pokémon",
+    "description": "TORCHIC sticks with its TRAINER, following behind with unsteady steps. This POKéMON breathes fire of over 1,800 degrees F, including fireballs that leave the foe scorched black.",
+    "generation": "generation-iii",
+    "height": 4,
+    "weight": 25,
+    "base_experience": 62,
+    "types": [
+        "fire"
+    ],
+    "abilities": [
+        {
+            "name": "blaze",
+            "is_hidden": false
+        },
+        {
+            "name": "speed-boost",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 45,
+        "attack": 60,
+        "defense": 40,
+        "special-attack": 70,
+        "special-defense": 50,
+        "speed": 45
+    },
+    "evolution_chain": {
+        "species": "torchic",
+        "id": 255,
+        "sprite": "/static/sprites/pokemon/255.gif",
+        "evolves_to": [
+            {
+                "species": "combusken",
+                "id": 256,
+                "sprite": "/static/sprites/pokemon/256.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 16,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "blaziken",
+                        "id": 257,
+                        "sprite": "/static/sprites/pokemon/257.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 36,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/255.gif"
+}

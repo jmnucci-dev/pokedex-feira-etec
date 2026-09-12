@@ -1,0 +1,67 @@
+{
+    "id": 396,
+    "name": "starly",
+    "category": "Starling Pokémon",
+    "description": "They flock in great numbers. Though small, they flap their wings with great power.",
+    "generation": "generation-iv",
+    "height": 3,
+    "weight": 20,
+    "base_experience": 49,
+    "types": [
+        "normal",
+        "flying"
+    ],
+    "abilities": [
+        {
+            "name": "keen-eye",
+            "is_hidden": false
+        },
+        {
+            "name": "reckless",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 40,
+        "attack": 55,
+        "defense": 30,
+        "special-attack": 30,
+        "special-defense": 30,
+        "speed": 60
+    },
+    "evolution_chain": {
+        "species": "starly",
+        "id": 396,
+        "sprite": "/static/sprites/pokemon/396.gif",
+        "evolves_to": [
+            {
+                "species": "staravia",
+                "id": 397,
+                "sprite": "/static/sprites/pokemon/397.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 14,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "staraptor",
+                        "id": 398,
+                        "sprite": "/static/sprites/pokemon/398.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 34,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/396.gif"
+}

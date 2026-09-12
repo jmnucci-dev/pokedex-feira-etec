@@ -1,0 +1,56 @@
+{
+    "id": 829,
+    "name": "gossifleur",
+    "category": "Flowering Pokémon",
+    "description": "It anchors itself in the ground with its single leg, then basks in the sun. After absorbing enough sunlight, its petals spread as it blooms brilliantly.",
+    "generation": "generation-viii",
+    "height": 4,
+    "weight": 22,
+    "base_experience": 50,
+    "types": [
+        "grass"
+    ],
+    "abilities": [
+        {
+            "name": "cotton-down",
+            "is_hidden": false
+        },
+        {
+            "name": "regenerator",
+            "is_hidden": false
+        },
+        {
+            "name": "effect-spore",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 40,
+        "attack": 40,
+        "defense": 60,
+        "special-attack": 40,
+        "special-defense": 60,
+        "speed": 10
+    },
+    "evolution_chain": {
+        "species": "gossifleur",
+        "id": 829,
+        "sprite": "/static/sprites/pokemon/829.png",
+        "evolves_to": [
+            {
+                "species": "eldegoss",
+                "id": 830,
+                "sprite": "/static/sprites/pokemon/830.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 20,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/829.png"
+}

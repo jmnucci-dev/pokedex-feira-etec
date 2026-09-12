@@ -1,0 +1,52 @@
+{
+    "id": 513,
+    "name": "pansear",
+    "category": "High Temp Pokémon",
+    "description": "When it is angered, the temperature of its head tuft reaches 600° F. It uses its tuft to roast berries.",
+    "generation": "generation-v",
+    "height": 6,
+    "weight": 110,
+    "base_experience": 63,
+    "types": [
+        "fire"
+    ],
+    "abilities": [
+        {
+            "name": "gluttony",
+            "is_hidden": false
+        },
+        {
+            "name": "blaze",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 50,
+        "attack": 53,
+        "defense": 48,
+        "special-attack": 53,
+        "special-defense": 48,
+        "speed": 64
+    },
+    "evolution_chain": {
+        "species": "pansear",
+        "id": 513,
+        "sprite": "/static/sprites/pokemon/513.gif",
+        "evolves_to": [
+            {
+                "species": "simisear",
+                "id": 514,
+                "sprite": "/static/sprites/pokemon/514.gif",
+                "details": [
+                    {
+                        "trigger": "use-item",
+                        "min_level": null,
+                        "item": "fire-stone"
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/513.gif"
+}

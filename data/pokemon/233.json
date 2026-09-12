@@ -1,0 +1,70 @@
+{
+    "id": 233,
+    "name": "porygon2",
+    "category": "Virtual Pokémon",
+    "description": "This upgraded version of PORYGON is designed for space exploration. It can't fly, though.",
+    "generation": "generation-ii",
+    "height": 6,
+    "weight": 325,
+    "base_experience": 180,
+    "types": [
+        "normal"
+    ],
+    "abilities": [
+        {
+            "name": "trace",
+            "is_hidden": false
+        },
+        {
+            "name": "download",
+            "is_hidden": false
+        },
+        {
+            "name": "analytic",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 85,
+        "attack": 80,
+        "defense": 90,
+        "special-attack": 105,
+        "special-defense": 95,
+        "speed": 60
+    },
+    "evolution_chain": {
+        "species": "porygon",
+        "id": 137,
+        "sprite": "/static/sprites/pokemon/137.gif",
+        "evolves_to": [
+            {
+                "species": "porygon2",
+                "id": 233,
+                "sprite": "/static/sprites/pokemon/233.gif",
+                "details": [
+                    {
+                        "trigger": "trade",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "porygon-z",
+                        "id": 474,
+                        "sprite": "/static/sprites/pokemon/474.gif",
+                        "details": [
+                            {
+                                "trigger": "trade",
+                                "min_level": null,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/233.gif"
+}

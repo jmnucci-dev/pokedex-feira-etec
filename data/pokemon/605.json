@@ -1,0 +1,56 @@
+{
+    "id": 605,
+    "name": "elgyem",
+    "category": "Cerebral Pokémon",
+    "description": "It uses its strong psychic power to squeeze its opponent’s brain, causing unendurable headaches.",
+    "generation": "generation-v",
+    "height": 5,
+    "weight": 90,
+    "base_experience": 67,
+    "types": [
+        "psychic"
+    ],
+    "abilities": [
+        {
+            "name": "telepathy",
+            "is_hidden": false
+        },
+        {
+            "name": "synchronize",
+            "is_hidden": false
+        },
+        {
+            "name": "analytic",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 55,
+        "attack": 55,
+        "defense": 55,
+        "special-attack": 85,
+        "special-defense": 55,
+        "speed": 30
+    },
+    "evolution_chain": {
+        "species": "elgyem",
+        "id": 605,
+        "sprite": "/static/sprites/pokemon/605.gif",
+        "evolves_to": [
+            {
+                "species": "beheeyem",
+                "id": 606,
+                "sprite": "/static/sprites/pokemon/606.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 42,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/605.gif"
+}

@@ -1,0 +1,52 @@
+{
+    "id": 919,
+    "name": "nymble",
+    "category": "Grasshopper Pokémon",
+    "description": "It has its third set of legs folded up. When it’s in a tough spot, this Pokémon jumps over 30 feet using the strength of its legs.",
+    "generation": "generation-ix",
+    "height": 2,
+    "weight": 10,
+    "base_experience": 42,
+    "types": [
+        "bug"
+    ],
+    "abilities": [
+        {
+            "name": "swarm",
+            "is_hidden": false
+        },
+        {
+            "name": "tinted-lens",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 33,
+        "attack": 46,
+        "defense": 40,
+        "special-attack": 21,
+        "special-defense": 25,
+        "speed": 45
+    },
+    "evolution_chain": {
+        "species": "nymble",
+        "id": 919,
+        "sprite": "/static/sprites/pokemon/919.png",
+        "evolves_to": [
+            {
+                "species": "lokix",
+                "id": 920,
+                "sprite": "/static/sprites/pokemon/920.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 24,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/919.png"
+}

@@ -1,0 +1,57 @@
+{
+    "id": 322,
+    "name": "numel",
+    "category": "Numb Pokémon",
+    "description": "NUMEL is extremely dull witted - it doesn’t notice being hit. However, it can’t stand hunger for even a second. This POKéMON’s body is a seething cauldron of boiling magma.",
+    "generation": "generation-iii",
+    "height": 7,
+    "weight": 240,
+    "base_experience": 61,
+    "types": [
+        "fire",
+        "ground"
+    ],
+    "abilities": [
+        {
+            "name": "oblivious",
+            "is_hidden": false
+        },
+        {
+            "name": "simple",
+            "is_hidden": false
+        },
+        {
+            "name": "own-tempo",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 60,
+        "attack": 60,
+        "defense": 40,
+        "special-attack": 65,
+        "special-defense": 45,
+        "speed": 35
+    },
+    "evolution_chain": {
+        "species": "numel",
+        "id": 322,
+        "sprite": "/static/sprites/pokemon/322.gif",
+        "evolves_to": [
+            {
+                "species": "camerupt",
+                "id": 323,
+                "sprite": "/static/sprites/pokemon/323.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 33,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/322.gif"
+}

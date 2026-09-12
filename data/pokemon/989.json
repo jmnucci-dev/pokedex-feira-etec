@@ -1,0 +1,35 @@
+{
+    "id": 989,
+    "name": "sandy-shocks",
+    "category": "Paradox Pokémon",
+    "description": "No records exist of this Pokémon being caught. Data is lacking, but the Pokémon’s traits match up with a creature shown in an expedition journal.",
+    "generation": "generation-ix",
+    "height": 23,
+    "weight": 600,
+    "base_experience": 285,
+    "types": [
+        "electric",
+        "ground"
+    ],
+    "abilities": [
+        {
+            "name": "protosynthesis",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 85,
+        "attack": 81,
+        "defense": 97,
+        "special-attack": 121,
+        "special-defense": 85,
+        "speed": 101
+    },
+    "evolution_chain": {
+        "species": "sandy-shocks",
+        "id": 989,
+        "sprite": "/static/sprites/pokemon/989.png",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/989.png"
+}

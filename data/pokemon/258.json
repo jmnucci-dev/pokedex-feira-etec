@@ -1,0 +1,66 @@
+{
+    "id": 258,
+    "name": "mudkip",
+    "category": "Mud Fish Pokémon",
+    "description": "The fin on MUDKIP’s head acts as highly sensitive radar. Using this fin to sense movements of water and air, this POKéMON can determine what is taking place around it without using its eyes.",
+    "generation": "generation-iii",
+    "height": 4,
+    "weight": 76,
+    "base_experience": 62,
+    "types": [
+        "water"
+    ],
+    "abilities": [
+        {
+            "name": "torrent",
+            "is_hidden": false
+        },
+        {
+            "name": "damp",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 50,
+        "attack": 70,
+        "defense": 50,
+        "special-attack": 50,
+        "special-defense": 50,
+        "speed": 40
+    },
+    "evolution_chain": {
+        "species": "mudkip",
+        "id": 258,
+        "sprite": "/static/sprites/pokemon/258.gif",
+        "evolves_to": [
+            {
+                "species": "marshtomp",
+                "id": 259,
+                "sprite": "/static/sprites/pokemon/259.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 16,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "swampert",
+                        "id": 260,
+                        "sprite": "/static/sprites/pokemon/260.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 36,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/258.gif"
+}

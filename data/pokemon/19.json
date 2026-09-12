@@ -1,0 +1,61 @@
+{
+    "id": 19,
+    "name": "rattata",
+    "category": "Mouse Pokémon",
+    "description": "Bites anything when it attacks. Small and very quick, it is a common sight in many places.",
+    "generation": "generation-i",
+    "height": 3,
+    "weight": 35,
+    "base_experience": 51,
+    "types": [
+        "normal"
+    ],
+    "abilities": [
+        {
+            "name": "run-away",
+            "is_hidden": false
+        },
+        {
+            "name": "guts",
+            "is_hidden": false
+        },
+        {
+            "name": "hustle",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 30,
+        "attack": 56,
+        "defense": 35,
+        "special-attack": 25,
+        "special-defense": 35,
+        "speed": 72
+    },
+    "evolution_chain": {
+        "species": "rattata",
+        "id": 19,
+        "sprite": "/static/sprites/pokemon/19.gif",
+        "evolves_to": [
+            {
+                "species": "raticate",
+                "id": 20,
+                "sprite": "/static/sprites/pokemon/20.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 20,
+                        "item": null
+                    },
+                    {
+                        "trigger": "level-up",
+                        "min_level": 20,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/19.gif"
+}

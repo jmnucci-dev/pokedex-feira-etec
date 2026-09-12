@@ -1,0 +1,43 @@
+{
+    "id": 962,
+    "name": "bombirdier",
+    "category": "Item Drop Pokémon",
+    "description": "It gathers things up in an apron made from shed feathers added to the Pokémon’s chest feathers, then drops those things from high places for fun.",
+    "generation": "generation-ix",
+    "height": 15,
+    "weight": 429,
+    "base_experience": 243,
+    "types": [
+        "flying",
+        "dark"
+    ],
+    "abilities": [
+        {
+            "name": "big-pecks",
+            "is_hidden": false
+        },
+        {
+            "name": "keen-eye",
+            "is_hidden": false
+        },
+        {
+            "name": "rocky-payload",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 70,
+        "attack": 103,
+        "defense": 85,
+        "special-attack": 60,
+        "special-defense": 85,
+        "speed": 82
+    },
+    "evolution_chain": {
+        "species": "bombirdier",
+        "id": 962,
+        "sprite": "/static/sprites/pokemon/962.png",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/962.png"
+}

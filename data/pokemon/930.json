@@ -1,0 +1,67 @@
+{
+    "id": 930,
+    "name": "arboliva",
+    "category": "Olive Pokémon",
+    "description": "This calm Pokémon is very compassionate. It will share its delicious, nutrient-rich oil with weakened Pokémon.",
+    "generation": "generation-ix",
+    "height": 14,
+    "weight": 482,
+    "base_experience": 255,
+    "types": [
+        "grass",
+        "normal"
+    ],
+    "abilities": [
+        {
+            "name": "seed-sower",
+            "is_hidden": false
+        },
+        {
+            "name": "harvest",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 78,
+        "attack": 69,
+        "defense": 90,
+        "special-attack": 125,
+        "special-defense": 109,
+        "speed": 39
+    },
+    "evolution_chain": {
+        "species": "smoliv",
+        "id": 928,
+        "sprite": "/static/sprites/pokemon/928.png",
+        "evolves_to": [
+            {
+                "species": "dolliv",
+                "id": 929,
+                "sprite": "/static/sprites/pokemon/929.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 25,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "arboliva",
+                        "id": 930,
+                        "sprite": "/static/sprites/pokemon/930.png",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 35,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/930.png"
+}

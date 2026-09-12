@@ -1,0 +1,57 @@
+{
+    "id": 708,
+    "name": "phantump",
+    "category": "Stump Pokémon",
+    "description": "These Pokémon are created when spirits possess rotten tree stumps. They prefer to live in abandoned forests.",
+    "generation": "generation-vi",
+    "height": 4,
+    "weight": 70,
+    "base_experience": 62,
+    "types": [
+        "ghost",
+        "grass"
+    ],
+    "abilities": [
+        {
+            "name": "natural-cure",
+            "is_hidden": false
+        },
+        {
+            "name": "frisk",
+            "is_hidden": false
+        },
+        {
+            "name": "harvest",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 43,
+        "attack": 70,
+        "defense": 48,
+        "special-attack": 50,
+        "special-defense": 60,
+        "speed": 38
+    },
+    "evolution_chain": {
+        "species": "phantump",
+        "id": 708,
+        "sprite": "/static/sprites/pokemon/708.png",
+        "evolves_to": [
+            {
+                "species": "trevenant",
+                "id": 709,
+                "sprite": "/static/sprites/pokemon/709.png",
+                "details": [
+                    {
+                        "trigger": "trade",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/708.png"
+}

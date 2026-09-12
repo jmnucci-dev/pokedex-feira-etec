@@ -1,0 +1,56 @@
+{
+    "id": 427,
+    "name": "buneary",
+    "category": "Rabbit Pokémon",
+    "description": "It slams foes by sharply uncoiling its rolled ears. It stings enough to make a grown-up cry in pain.",
+    "generation": "generation-iv",
+    "height": 4,
+    "weight": 55,
+    "base_experience": 70,
+    "types": [
+        "normal"
+    ],
+    "abilities": [
+        {
+            "name": "run-away",
+            "is_hidden": false
+        },
+        {
+            "name": "klutz",
+            "is_hidden": false
+        },
+        {
+            "name": "limber",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 55,
+        "attack": 66,
+        "defense": 44,
+        "special-attack": 44,
+        "special-defense": 56,
+        "speed": 85
+    },
+    "evolution_chain": {
+        "species": "buneary",
+        "id": 427,
+        "sprite": "/static/sprites/pokemon/427.gif",
+        "evolves_to": [
+            {
+                "species": "lopunny",
+                "id": 428,
+                "sprite": "/static/sprites/pokemon/428.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/427.gif"
+}

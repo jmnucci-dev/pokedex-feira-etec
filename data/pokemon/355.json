@@ -1,0 +1,66 @@
+{
+    "id": 355,
+    "name": "duskull",
+    "category": "Requiem Pokémon",
+    "description": "DUSKULL can pass through any wall no matter how thick it may be. Once this POKéMON chooses a target, it will doggedly pursue the intended victim until the break of dawn.",
+    "generation": "generation-iii",
+    "height": 8,
+    "weight": 150,
+    "base_experience": 59,
+    "types": [
+        "ghost"
+    ],
+    "abilities": [
+        {
+            "name": "levitate",
+            "is_hidden": false
+        },
+        {
+            "name": "frisk",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 20,
+        "attack": 40,
+        "defense": 90,
+        "special-attack": 30,
+        "special-defense": 90,
+        "speed": 25
+    },
+    "evolution_chain": {
+        "species": "duskull",
+        "id": 355,
+        "sprite": "/static/sprites/pokemon/355.gif",
+        "evolves_to": [
+            {
+                "species": "dusclops",
+                "id": 356,
+                "sprite": "/static/sprites/pokemon/356.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 37,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "dusknoir",
+                        "id": 477,
+                        "sprite": "/static/sprites/pokemon/477.gif",
+                        "details": [
+                            {
+                                "trigger": "trade",
+                                "min_level": null,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/355.gif"
+}

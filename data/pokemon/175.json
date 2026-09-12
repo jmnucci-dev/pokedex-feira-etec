@@ -1,0 +1,70 @@
+{
+    "id": 175,
+    "name": "togepi",
+    "category": "Spike Ball Pokémon",
+    "description": "The shell seems to be filled with joy. It is said that it will share good luck when treated kindly.",
+    "generation": "generation-ii",
+    "height": 3,
+    "weight": 15,
+    "base_experience": 49,
+    "types": [
+        "fairy"
+    ],
+    "abilities": [
+        {
+            "name": "hustle",
+            "is_hidden": false
+        },
+        {
+            "name": "serene-grace",
+            "is_hidden": false
+        },
+        {
+            "name": "super-luck",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 35,
+        "attack": 20,
+        "defense": 65,
+        "special-attack": 40,
+        "special-defense": 65,
+        "speed": 20
+    },
+    "evolution_chain": {
+        "species": "togepi",
+        "id": 175,
+        "sprite": "/static/sprites/pokemon/175.gif",
+        "evolves_to": [
+            {
+                "species": "togetic",
+                "id": 176,
+                "sprite": "/static/sprites/pokemon/176.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "togekiss",
+                        "id": 468,
+                        "sprite": "/static/sprites/pokemon/468.gif",
+                        "details": [
+                            {
+                                "trigger": "use-item",
+                                "min_level": null,
+                                "item": "shiny-stone"
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/175.gif"
+}

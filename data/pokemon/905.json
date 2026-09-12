@@ -1,0 +1,39 @@
+{
+    "id": 905,
+    "name": "enamorus-incarnate",
+    "category": "Love-Hate Pokémon",
+    "description": "When it flies to this land from across the sea, the bitter winter comes to an end. According to legend, this Pokémon's love gives rise to the budding of fresh life across Hisui.",
+    "generation": "generation-viii",
+    "height": 16,
+    "weight": 480,
+    "base_experience": 116,
+    "types": [
+        "fairy",
+        "flying"
+    ],
+    "abilities": [
+        {
+            "name": "cute-charm",
+            "is_hidden": false
+        },
+        {
+            "name": "contrary",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 74,
+        "attack": 115,
+        "defense": 70,
+        "special-attack": 135,
+        "special-defense": 80,
+        "speed": 106
+    },
+    "evolution_chain": {
+        "species": "enamorus",
+        "id": 905,
+        "sprite": "/static/sprites/pokemon/905.png",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/905.png"
+}

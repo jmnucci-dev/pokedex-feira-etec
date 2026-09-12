@@ -1,0 +1,81 @@
+{
+    "id": 74,
+    "name": "geodude",
+    "category": "Rock Pokémon",
+    "description": "Found in fields and mountains. Mistaking them for boulders, people often step or trip on them.",
+    "generation": "generation-i",
+    "height": 4,
+    "weight": 200,
+    "base_experience": 60,
+    "types": [
+        "rock",
+        "ground"
+    ],
+    "abilities": [
+        {
+            "name": "rock-head",
+            "is_hidden": false
+        },
+        {
+            "name": "sturdy",
+            "is_hidden": false
+        },
+        {
+            "name": "sand-veil",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 40,
+        "attack": 80,
+        "defense": 100,
+        "special-attack": 30,
+        "special-defense": 30,
+        "speed": 20
+    },
+    "evolution_chain": {
+        "species": "geodude",
+        "id": 74,
+        "sprite": "/static/sprites/pokemon/74.gif",
+        "evolves_to": [
+            {
+                "species": "graveler",
+                "id": 75,
+                "sprite": "/static/sprites/pokemon/75.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 25,
+                        "item": null
+                    },
+                    {
+                        "trigger": "level-up",
+                        "min_level": 25,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "golem",
+                        "id": 76,
+                        "sprite": "/static/sprites/pokemon/76.gif",
+                        "details": [
+                            {
+                                "trigger": "trade",
+                                "min_level": null,
+                                "item": null
+                            },
+                            {
+                                "trigger": "trade",
+                                "min_level": null,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/74.gif"
+}

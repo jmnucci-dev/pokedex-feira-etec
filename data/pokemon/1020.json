@@ -1,0 +1,35 @@
+{
+    "id": 1020,
+    "name": "gouging-fire",
+    "category": "Paradox Pokémon",
+    "description": "There are scant few reports of this creature being sighted. One short video shows it rampaging and spouting pillars of flame.",
+    "generation": "generation-ix",
+    "height": 35,
+    "weight": 5900,
+    "base_experience": 295,
+    "types": [
+        "fire",
+        "dragon"
+    ],
+    "abilities": [
+        {
+            "name": "protosynthesis",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 105,
+        "attack": 115,
+        "defense": 121,
+        "special-attack": 65,
+        "special-defense": 93,
+        "speed": 91
+    },
+    "evolution_chain": {
+        "species": "gouging-fire",
+        "id": 1020,
+        "sprite": "/static/sprites/pokemon/1020.png",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/1020.png"
+}

@@ -1,0 +1,70 @@
+{
+    "id": 506,
+    "name": "lillipup",
+    "category": "Puppy Pokémon",
+    "description": "It faces strong opponents with great courage. But, when at a disadvantage in a fight, this intelligent Pokémon flees.",
+    "generation": "generation-v",
+    "height": 4,
+    "weight": 41,
+    "base_experience": 55,
+    "types": [
+        "normal"
+    ],
+    "abilities": [
+        {
+            "name": "vital-spirit",
+            "is_hidden": false
+        },
+        {
+            "name": "pickup",
+            "is_hidden": false
+        },
+        {
+            "name": "run-away",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 45,
+        "attack": 60,
+        "defense": 45,
+        "special-attack": 25,
+        "special-defense": 45,
+        "speed": 55
+    },
+    "evolution_chain": {
+        "species": "lillipup",
+        "id": 506,
+        "sprite": "/static/sprites/pokemon/506.gif",
+        "evolves_to": [
+            {
+                "species": "herdier",
+                "id": 507,
+                "sprite": "/static/sprites/pokemon/507.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 16,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "stoutland",
+                        "id": 508,
+                        "sprite": "/static/sprites/pokemon/508.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 32,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/506.gif"
+}

@@ -1,0 +1,57 @@
+{
+    "id": 448,
+    "name": "lucario",
+    "category": "Aura Pokémon",
+    "description": "It has the ability to sense the auras of all things. It understands human speech.",
+    "generation": "generation-iv",
+    "height": 12,
+    "weight": 540,
+    "base_experience": 184,
+    "types": [
+        "fighting",
+        "steel"
+    ],
+    "abilities": [
+        {
+            "name": "steadfast",
+            "is_hidden": false
+        },
+        {
+            "name": "inner-focus",
+            "is_hidden": false
+        },
+        {
+            "name": "justified",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 70,
+        "attack": 110,
+        "defense": 70,
+        "special-attack": 115,
+        "special-defense": 70,
+        "speed": 90
+    },
+    "evolution_chain": {
+        "species": "riolu",
+        "id": 447,
+        "sprite": "/static/sprites/pokemon/447.gif",
+        "evolves_to": [
+            {
+                "species": "lucario",
+                "id": 448,
+                "sprite": "/static/sprites/pokemon/448.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/448.gif"
+}

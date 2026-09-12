@@ -1,0 +1,35 @@
+{
+    "id": 649,
+    "name": "genesect",
+    "category": "Paleozoic Pokémon",
+    "description": "Over 300 million years ago, it was feared as the strongest of hunters. It has been modified by Team Plasma.",
+    "generation": "generation-v",
+    "height": 15,
+    "weight": 825,
+    "base_experience": 270,
+    "types": [
+        "bug",
+        "steel"
+    ],
+    "abilities": [
+        {
+            "name": "download",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 71,
+        "attack": 120,
+        "defense": 95,
+        "special-attack": 120,
+        "special-defense": 95,
+        "speed": 99
+    },
+    "evolution_chain": {
+        "species": "genesect",
+        "id": 649,
+        "sprite": "/static/sprites/pokemon/649.gif",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/649.gif"
+}

@@ -1,0 +1,35 @@
+{
+    "id": 380,
+    "name": "latias",
+    "category": "Eon Pokémon",
+    "description": "LATIAS is highly sensitive to the emotions of people. If it senses any hostility, this POKéMON ruffles the feathers all over its body and cries shrilly to intimidate the foe.",
+    "generation": "generation-iii",
+    "height": 14,
+    "weight": 400,
+    "base_experience": 270,
+    "types": [
+        "dragon",
+        "psychic"
+    ],
+    "abilities": [
+        {
+            "name": "levitate",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 80,
+        "attack": 80,
+        "defense": 90,
+        "special-attack": 110,
+        "special-defense": 130,
+        "speed": 110
+    },
+    "evolution_chain": {
+        "species": "latias",
+        "id": 380,
+        "sprite": "/static/sprites/pokemon/380.gif",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/380.gif"
+}

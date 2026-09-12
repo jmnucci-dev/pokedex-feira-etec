@@ -1,0 +1,79 @@
+{
+    "id": 182,
+    "name": "bellossom",
+    "category": "Flower Pokémon",
+    "description": "BELLOSSOM gather at times and appear to dance. They say that the dance is a ritual to summon the sun.",
+    "generation": "generation-ii",
+    "height": 4,
+    "weight": 58,
+    "base_experience": 221,
+    "types": [
+        "grass"
+    ],
+    "abilities": [
+        {
+            "name": "chlorophyll",
+            "is_hidden": false
+        },
+        {
+            "name": "healer",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 75,
+        "attack": 80,
+        "defense": 95,
+        "special-attack": 90,
+        "special-defense": 100,
+        "speed": 50
+    },
+    "evolution_chain": {
+        "species": "oddish",
+        "id": 43,
+        "sprite": "/static/sprites/pokemon/43.gif",
+        "evolves_to": [
+            {
+                "species": "gloom",
+                "id": 44,
+                "sprite": "/static/sprites/pokemon/44.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 21,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "vileplume",
+                        "id": 45,
+                        "sprite": "/static/sprites/pokemon/45.gif",
+                        "details": [
+                            {
+                                "trigger": "use-item",
+                                "min_level": null,
+                                "item": "leaf-stone"
+                            }
+                        ],
+                        "next": []
+                    },
+                    {
+                        "species": "bellossom",
+                        "id": 182,
+                        "sprite": "/static/sprites/pokemon/182.gif",
+                        "details": [
+                            {
+                                "trigger": "use-item",
+                                "min_level": null,
+                                "item": "sun-stone"
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/182.gif"
+}

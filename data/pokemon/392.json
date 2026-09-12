@@ -1,0 +1,67 @@
+{
+    "id": 392,
+    "name": "infernape",
+    "category": "Flame Pokémon",
+    "description": "It uses a special kind of martial arts involving all its limbs. Its fire never goes out.",
+    "generation": "generation-iv",
+    "height": 12,
+    "weight": 550,
+    "base_experience": 240,
+    "types": [
+        "fire",
+        "fighting"
+    ],
+    "abilities": [
+        {
+            "name": "blaze",
+            "is_hidden": false
+        },
+        {
+            "name": "iron-fist",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 76,
+        "attack": 104,
+        "defense": 71,
+        "special-attack": 104,
+        "special-defense": 71,
+        "speed": 108
+    },
+    "evolution_chain": {
+        "species": "chimchar",
+        "id": 390,
+        "sprite": "/static/sprites/pokemon/390.gif",
+        "evolves_to": [
+            {
+                "species": "monferno",
+                "id": 391,
+                "sprite": "/static/sprites/pokemon/391.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 14,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "infernape",
+                        "id": 392,
+                        "sprite": "/static/sprites/pokemon/392.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 36,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/392.gif"
+}

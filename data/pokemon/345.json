@@ -1,0 +1,53 @@
+{
+    "id": 345,
+    "name": "lileep",
+    "category": "Sea Lily Pokémon",
+    "description": "LILEEP became extinct approximately a hundred million years ago. This ancient POKéMON attaches itself to a rock on the seafloor and catches approaching prey using tentacles shaped like flower petals.",
+    "generation": "generation-iii",
+    "height": 10,
+    "weight": 238,
+    "base_experience": 71,
+    "types": [
+        "rock",
+        "grass"
+    ],
+    "abilities": [
+        {
+            "name": "suction-cups",
+            "is_hidden": false
+        },
+        {
+            "name": "storm-drain",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 66,
+        "attack": 41,
+        "defense": 77,
+        "special-attack": 61,
+        "special-defense": 87,
+        "speed": 23
+    },
+    "evolution_chain": {
+        "species": "lileep",
+        "id": 345,
+        "sprite": "/static/sprites/pokemon/345.gif",
+        "evolves_to": [
+            {
+                "species": "cradily",
+                "id": 346,
+                "sprite": "/static/sprites/pokemon/346.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 40,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/345.gif"
+}

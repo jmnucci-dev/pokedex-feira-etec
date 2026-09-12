@@ -1,0 +1,56 @@
+{
+    "id": 943,
+    "name": "mabosstiff",
+    "category": "Boss Pokémon",
+    "description": "This Pokémon can store energy in its large dewlap. Mabosstiff unleashes this energy all at once to blow away enemies.",
+    "generation": "generation-ix",
+    "height": 11,
+    "weight": 610,
+    "base_experience": 177,
+    "types": [
+        "dark"
+    ],
+    "abilities": [
+        {
+            "name": "intimidate",
+            "is_hidden": false
+        },
+        {
+            "name": "guard-dog",
+            "is_hidden": false
+        },
+        {
+            "name": "stakeout",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 80,
+        "attack": 120,
+        "defense": 90,
+        "special-attack": 60,
+        "special-defense": 70,
+        "speed": 85
+    },
+    "evolution_chain": {
+        "species": "maschiff",
+        "id": 942,
+        "sprite": "/static/sprites/pokemon/942.png",
+        "evolves_to": [
+            {
+                "species": "mabosstiff",
+                "id": 943,
+                "sprite": "/static/sprites/pokemon/943.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 30,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/943.png"
+}

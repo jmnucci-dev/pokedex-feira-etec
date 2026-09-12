@@ -1,0 +1,56 @@
+{
+    "id": 505,
+    "name": "watchog",
+    "category": "Lookout Pokémon",
+    "description": "When they see an enemy, their tails stand high, and they spit the seeds of berries stored in their cheek pouches.",
+    "generation": "generation-v",
+    "height": 11,
+    "weight": 270,
+    "base_experience": 147,
+    "types": [
+        "normal"
+    ],
+    "abilities": [
+        {
+            "name": "illuminate",
+            "is_hidden": false
+        },
+        {
+            "name": "keen-eye",
+            "is_hidden": false
+        },
+        {
+            "name": "analytic",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 60,
+        "attack": 85,
+        "defense": 69,
+        "special-attack": 60,
+        "special-defense": 69,
+        "speed": 77
+    },
+    "evolution_chain": {
+        "species": "patrat",
+        "id": 504,
+        "sprite": "/static/sprites/pokemon/504.gif",
+        "evolves_to": [
+            {
+                "species": "watchog",
+                "id": 505,
+                "sprite": "/static/sprites/pokemon/505.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 20,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/505.gif"
+}

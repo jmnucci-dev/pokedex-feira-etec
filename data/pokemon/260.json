@@ -1,0 +1,67 @@
+{
+    "id": 260,
+    "name": "swampert",
+    "category": "Mud Fish Pokémon",
+    "description": "SWAMPERT is very strong. It has enough power to easily drag a boulder weighing more than a ton. This POKéMON also has powerful vision that lets it see even in murky water.",
+    "generation": "generation-iii",
+    "height": 15,
+    "weight": 819,
+    "base_experience": 241,
+    "types": [
+        "water",
+        "ground"
+    ],
+    "abilities": [
+        {
+            "name": "torrent",
+            "is_hidden": false
+        },
+        {
+            "name": "damp",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 100,
+        "attack": 110,
+        "defense": 90,
+        "special-attack": 85,
+        "special-defense": 90,
+        "speed": 60
+    },
+    "evolution_chain": {
+        "species": "mudkip",
+        "id": 258,
+        "sprite": "/static/sprites/pokemon/258.gif",
+        "evolves_to": [
+            {
+                "species": "marshtomp",
+                "id": 259,
+                "sprite": "/static/sprites/pokemon/259.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 16,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "swampert",
+                        "id": 260,
+                        "sprite": "/static/sprites/pokemon/260.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 36,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/260.gif"
+}

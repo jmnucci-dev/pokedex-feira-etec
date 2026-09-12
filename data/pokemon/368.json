@@ -1,0 +1,65 @@
+{
+    "id": 368,
+    "name": "gorebyss",
+    "category": "South Sea Pokémon",
+    "description": "GOREBYSS lives in the southern seas at extreme depths. Its body is built to withstand the enormous pressure of water at incredible depths. Because of this, this POKéMON’s body is unharmed by ordinary attacks.",
+    "generation": "generation-iii",
+    "height": 18,
+    "weight": 226,
+    "base_experience": 170,
+    "types": [
+        "water"
+    ],
+    "abilities": [
+        {
+            "name": "swift-swim",
+            "is_hidden": false
+        },
+        {
+            "name": "hydration",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 55,
+        "attack": 84,
+        "defense": 105,
+        "special-attack": 114,
+        "special-defense": 75,
+        "speed": 52
+    },
+    "evolution_chain": {
+        "species": "clamperl",
+        "id": 366,
+        "sprite": "/static/sprites/pokemon/366.gif",
+        "evolves_to": [
+            {
+                "species": "huntail",
+                "id": 367,
+                "sprite": "/static/sprites/pokemon/367.gif",
+                "details": [
+                    {
+                        "trigger": "trade",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": []
+            },
+            {
+                "species": "gorebyss",
+                "id": 368,
+                "sprite": "/static/sprites/pokemon/368.gif",
+                "details": [
+                    {
+                        "trigger": "trade",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/368.gif"
+}

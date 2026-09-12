@@ -1,0 +1,57 @@
+{
+    "id": 690,
+    "name": "skrelp",
+    "category": "Mock Kelp Pokémon",
+    "description": "Camouflaged as rotten kelp, they spray liquid poison on prey that approaches unawares and then finish it off.",
+    "generation": "generation-vi",
+    "height": 5,
+    "weight": 73,
+    "base_experience": 64,
+    "types": [
+        "poison",
+        "water"
+    ],
+    "abilities": [
+        {
+            "name": "poison-point",
+            "is_hidden": false
+        },
+        {
+            "name": "poison-touch",
+            "is_hidden": false
+        },
+        {
+            "name": "adaptability",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 50,
+        "attack": 60,
+        "defense": 60,
+        "special-attack": 60,
+        "special-defense": 60,
+        "speed": 30
+    },
+    "evolution_chain": {
+        "species": "skrelp",
+        "id": 690,
+        "sprite": "/static/sprites/pokemon/690.png",
+        "evolves_to": [
+            {
+                "species": "dragalge",
+                "id": 691,
+                "sprite": "/static/sprites/pokemon/691.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 48,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/690.png"
+}

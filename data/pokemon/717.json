@@ -1,0 +1,35 @@
+{
+    "id": 717,
+    "name": "yveltal",
+    "category": "Destruction Pokémon",
+    "description": "When this legendary Pokémon’s wings and tail feathers spread wide and glow red, it absorbs the life force of living creatures.",
+    "generation": "generation-vi",
+    "height": 58,
+    "weight": 2030,
+    "base_experience": 306,
+    "types": [
+        "dark",
+        "flying"
+    ],
+    "abilities": [
+        {
+            "name": "dark-aura",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 126,
+        "attack": 131,
+        "defense": 95,
+        "special-attack": 131,
+        "special-defense": 98,
+        "speed": 99
+    },
+    "evolution_chain": {
+        "species": "yveltal",
+        "id": 717,
+        "sprite": "/static/sprites/pokemon/717.png",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/717.png"
+}

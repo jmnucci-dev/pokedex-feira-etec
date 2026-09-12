@@ -1,0 +1,53 @@
+{
+    "id": 946,
+    "name": "bramblin",
+    "category": "Tumbleweed Pokémon",
+    "description": "A soul unable to move on to the afterlife was blown around by the wind until it got tangled up with dried grass and became a Pokémon.",
+    "generation": "generation-ix",
+    "height": 6,
+    "weight": 6,
+    "base_experience": 55,
+    "types": [
+        "grass",
+        "ghost"
+    ],
+    "abilities": [
+        {
+            "name": "wind-rider",
+            "is_hidden": false
+        },
+        {
+            "name": "infiltrator",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 40,
+        "attack": 65,
+        "defense": 30,
+        "special-attack": 45,
+        "special-defense": 35,
+        "speed": 60
+    },
+    "evolution_chain": {
+        "species": "bramblin",
+        "id": 946,
+        "sprite": "/static/sprites/pokemon/946.png",
+        "evolves_to": [
+            {
+                "species": "brambleghast",
+                "id": 947,
+                "sprite": "/static/sprites/pokemon/947.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/946.png"
+}

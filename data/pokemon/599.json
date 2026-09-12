@@ -1,0 +1,70 @@
+{
+    "id": 599,
+    "name": "klink",
+    "category": "Gear Pokémon",
+    "description": "The two minigears that mesh together are predetermined. Each will rebound from other minigears without meshing.",
+    "generation": "generation-v",
+    "height": 3,
+    "weight": 210,
+    "base_experience": 60,
+    "types": [
+        "steel"
+    ],
+    "abilities": [
+        {
+            "name": "plus",
+            "is_hidden": false
+        },
+        {
+            "name": "minus",
+            "is_hidden": false
+        },
+        {
+            "name": "clear-body",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 40,
+        "attack": 55,
+        "defense": 70,
+        "special-attack": 45,
+        "special-defense": 60,
+        "speed": 30
+    },
+    "evolution_chain": {
+        "species": "klink",
+        "id": 599,
+        "sprite": "/static/sprites/pokemon/599.gif",
+        "evolves_to": [
+            {
+                "species": "klang",
+                "id": 600,
+                "sprite": "/static/sprites/pokemon/600.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 38,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "klinklang",
+                        "id": 601,
+                        "sprite": "/static/sprites/pokemon/601.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 49,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/599.gif"
+}

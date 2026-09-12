@@ -1,0 +1,71 @@
+{
+    "id": 468,
+    "name": "togekiss",
+    "category": "Jubilee Pokémon",
+    "description": "It will never appear where there is strife. Its sightings have become rare recently.",
+    "generation": "generation-iv",
+    "height": 15,
+    "weight": 380,
+    "base_experience": 245,
+    "types": [
+        "fairy",
+        "flying"
+    ],
+    "abilities": [
+        {
+            "name": "hustle",
+            "is_hidden": false
+        },
+        {
+            "name": "serene-grace",
+            "is_hidden": false
+        },
+        {
+            "name": "super-luck",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 85,
+        "attack": 50,
+        "defense": 95,
+        "special-attack": 120,
+        "special-defense": 115,
+        "speed": 80
+    },
+    "evolution_chain": {
+        "species": "togepi",
+        "id": 175,
+        "sprite": "/static/sprites/pokemon/175.gif",
+        "evolves_to": [
+            {
+                "species": "togetic",
+                "id": 176,
+                "sprite": "/static/sprites/pokemon/176.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "togekiss",
+                        "id": 468,
+                        "sprite": "/static/sprites/pokemon/468.gif",
+                        "details": [
+                            {
+                                "trigger": "use-item",
+                                "min_level": null,
+                                "item": "shiny-stone"
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/468.gif"
+}

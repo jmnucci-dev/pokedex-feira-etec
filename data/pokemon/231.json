@@ -1,0 +1,52 @@
+{
+    "id": 231,
+    "name": "phanpy",
+    "category": "Long Nose Pokémon",
+    "description": "It swings its long snout around play­ fully, but because it is so strong, that can be dan­ gerous.",
+    "generation": "generation-ii",
+    "height": 5,
+    "weight": 335,
+    "base_experience": 66,
+    "types": [
+        "ground"
+    ],
+    "abilities": [
+        {
+            "name": "pickup",
+            "is_hidden": false
+        },
+        {
+            "name": "sand-veil",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 90,
+        "attack": 60,
+        "defense": 60,
+        "special-attack": 40,
+        "special-defense": 40,
+        "speed": 40
+    },
+    "evolution_chain": {
+        "species": "phanpy",
+        "id": 231,
+        "sprite": "/static/sprites/pokemon/231.gif",
+        "evolves_to": [
+            {
+                "species": "donphan",
+                "id": 232,
+                "sprite": "/static/sprites/pokemon/232.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 25,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/231.gif"
+}

@@ -1,0 +1,53 @@
+{
+    "id": 970,
+    "name": "glimmora",
+    "category": "Ore Pokémon",
+    "description": "When this Pokémon detects danger, it will open up its crystalline petals and fire beams from its conical body.",
+    "generation": "generation-ix",
+    "height": 15,
+    "weight": 450,
+    "base_experience": 184,
+    "types": [
+        "rock",
+        "poison"
+    ],
+    "abilities": [
+        {
+            "name": "toxic-debris",
+            "is_hidden": false
+        },
+        {
+            "name": "corrosion",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 83,
+        "attack": 55,
+        "defense": 90,
+        "special-attack": 130,
+        "special-defense": 81,
+        "speed": 86
+    },
+    "evolution_chain": {
+        "species": "glimmet",
+        "id": 969,
+        "sprite": "/static/sprites/pokemon/969.png",
+        "evolves_to": [
+            {
+                "species": "glimmora",
+                "id": 970,
+                "sprite": "/static/sprites/pokemon/970.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 35,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/970.png"
+}

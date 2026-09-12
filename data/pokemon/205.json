@@ -1,0 +1,53 @@
+{
+    "id": 205,
+    "name": "forretress",
+    "category": "Bagworm Pokémon",
+    "description": "Its entire body is shielded by a steel-hard shell. What lurks inside the armor is a total mystery.",
+    "generation": "generation-ii",
+    "height": 12,
+    "weight": 1258,
+    "base_experience": 163,
+    "types": [
+        "bug",
+        "steel"
+    ],
+    "abilities": [
+        {
+            "name": "sturdy",
+            "is_hidden": false
+        },
+        {
+            "name": "overcoat",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 75,
+        "attack": 90,
+        "defense": 140,
+        "special-attack": 60,
+        "special-defense": 60,
+        "speed": 40
+    },
+    "evolution_chain": {
+        "species": "pineco",
+        "id": 204,
+        "sprite": "/static/sprites/pokemon/204.gif",
+        "evolves_to": [
+            {
+                "species": "forretress",
+                "id": 205,
+                "sprite": "/static/sprites/pokemon/205.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 31,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/205.gif"
+}

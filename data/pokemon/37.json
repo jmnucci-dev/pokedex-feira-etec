@@ -1,0 +1,57 @@
+{
+    "id": 37,
+    "name": "vulpix",
+    "category": "Fox Pokémon",
+    "description": "At the time of birth, it has just one tail. The tail splits from its tip as it grows older.",
+    "generation": "generation-i",
+    "height": 6,
+    "weight": 99,
+    "base_experience": 60,
+    "types": [
+        "fire"
+    ],
+    "abilities": [
+        {
+            "name": "flash-fire",
+            "is_hidden": false
+        },
+        {
+            "name": "drought",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 38,
+        "attack": 41,
+        "defense": 40,
+        "special-attack": 50,
+        "special-defense": 65,
+        "speed": 65
+    },
+    "evolution_chain": {
+        "species": "vulpix",
+        "id": 37,
+        "sprite": "/static/sprites/pokemon/37.gif",
+        "evolves_to": [
+            {
+                "species": "ninetales",
+                "id": 38,
+                "sprite": "/static/sprites/pokemon/38.gif",
+                "details": [
+                    {
+                        "trigger": "use-item",
+                        "min_level": null,
+                        "item": "fire-stone"
+                    },
+                    {
+                        "trigger": "use-item",
+                        "min_level": null,
+                        "item": "ice-stone"
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/37.gif"
+}

@@ -1,0 +1,56 @@
+{
+    "id": 504,
+    "name": "patrat",
+    "category": "Scout Pokémon",
+    "description": "Using food stored in cheek pouches, they can keep watch for days. They use their tails to communicate with others.",
+    "generation": "generation-v",
+    "height": 5,
+    "weight": 116,
+    "base_experience": 51,
+    "types": [
+        "normal"
+    ],
+    "abilities": [
+        {
+            "name": "run-away",
+            "is_hidden": false
+        },
+        {
+            "name": "keen-eye",
+            "is_hidden": false
+        },
+        {
+            "name": "analytic",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 45,
+        "attack": 55,
+        "defense": 39,
+        "special-attack": 35,
+        "special-defense": 39,
+        "speed": 42
+    },
+    "evolution_chain": {
+        "species": "patrat",
+        "id": 504,
+        "sprite": "/static/sprites/pokemon/504.gif",
+        "evolves_to": [
+            {
+                "species": "watchog",
+                "id": 505,
+                "sprite": "/static/sprites/pokemon/505.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 20,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/504.gif"
+}

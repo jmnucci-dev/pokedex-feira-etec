@@ -1,0 +1,35 @@
+{
+    "id": 799,
+    "name": "guzzlord",
+    "category": "Junkivore Pokémon",
+    "description": "It has gobbled mountains and swallowed whole buildings, according to reports. It’s one of the Ultra Beasts.",
+    "generation": "generation-vii",
+    "height": 55,
+    "weight": 8880,
+    "base_experience": 257,
+    "types": [
+        "dark",
+        "dragon"
+    ],
+    "abilities": [
+        {
+            "name": "beast-boost",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 223,
+        "attack": 101,
+        "defense": 53,
+        "special-attack": 97,
+        "special-defense": 53,
+        "speed": 43
+    },
+    "evolution_chain": {
+        "species": "guzzlord",
+        "id": 799,
+        "sprite": "/static/sprites/pokemon/799.png",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/799.png"
+}

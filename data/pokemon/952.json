@@ -1,0 +1,57 @@
+{
+    "id": 952,
+    "name": "scovillain",
+    "category": "Spicy Pepper Pokémon",
+    "description": "The red head converts spicy chemicals into fire energy and blasts the surrounding area with a super spicy stream of flame.",
+    "generation": "generation-ix",
+    "height": 9,
+    "weight": 150,
+    "base_experience": 170,
+    "types": [
+        "grass",
+        "fire"
+    ],
+    "abilities": [
+        {
+            "name": "chlorophyll",
+            "is_hidden": false
+        },
+        {
+            "name": "insomnia",
+            "is_hidden": false
+        },
+        {
+            "name": "moody",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 65,
+        "attack": 108,
+        "defense": 65,
+        "special-attack": 108,
+        "special-defense": 65,
+        "speed": 75
+    },
+    "evolution_chain": {
+        "species": "capsakid",
+        "id": 951,
+        "sprite": "/static/sprites/pokemon/951.png",
+        "evolves_to": [
+            {
+                "species": "scovillain",
+                "id": 952,
+                "sprite": "/static/sprites/pokemon/952.png",
+                "details": [
+                    {
+                        "trigger": "use-item",
+                        "min_level": null,
+                        "item": "fire-stone"
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/952.png"
+}

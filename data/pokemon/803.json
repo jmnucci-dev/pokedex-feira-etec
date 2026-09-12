@@ -1,0 +1,48 @@
+{
+    "id": 803,
+    "name": "poipole",
+    "category": "Poison Pin Pokémon",
+    "description": "This Ultra Beast is well enough liked to be chosen as a first partner in its own world.",
+    "generation": "generation-vii",
+    "height": 6,
+    "weight": 18,
+    "base_experience": 189,
+    "types": [
+        "poison"
+    ],
+    "abilities": [
+        {
+            "name": "beast-boost",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 67,
+        "attack": 73,
+        "defense": 67,
+        "special-attack": 73,
+        "special-defense": 67,
+        "speed": 73
+    },
+    "evolution_chain": {
+        "species": "poipole",
+        "id": 803,
+        "sprite": "/static/sprites/pokemon/803.png",
+        "evolves_to": [
+            {
+                "species": "naganadel",
+                "id": 804,
+                "sprite": "/static/sprites/pokemon/804.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/803.png"
+}

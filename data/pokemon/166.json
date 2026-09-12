@@ -1,0 +1,57 @@
+{
+    "id": 166,
+    "name": "ledian",
+    "category": "Five Star Pokémon",
+    "description": "When the stars flicker in the night sky, it flutters about, scattering a glowing powder.",
+    "generation": "generation-ii",
+    "height": 14,
+    "weight": 356,
+    "base_experience": 137,
+    "types": [
+        "bug",
+        "flying"
+    ],
+    "abilities": [
+        {
+            "name": "swarm",
+            "is_hidden": false
+        },
+        {
+            "name": "early-bird",
+            "is_hidden": false
+        },
+        {
+            "name": "iron-fist",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 55,
+        "attack": 35,
+        "defense": 50,
+        "special-attack": 55,
+        "special-defense": 110,
+        "speed": 85
+    },
+    "evolution_chain": {
+        "species": "ledyba",
+        "id": 165,
+        "sprite": "/static/sprites/pokemon/165.gif",
+        "evolves_to": [
+            {
+                "species": "ledian",
+                "id": 166,
+                "sprite": "/static/sprites/pokemon/166.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 18,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/166.gif"
+}

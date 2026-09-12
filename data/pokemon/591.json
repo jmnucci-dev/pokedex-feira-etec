@@ -1,0 +1,53 @@
+{
+    "id": 591,
+    "name": "amoonguss",
+    "category": "Mushroom Pokémon",
+    "description": "It lures prey close by dancing and waving its arm caps, which resemble Poké Balls, in a swaying motion.",
+    "generation": "generation-v",
+    "height": 6,
+    "weight": 105,
+    "base_experience": 162,
+    "types": [
+        "grass",
+        "poison"
+    ],
+    "abilities": [
+        {
+            "name": "effect-spore",
+            "is_hidden": false
+        },
+        {
+            "name": "regenerator",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 114,
+        "attack": 85,
+        "defense": 70,
+        "special-attack": 85,
+        "special-defense": 80,
+        "speed": 30
+    },
+    "evolution_chain": {
+        "species": "foongus",
+        "id": 590,
+        "sprite": "/static/sprites/pokemon/590.gif",
+        "evolves_to": [
+            {
+                "species": "amoonguss",
+                "id": 591,
+                "sprite": "/static/sprites/pokemon/591.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 39,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/591.gif"
+}

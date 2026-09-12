@@ -1,0 +1,43 @@
+{
+    "id": 618,
+    "name": "stunfisk",
+    "category": "Trap Pokémon",
+    "description": "Its skin is very hard, so it is unhurt even if stepped on by sumo wrestlers. It smiles when transmitting electricity.",
+    "generation": "generation-v",
+    "height": 7,
+    "weight": 110,
+    "base_experience": 165,
+    "types": [
+        "ground",
+        "electric"
+    ],
+    "abilities": [
+        {
+            "name": "static",
+            "is_hidden": false
+        },
+        {
+            "name": "limber",
+            "is_hidden": false
+        },
+        {
+            "name": "sand-veil",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 109,
+        "attack": 66,
+        "defense": 84,
+        "special-attack": 81,
+        "special-defense": 99,
+        "speed": 32
+    },
+    "evolution_chain": {
+        "species": "stunfisk",
+        "id": 618,
+        "sprite": "/static/sprites/pokemon/618.gif",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/618.gif"
+}

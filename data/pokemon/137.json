@@ -1,0 +1,70 @@
+{
+    "id": 137,
+    "name": "porygon",
+    "category": "Virtual Pokémon",
+    "description": "A POKéMON that consists entirely of programming code. Capable of moving freely in cyberspace.",
+    "generation": "generation-i",
+    "height": 8,
+    "weight": 365,
+    "base_experience": 79,
+    "types": [
+        "normal"
+    ],
+    "abilities": [
+        {
+            "name": "trace",
+            "is_hidden": false
+        },
+        {
+            "name": "download",
+            "is_hidden": false
+        },
+        {
+            "name": "analytic",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 65,
+        "attack": 60,
+        "defense": 70,
+        "special-attack": 85,
+        "special-defense": 75,
+        "speed": 40
+    },
+    "evolution_chain": {
+        "species": "porygon",
+        "id": 137,
+        "sprite": "/static/sprites/pokemon/137.gif",
+        "evolves_to": [
+            {
+                "species": "porygon2",
+                "id": 233,
+                "sprite": "/static/sprites/pokemon/233.gif",
+                "details": [
+                    {
+                        "trigger": "trade",
+                        "min_level": null,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "porygon-z",
+                        "id": 474,
+                        "sprite": "/static/sprites/pokemon/474.gif",
+                        "details": [
+                            {
+                                "trigger": "trade",
+                                "min_level": null,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/137.gif"
+}

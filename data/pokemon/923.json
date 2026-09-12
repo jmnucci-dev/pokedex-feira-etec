@@ -1,0 +1,71 @@
+{
+    "id": 923,
+    "name": "pawmot",
+    "category": "Hands-On Pokémon",
+    "description": "This Pokémon normally is slow to react, but once it enters battle, it will strike down its enemies with lightning-fast movements.",
+    "generation": "generation-ix",
+    "height": 9,
+    "weight": 410,
+    "base_experience": 245,
+    "types": [
+        "electric",
+        "fighting"
+    ],
+    "abilities": [
+        {
+            "name": "volt-absorb",
+            "is_hidden": false
+        },
+        {
+            "name": "natural-cure",
+            "is_hidden": false
+        },
+        {
+            "name": "iron-fist",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 70,
+        "attack": 115,
+        "defense": 70,
+        "special-attack": 70,
+        "special-defense": 60,
+        "speed": 105
+    },
+    "evolution_chain": {
+        "species": "pawmi",
+        "id": 921,
+        "sprite": "/static/sprites/pokemon/921.png",
+        "evolves_to": [
+            {
+                "species": "pawmo",
+                "id": 922,
+                "sprite": "/static/sprites/pokemon/922.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 18,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "pawmot",
+                        "id": 923,
+                        "sprite": "/static/sprites/pokemon/923.png",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": null,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/923.png"
+}

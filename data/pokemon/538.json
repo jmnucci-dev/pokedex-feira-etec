@@ -1,0 +1,42 @@
+{
+    "id": 538,
+    "name": "throh",
+    "category": "Judo Pokémon",
+    "description": "When it tightens its belt, it becomes stronger. Wild Throh use vines to weave their own belts.",
+    "generation": "generation-v",
+    "height": 13,
+    "weight": 555,
+    "base_experience": 163,
+    "types": [
+        "fighting"
+    ],
+    "abilities": [
+        {
+            "name": "guts",
+            "is_hidden": false
+        },
+        {
+            "name": "inner-focus",
+            "is_hidden": false
+        },
+        {
+            "name": "mold-breaker",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 120,
+        "attack": 100,
+        "defense": 85,
+        "special-attack": 30,
+        "special-defense": 85,
+        "speed": 45
+    },
+    "evolution_chain": {
+        "species": "throh",
+        "id": 538,
+        "sprite": "/static/sprites/pokemon/538.gif",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/538.gif"
+}

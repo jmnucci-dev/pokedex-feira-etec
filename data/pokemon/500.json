@@ -1,0 +1,67 @@
+{
+    "id": 500,
+    "name": "emboar",
+    "category": "Mega Fire Pig Pokémon",
+    "description": "It can throw a fire punch by setting its fists on fire with its fiery chin. It cares deeply about its friends.",
+    "generation": "generation-v",
+    "height": 16,
+    "weight": 1500,
+    "base_experience": 238,
+    "types": [
+        "fire",
+        "fighting"
+    ],
+    "abilities": [
+        {
+            "name": "blaze",
+            "is_hidden": false
+        },
+        {
+            "name": "reckless",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 110,
+        "attack": 123,
+        "defense": 65,
+        "special-attack": 100,
+        "special-defense": 65,
+        "speed": 65
+    },
+    "evolution_chain": {
+        "species": "tepig",
+        "id": 498,
+        "sprite": "/static/sprites/pokemon/498.gif",
+        "evolves_to": [
+            {
+                "species": "pignite",
+                "id": 499,
+                "sprite": "/static/sprites/pokemon/499.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 17,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "emboar",
+                        "id": 500,
+                        "sprite": "/static/sprites/pokemon/500.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 36,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/500.gif"
+}

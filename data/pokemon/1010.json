@@ -1,0 +1,35 @@
+{
+    "id": 1010,
+    "name": "iron-leaves",
+    "category": "Paradox Pokémon",
+    "description": "Many of its physical characteristics match those of a Virizion from the future that was covered in a paranormal magazine.",
+    "generation": "generation-ix",
+    "height": 15,
+    "weight": 1250,
+    "base_experience": 295,
+    "types": [
+        "grass",
+        "psychic"
+    ],
+    "abilities": [
+        {
+            "name": "quark-drive",
+            "is_hidden": false
+        }
+    ],
+    "stats": {
+        "hp": 90,
+        "attack": 130,
+        "defense": 88,
+        "special-attack": 70,
+        "special-defense": 108,
+        "speed": 104
+    },
+    "evolution_chain": {
+        "species": "iron-leaves",
+        "id": 1010,
+        "sprite": "/static/sprites/pokemon/1010.png",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/1010.png"
+}

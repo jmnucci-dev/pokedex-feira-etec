@@ -1,0 +1,57 @@
+{
+    "id": 849,
+    "name": "toxtricity-amped",
+    "category": "Punk Pokémon",
+    "description": "When this Pokémon sounds as if it’s strumming a guitar, it’s actually clawing at the protrusions on its chest to generate electricity.",
+    "generation": "generation-viii",
+    "height": 16,
+    "weight": 400,
+    "base_experience": 176,
+    "types": [
+        "electric",
+        "poison"
+    ],
+    "abilities": [
+        {
+            "name": "punk-rock",
+            "is_hidden": false
+        },
+        {
+            "name": "plus",
+            "is_hidden": false
+        },
+        {
+            "name": "technician",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 75,
+        "attack": 98,
+        "defense": 70,
+        "special-attack": 114,
+        "special-defense": 70,
+        "speed": 75
+    },
+    "evolution_chain": {
+        "species": "toxel",
+        "id": 848,
+        "sprite": "/static/sprites/pokemon/848.gif",
+        "evolves_to": [
+            {
+                "species": "toxtricity",
+                "id": 849,
+                "sprite": "/static/sprites/pokemon/849.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 30,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/849.gif"
+}

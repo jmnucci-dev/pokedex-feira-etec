@@ -1,0 +1,52 @@
+{
+    "id": 847,
+    "name": "barraskewda",
+    "category": "Skewer Pokémon",
+    "description": "This Pokémon has a jaw that’s as sharp as a spear and as strong as steel. Apparently Barraskewda’s flesh is surprisingly tasty, too.",
+    "generation": "generation-viii",
+    "height": 13,
+    "weight": 300,
+    "base_experience": 172,
+    "types": [
+        "water"
+    ],
+    "abilities": [
+        {
+            "name": "swift-swim",
+            "is_hidden": false
+        },
+        {
+            "name": "propeller-tail",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 61,
+        "attack": 123,
+        "defense": 60,
+        "special-attack": 60,
+        "special-defense": 50,
+        "speed": 136
+    },
+    "evolution_chain": {
+        "species": "arrokuda",
+        "id": 846,
+        "sprite": "/static/sprites/pokemon/846.gif",
+        "evolves_to": [
+            {
+                "species": "barraskewda",
+                "id": 847,
+                "sprite": "/static/sprites/pokemon/847.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 26,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/847.gif"
+}

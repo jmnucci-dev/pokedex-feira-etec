@@ -1,0 +1,57 @@
+{
+    "id": 691,
+    "name": "dragalge",
+    "category": "Mock Kelp Pokémon",
+    "description": "Their poison is strong enough to eat through the hull of a tanker, and they spit it indiscriminately at anything that enters their territory.",
+    "generation": "generation-vi",
+    "height": 18,
+    "weight": 815,
+    "base_experience": 173,
+    "types": [
+        "poison",
+        "dragon"
+    ],
+    "abilities": [
+        {
+            "name": "poison-point",
+            "is_hidden": false
+        },
+        {
+            "name": "poison-touch",
+            "is_hidden": false
+        },
+        {
+            "name": "adaptability",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 65,
+        "attack": 75,
+        "defense": 90,
+        "special-attack": 97,
+        "special-defense": 123,
+        "speed": 44
+    },
+    "evolution_chain": {
+        "species": "skrelp",
+        "id": 690,
+        "sprite": "/static/sprites/pokemon/690.png",
+        "evolves_to": [
+            {
+                "species": "dragalge",
+                "id": 691,
+                "sprite": "/static/sprites/pokemon/691.png",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 48,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/691.png"
+}

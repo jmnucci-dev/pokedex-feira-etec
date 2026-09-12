@@ -1,0 +1,70 @@
+{
+    "id": 582,
+    "name": "vanillite",
+    "category": "Fresh Snow Pokémon",
+    "description": "The temperature of their breath is -58° F. They create snow crystals and make snow fall in the areas around them.",
+    "generation": "generation-v",
+    "height": 4,
+    "weight": 57,
+    "base_experience": 61,
+    "types": [
+        "ice"
+    ],
+    "abilities": [
+        {
+            "name": "ice-body",
+            "is_hidden": false
+        },
+        {
+            "name": "snow-cloak",
+            "is_hidden": false
+        },
+        {
+            "name": "weak-armor",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 36,
+        "attack": 50,
+        "defense": 50,
+        "special-attack": 65,
+        "special-defense": 60,
+        "speed": 44
+    },
+    "evolution_chain": {
+        "species": "vanillite",
+        "id": 582,
+        "sprite": "/static/sprites/pokemon/582.gif",
+        "evolves_to": [
+            {
+                "species": "vanillish",
+                "id": 583,
+                "sprite": "/static/sprites/pokemon/583.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 35,
+                        "item": null
+                    }
+                ],
+                "next": [
+                    {
+                        "species": "vanilluxe",
+                        "id": 584,
+                        "sprite": "/static/sprites/pokemon/584.gif",
+                        "details": [
+                            {
+                                "trigger": "level-up",
+                                "min_level": 47,
+                                "item": null
+                            }
+                        ],
+                        "next": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/582.gif"
+}

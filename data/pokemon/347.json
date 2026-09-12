@@ -1,0 +1,53 @@
+{
+    "id": 347,
+    "name": "anorith",
+    "category": "Old Shrimp Pokémon",
+    "description": "ANORITH was regenerated from a prehistoric fossil. This primitive POKéMON once lived in warm seas. It grips its prey firmly between its two large claws.",
+    "generation": "generation-iii",
+    "height": 7,
+    "weight": 125,
+    "base_experience": 71,
+    "types": [
+        "rock",
+        "bug"
+    ],
+    "abilities": [
+        {
+            "name": "battle-armor",
+            "is_hidden": false
+        },
+        {
+            "name": "swift-swim",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 45,
+        "attack": 95,
+        "defense": 50,
+        "special-attack": 40,
+        "special-defense": 50,
+        "speed": 75
+    },
+    "evolution_chain": {
+        "species": "anorith",
+        "id": 347,
+        "sprite": "/static/sprites/pokemon/347.gif",
+        "evolves_to": [
+            {
+                "species": "armaldo",
+                "id": 348,
+                "sprite": "/static/sprites/pokemon/348.gif",
+                "details": [
+                    {
+                        "trigger": "level-up",
+                        "min_level": 40,
+                        "item": null
+                    }
+                ],
+                "next": []
+            }
+        ]
+    },
+    "sprite": "/static/sprites/pokemon/347.gif"
+}

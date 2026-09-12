@@ -1,0 +1,38 @@
+{
+    "id": 244,
+    "name": "entei",
+    "category": "Volcano Pokémon",
+    "description": "Volcanoes erupt when it barks. Un­ able to restrain its extreme power, it races headlong around the land.",
+    "generation": "generation-ii",
+    "height": 21,
+    "weight": 1980,
+    "base_experience": 261,
+    "types": [
+        "fire"
+    ],
+    "abilities": [
+        {
+            "name": "pressure",
+            "is_hidden": false
+        },
+        {
+            "name": "inner-focus",
+            "is_hidden": true
+        }
+    ],
+    "stats": {
+        "hp": 115,
+        "attack": 115,
+        "defense": 85,
+        "special-attack": 90,
+        "special-defense": 75,
+        "speed": 100
+    },
+    "evolution_chain": {
+        "species": "entei",
+        "id": 244,
+        "sprite": "/static/sprites/pokemon/244.gif",
+        "evolves_to": []
+    },
+    "sprite": "/static/sprites/pokemon/244.gif"
+}
