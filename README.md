@@ -50,12 +50,12 @@ Abra http://localhost:5000 🚀
 
 | Nome | Função no projeto |
 |------|-------------------|
-| **Você** | Back-end (Flask, rotas, consumo da API) / Front / UI |
+| **Eu** | Back-end (Flask, rotas, consumo da API) / Front / UI |
 | **Bernardo** | Front / UI |
 | **Eron** | Front / UI |
 | **Ana Volpe** | Front / UI |
 
-> *Projeto acadêmico — Feira Tecnológica ETEC.*
+> *Projeto acadêmico, Feira Tecnológica ETEC.*
 
 ---
 
