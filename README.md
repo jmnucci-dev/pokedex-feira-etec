@@ -28,7 +28,7 @@ Esta é uma **Pokédex interativa** que consome a [PokeAPI](https://pokeapi.co/)
 
 ```bash
 # 1. Clonar
- git clone https://github.com/SEU_USUARIO/pokedex-feira-etec.git
+ git clone https://github.com/jmnucci-dev/pokedex-feira-etec.git
  cd pokedex-feira-etec
 
 # 2. Ambiente virtual (recomendado)
