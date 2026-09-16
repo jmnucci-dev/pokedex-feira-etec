@@ -40,9 +40,9 @@ Esta é uma **Pokédex interativa** que consome a [PokeAPI](https://pokeapi.co/)
 
 # 4. Rodar
  python app.py
-```
 
-Abra http://localhost:5000 🚀
+Abra http://localhost:5000
+```
 
 ---
 
