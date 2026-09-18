@@ -1,0 +1,78 @@
+{
+  "id": 1029,
+  "name": "Eron Beta",
+  "category": "Final Beta",
+  "description": "O caminho das sombras.",
+  "generation": "generation-special",
+  "height": 16.7,
+  "weight": 600,
+  "base_experience": 200,
+  "types": [
+    "ice"
+  ],
+  "abilities": [
+    {
+      "name": "Freddie",
+      "is_hidden": false
+    },
+    {
+      "name": "Mercury",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 100,
+    "attack": 120,
+    "defense": 110,
+    "special-attack": 120,
+    "special-defense": 110,
+    "speed": 115
+  },
+  "sprite": "/static/sprites/pokemon/1029.png",
+  "evolution_chain": {
+    "species": "Eron",
+    "id": 1026,
+    "sprite": "/static/sprites/pokemon/1026.png",
+    "evolves_to": [
+      {
+        "species": "Eron Jr",
+        "id": 1027,
+        "sprite": "/static/sprites/pokemon/1027.png",
+        "details": [
+          {
+            "trigger": "level-up",
+            "min_level": 15,
+            "item": null
+          }
+        ],
+        "next": [],
+        "evolves_to": [
+          {
+            "species": "Eron Alpha",
+            "id": 1028,
+            "sprite": "/static/sprites/pokemon/1028.png",
+            "details": [
+              {
+                "trigger": "level-up",
+                "min_level": 30,
+                "item": "Stone Alpha"
+              }
+            ]
+          },
+          {
+            "species": "Eron Beta",
+            "id": 1029,
+            "sprite": "/static/sprites/pokemon/1029.png",
+            "details": [
+              {
+                "trigger": "level-up",
+                "min_level": 30,
+                "item": "Stone Beta"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

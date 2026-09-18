@@ -116,9 +116,6 @@ header h1 {
     transition: border-color 0.2s, box-shadow 0.2s;
 }
 
-
-/* DROPDOWN */
-
 .search-results {
     position: absolute;
 
@@ -145,17 +142,33 @@ header h1 {
     z-index: 9999;
 }
 
-
-/* Quando houver resultados */
-
 .search-results.active {
     display: flex;
     flex-direction: column;
     gap: 5px;
 }
 
+.search-results::-webkit-scrollbar {
+    width: 8px;
+}
 
-/* CARD DO POKÉMON */
+.search-results::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.search-results::-webkit-scrollbar-thumb {
+    background: #555;
+    border-radius: 10px;
+}
+
+.search-results::-webkit-scrollbar-thumb:hover {
+    background: #777;
+}
+
+.search-results {
+    scrollbar-width: thin;
+    scrollbar-color: #555 transparent;
+}
 
 .search-pokemon-card {
     display: flex;
@@ -182,9 +195,6 @@ header h1 {
     transform: translateX(3px);
 }
 
-
-/* FOTO */
-
 .search-pokemon-image {
     width: 55px;
     height: 55px;
@@ -193,9 +203,6 @@ header h1 {
 
     flex-shrink: 0;
 }
-
-
-/* INFORMAÇÕES */
 
 .search-pokemon-info {
     display: flex;
@@ -221,17 +228,11 @@ header h1 {
     text-overflow: ellipsis;
 }
 
-
-/* ID */
-
 .search-pokemon-id {
     color: #858791;
 
     font-size: 12px;
 }
-
-
-/* TIPOS */
 
 .search-pokemon-types {
     display: flex;
@@ -239,7 +240,24 @@ header h1 {
 }
 
 
-/* BADGE DE TIPO */
+.search-type.t-grass   { background: #78c850; }
+.search-type.t-poison  { background: #a040a0; }
+.search-type.t-fire    { background: #f08030; }
+.search-type.t-water   { background: #6890f0; }
+.search-type.t-electric{ background: #f8d030; color: #1a1a1a; }
+.search-type.t-bug     { background: #a8b820; color: #1a1a1a; }
+.search-type.t-flying  { background: #a890f0; color: #1a1a1a; }
+.search-type.t-normal  { background: #a8a878; color: #1a1a1a; }
+.search-type.t-ice     { background: #98d8d8; color: #1a1a1a; }
+.search-type.t-fighting{ background: #c03028; }
+.search-type.t-rock    { background: #b8a038; color: #1a1a1a; }
+.search-type.t-ghost   { background: #705898; }
+.search-type.t-dragon  { background: #7038f8; }
+.search-type.t-dark    { background: #705848; }
+.search-type.t-steel   { background: #b8b8d0; color: #1a1a1a; }
+.search-type.t-fairy   { background: #ee99ac; color: #1a1a1a; }
+.search-type.t-ground  { background: #e0c068; color: #1a1a1a; }
+.search-type.t-psychic { background: #f85888; }
 
 .search-type {
     padding: 2px 7px;
@@ -254,8 +272,6 @@ header h1 {
     text-transform: capitalize;
 }
 
-
-/* MENSAGEM SEM RESULTADOS */
 
 .search-no-results {
     padding: 20px 10px;

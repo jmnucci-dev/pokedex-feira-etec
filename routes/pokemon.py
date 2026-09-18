@@ -32,6 +32,45 @@ def search_pokemon():
     ))
 
 
+@pokemon_route.route("/eron/<senha>")
+def pokemon_eron(senha):
+    if senha != 'sigmaboy':
+        return "Acesso negado", 403
+    pokemon_data = get_pokemon_data('1026')
+    if not pokemon_data:
+        pokemon_data = get_pokemon_data('eron')
+    if not pokemon_data:
+        return "Pokemon nao encontrado", 404
+    return render_pokemon_secret(pokemon_data)
+
+@pokemon_route.route("/1026/<senha>")
+def pokemon_1026_senha(senha):
+    if senha != 'sigmaboy':
+        return "Acesso negado", 403
+    pokemon_data = get_pokemon_data('1026')
+    if not pokemon_data:
+        pokemon_data = get_pokemon_data('eron')
+    if not pokemon_data:
+        return "Pokemon nao encontrado", 404
+    return render_pokemon_secret(pokemon_data)
+
+def render_pokemon_secret(pokemon_data):
+    regioes_data = []
+    try:
+        with open('data/regioes.json', 'r', encoding='utf-8') as f:
+            regioes_data = json.load(f)
+    except Exception:
+        pass
+    evolution_levels = build_evolution_levels(pokemon_data.get('evolution_chain'))
+    return render_template(
+        "pokemon.html",
+        pokemonName=pokemon_data.get('name'),
+        data=pokemon_data,
+        regioes=regioes_data,
+        current_region='',
+        evolution_levels=evolution_levels
+    )
+
 @pokemon_route.route("/<pokemon_name>", methods=["GET"])
 def pokemon(pokemon_name):
     pokemon_data = get_pokemon_data(pokemon_name)
@@ -79,7 +118,8 @@ def all_pokemons():
         pokemon_list.append({
             "id": pokemon.get("id"),
             "name": pokemon.get("name"),
-            "types": pokemon.get("types", [])
+            "types": pokemon.get("types", []),
+            "sprite": pokemon.get("sprite")
         })
 
     return pokemon_list
