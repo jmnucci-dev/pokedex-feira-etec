@@ -96,17 +96,177 @@ header h1 {
     margin-left: auto;
     width: 280px;
     height: 42px;
-    z-index: 2;
+    z-index: 1000;
+
     display: flex;
     align-items: center;
+
     padding: 0 16px;
     gap: 10px;
+
     border: 1px solid #555;
     border-radius: 20px;
+
     background: linear-gradient(180deg, #1e1e23, #161619);
-    box-shadow: inset 0 1px 0 rgba(255,255,255,0.05), 0 2px 12px rgba(0,0,0,0.4);
+
+    box-shadow:
+        inset 0 1px 0 rgba(255,255,255,0.05),
+        0 2px 12px rgba(0,0,0,0.4);
+
     transition: border-color 0.2s, box-shadow 0.2s;
 }
+
+
+/* DROPDOWN */
+
+.search-results {
+    position: absolute;
+
+    top: calc(100% + 8px);
+    left: 0;
+
+    width: 100%;
+
+    max-height: 400px;
+    overflow-y: auto;
+
+    padding: 6px;
+
+    background: #18181c;
+
+    border: 1px solid #3f424a;
+    border-radius: 12px;
+
+    box-shadow:
+        0 10px 30px rgba(0, 0, 0, 0.5);
+
+    display: none;
+
+    z-index: 9999;
+}
+
+
+/* Quando houver resultados */
+
+.search-results.active {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+/* CARD DO POKÉMON */
+
+.search-pokemon-card {
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    min-height: 65px;
+
+    padding: 6px 10px;
+
+    border-radius: 9px;
+
+    background: #24252b;
+
+    text-decoration: none;
+
+    transition:
+        background 0.2s,
+        transform 0.2s;
+}
+
+.search-pokemon-card:hover {
+    background: #303139;
+    transform: translateX(3px);
+}
+
+
+/* FOTO */
+
+.search-pokemon-image {
+    width: 55px;
+    height: 55px;
+
+    object-fit: contain;
+
+    flex-shrink: 0;
+}
+
+
+/* INFORMAÇÕES */
+
+.search-pokemon-info {
+    display: flex;
+    flex-direction: column;
+
+    min-width: 0;
+
+    margin-left: 10px;
+
+    gap: 3px;
+}
+
+.search-pokemon-name {
+    color: white;
+
+    font-size: 14px;
+    font-weight: 700;
+
+    text-transform: capitalize;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+/* ID */
+
+.search-pokemon-id {
+    color: #858791;
+
+    font-size: 12px;
+}
+
+
+/* TIPOS */
+
+.search-pokemon-types {
+    display: flex;
+    gap: 4px;
+}
+
+
+/* BADGE DE TIPO */
+
+.search-type {
+    padding: 2px 7px;
+
+    border-radius: 10px;
+
+    font-size: 10px;
+    font-weight: 700;
+
+    color: white;
+
+    text-transform: capitalize;
+}
+
+
+/* MENSAGEM SEM RESULTADOS */
+
+.search-no-results {
+    padding: 20px 10px;
+
+    text-align: center;
+
+    color: #888;
+
+    font-size: 13px;
+}
+
 
 .search:focus-within {
     border-color: #ff304f;

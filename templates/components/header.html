@@ -1,31 +1,39 @@
-    <header>
-        <img
-            src="{{ url_for('static', filename='images/comum/header-shape.svg') }}"
-            class="header-shape"
-            alt=""
-        >
+<header>
+    <img src="{{ url_for('static', filename='images/comum/header-shape.svg') }}" class="header-shape" alt="">
 
-        <a href="/regioes">
-            <img
-                src="{{ url_for('static', filename='images/comum/pokedex-logo.svg') }}"
-                class="pokedex-logo"
-                alt="Pokédex"
-            >
+    <a href="/regioes">
+        <img src="{{ url_for('static', filename='images/comum/pokedex-logo.svg') }}" class="pokedex-logo" alt="Pokédex">
+    </a>
+
+    <h1>{{ header_title | default('POKÉMON') }}</h1>
+
+    <div class="search">
+
+        <img class="search-lupa" src="{{ url_for('static', filename='images/comum/lupa.png') }}" alt="Lupa">
+
+        <input type="text" placeholder="Pesquisar..." aria-label="Pesquisar" autocomplete="off" value="char">
+
+        <div id="search-results" class="search-results"></div>
+    </div>
+
+    <template id="pokemon-search-template">
+        <a href="#" class="search-pokemon-card">
+
+            <img class="search-pokemon-image" src="" alt="">
+
+            <div class="search-pokemon-info">
+
+                <span class="search-pokemon-name"></span>
+
+                <span class="search-pokemon-id"></span>
+
+                <div class="search-pokemon-types">
+                    <!-- Os tipos serão inseridos pelo JS -->
+                </div>
+
+            </div>
+
         </a>
+    </template>
 
-        <h1>{{ header_title | default('POKÉMON') }}</h1>
-
-        <div class="search">
-            <img
-                class="search-lupa"
-                src="{{ url_for('static', filename='images/comum/lupa.png') }}"
-                alt="Lupa"
-            >
-
-            <input
-                type="text"
-                placeholder="Pesquisar..."
-                aria-label="Pesquisar"
-            >
-        </div>
 </header>
