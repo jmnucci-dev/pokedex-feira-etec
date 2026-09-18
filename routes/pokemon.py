@@ -1,17 +1,12 @@
-from flask import Blueprint, render_template, request, redirect, url_for
+from flask import Blueprint, render_template, request, redirect, url_for, jsonify
 import json
+import os
 from services.pokeapi import get_pokemon_data
+
 pokemon_route = Blueprint('pokemon', __name__)
+
+
 def build_evolution_levels(chain):
-    """
-    Achata a evolution_chain (que sempre vem a partir da espécie base,
-    independente de qual pokémon da linha está sendo visto) em uma lista
-    de "estágios". Cada estágio é uma lista de pokémons (pode ter mais de
-    um em casos de ramificação, ex: Eevee).
-    Isso garante que a aba de evolução sempre mostra a linha evolutiva
-    inteira (pré-evoluções + evoluções), e não só o que vem "depois" do
-    pokémon atual.
-    """
     if not chain:
         return []
     levels = []
@@ -24,6 +19,8 @@ def build_evolution_levels(chain):
             next_stage.extend(node.get('next') or [])
         current_stage = next_stage
     return levels
+
+
 @pokemon_route.route("/", methods=["GET"])
 def search_pokemon():
     pokemon_name = request.args.get("pokemon")
@@ -33,6 +30,8 @@ def search_pokemon():
         "pokemon.pokemon",
         pokemon_name=pokemon_name.lower().replace(" ", "-")
     ))
+
+
 @pokemon_route.route("/<pokemon_name>", methods=["GET"])
 def pokemon(pokemon_name):
     pokemon_data = get_pokemon_data(pokemon_name)
@@ -53,3 +52,34 @@ def pokemon(pokemon_name):
         current_region='',
         evolution_levels=evolution_levels
     )
+
+@pokemon_route.route("/api")
+def pokemonApi():
+    pokemon_list = all_pokemons()
+
+    if pokemon_list is None:
+        return jsonify({
+            "error": "Não foi possível carregar os Pokémon"
+        }), 500
+
+    return jsonify(pokemon_list)
+
+def all_pokemons():
+    pokemon_list = []
+
+    for id in range(1, 1026):
+        path = f'data/pokemon/{id}.json'
+
+        if not os.path.exists(path):
+            continue
+
+        with open(path, 'r', encoding='utf-8') as f:
+            pokemon = json.load(f)
+
+        pokemon_list.append({
+            "id": pokemon.get("id"),
+            "name": pokemon.get("name"),
+            "types": pokemon.get("types", [])
+        })
+
+    return pokemon_list
