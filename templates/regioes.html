@@ -10,7 +10,8 @@
   <div class="scroll-cards">
     <div class="container-cards">
       {% for r in regioes %}
-    <a href="{{ url_for('pokemon_region.region_pokemons', nome=r.nome) }}" class="card-region" style="background-image: url('{{ url_for('static', filename=r.bg) }}');" aria-label="{{ r.nome }}">
+    <a href="{{ url_for('pokemon_region.region_pokemons', nome=r.nome) }}" class="card-region" aria-label="{{ r.nome }}">
+      <img src="{{ url_for('static', filename=r.bg) }}" alt="" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;z-index:0;">
       <img class="destaque-img" src="{{ url_for('static', filename=r.destaque) }}" alt="" />
       <div class="card-region-info">
         <img class="simbolo" src="{{ url_for('static', filename=r.logo) }}" alt="{{ r.nome }} logo">

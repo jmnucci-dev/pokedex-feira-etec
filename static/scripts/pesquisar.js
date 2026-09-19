@@ -31,6 +31,7 @@ async function buscarDadosDaAPI() {
     }
 }
 
+
 function filtrarResultados() {
     const texto = inputPesquisa.value.trim().toLowerCase();
     resultados.innerHTML = '';

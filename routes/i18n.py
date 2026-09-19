@@ -26,5 +26,7 @@ TRANSLATIONS = {
         'description': 'Region description goes here.',
     }
 }
+
+
 def t(key, lang='pt'):
     return TRANSLATIONS.get(lang, TRANSLATIONS['pt']).get(key, key)

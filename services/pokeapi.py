@@ -1,32 +1,53 @@
 import os
 import json
 import requests
+
 CACHE_DIR = "data/pokemon"
-def get_pokemon_data(pokemon_name: str) -> dict:
-    query = str(pokemon_name).strip().lower()
-    if os.path.exists(CACHE_DIR):
-        direct_path = os.path.join(CACHE_DIR, f"{query}.json")
-        if os.path.exists(direct_path):
+_all_loaded = False
+_by_id = {}
+_by_name = {}
+
+
+def _load():
+    global _all_loaded, _by_id, _by_name
+    if _all_loaded:
+        return
+    _all_loaded = True
+    if not os.path.exists(CACHE_DIR):
+        return
+    for f in os.listdir(CACHE_DIR):
+        if f.endswith(".json"):
+            path = os.path.join(CACHE_DIR, f)
             try:
-                with open(direct_path, "r", encoding="utf-8") as f:
-                    return json.load(f)
+                with open(path, "r", encoding="utf-8") as file:
+                    data = json.load(file)
+                    pid = str(data.get("id"))
+                    name = str(data.get("name", "")).lower()
+                    if pid:
+                        _by_id[pid] = data
+                    if name:
+                        _by_name[name] = data
             except Exception:
-                pass
-        for filename in os.listdir(CACHE_DIR):
-            if filename.endswith(".json"):
-                file_path = os.path.join(CACHE_DIR, filename)
-                try:
-                    with open(file_path, "r", encoding="utf-8") as f:
-                        data = json.load(f)
-                        if str(data.get("id")) == query or str(data.get("name", "")).lower() == query:
-                            return data
-                except Exception:
-                    continue
+                continue
+
+
+def get_pokemon_data(pokemon_name: str) -> dict:
+    _load()
+    query = str(pokemon_name).strip().lower()
+    if query in _by_id:
+        return _by_id[query]
+    if query in _by_name:
+        return _by_name[query]
     url = f"https://pokeapi.co/api/v2/pokemon/{query}"
     try:
-        response = requests.get(url)
-        if response.status_code == 200:
-            return response.json()
-    except requests.RequestException:
+        resp = requests.get(url, timeout=2)
+        if resp.status_code == 200:
+            return resp.json()
+    except Exception:
         pass
     return None
+
+
+def get_all_pokemon_data():
+    _load()
+    return list(_by_id.values())

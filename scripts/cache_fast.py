@@ -5,25 +5,18 @@ import concurrent.futures
 DATA_DIR = "data/pokemon"
 SPRITE_DIR = "static/sprites/pokemon"
 TOTAL_POKEMON = 1025
+
+
 def get_pokemon_id_from_url(url):
-    """
-    Extrai o ID de uma URL da PokeAPI.
-    Exemplo:
-    https://pokeapi.co/api/v2/pokemon-species/5/
-    -> 5
-    """
     if not url:
         return None
     try:
         return int(url.rstrip("/").split("/")[-1])
     except (ValueError, IndexError):
         return None
+
+
 def get_local_sprite(pokemon_id):
-    """
-    Procura o sprite que já existe localmente.
-    Cada Pokémon possui apenas UM sprite:
-    pode ser GIF ou PNG.
-    """
     if pokemon_id is None:
         return None
     gif_path = os.path.join(
@@ -39,14 +32,9 @@ def get_local_sprite(pokemon_id):
     if os.path.exists(png_path):
         return f"/{SPRITE_DIR}/{pokemon_id}.png"
     return None
+
+
 def build_evolution_node(node):
-    """
-    Converte um nó da Evolution Chain da PokeAPI
-    para o formato do seu JSON.
-    Também adiciona:
-    - id
-    - sprite
-    """
     species = node.get("species", {})
     species_name = species.get("name")
     species_url = species.get("url")
@@ -75,11 +63,9 @@ def build_evolution_node(node):
         "details": details,
         "next": next_evolutions
     }
+
+
 def get_evolution_chain(evolution_url):
-    """
-    Busca a Evolution Chain na PokeAPI
-    e transforma para o formato do projeto.
-    """
     if not evolution_url:
         return None
     response = requests.get(
@@ -108,12 +94,9 @@ def get_evolution_chain(evolution_url):
         "sprite": sprite,
         "evolves_to": evolutions
     }
+
+
 def process_pokemon(pokemon_id):
-    """
-    Atualiza somente o JSON existente.
-    Não baixa sprites.
-    Não recria os dados do Pokémon.
-    """
     json_path = os.path.join(
         DATA_DIR,
         f"{pokemon_id}.json"
@@ -178,8 +161,7 @@ def process_pokemon(pokemon_id):
             f"ID {pokemon_id}"
         )
         print(
-            f"[OK]
-            f"{name.capitalize()}"
+            f"[OK] {name.capitalize()}"
         )
         return (
             pokemon_id,
@@ -192,6 +174,8 @@ def process_pokemon(pokemon_id):
             False,
             str(e)
         )
+
+
 def main():
     print("=" * 60)
     print(
@@ -226,8 +210,7 @@ def main():
                     f"#{pokemon_id:04d}: {error}"
                 )
                 print(
-                    f"[ERRO]
-                    f"{error}"
+                    f"[ERRO] {error}"
                 )
     print("\n" + "=" * 60)
     print(
