@@ -677,7 +677,7 @@ header h1 {
     text-transform: uppercase;
 }
 
-
+/* ===================== MINIGAME: ENCONTRO SELVAGEM ===================== */
 
 :root {
   --minigame-h: min(78vh, 560px);
@@ -718,7 +718,7 @@ header h1 {
   position: absolute;
   inset: 0;
 
-  background-image: url("https:
+  background-image: url("https://picsum.photos/seed/pokedex-encontro/1600/900");
   background-size: cover;
   background-position: center;
   filter: blur(1px) saturate(0.8) brightness(0.55);
