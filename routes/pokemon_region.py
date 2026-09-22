@@ -61,7 +61,7 @@ def region_pokemons(nome='Todas'):
         region_thumb = regiao.get('logo', '')
         region_destaque = regiao.get('destaque', '')
         region_bg = regiao.get('bg', '')
-        region_cor = regiao.get('cor', '#e3352e')
+        region_cor = regiao.get('cor', '
     else:
         if nome.lower() in ('todas', 'todos', 'all', 'não sei a região', 'nao sei a regiao'):
             pokemon_ids = [int(f.replace('.json', '')) for f in os.listdir('data/pokemon') if f.endswith('.json')]
@@ -73,14 +73,14 @@ def region_pokemons(nome='Todas'):
             region_thumb = ''
             region_destaque = ''
             region_bg = ''
-            region_cor = '#e3352e'
+            region_cor = '
         else:
             region_name = nome
             region_range = ''
             region_desc = 'Região não encontrada.'
             region_thumb = ''
             region_bg = ''
-            region_cor = '#e3352e'
+            region_cor = '
             pokemon_ids = []
     pokemon_list = []
     for pid in pokemon_ids:

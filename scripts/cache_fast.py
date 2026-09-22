@@ -207,7 +207,7 @@ def main():
                 sucessos += 1
             else:
                 falhas.append(
-                    f"#{pokemon_id:04d}: {error}"
+                    f"
                 )
                 print(
                     f"[ERRO] {error}"

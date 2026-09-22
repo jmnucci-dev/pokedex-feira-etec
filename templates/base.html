@@ -49,13 +49,61 @@
         />
       </svg>
 
-      <img
-          src="{{ url_for('static', filename='images/comum/pokebola.png') }}"
-          alt="Pokébola Central"
-          class="pokebola-btn"
-      />
+      <div class="pokebola-wrapper">
+        <img
+            src="{{ url_for('static', filename='images/comum/pokebola.png') }}"
+            alt="Pokébola Central"
+            class="pokebola-btn"
+            id="pokebola-btn"
+        />
+        <div class="encounter-tooltip">
+          <span class="tooltip-arrow"></span>
+          Encontro Selvagem
+        </div>
+      </div>
     </footer>
+
+    <section class="minigame-panel" id="minigame-panel" aria-hidden="true">
+      <div class="minigame-bg"></div>
+      <div class="minigame-overlay"></div>
+
+      <div class="minigame-content">
+        <div class="minigame-head">
+          <h2>Encontro Selvagem</h2>
+          <button type="button" class="minigame-close" id="minigame-close" aria-label="Fechar">&times;</button>
+        </div>
+
+        <div class="minigame-body">
+          <div class="minigame-stage" id="minigame-stage">
+            <button type="button" class="reroll-btn" id="reroll-btn" aria-label="Reroll">↻</button>
+            <div class="stage-glow"></div>
+            <img draggable="false" id="mystery-sprite" class="mystery-sprite silhouette" src="" alt="Pokémon misterioso" />
+            <p class="stage-hint" id="stage-hint">Quem é esse Pokémon?</p>
+          </div>
+
+          <div class="minigame-guess" id="minigame-guess">
+            <form id="guess-form" class="guess-form" autocomplete="off">
+              <input
+                type="text"
+                id="guess-input"
+                class="guess-input"
+                placeholder="Digite o nome do Pokémon..."
+                autocomplete="off"
+                disabled
+              />
+              <button type="submit" class="guess-submit" id="guess-submit" disabled>Adivinhar</button>
+            </form>
+            <p class="guess-feedback" id="guess-feedback"></p>
+            <p class="guess-tries" id="guess-tries"></p>
+
+            <button type="button" class="hint-btn" id="hint-btn">Dica (3)</button>
+            <p class="hints-display" id="hints-display"></p>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 
   <script src="{{ url_for('static', filename='scripts/pesquisar.js') }}"></script>
+  <script src="{{ url_for('static', filename='scripts/minigame.js') }}"></script>
 </html>

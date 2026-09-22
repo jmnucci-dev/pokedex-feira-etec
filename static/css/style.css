@@ -375,35 +375,93 @@ header h1 {
   vector-effect: non-scaling-stroke;
 }
 
-.pokebola-btn {
+.pokebola-wrapper {
   position: absolute;
-
   top: 38px;
   left: 50%;
-
   transform: translate(-50%, -50%);
-
   width: 54px;
   height: 54px;
-
-  object-fit: contain;
-
   z-index: 2;
+}
 
+.pokebola-btn.no-bounce {
+  animation: none !important;
+}
+
+.pokebola-btn {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
   cursor: pointer;
+  animation: pulo-alegre 10s cubic-bezier(0.34, 1.56, 0.64, 1) infinite;
+}
+
+.encounter-tooltip {
+  position: absolute;
+  bottom: calc(100% + 10px);
+  left: 50%;
+  transform: translateX(-50%) translateY(4px);
+  background: #0b0b0b;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 12px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 800;
+  font-size: 13px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  border: 1.5px solid #ff304f;
+  box-shadow: 0 0 18px rgba(255, 48, 79, 0.35), 0 6px 20px rgba(0,0,0,0.6);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s ease, transform 0.25s ease;
+  z-index: 3;
+}
+
+.encounter-tooltip .tooltip-arrow {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 8px solid #0b0b0b;
+}
+
+.pokebola-wrapper:hover .encounter-tooltip {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
 }
 
 .pokebola-btn:hover {
-  animation: girar 1s linear infinite;
+  animation: girar 0.8s linear infinite;
 }
 
 @keyframes girar {
   from {
-    transform: translate(-50%, -50%) rotate(0deg);
+    transform: rotate(0deg);
   }
-
   to {
-    transform: translate(-50%, -50%) rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes pulo-alegre {
+  0%, 85% {
+    transform: translateY(0);
+  }
+  90% {
+    transform: translateY(-14px);
+  }
+  93% {
+    transform: translateY(-3px);
+  }
+  100% {
+    transform: translateY(0);
   }
 }
 
@@ -617,4 +675,408 @@ header h1 {
     text-shadow: 0 4px 12px rgba(0,0,0,0.6), 0 2px 4px rgba(255,48,79,0.4);
     z-index: 2;
     text-transform: uppercase;
+}
+
+
+
+:root {
+  --minigame-h: min(78vh, 560px);
+}
+
+.pokedex-footer {
+  transition: transform 0.55s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.pokedex-footer.footer-up {
+  transform: translateY(calc(-1 * var(--minigame-h)));
+}
+
+.minigame-panel {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+
+  width: 100%;
+  height: var(--minigame-h);
+
+  z-index: 998;
+
+  overflow: hidden;
+
+  border-top: 3px solid #3F424A;
+  box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.55);
+
+  transform: translateY(100%);
+  transition: transform 0.55s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.minigame-panel.active {
+  transform: translateY(0);
+}
+
+.minigame-bg {
+  position: absolute;
+  inset: 0;
+
+  background-image: url("https:
+  background-size: cover;
+  background-position: center;
+  filter: blur(1px) saturate(0.8) brightness(0.55);
+  transform: scale(1.05);
+}
+
+.minigame-overlay {
+  position: absolute;
+  inset: 0;
+
+  background: linear-gradient(
+    180deg,
+    rgba(15, 15, 18, 0.55) 0%,
+    rgba(15, 15, 18, 0.82) 65%,
+    rgba(10, 10, 12, 0.95) 100%
+  );
+}
+
+.minigame-content {
+  position: relative;
+  z-index: 1;
+
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 18px 24px 26px;
+}
+
+.minigame-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-bottom: 6px;
+}
+
+.minigame-head h2 {
+  color: #ffffff;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+.minigame-close {
+  width: 34px;
+  height: 34px;
+
+  border-radius: 50%;
+  border: 1.5px solid #3F424A;
+  background: rgba(11, 11, 11, 0.6);
+  color: #fff;
+
+  font-size: 20px;
+  line-height: 1;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: border-color 0.2s, transform 0.2s, background 0.2s;
+}
+
+.minigame-close:hover {
+  border-color: #ff304f;
+  background: rgba(255, 48, 79, 0.15);
+  transform: rotate(90deg);
+}
+
+.minigame-body {
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+
+  overflow: hidden;
+}
+
+.minigame-stage {
+  position: relative;
+
+  width: 220px;
+  height: 220px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: radial-gradient(circle at center, rgba(255, 48, 79, 0.12) 0%, rgba(0, 0, 0, 0) 70%);
+  border: 1.5px dashed rgba(255, 255, 255, 0.18);
+  border-radius: 20px;
+}
+
+.stage-glow {
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background: #ff304f;
+  filter: blur(45px);
+  opacity: 0.35;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.mystery-sprite {
+  position: relative;
+  z-index: 1;
+
+  width: 140px;
+  height: 140px;
+  object-fit: contain;
+
+  image-rendering: pixelated;
+
+  filter: brightness(0) saturate(100%);
+  transition: filter 0.5s ease;
+}
+
+.mystery-sprite.revealed {
+  filter: none;
+  animation: reveal-pop 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.mystery-sprite.spinning {
+  animation: sprite-bob 0.18s ease-in-out infinite;
+}
+
+.mystery-sprite.shake {
+  animation: sprite-shake 0.4s ease;
+}
+
+@keyframes sprite-bob {
+  0%, 100% { transform: translateY(0) scale(1); }
+  50% { transform: translateY(-6px) scale(1.03); }
+}
+
+@keyframes sprite-shake {
+  0%, 100% { transform: translateX(0); }
+  20% { transform: translateX(-8px); }
+  40% { transform: translateX(8px); }
+  60% { transform: translateX(-5px); }
+  80% { transform: translateX(5px); }
+}
+
+@keyframes reveal-pop {
+  0% { transform: scale(0.85); }
+  60% { transform: scale(1.12); }
+  100% { transform: scale(1); }
+}
+
+.reroll-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  z-index: 3;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  color: #fff;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  font-size: 16px;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.reroll-btn:hover {
+  background: rgba(255, 48, 79, 0.25);
+  border-color: #ff304f;
+  transform: rotate(120deg);
+}
+
+.stage-hint {
+  position: absolute;
+  top: -36px;
+
+  color: #d8d8de;
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  opacity: 0.85;
+
+  white-space: nowrap;
+}
+
+.minigame-guess {
+  width: 100%;
+  max-width: 340px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.guess-form {
+  width: 100%;
+
+  display: flex;
+  gap: 8px;
+}
+
+.guess-input {
+  flex: 1;
+  min-width: 0;
+
+  height: 42px;
+  padding: 0 14px;
+
+  border-radius: 10px;
+  border: 1.5px solid #3F424A;
+  background: rgba(11, 11, 11, 0.65);
+  color: #ffffff;
+
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s, opacity 0.2s;
+}
+
+.guess-input::placeholder {
+  color: #8b8b93;
+}
+
+.guess-input:focus {
+  border-color: #ff304f;
+  box-shadow: 0 0 0 2px rgba(255, 48, 79, 0.18);
+}
+
+.guess-input:disabled,
+.guess-submit:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.guess-submit {
+  height: 42px;
+  padding: 0 18px;
+
+  border-radius: 10px;
+  border: none;
+  background: linear-gradient(180deg, #ff4b64 0%, #d81f3c 100%);
+  color: #fff;
+
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+
+  cursor: pointer;
+  transition: transform 0.15s, box-shadow 0.15s, filter 0.15s;
+}
+
+.guess-submit:not(:disabled):hover {
+  filter: brightness(1.1);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 14px rgba(255, 48, 79, 0.4);
+}
+
+.guess-submit:not(:disabled):active {
+  transform: translateY(0) scale(0.97);
+}
+
+.guess-feedback {
+  min-height: 18px;
+
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+.guess-feedback.ok {
+  color: #4ade80;
+}
+
+.guess-feedback.err {
+  color: #ff5a6e;
+}
+
+.guess-tries {
+  min-height: 14px;
+  color: #8b8b93;
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+  letter-spacing: 0.5px;
+}
+
+.hint-btn {
+  background: linear-gradient(135deg, #ff304f 0%, #c11b2e 100%);
+  color: #fff;
+  border: none;
+  border-radius: 24px;
+  padding: 8px 18px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgba(255, 48, 79, 0.4);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.hint-btn:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(255, 48, 79, 0.55);
+}
+
+.hint-btn:disabled {
+  background: #333;
+  color: #777;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+.hints-display {
+  color: #ffd1d8;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-align: center;
+  white-space: nowrap;
+  overflow-x: auto;
+  min-height: 28px;
+  margin-top: 4px;
+  padding: 0 4px;
+}
+
+@media (max-width: 480px) {
+  .minigame-stage {
+    width: 170px;
+    height: 170px;
+  }
+
+  .mystery-sprite {
+    width: 110px;
+    height: 110px;
+  }
+
+  .minigame-head h2 {
+    font-size: 16px;
+  }
 }
