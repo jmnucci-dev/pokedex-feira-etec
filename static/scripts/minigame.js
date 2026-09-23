@@ -28,6 +28,8 @@ document.addEventListener("DOMContentLoaded", () => {
   let hintsLeft = 3;
   let revealedIndices = [];
   let streak = 0;
+  let titleAnimation = null;
+  let titleTransitionId = 0;
 
   async function loadPokemonList() {
     if (pokemonList.length) return pokemonList;
@@ -64,7 +66,8 @@ document.addEventListener("DOMContentLoaded", () => {
         hintsLeft,
         revealedIndices,
         currentName: currentPokemon ? currentPokemon.name : null,
-        currentSprite: currentPokemon ? currentPokemon.sprite : null
+        currentSprite: currentPokemon ? currentPokemon.sprite : null,
+        streak
       }));
     } catch (e) {}
   }
@@ -76,6 +79,8 @@ document.addEventListener("DOMContentLoaded", () => {
       const s = JSON.parse(raw);
       solved = s.solved || false;
       attempts = s.attempts || 0;
+      streak = typeof s.streak === "number" ? s.streak : 0;
+      renderStreak("load");
       hintsLeft = typeof s.hintsLeft === 'number' ? s.hintsLeft : 3;
       revealedIndices = Array.isArray(s.revealedIndices) ? s.revealedIndices : [];
       if (s.currentName) {
@@ -238,9 +243,11 @@ document.addEventListener("DOMContentLoaded", () => {
     if (normalize(guess) === normalize(currentPokemon.name)) {
       handleCorrectGuess();
       renderStreak("add");
+      saveState();
     } else {
       handleWrongGuess();
       renderStreak("reset");
+      saveState();
     }
   });
 
@@ -336,22 +343,95 @@ document.addEventListener("DOMContentLoaded", () => {
       .join(" ");
   }
 
+  async function transitionEncounterTitle(nextText, color) {
+    if (!encontroTitle) return;
+
+    const transitionId = ++titleTransitionId;
+    if (titleAnimation) {
+      titleAnimation.cancel();
+      titleAnimation = null;
+    }
+
+    const applyTitle = () => {
+      encontroTitle.textContent = nextText;
+      encontroTitle.style.color = color;
+    };
+
+    if (encontroTitle.textContent.toUpperCase() === nextText.toUpperCase()) {
+      applyTitle();
+      return;
+    }
+
+    const prefersReducedMotion = typeof window.matchMedia === "function" &&
+      window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+    if (prefersReducedMotion || typeof encontroTitle.animate !== "function") {
+      applyTitle();
+      return;
+    }
+
+    try {
+      titleAnimation = encontroTitle.animate(
+        [
+          { opacity: 1, transform: "translateY(0)" },
+          { opacity: 0, transform: "translateY(-6px)" }
+        ],
+        { duration: 140, easing: "ease-in", fill: "forwards" }
+      );
+      await titleAnimation.finished;
+
+      if (transitionId !== titleTransitionId) return;
+      titleAnimation.cancel();
+      titleAnimation = null;
+      applyTitle();
+
+      titleAnimation = encontroTitle.animate(
+        [
+          { opacity: 0, transform: "translateY(6px)" },
+          { opacity: 1, transform: "translateY(0)" }
+        ],
+        { duration: 180, easing: "ease-out" }
+      );
+      await titleAnimation.finished;
+
+      if (transitionId === titleTransitionId) titleAnimation = null;
+    } catch (e) {
+      if (transitionId === titleTransitionId) {
+        applyTitle();
+        titleAnimation = null;
+      }
+    }
+  }
+
   function renderStreak(type) {
     if (type === "add") {
       streak++;
     } else if (type === "reset") {
       streak = 0;
+    } else if (type === "load") {
+      streak = streak;
     }
 
-    if (encontroTitle) {
-        encontroTitle.textContent = `ENCONTRO SELVAGEM (STREAK ${streak})`;
-    }
+    if (!encontroTitle) return;
+
+    let trainerTitle = "Treinador Amador";
+    let titleColor = "";
 
     if (streak >= 2 && streak < 3) {
-      encontroTitle.style.color = "orange";
-    } else if (streak >= 3) {
-      encontroTitle.style.color = "green";
+      trainerTitle = "Treinador Intermediário";
+      titleColor = "orange";
+    } else if (streak >= 3 && streak < 5) {
+      trainerTitle = "Treinador Experiente";
+      titleColor = "green";
+    } else if (streak >= 5) {
+      trainerTitle = "Mestre Pokemon";
+      titleColor = "red";
     }
+
+    transitionEncounterTitle(
+      `ENCONTRO SELVAGEM (STREAK ${streak}) - ${trainerTitle}`,
+      titleColor
+    );
   }
 
   loadState();
