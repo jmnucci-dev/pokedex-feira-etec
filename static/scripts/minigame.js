@@ -345,7 +345,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (encontroTitle) {
         encontroTitle.textContent = `ENCONTRO SELVAGEM (STREAK ${streak})`;
-      }
+    }
+
+    if (streak >= 2 && streak < 3) {
+      encontroTitle.style.color = "orange";
+    } else if (streak >= 3) {
+      encontroTitle.style.color = "green";
+    }
   }
 
   loadState();
