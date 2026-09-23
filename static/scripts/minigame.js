@@ -163,6 +163,7 @@ document.addEventListener("DOMContentLoaded", () => {
     revealedIndices = [];
     if (hintBtn) {
       hintBtn.disabled = false;
+
     }
     renderHints();
 
@@ -188,6 +189,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function spinReveal(list, finalPokemon) {
     spinning = true;
+    hintBtn.disabled = true;
     spriteImg.classList.add("spinning");
     stageHint.textContent = "Um Pokémon selvagem apareceu...";
 
@@ -213,6 +215,7 @@ document.addEventListener("DOMContentLoaded", () => {
         guessInput.disabled = false;
         guessSubmit.disabled = false;
         guessInput.focus();
+        hintBtn.disabled = false;
         renderHints();
       }
     }
@@ -237,6 +240,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   function handleCorrectGuess() {
+    console.log("SOLVED");
     solved = true;
 
     spriteImg.classList.remove("silhouette");
