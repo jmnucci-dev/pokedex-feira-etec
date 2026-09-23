@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const pokebolaBtn = document.getElementById("pokebola-btn");
   const panel = document.getElementById("minigame-panel");
   const closeBtn = document.getElementById("minigame-close");
+  const encontroTitle = document.querySelector("#encontro-title");
 
   const spriteImg = document.getElementById("mystery-sprite");
   const stageHint = document.getElementById("stage-hint");
@@ -26,6 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let isOpen = false;
   let hintsLeft = 3;
   let revealedIndices = [];
+  let streak = 0;
 
   async function loadPokemonList() {
     if (pokemonList.length) return pokemonList;
@@ -177,6 +179,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     currentPokemon = randomPokemon(list);
+    console.log(currentPokemon.name);
     hintsLeft = Math.min(6, Math.max(3, Math.ceil((currentPokemon.name || "").replace(/\s/g, "").length / 3)));
     if (hintBtn) hintBtn.textContent = `Dica (${hintsLeft})`;
     spinReveal(list, currentPokemon);
@@ -234,8 +237,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (normalize(guess) === normalize(currentPokemon.name)) {
       handleCorrectGuess();
+      renderStreak("add");
     } else {
       handleWrongGuess();
+      renderStreak("reset");
     }
   });
 
@@ -329,6 +334,18 @@ document.addEventListener("DOMContentLoaded", () => {
       .split("-")
       .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
       .join(" ");
+  }
+
+  function renderStreak(type) {
+    if (type === "add") {
+      streak++;
+    } else if (type === "reset") {
+      streak = 0;
+    }
+
+    if (encontroTitle) {
+        encontroTitle.textContent = `ENCONTRO SELVAGEM (STREAK ${streak})`;
+      }
   }
 
   loadState();
