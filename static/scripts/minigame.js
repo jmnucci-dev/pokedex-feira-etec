@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const spriteImg = document.getElementById("mystery-sprite");
   const stageHint = document.getElementById("stage-hint");
+  const stageGlow = document.querySelector(".stage-glow");
 
   const guessForm = document.getElementById("guess-form");
   const guessInput = document.getElementById("guess-input");
@@ -412,20 +413,26 @@ document.addEventListener("DOMContentLoaded", () => {
       streak = streak;
     }
 
+    if (!stageGlow) return;
+
     if (!encontroTitle) return;
 
     let trainerTitle = "Treinador Amador";
     let titleColor = "";
+    stageGlow.style.backgroundColor = "";
 
     if (streak >= 2 && streak < 3) {
       trainerTitle = "Treinador Intermediário";
       titleColor = "orange";
+      stageGlow.style.backgroundColor = "orange";
     } else if (streak >= 3 && streak < 5) {
       trainerTitle = "Treinador Experiente";
       titleColor = "green";
+      stageGlow.style.backgroundColor = "green";
     } else if (streak >= 5) {
       trainerTitle = "Mestre Pokemon";
       titleColor = "red";
+      stageGlow.style.backgroundColor = "red";
     }
 
     transitionEncounterTitle(
