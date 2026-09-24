@@ -677,8 +677,6 @@ header h1 {
     text-transform: uppercase;
 }
 
-/* ===================== MINIGAME: ENCONTRO SELVAGEM ===================== */
-
 :root {
   --minigame-h: min(78vh, 560px);
 }
@@ -937,6 +935,85 @@ header h1 {
   gap: 8px;
 }
 
+.guess-input-wrap {
+  position: relative;
+  flex: 1;
+  min-width: 0;
+}
+
+.guess-input-wrap .guess-input {
+  width: 100%;
+}
+
+.guess-suggestions {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  width: 100%;
+
+  max-height: 260px;
+  overflow-y: auto;
+
+  padding: 6px;
+
+  background: #18181c;
+  border: 1px solid #3f424a;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+
+  display: none;
+  flex-direction: column;
+  gap: 4px;
+
+  z-index: 20;
+}
+
+.guess-suggestions.active {
+  display: flex;
+}
+
+.guess-suggestion {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  width: 100%;
+  padding: 5px 8px;
+
+  border-radius: 8px;
+  background: #24252b;
+
+  cursor: pointer;
+  transition: background 0.15s, transform 0.15s;
+}
+
+.guess-suggestion:hover,
+.guess-suggestion.active-option {
+  background: #303139;
+  transform: translateX(2px);
+}
+
+.guess-suggestion-image {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.guess-suggestion-name {
+  flex: 1;
+  min-width: 0;
+
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: capitalize;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .guess-input {
   flex: 1;
   min-width: 0;
@@ -1025,6 +1102,27 @@ header h1 {
   letter-spacing: 0.5px;
 }
 
+.hint-panel {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  margin-top: 4px;
+}
+
+.hint-budget {
+  color: #8b8b93;
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+  letter-spacing: 0.5px;
+}
+
+.hint-buttons {
+  display: flex;
+  gap: 8px;
+}
+
 .hint-btn {
   background: linear-gradient(135deg, #ff304f 0%, #c11b2e 100%);
   color: #fff;
@@ -1049,6 +1147,35 @@ header h1 {
   color: #777;
   cursor: not-allowed;
   box-shadow: none;
+}
+
+.hint-btn-sm {
+  padding: 6px 14px;
+  font-size: 12px;
+}
+
+.hint-results {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  min-height: 0;
+}
+
+.hint-types {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.hint-gen {
+  color: #ffd1d8;
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  min-height: 0;
 }
 
 .hints-display {

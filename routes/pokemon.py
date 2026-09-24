@@ -216,6 +216,7 @@ def all_pokemons():
             "id": pid,
             "name": pokemon.get("name"),
             "types": pokemon.get("types", []),
-            "sprite": pokemon.get("sprite")
+            "sprite": pokemon.get("sprite"),
+            "generation": pokemon.get("generation")
         })
     return pokemon_list

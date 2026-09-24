@@ -11,4 +11,4 @@ app.register_blueprint(regioes_route)
 app.register_blueprint(pokemon_region_route)
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=67, debug=True)
+    app.run(host="0.0.0.0", port=8080, debug=True)

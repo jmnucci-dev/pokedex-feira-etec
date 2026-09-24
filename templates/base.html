@@ -83,21 +83,35 @@
 
           <div class="minigame-guess" id="minigame-guess">
             <form id="guess-form" class="guess-form" autocomplete="off">
-              <input
-                type="text"
-                id="guess-input"
-                class="guess-input"
-                placeholder="Digite o nome do Pokémon..."
-                autocomplete="off"
-                disabled
-              />
+              <div class="guess-input-wrap">
+                <input
+                  type="text"
+                  id="guess-input"
+                  class="guess-input"
+                  placeholder="Digite o nome do Pokémon..."
+                  autocomplete="off"
+                  disabled
+                />
+                <div class="guess-suggestions" id="guess-suggestions"></div>
+              </div>
               <button type="submit" class="guess-submit" id="guess-submit" disabled>Adivinhar</button>
             </form>
             <p class="guess-feedback" id="guess-feedback"></p>
             <p class="guess-tries" id="guess-tries"></p>
 
-            <button type="button" class="hint-btn" id="hint-btn">Dica (3)</button>
-            <p class="hints-display" id="hints-display"></p>
+            <div class="hint-panel">
+              <p class="hint-budget" id="hint-budget">Dicas restantes: 3</p>
+              <div class="hint-buttons">
+                <button type="button" class="hint-btn hint-btn-sm" id="hint-type-btn">Tipo</button>
+                <button type="button" class="hint-btn hint-btn-sm" id="hint-gen-btn">Geração</button>
+                <button type="button" class="hint-btn hint-btn-sm" id="hint-letter-btn">Letra</button>
+              </div>
+              <div class="hint-results" id="hint-results">
+                <div class="hint-types" id="hint-types"></div>
+                <p class="hint-gen" id="hint-gen-text"></p>
+              </div>
+              <p class="hints-display" id="hints-display"></p>
+            </div>
           </div>
         </div>
       </div>

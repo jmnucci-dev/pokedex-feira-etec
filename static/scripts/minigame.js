@@ -14,11 +14,30 @@ document.addEventListener("DOMContentLoaded", () => {
   const guessSubmit = document.getElementById("guess-submit");
   const guessFeedback = document.getElementById("guess-feedback");
   const guessTries = document.getElementById("guess-tries");
-  const hintBtn = document.getElementById("hint-btn");
-  const hintsDisplay = document.getElementById("hints-display");
+  const guessSuggestions = document.getElementById("guess-suggestions");
   const rerollBtn = document.getElementById("reroll-btn");
 
+  const hintBudgetEl = document.getElementById("hint-budget");
+  const hintTypeBtn = document.getElementById("hint-type-btn");
+  const hintGenBtn = document.getElementById("hint-gen-btn");
+  const hintLetterBtn = document.getElementById("hint-letter-btn");
+  const hintTypesEl = document.getElementById("hint-types");
+  const hintGenTextEl = document.getElementById("hint-gen-text");
+  const hintsDisplay = document.getElementById("hints-display");
+
   if (!footer || !pokebolaBtn || !panel) return;
+
+  const REGIOES = [
+    { nome: "Kanto", min: 1, max: 151 },
+    { nome: "Johto", min: 152, max: 251 },
+    { nome: "Hoenn", min: 252, max: 386 },
+    { nome: "Sinnoh", min: 387, max: 493 },
+    { nome: "Unova", min: 494, max: 649 },
+    { nome: "Kalos", min: 650, max: 721 },
+    { nome: "Alola", min: 722, max: 809 },
+    { nome: "Galar", min: 810, max: 905 },
+    { nome: "Paldea", min: 906, max: 1025 },
+  ];
 
   let pokemonList = [];
   let currentPokemon = null;
@@ -28,9 +47,13 @@ document.addEventListener("DOMContentLoaded", () => {
   let isOpen = false;
   let hintsLeft = 3;
   let revealedIndices = [];
+  let typeRevealed = false;
+  let genRevealed = false;
   let streak = 0;
   let titleAnimation = null;
   let titleTransitionId = 0;
+  let activeSuggestionIndex = -1;
+  let currentSuggestions = [];
 
   async function loadPokemonList() {
     if (pokemonList.length) return pokemonList;
@@ -58,6 +81,16 @@ document.addEventListener("DOMContentLoaded", () => {
     return list[Math.floor(Math.random() * list.length)];
   }
 
+  function regionFor(id) {
+    const found = REGIOES.find((r) => id >= r.min && id <= r.max);
+    return found ? found.nome : null;
+  }
+
+  function generationLabel(generation) {
+    if (!generation) return "";
+    return generation.replace("generation-", "Geração ").replace(/-/g, " ").toUpperCase().replace("GERAÇÃO", "Geração");
+  }
+
   function saveState() {
     try {
       sessionStorage.setItem('minigame_state', JSON.stringify({
@@ -66,8 +99,13 @@ document.addEventListener("DOMContentLoaded", () => {
         attempts,
         hintsLeft,
         revealedIndices,
+        typeRevealed,
+        genRevealed,
         currentName: currentPokemon ? currentPokemon.name : null,
         currentSprite: currentPokemon ? currentPokemon.sprite : null,
+        currentId: currentPokemon ? currentPokemon.id : null,
+        currentTypes: currentPokemon ? currentPokemon.types : null,
+        currentGeneration: currentPokemon ? currentPokemon.generation : null,
         streak
       }));
     } catch (e) {}
@@ -84,8 +122,16 @@ document.addEventListener("DOMContentLoaded", () => {
       renderStreak("load");
       hintsLeft = typeof s.hintsLeft === 'number' ? s.hintsLeft : 3;
       revealedIndices = Array.isArray(s.revealedIndices) ? s.revealedIndices : [];
+      typeRevealed = s.typeRevealed || false;
+      genRevealed = s.genRevealed || false;
       if (s.currentName) {
-        currentPokemon = { name: s.currentName, sprite: s.currentSprite || '' };
+        currentPokemon = {
+          name: s.currentName,
+          sprite: s.currentSprite || '',
+          id: s.currentId || null,
+          types: s.currentTypes || [],
+          generation: s.currentGeneration || ''
+        };
       }
       if (panel && s.open) {
         isOpen = true;
@@ -108,19 +154,11 @@ document.addEventListener("DOMContentLoaded", () => {
         if (solved) spriteImg.classList.add('revealed');
         else spriteImg.classList.add('silhouette');
       }
-      if (hintBtn) {
-        hintBtn.disabled = solved || hintsLeft <= 0;
-        hintBtn.textContent = `Dica (${hintsLeft})`;
-      }
+      renderHintButtons();
       renderHints();
-      if (hintsDisplay && currentPokemon) {
-        const name = (currentPokemon.name || '').replace(/\s/g, '');
-        const display = name.split('').map((ch, i) => {
-          if (revealedIndices.includes(i)) return ch.toUpperCase();
-          return '_';
-        }).join(' ');
-        hintsDisplay.textContent = display;
-      }
+      renderTypeHint();
+      renderGenHint();
+      if (solved) revealEverything();
     } catch (e) {}
   }
 
@@ -145,6 +183,7 @@ document.addEventListener("DOMContentLoaded", () => {
     panel.classList.remove("active");
     panel.setAttribute("aria-hidden", "true");
     if (pokebolaBtn) pokebolaBtn.classList.remove("no-bounce");
+    closeSuggestions();
     saveState();
   }
 
@@ -169,11 +208,9 @@ document.addEventListener("DOMContentLoaded", () => {
     guessSubmit.disabled = true;
     stageHint.textContent = "Quem é esse Pokémon?";
     revealedIndices = [];
-    if (hintBtn) {
-      hintBtn.disabled = false;
-
-    }
-    renderHints();
+    typeRevealed = false;
+    genRevealed = false;
+    closeSuggestions();
 
     spriteImg.classList.remove("revealed", "shake");
     spriteImg.classList.add("silhouette");
@@ -185,9 +222,11 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     currentPokemon = randomPokemon(list);
-    console.log(currentPokemon.name);
     hintsLeft = Math.min(6, Math.max(3, Math.ceil((currentPokemon.name || "").replace(/\s/g, "").length / 3)));
-    if (hintBtn) hintBtn.textContent = `Dica (${hintsLeft})`;
+    renderHintButtons();
+    renderHints();
+    renderTypeHint();
+    renderGenHint();
     spinReveal(list, currentPokemon);
     saveState();
   }
@@ -198,13 +237,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function spinReveal(list, finalPokemon) {
     spinning = true;
-    hintBtn.disabled = true;
+    setHintButtonsDisabled(true);
     spriteImg.classList.add("spinning");
     stageHint.textContent = "Um Pokémon selvagem apareceu...";
 
     let elapsed = 0;
-    const totalDuration = 1900; 
-    let delay = 55; 
+    const totalDuration = 1900;
+    let delay = 55;
     const maxDelay = 260;
 
     function step() {
@@ -212,7 +251,7 @@ document.addEventListener("DOMContentLoaded", () => {
       spriteImg.src = spriteUrl(randomP);
 
       elapsed += delay;
-      delay = Math.min(maxDelay, delay * 1.18); 
+      delay = Math.min(maxDelay, delay * 1.18);
 
       if (elapsed < totalDuration) {
         setTimeout(step, delay);
@@ -224,8 +263,7 @@ document.addEventListener("DOMContentLoaded", () => {
         guessInput.disabled = false;
         guessSubmit.disabled = false;
         guessInput.focus();
-        hintBtn.disabled = false;
-        renderHints();
+        renderHintButtons();
       }
     }
 
@@ -234,11 +272,16 @@ document.addEventListener("DOMContentLoaded", () => {
 
   guessForm.addEventListener("submit", (e) => {
     e.preventDefault();
+    submitGuess(guessInput.value);
+  });
+
+  function submitGuess(rawGuess) {
     if (spinning || solved || !currentPokemon) return;
 
-    const guess = guessInput.value;
-    if (!guess.trim()) return;
+    const guess = rawGuess;
+    if (!guess || !guess.trim()) return;
 
+    closeSuggestions();
     attempts += 1;
 
     if (normalize(guess) === normalize(currentPokemon.name)) {
@@ -250,10 +293,9 @@ document.addEventListener("DOMContentLoaded", () => {
       renderStreak("reset");
       saveState();
     }
-  });
+  }
 
   function handleCorrectGuess() {
-    console.log("SOLVED");
     solved = true;
 
     spriteImg.classList.remove("silhouette");
@@ -269,12 +311,21 @@ document.addEventListener("DOMContentLoaded", () => {
     guessSubmit.disabled = true;
     guessTries.textContent = `Descoberto em ${attempts} tentativa${attempts > 1 ? "s" : ""}.`;
 
-    if (hintsDisplay) {
-      hintsDisplay.textContent = (currentPokemon.name || "").replace(/\s/g, " ").toUpperCase();
-    }
-    if (hintBtn) hintBtn.disabled = true;
+    revealEverything();
     saveState();
+  }
 
+  function revealEverything() {
+    typeRevealed = true;
+    genRevealed = true;
+    if (currentPokemon) {
+      const cleanName = (currentPokemon.name || "").replace(/\s/g, "");
+      revealedIndices = Array.from({ length: cleanName.length }, (_, i) => i);
+    }
+    renderHintButtons();
+    renderHints();
+    renderTypeHint();
+    renderGenHint();
   }
 
   function handleWrongGuess() {
@@ -291,41 +342,107 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function renderHints() {
-    if (!currentPokemon || !hintsDisplay) return;
-    const name = currentPokemon.name || "";
-    const letters = name.split("");
-    const display = letters.map((ch, i) => {
-      if (ch === " ") return " ";
-      if (revealedIndices.includes(i)) return ch.toUpperCase();
-      return "_";
-    }).join(" ");
-    hintsDisplay.textContent = display;
+    if (hintsDisplay) {
+      if (!currentPokemon) {
+        hintsDisplay.textContent = "";
+      } else {
+        const name = (currentPokemon.name || "");
+        const letters = name.split("");
+        const display = letters.map((ch, i) => {
+          if (ch === " " || ch === "-") return ch;
+          if (solved || revealedIndices.includes(i)) return ch.toUpperCase();
+          return "_";
+        }).join(" ");
+        hintsDisplay.textContent = display;
+      }
+    }
+    if (hintBudgetEl) hintBudgetEl.textContent = `Dicas restantes: ${hintsLeft}`;
   }
 
-  function applyHint() {
-    if (!currentPokemon || hintsLeft <= 0 || revealedIndices.length >= (currentPokemon.name || "").replace(/\s/g, "").length) {
-      if (hintBtn) hintBtn.disabled = true;
+  function renderTypeHint() {
+    if (!hintTypesEl) return;
+    hintTypesEl.innerHTML = "";
+    if (!typeRevealed || !currentPokemon || !Array.isArray(currentPokemon.types)) return;
+    currentPokemon.types.forEach((t) => {
+      const span = document.createElement("span");
+      span.className = "search-type t-" + (t ? t.toLowerCase() : "");
+      span.textContent = t ? t.charAt(0).toUpperCase() + t.slice(1) : "";
+      hintTypesEl.appendChild(span);
+    });
+  }
+
+  function renderGenHint() {
+    if (!hintGenTextEl) return;
+    if (!genRevealed || !currentPokemon) {
+      hintGenTextEl.textContent = "";
       return;
     }
-    const name = (currentPokemon.name || "").replace(/\s/g, "");
-    const hidden = [];
-    for (let i = 0; i < name.length; i++) {
-      if (!revealedIndices.includes(i)) hidden.push(i);
-    }
-    if (hidden.length === 0) {
-      if (hintBtn) hintBtn.disabled = true;
+    const gen = generationLabel(currentPokemon.generation);
+    const regiao = currentPokemon.id ? regionFor(currentPokemon.id) : null;
+    const parts = [gen, regiao].filter(Boolean);
+    hintGenTextEl.textContent = parts.join(" — ");
+  }
+
+  function setHintButtonsDisabled(disabled) {
+    if (hintTypeBtn) hintTypeBtn.disabled = disabled;
+    if (hintGenBtn) hintGenBtn.disabled = disabled;
+    if (hintLetterBtn) hintLetterBtn.disabled = disabled;
+  }
+
+  function renderHintButtons() {
+    if (!currentPokemon || solved) {
+      setHintButtonsDisabled(true);
       return;
     }
-    const pick = hidden[Math.floor(Math.random() * hidden.length)];
-    revealedIndices.push(pick);
+    const cleanName = (currentPokemon.name || "").replace(/\s/g, "");
+    const allLettersRevealed = revealedIndices.length >= cleanName.length;
+
+    if (hintTypeBtn) hintTypeBtn.disabled = typeRevealed || hintsLeft <= 0;
+    if (hintGenBtn) hintGenBtn.disabled = genRevealed || hintsLeft <= 0;
+    if (hintLetterBtn) hintLetterBtn.disabled = allLettersRevealed || hintsLeft <= 0;
+  }
+
+  function spendHint() {
     hintsLeft -= 1;
-    if (hintsLeft <= 0 && hintBtn) hintBtn.disabled = true;
-    if (hintBtn) hintBtn.textContent = `Dica (${hintsLeft})`;
     renderHints();
+    renderHintButtons();
+    saveState();
   }
 
-  if (hintBtn) {
-    hintBtn.addEventListener("click", applyHint);
+  if (hintTypeBtn) {
+    hintTypeBtn.addEventListener("click", () => {
+      if (typeRevealed || hintsLeft <= 0 || !currentPokemon) return;
+      typeRevealed = true;
+      renderTypeHint();
+      spendHint();
+    });
+  }
+
+  if (hintGenBtn) {
+    hintGenBtn.addEventListener("click", () => {
+      if (genRevealed || hintsLeft <= 0 || !currentPokemon) return;
+      genRevealed = true;
+      renderGenHint();
+      spendHint();
+    });
+  }
+
+  if (hintLetterBtn) {
+    hintLetterBtn.addEventListener("click", () => {
+      if (!currentPokemon || hintsLeft <= 0) return;
+      const name = (currentPokemon.name || "").replace(/\s/g, "");
+      const hidden = [];
+      for (let i = 0; i < name.length; i++) {
+        if (!revealedIndices.includes(i)) hidden.push(i);
+      }
+      if (hidden.length === 0) {
+        renderHintButtons();
+        return;
+      }
+      const pick = hidden[Math.floor(Math.random() * hidden.length)];
+      revealedIndices.push(pick);
+      spendHint();
+    });
   }
 
   if (rerollBtn) {
@@ -342,6 +459,106 @@ document.addEventListener("DOMContentLoaded", () => {
       .split("-")
       .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
       .join(" ");
+  }
+
+  function closeSuggestions() {
+    if (!guessSuggestions) return;
+    guessSuggestions.innerHTML = "";
+    guessSuggestions.classList.remove("active");
+    activeSuggestionIndex = -1;
+    currentSuggestions = [];
+  }
+
+  function renderSuggestions(matches) {
+    if (!guessSuggestions) return;
+    currentSuggestions = matches;
+    activeSuggestionIndex = -1;
+    guessSuggestions.innerHTML = "";
+
+    if (!matches.length) {
+      guessSuggestions.classList.remove("active");
+      return;
+    }
+
+    matches.forEach((p) => {
+      const item = document.createElement("div");
+      item.className = "guess-suggestion";
+
+      const img = document.createElement("img");
+      img.className = "guess-suggestion-image";
+      img.src = p.sprite ? spriteUrl(p) : "";
+      img.alt = p.name || "";
+
+      const name = document.createElement("span");
+      name.className = "guess-suggestion-name";
+      name.textContent = capitalize(p.name || "");
+
+      item.appendChild(img);
+      item.appendChild(name);
+
+      item.addEventListener("mousedown", (e) => {
+        e.preventDefault();
+        guessInput.value = p.name;
+        closeSuggestions();
+        submitGuess(p.name);
+      });
+
+      guessSuggestions.appendChild(item);
+    });
+
+    guessSuggestions.classList.add("active");
+  }
+
+  function updateSuggestions() {
+    if (!guessInput || solved || spinning) {
+      closeSuggestions();
+      return;
+    }
+    const typed = normalize(guessInput.value);
+    if (!typed) {
+      closeSuggestions();
+      return;
+    }
+
+    const matches = pokemonList
+      .filter((p) => normalize(p.name).startsWith(typed))
+      .slice(0, 8);
+
+    renderSuggestions(matches);
+  }
+
+  if (guessInput) {
+    guessInput.addEventListener("input", updateSuggestions);
+
+    guessInput.addEventListener("keydown", (e) => {
+      if (!guessSuggestions || !guessSuggestions.classList.contains("active")) return;
+      const items = Array.from(guessSuggestions.querySelectorAll(".guess-suggestion"));
+      if (!items.length) return;
+
+      if (e.key === "ArrowDown") {
+        e.preventDefault();
+        activeSuggestionIndex = Math.min(activeSuggestionIndex + 1, items.length - 1);
+      } else if (e.key === "ArrowUp") {
+        e.preventDefault();
+        activeSuggestionIndex = Math.max(activeSuggestionIndex - 1, 0);
+      } else if (e.key === "Escape") {
+        closeSuggestions();
+        return;
+      } else {
+        return;
+      }
+
+      items.forEach((it, i) => it.classList.toggle("active-option", i === activeSuggestionIndex));
+      if (activeSuggestionIndex >= 0) {
+        guessInput.value = currentSuggestions[activeSuggestionIndex].name;
+      }
+    });
+
+    guessInput.addEventListener("blur", () => {
+      setTimeout(closeSuggestions, 120);
+    });
+
+    guessInput.addEventListener("focus", updateSuggestions);
   }
 
   async function transitionEncounterTitle(nextText, color) {
