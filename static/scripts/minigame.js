@@ -106,7 +106,8 @@ document.addEventListener("DOMContentLoaded", () => {
         currentId: currentPokemon ? currentPokemon.id : null,
         currentTypes: currentPokemon ? currentPokemon.types : null,
         currentGeneration: currentPokemon ? currentPokemon.generation : null,
-        streak
+        streak,
+        pokemonList
       }));
     } catch (e) {}
   }
@@ -153,6 +154,9 @@ document.addEventListener("DOMContentLoaded", () => {
         if (currentPokemon && currentPokemon.sprite) spriteImg.src = currentPokemon.sprite.startsWith('/') ? currentPokemon.sprite : '/' + currentPokemon.sprite;
         if (solved) spriteImg.classList.add('revealed');
         else spriteImg.classList.add('silhouette');
+      }
+      if (s.pokemonList) {
+        pokemonList = s.pokemonList;
       }
       renderHintButtons();
       renderHints();
